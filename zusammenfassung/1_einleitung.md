@@ -7,3 +7,13 @@ Die Vorteile interdisziplinärer Zusammenarbeit sind bedeutsam: Das gesamte Know
 Zusammenarbeit im Team kann sich je nach Tätigkeit selbstverständlich auch unpassend und aufwendig anfühlen. So dürfte ein gemeinsames Arbeiten von acht Personen an einem Screen eine echte Herausforderung darstellen. Die Kunst liegt im Wechselspiel zwischen Tätigkeiten, die gemeinsam, und solchen, die in Einzelarbeiten durchgeführt werden – in inhaltlich und methodisch sorgfältig geplanten Workshops.
 
 Mit dem in diesem Buch dargestellten Vorgehensmodell verfolgen wir zwei Ziele: Erstens wollen wir einen Weg aufzeigen, wie eine effektive und effiziente Zusammenarbeit gestaltet werden kann, und zweitens wollen wir moderne Ansätze – wie sie aus dem Umfeld von Design Thinking, Lean UX und agiler Entwicklung hervorgegangen sind – in einem kohärenten, menschzentrierten und praxisorientierten Ansatz integrieren.
+
+## Grundpfeiler
+
+Der mit Collaborative UX vorgestellte Ansatz basiert auf vier tragenden Grundpfeilern. Die Vorgehensweise ist *menschzentriert*, *kollaborativ*, *hypothesenbasiert* und *agil*. Wir möchten diese Grundpfeiler im Folgenden kurz erläutern.
+
+### Menschzentriert
+
+Wenngleich sich dieser Aspekt *auch* auf die fortlaufende Integration von Nutzenden in den Gestaltungsprozess bezieht, ziehen wir die Bezeichnung »menschzentriert« dem häufig verwendeten Attribut eines »nutzerzentrierten« Vorgehens vor. In erfolgreichen Entwicklungsprojekten müssen die mitunter widersprüchlichen Anforderungen verschiedener beteiligter *Stakeholder* sorgfältig gegeneinander abgewogen werden. Eine ausschließliche Zentrierung auf die Bedürfnisse von Nutzenden ohne die angemessene Berücksichtigung technischer Rahmenbedingungen oder (berechtigter) Businessziele des Managements steht einem nachhaltigen Produkterfolg entgegen. Wir verstehen User Experience Design als Balance zwischen – mitunter konfligierenden – Anforderungen aus menschlichen Nutzungsbedürfnissen, technischen Restriktionen und wirtschaftlichen Rahmenbedingungen.
+
+Im vorliegenden Zusammenhang sprechen wir von einem »menschzentrierten« Entwicklungsvorgehen, wenn dieses auf iterative Validierungen eines Produktkonzepts unter fortlaufendem Einbezug von Nutzenden zurückgreift und die Ergebnisse innerhalb eines Entwicklungsteams von verschiedenen Anspruchsgruppen vorangetrieben, geteilt und diskutiert werden.
