@@ -377,14 +377,3 @@ Durch die Formulierung von Insight Statements verdichteten wir unsere Erkenntnis
 
 Schließlich wurden die gewonnenen Erkenntnisse dazu genutzt, die ursprüngliche Formulierung der Problemstellung nochmals zu hinterfragen. In der Praxis zeigt sich an dieser Stelle häufig, dass empirische Erkenntnisse zu einer grundlegenden Revision des ursprünglichen Proto-Problem Statement führen können. In unserem Fallbeispiel wurde die ursprüngliche Forderung nach einer optimierten Nutzungseffizienz als besonders dringlich betont.
 
----
-
-## Literatur
-
-Insight Statements und Opportunity Areas werden in kompakter und überzeugender Form in einem frei zugänglichen Buch von IDEO dargestellt. Das Dokument wurde im Rahmen eines Projekts für die Bill & Melinda Gates Foundation entwickelt. Uns gefällt dieses Buch, es macht deutlich, wie übergreifend die hier dargestellten Problemlösungsansätze eingesetzt werden können:
-
-[IDEO 2015] IDEO: *The Field Guide to Human Centered Design*. Canada, 2015.
-
-Das Thema Problem Reframing findet sich in dem bereits erwähnten Buch von Falk Uebernickel et al.:
-
-[Uebernickel et al. 2015] Uebernickel, Falk; **Brenner, Werner; Naef, Therese; Pukall, Britta; Schindlholzer, Bernhard:** *Design Thinking: Das Handbuch.* Frankfurt: Frankfurter Allgemeine Buch, 2015.
