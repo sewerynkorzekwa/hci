@@ -16,6 +16,21 @@
 
 ### 5. Erläutern Sie Quantitative UX-Metrik:
 
+Eine **Metrik** bildet eine Produkteigenschaft auf ein qualitatives oder quantitatives Gütemaß ab und macht damit das Vorhandensein und/oder die Messung der Ausprägung einer Eigenschaft überprüfbar *(Quelle: 1_scoping.md)*.
+
+Quantitative UX-Metriken messen messbare, numerisch ausdrückbare Aspekte der Nutzungsqualität. Im **Metrikenboard** des Roadmap-Workshops werden typischerweise drei Klassen quantitativer Metriken eingesetzt *(Quelle: 8_roadmap.md)*:
+
+| UX-Metrik | Messmethode | Ausgangswert | Zielwert MVP |
+|-----------|-------------|-------------|-------------|
+| **Subjektive Beurteilung** | SUS-Befragung (10 Fragen, 5-stufige Skala) | 62 Punkte | 70 Punkte |
+| **Effizienz** | Zeitmessung mit Log (Minuten pro Tag für Leistungserfassung) | 14 Min | 13 Min |
+| **Effektivität** | Anteil verrechenbarer Stunden pro Tag | 70% | 71% |
+| **Fehlrate** | Anzahl Reklamationen pro Kunde pro Monat | 4,2 | 4,2 (MVP) |
+
+**SUS (System Usability Scale):** Standardisierter Fragebogen zur Messung der subjektiven Gebrauchstauglichkeit; ermöglicht den Vergleich mit veröffentlichten Benchmarkwerten *(Quelle: 8_roadmap_vokabular.md)*.
+
+**Zweck quantitativer Metriken:** Durch das Festlegen eines **Ausgangswerts (Baseline)** und eines **Zielwerts** wird der Projekterfolg nach einem Release überprüfbar — und eine Grundlage für Hypothesen der Form *»Wenn Feature X ausgeliefert wird, steigt Metrik Y um Z%«* geschaffen.
+
 ---
 
 ### 6. Bitte erwähnen Sie 3 oder 4 Heuristiken von Nielsen? Erläutern Sie diese jeweils an einem Beispiel.
@@ -28,9 +43,46 @@
 
 ### 8. Was ist ein Experiment?
 
+Ein **Experiment** ist eine empirische Methode zur zielgerichteten Überprüfung von Hypothesen und Annahmen. Im Collaborative UX Design wird das Experiment als Instrument beschrieben, um die Gültigkeit von Konzeptannahmen festzustellen, bevor in die vollständige Umsetzung investiert wird *(Quelle: 0_einleitung.md)*:
+
+> *"Wir formulieren explizite Hypothesen und hinterfragen ihre Gültigkeit durch Nutzerforschung oder Experimente."*
+
+**Typen von Experimenten im UX-Kontext** *(Quelle: 6_prototyping.md)*:
+
+| Experiment | Beschreibung |
+|-----------|-------------|
+| **Fake-Door-Experiment** | Eine noch nicht existierende Funktion wird angekündigt. Das Interesse der Nutzenden wird gemessen (z.B. Klicks auf einen Button), nicht die tatsächliche Nützlichkeit. |
+| **Concierge-Experiment** | Eine Dienstleistung wird manuell und individuell erbracht, anstatt sie zu automatisieren. Validiert, ob das Angebot tatsächlich genutzt wird. |
+| **Wizard-of-Oz** | Ein Mensch simuliert im Hintergrund das System. Testpersonen glauben, ein echtes System zu bedienen — tatsächlich führt ein Mensch die Aktionen aus. |
+| **A/B-Test** | Zwei Varianten eines Interface werden systematisch verglichen. Eignet sich für Plattformen mit vielen Usern. |
+| **Vergleichender Usability-Test** | Zwei Prototypen werden mit denselben Testpersonen verglichen; Prototypen als unabhängige Variablen, Bearbeitungszeit/Zufriedenheit als abhängige Variablen. |
+
+**Kernmerkmal:** Vor dem Experiment werden Erfolgskriterien definiert — die sogenannten *"Erfolgreich wenn"*-Bedingungen aus dem Validierungsplan. Nur so kann das Ergebnis intersubjektiv bewertet werden.
+
 ---
 
 ### 9. Bitte beschreiben Sie, wie wissenschaftlich geprüft werden kann, ob ein Interface a) besser als ein Interface b) zur Durchführung einer Task ist. Welche Überlegungen sind hier jeweils anzustellen? Verwenden Sie bei Ihren Erläuterungen die Begriffe abhängige und unabhängige Variable.
+
+Die Methode, die sich dafür eignet, ist der **Vergleichende Usability-Test** *(Quelle: 6_prototyping.md)*:
+
+> *"In einem vergleichenden Usability-Test werden für zwei unterschiedliche Prototypen die gleichen Aufgaben zur Bearbeitung vorgegeben. Nutzende werden gebeten, die gestellten Aufgaben mit beiden Prototypen zu lösen. Es wird beobachtet: Schwierigkeiten, Bearbeitungszeit, subjektive Beurteilung. Für aussagekräftige Ergebnisse bietet sich der Einsatz inferenzstatistischer Verfahren in experimentellen Versuchsplänen an, in denen die Prototypen als unabhängige Variablen und die Effizienz der Bearbeitung oder die subjektive Zufriedenstellung als abhängige Variablen konzipiert sind."*
+
+**Konzeptionelle Überlegungen:**
+
+| Begriff | Erläuterung im Kontext |
+|--------|----------------------|
+| **Unabhängige Variable** | Die zwei Interface-Varianten (Interface A vs. Interface B) — das ist das, was systematisch variiert wird |
+| **Abhängige Variable** | Das Messergebnis — z.B. Bearbeitungszeit, Fehleranzahl, subjektive Zufriedenheit (z.B. gemessen mit SUS) |
+| **Kontrolle** | Alle anderen Bedingungen (Aufgaben, Kontext, Zielgruppe, Moderator) werden konstant gehalten |
+| **Stichprobe** | Repräsentative Auswahl aus der tatsächlichen Zielgruppe des Systems |
+
+**Vorgehen im Überblick:**
+1. Gleiche Testaufgaben für beide Interfaces definieren
+2. Testpersonen bearbeiten Aufgaben mit Interface A und Interface B
+3. Bearbeitungszeit, Fehler und Zufriedenheit werden protokolliert
+4. Inferenzstatistische Auswertung: Ist der gemessene Unterschied statistisch signifikant oder zufällig?
+
+**Wichtig:** Die Reihenfolge der Interfaces sollte variiert werden (Counterbalancing), um Lerneffekte als störende Variable auszuschließen.
 
 ---
 
@@ -103,6 +155,23 @@ Contextual Inquiry ist eine etablierte Beobachtungsform, die auf einem Meister-S
 ---
 
 ### 17. Erläutern Sie das Fitts'sche Gesetz:
+
+**Definition aus den Skripten** *(Quelle: 6_prototyping_vokabular.md)*:
+
+> *"Fitts'sches Gesetz: Gesetz zur präzisen Berechnung von Selektionszeiten in Abhängigkeit von Zielgröße und Distanz."*
+
+Das Fitts'sche Gesetz (Fitts 1954) ermöglicht eine **präzisere Berechnung der Zeit, die ein Nutzer benötigt, um ein Interface-Element mit der Maus oder dem Finger zu treffen**, als die Pauschalzeit des GOMS-Keystroke-Modells (1,1 Sekunden für eine Selektion).
+
+**Kontext im GOMS-Modell** *(Quelle: 6_prototyping.md)*:
+
+Das GOMS-Modell verwendet für die Aktion "Selektion" einen Durchschnittswert von 1,1 Sekunden. Das Fitts'sche Gesetz erlaubt eine verfeinerte Berechnung, bei der **zwei Faktoren** die Selektionszeit bestimmen:
+
+- **Zielgröße** (je größer das Ziel, desto schneller erreichbar)
+- **Distanz zum Ziel** (je weiter weg, desto länger dauert die Bewegung)
+
+**Konsequenz für Interface-Design:** Interaktive Elemente sollten groß genug und nah an den häufig genutzten Ausgangsposition der Maus platziert werden — z.B. an Bildschirmrändern oder -ecken (unendlich großes Ziel nach Fitts), was die Trefferzeit minimiert.
+
+*Hinweis: Die genaue Formel und weitere Ausführungen zum Fitts'schen Gesetz sind in den vorliegenden Kursunterlagen nicht enthalten. Die obige Erläuterung basiert ausschließlich auf den in den Skripten verfügbaren Informationen.*
 
 ---
 
@@ -532,6 +601,22 @@ Beim traditionellen Entwicklungsmodell werden Produkte mit vielen Features auf e
 
 ### 52. Definition von UX-Design?
 
+**User Experience Design** wird im Collaborative UX Design wie folgt verstanden *(Quelle: 0_einleitung.md)*:
+
+> *"Wir verstehen User Experience Design als Balance zwischen – mitunter konfligierenden – Anforderungen aus menschlichen Nutzungsbedürfnissen, technischen Restriktionen und wirtschaftlichen Rahmenbedingungen."*
+
+UX Design ist demnach keine rein gestalterische Tätigkeit, sondern ein **Ausgleichsprozess** zwischen drei Interessensfeldern:
+
+| Dimension | Beschreibung |
+|----------|-------------|
+| **Menschliche Nutzungsbedürfnisse** | Was brauchen und wollen die Nutzenden? (Usability, Nützlichkeit, Zufriedenheit) |
+| **Technische Restriktionen** | Was ist technisch umsetzbar und wartbar? |
+| **Wirtschaftliche Rahmenbedingungen** | Was ist wirtschaftlich sinnvoll? (Business-Ziele, Budgets, Markterfolg) |
+
+**Kollaborativer Ansatz:** Designentscheidungen sind im Collaborative UX Design nicht das alleinige Ergebnis spezialisierter UX Designer, sondern das Resultat der interdisziplinären Zusammenarbeit eines Teams, das Produktmanagement, UX Design, Implementierung und Testen vereint *(Quelle: 0_einleitung.md)*.
+
+**Grundpfeiler von Collaborative UX Design:** menschzentriert, kollaborativ, hypothesenbasiert und agil.
+
 ---
 
 ### 53. Verhältnis von Design zu Kunst?
@@ -539,6 +624,22 @@ Beim traditionellen Entwicklungsmodell werden Produkte mit vielen Features auf e
 ---
 
 ### 54. Was sind mentale Modelle?
+
+Ein **mentales Modell** ist die interne Vorstellung einer Person darüber, wie ein System funktioniert *(Quelle: 7_validierung_vokabular.md)*. Es repräsentiert die subjektiven Erwartungen, Analogien und Annahmen, die Nutzende über ein System mitbringen — unabhängig davon, ob diese korrekt sind.
+
+**Woher kommen mentale Modelle?**
+- Frühere Erfahrungen mit ähnlichen Systemen
+- Analogien zu bekannten Konzepten (z.B. "ein Ordner auf dem Computer = ein physischer Ordner")
+- Visuelle Hinweise und Bezeichnungen im Interface
+
+**Relevanz für das Interface-Design:**
+- Stimmt das **Systemmodell** (das, was das Interface zeigt) mit dem **mentalen Modell** der Nutzenden überein, ist die Nutzung intuitiv
+- Stimmen sie **nicht** überein, entstehen Usability-Probleme (Fehler, Verwirrung, Frustration)
+
+**Wie werden mentale Modelle sichtbar gemacht?**
+Durch das **Think-Aloud-Protokoll (Lautes Denken)** bei Usability-Tests: Testpersonen verbalisieren, was sie wahrnehmen, denken und planen — dadurch werden ihre mentalen Modelle und Erwartungen direkt beobachtbar *(Quelle: 7_validierung_vokabular.md)*:
+
+> *"Mentales Modell: Interne Vorstellung einer Person darüber, wie ein System funktioniert; wird durch lautes Denken sichtbar gemacht."*
 
 ---
 
@@ -576,6 +677,23 @@ Die Kombination aus Severity und Lösungsaufwand ermöglicht eine fundierte Prio
 
 ### 59. Was ist eine retrospective Evaluation?
 
+Eine **retrospektive Evaluation** ist eine Bewertungsmethode, bei der Nutzende im Nachhinein — also nach einer oder mehreren Nutzungssituationen — über ihre Erfahrungen berichten. Das Gegenstück ist die **kontextuelle Erhebung in Echtzeit** (z.B. mit dem Tagebuch).
+
+In den Skripten wird die retrospektive Erhebung explizit dem **Tagebuch** als Kontrastmethode gegenübergestellt *(Quelle: 2_research.md)*:
+
+> *"Die Dokumentation einer Selbstbeobachtung im unmittelbaren kontextuellen Nutzungszusammenhang liefert im Vergleich zur Erhebung eines retrospektiven Fragebogens, mit dem ein summarischer Eindruck über verschiedene Nutzungssituationen hinweg zu erheben versucht wird, in der Regel zuverlässige und besonders detaillierte Daten."*
+
+**Vergleich:**
+
+| | Retrospektive Evaluation | Kontextuelle Evaluation |
+|--|--------------------------|------------------------|
+| **Zeitpunkt** | Nach der Nutzungssituation (nachträglich) | Während oder unmittelbar nach der Nutzung |
+| **Inhalt** | Summarischer Eindruck über mehrere Situationen | Spezifische, aktuelle Erfahrung |
+| **Risiko** | Gedächtnisfehler, Verallgemeinerungen | Reaktivität (Methode beeinflusst Verhalten) |
+| **Beispiel** | SUS-Fragebogen nach dem Test, retrospektives Interview | Tagebuch, Contextual Inquiry |
+
+**Anwendung in der Validierung:** Bei Usability-Tests wird oft eine **Nachbefragung** nach den Testaufgaben durchgeführt — das ist eine Form der retrospektiven Evaluation. Die Nutzenden kommentieren ihre Erfahrungen nach Abschluss der Aufgabe, nicht während der Durchführung.
+
 ---
 
 ### 60. Was macht die Methode des lauten Denkens aus?
@@ -605,6 +723,30 @@ Die Methode des **lauten Denkens** (Think-Aloud-Protokoll) ist eine Technik, die
 ---
 
 ### 62. Welche Vorteile und Nachteile haben Usability-Tests?
+
+**Vorteile von Usability-Tests** *(Quelle: 6_prototyping.md, 7_validierung.md)*:
+
+1. **Kleine Stichproben reichen für erste Einsichten:** Bereits mit 3–4 Testpersonen konnten in der Vergangenheit sehr wichtige Erkenntnisse aus empirischen Usability-Tests gewonnen werden. Ein Usability-Walkthrough mit wenigen Personen liefert frühe Hinweise auf Usability-Barrieren.
+
+2. **Frühzeitiges Feedback:** Da Prototypen gezielt für die Validierung erstellt werden, kann schon vor der vollständigen Implementierung erkannt werden, wo Konzeptannahmen falsch liegen.
+
+3. **Einblick in mentale Modelle:** Durch das Think-Aloud-Protokoll werden die Erwartungen und Denkweisen der Nutzenden direkt sichtbar — nicht nur *was* sie tun, sondern *warum*.
+
+4. **Reichhaltiges qualitatives Feedback bei Low-Fidelity:** Die "unfertige Anmutung" eines Papierprototyps signalisiert den Teilnehmenden, dass das Konzept noch veränderbar ist — dies fördert besonders offenes und reichhaltiges Feedback.
+
+5. **Direkte Verhaltensbeobachtung:** Im Gegensatz zu Befragungen erfassen Usability-Tests tatsächliches Verhalten, nicht nur berichtetes Verhalten.
+
+**Nachteile und Einschränkungen** *(Quelle: 6_prototyping.md, 7_validierung.md)*:
+
+1. **Aufwand der Vorbereitung:** Testszenarien ausarbeiten, Prototypen vorbereiten, Testpersonen rekrutieren, Räume reservieren und Pilottests durchführen — der organisatorische Aufwand ist beträchtlich. Detaillierte Labortests sind deutlich aufwendiger als einfache Konzept-Walkthroughs.
+
+2. **Risiko des sunk cost fallacy:** Je mehr Aufwand in die Ausarbeitung eines Prototyps investiert wird, desto schwerer fällt es, das Ergebnis zu verwerfen — auch wenn die Validierung negative Ergebnisse liefert.
+
+3. **Kleine Stichproben sind nicht repräsentativ:** Usability-Tests mit 3–6 Personen liefern qualitative Einsichten, aber keine statistisch repräsentativen Aussagen über die gesamte Nutzergruppe.
+
+4. **Labor-Setting kann Verhalten beeinflussen:** Die Testsituation (Beobachtung, Kamera, Moderator) kann zu Reaktivität führen — Nutzende verhalten sich möglicherweise anders als in ihrer natürlichen Arbeitsumgebung.
+
+5. **Abhängigkeit vom Prototyp:** Die Aussagekraft des Tests ist an die Qualität und den Reifegrad des Prototyps gebunden. Ein zu einfacher Prototyp kann manche Usability-Probleme nicht sichtbar machen (z.B. Drag & Drop bei einem Klick-Prototyp).
 
 ---
 
