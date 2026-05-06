@@ -4,6 +4,33 @@
 
 ### 1. Was ist Chunking
 
+**Psychologische Grundlage: Subitizing und parallele Wahrnehmung (Folien 464–469)**
+
+**Parallele Wahrnehmung (Folie 464–467):**
+- Bei **wenigen Objekten** (~3–4): sofortiges Erfassen ohne Zählen möglich
+- Bei **vielen ungeordneten Objekten** (10+): Zählen nötig — lineare, sequenzielle Verarbeitung
+- Bei **geordneten Objekten** (Raster, Reihen): deutlich weniger Objekte wahrgenommen → Komplexität reduziert
+
+**Lineare vs. parallele Wahrnehmung (Folie 468):**
+- Bis ~4 Objekte: Reaktionszeit konstant ca. **500 ms** (parallele Wahrnehmung)
+- Ab 5–9 Objekte: Reaktionszeit steigt stark auf ca. **2000 ms** (lineare, zählende Wahrnehmung)
+
+**Subitizing (Folie 469):**
+> Beim Zählen steigt die Reaktionszeit drastisch zwischen 4 und 6 Objekten.
+
+- Von 2 bis 4 Objekte: **50 ms pro Objekt** (nahezu automatisch)
+- Ab 6 Objekte: **250–300 ms pro Objekt** (bewusstes Zählen nötig)
+
+**Konsequenz für UI-Design:**
+> Gruppen von maximal **4–5 Elementen** ermöglichen parallele (sofortige) Wahrnehmung — mehr Elemente erzwingen lineare, kognitive Zählarbeit.
+
+**Reduktion der Komplexität durch Ordnung (Folie 471):**
+- 16 in einem 4×4-Raster angeordnete Elemente → werden als **wenige Einheiten** wahrgenommen
+- 16 ungeordnete Elemente → werden als **viele einzelne Objekte** wahrgenommen
+- → Ordnung reduziert die wahrgenommene Komplexität drastisch
+
+*(Chunking im engeren Sinne — Miller's Law — folgt auf späteren Seiten)*
+
 ---
 
 ### 2. Formativer und summativer (Test / Evaluation)
@@ -292,6 +319,45 @@ Ein Element, das sich von den anderen unterscheidet, wird sofort fokussiert (sal
 > Gibt es viele Elemente mit auffälligen Merkmalen, sticht ein einzelnes Element **nicht mehr hervor**.
 
 → Wenn alles hervorgehoben ist, ist nichts hervorgehoben. Zu viele Pop-Out-Reize neutralisieren sich gegenseitig.
+
+**Anwendung — Farbe zur Aufmerksamkeitssteuerung (Folien 441–447):**
+
+**Design in Greyscale First:**
+> Durch das Designen in Graustufen wird man gezwungen, **Spacing, Kontrast und Größe** zur Klärung des Layouts zu nutzen → klares Interface mit starker Hierarchie. Farbe wird danach gezielt zur Lenkung der Aufmerksamkeit eingesetzt.
+
+**Principle of Focal Point (Folie 443–446):**
+> Das Auge fokussiert auf Elemente, die sich von der Umgebung abheben — in einem monochromen Interface ist der einzige farbige Button der **Focal Point**.
+
+- Interface-Beispiel: Uber-Homepage (S/W-Foto) — nur der „SIGN UP FOR UBER"-Button ist farbig hervorgehoben → sofort als Call-to-Action erkennbar
+- Pop-Out-Beispiel: Tabelle mit Zahlen, zwei Werte (> 1.0) in Magenta → sofortige parallele Erkennung ohne Zählen
+
+---
+
+#### 9. Gesetz der Kontinuität / Law of Continuity (Folien 448–450)
+
+> **Continuity:** Elemente, die in einer Linie oder Kurve angeordnet sind, werden als zusammengehörig wahrgenommen.
+
+- Eine Reihe von Punkten in einer geraden Linie → als Gruppe wahrgenommen (Folie 448)
+- Ungeordnete Punkte → nicht als Gruppe wahrgenommen
+- Kontinuität: Ein sequenzielles Invertieren des jeweils rechten Elements wird als **kontinuierliche Bewegung** wahrgenommen (Folie 449)
+
+**Interface-Implikation:** Elemente, die entlang einer gemeinsamen Linie ausgerichtet sind (z. B. Navigationsleiste, Menüpunkte in einer Reihe), werden als Einheit wahrgenommen — ohne expliziten Rahmen.
+
+---
+
+#### Zusammenfassung: Gestalt Principles in a Nutshell (Folie 450)
+
+> „User Interface Design is (also) about the feelings of users. Gestalt principles help to give users a good feeling while using your design — **they make a bridge between the design and the emotion of users**."
+
+| Prinzip | Kernaussage |
+|---|---|
+| **Closure** | Gehirn erkennt komplexe Strukturen basierend auf Erfahrung, auch wenn Teile fehlen |
+| **Proximity** | Nahe beieinanderliegende Dinge erscheinen verwandter als entfernte |
+| **Similarity** | Elemente mit gemeinsamen visuellen Eigenschaften erscheinen ähnlich |
+| **Common Region** | In einer gemeinsamen Region gebundene Objekte erscheinen als eine Gruppe |
+| **Figure-Ground** | Objekte durch Fokus auf Vorder- oder Hintergrund erkannt; Fläche + Konvexität bestimmen Figur |
+| **Focal Point** | Das Auge erfasst Elemente, die sich von der Umgebung abheben |
+| **Continuity** | In einer Linie/Kurve angeordnete Elemente erscheinen verwandter als ungeordnete |
 
 ---
 
@@ -583,6 +649,15 @@ Sketches (Lo-Fi) → Wireframes (Lo-Fi/Mid) → Visual Design/Mockup (Hi-Fi)
 
 ### 5. Top und links und rechts Felder (Label-Alignment)
 
+**Abstandsregel (Folie 480 — „Mit Abständen arbeiten"):**
+
+> Abstände **zwischen** Eingabefeldern sind größer als Abstände **zwischen** Labels und ihren zugehörigen Eingabefeldern.
+
+- Das Label „klebt" näher am eigenen Feld als am nächsten Feld → Gesetz der Nähe (Proximity) erzeugt klare Label-Feld-Zuordnung
+- Gruppe aus Label + Feld wird durch größeren Abstand zur nächsten Gruppe deutlich abgegrenzt
+
+*(Konkrete Regeln zu Top-Alignment, Left-Alignment, Right-Alignment folgen auf späteren Seiten)*
+
 ---
 
 ### 6. Konsistenz-Prinzip
@@ -861,6 +936,14 @@ Wer zu früh zu viel in Visual Design investiert, fällt in die Sunk Cost Fallac
 > Elemente innerhalb einer gemeinsamen Region (Rahmen, Hintergrundfarbe) werden als Gruppe wahrgenommen.
 - Interface-Beispiel: Profilkarte (Foto + Name + Beschreibung in einer Card) → wird als Einheit gelesen.
 
+**4. Continuity (Bonus):**
+> Elemente, die in einer Linie oder Kurve angeordnet sind, werden als zusammengehörig wahrgenommen.
+- Interface-Beispiel: Navigationsleiste — alle Items in einer horizontalen Linie → sofort als Einheit erkannt.
+
+**5. Focal Point (Bonus):**
+> Das Auge erfasst jene Elemente, die sich von der Umgebung abheben.
+- Interface-Beispiel: Einziger farbiger Button auf monochromem Hintergrund → wird sofort als primäre Aktion erkannt (z. B. Uber „SIGN UP"-Button).
+
 ---
 
 ### 7. Progressive Disclosure
@@ -974,15 +1057,75 @@ Tufte zeigt auch die untere Grenze: Werden Balken durch bloße vertikale Linien 
 - Abhängig von: **Erfahrungen/Wissen** (Vergangenheit) · **Ziele** (Zukunft) · **Kontext** (Gegenwart)
 - Beispiel Kontext: „1N73LL1G3NC3" wird als „INTELLIGENCE" gelesen — Kontext ermöglicht das
 
-*(Heuristiken selbst — Nielsen 10 — folgen auf späteren Seiten)*
+**Nielsen-Heuristik: Ästhetisches und minimalistisches Design (Folien 472–480)**
+
+> Dialoge sollen keine irrelevanten oder selten benötigten Informationen enthalten. Jede zusätzliche Information steht in Konkurrenz zu relevanten Informationen und vermindert deren relative Sichtbarkeit.
+
+**Psychologische Grundlage: Subitizing + Parallele Wahrnehmung (Folien 464–469)**
+
+Die Heuristik ist direkt aus der menschlichen Wahrnehmungspsychologie abgeleitet:
+- Parallele Wahrnehmung funktioniert nur bei ~4 Elementen → mehr Elemente = kognitive Überlast
+- Subitizing: Bis 4 Objekte sofort erfassbar (50ms/Obj.), ab 6 Objekte zählen nötig (250-300ms/Obj.)
+
+**Gruppierung und Abstände — Praktische Anwendung (Folien 472–480):**
+
+| Designregel | Wirkung |
+|---|---|
+| Elemente durch Abstände gruppieren (Proximity) | Einheiten werden sofort wahrgenommen |
+| Abstände **zwischen** Feldern > Abstände **zwischen** Label und Feld | Label gehört zum Feld; Felder sind klar getrennt |
+| Zu große Abstände = keine Gruppenbildung | Interface wirkt unnötig komplex, alles wirkt singular |
+| Farbe als Hintergrund für Gruppen nutzen | Drastische Reduktion wahrgenommener Objekte — Interface wirkt weniger komplex |
+
+**Konkrete Abstandsregel (Folie 480 — „Mit Abständen arbeiten"):**
+- Abstand **zwischen Eingabefeldern** > Abstand zwischen Label und zugehörigem Eingabefeld
+- → Label wird dem Feld eindeutig zugeordnet
+- → Gruppe (Label + Feld) wird durch größeren Abstand zum nächsten Label-Feld-Paar deutlich
+
+*(Weitere Nielsen-Heuristiken folgen auf späteren Seiten)*
 
 ---
 
 ### 5. Redundante Kodierung (z. B. für Farbfehlsichtigkeit)
 
+**Quelle:** Folie 454 (Euro vs. Schweizer Franken), Folien 441–442 (Design in Greyscale First)
+
+**Definition:**
+> Redundante Kodierung bedeutet, dass **dieselbe Information über mehrere unabhängige Kodierungskanäle** gleichzeitig vermittelt wird — z. B. Farbe + Form + Beschriftung.
+
+Warum: Fällt ein Kanal aus (z. B. Farbfehlsichtigkeit, S/W-Druck, schlechte Beleuchtung), bleibt die Information über andere Kanäle wahrnehmbar.
+
+**Beispiel: Euro-Schein vs. Schweizer Franken (Folie 454)**
+
+| Merkmal | Euro (10€) | Schweizer Franken (10 CHF) |
+|---|---|---|
+| **Farbe** | Einheitlich orange-braun (eindeutig) | Komplexe Farbmischung, weniger eindeutig |
+| **Zahl** | Große „10" mehrfach vorhanden | Zahl vorhanden |
+| **Schrift** | „EURO / ΕΥΡΩ / ЕВРО" — mehrsprachig | Mehrsprachig |
+| **Architekturmotiv** | Klares Motiv | Porträt (Le Corbusier) |
+| **Redundante Kanäle** | Farbe + Zahl + Text + Motiv + Sterne + Sicherheitsstreifen | Weniger klare Hierarchie |
+
+→ Der Euro nutzt **redundante Kodierung** konsequent: Selbst Farbfehlsichtige können die Banknote anhand von Zahl, Motiv und Struktur unterscheiden.
+
+**Anwendung im Interface Design:**
+
+1. **Farbe allein reicht nicht** — niemals ausschließlich Farbe zur Übermittlung kritischer Informationen nutzen (ca. 8% der Männer sind rot-grün-blind)
+2. **Redundante Signale:** Fehlermeldung = roter Rahmen + Ausrufezeichen-Icon + Fehlermeldungstext (3 Kanäle)
+3. **Design in Greyscale First (Folie 441):** Zwingt dazu, Spacing, Kontrast und Größe zur Kommunikation von Hierarchie zu nutzen — Farbe verstärkt danach nur noch
+
+**Weitere Beispiele für Redundante Kodierung:**
+- Verkehrszeichen: Farbe (rot = Verbot) + Form (Achteck für Stop) + Text (STOP)
+- Button: Farbe + Label-Text + Icon + Hover-Effekt
+- Tabelle mit kritischen Werten: Hervorhebung durch Farbe + Fettschrift + Icon
+
 ---
 
 ### 6. Links/Rechts/Top-Alignment — wann was sinnvoll
+
+**Abstandsregel als Grundprinzip (Folie 480):**
+- Label immer näher am eigenen Eingabefeld als an anderen Feldern — unabhängig von Alignmenttyp
+- Größerer Abstand zwischen Label-Feld-Gruppen als innerhalb einer Gruppe
+
+*(Detaillierte Regeln zu Top/Left/Right-Alignment folgen auf späteren Seiten)*
 
 ---
 

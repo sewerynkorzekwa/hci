@@ -16,13 +16,25 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 221–240
-- **Zuletzt gelesen:** 201–220
-- **Achtung:** Gestaltgesetze jetzt vollständig (Closure, Nähe, Ähnlichkeit, Common Region, Symmetrie, Figur/Hintergrund, Prägnanz, Pop-Out). Noch offen: Mentales Modell (Norman), Prototypen/MVP, Heuristiken (Nielsen 10), Fitts, Chunking, Progressive Disclosure, SUS, Metriken, Redundante Kodierung, Label-Alignment, Summative/Formative, Triangulation, Stakeholder vs. User.
+- **Nächste Seiten:** 241–260
+- **Zuletzt gelesen:** 221–240
+- **Achtung:** Gestaltgesetze jetzt vollständig inkl. Continuity + Focal Point. Redundante Kodierung ✅ (Euro-Beispiel). Subitizing + Parallele Wahrnehmung ✅ (Chunking-Grundlage). Nielsen-Heuristik „Ästhetisches und minimalistisches Design" ✅. Label-Abstandsregel ✅ (Grundprinzip). Noch offen: Mentales Modell (Norman), Prototypen/MVP, Nielsen restliche Heuristiken (9 von 10), Fitts, Chunking (Miller's Law), Progressive Disclosure, SUS, Metriken, Top/Left/Right-Label-Alignment, Summative/Formative, Triangulation, Stakeholder vs. User.
 
 ---
 
 ## Iterationslog
+
+### Iteration 12 — Seiten 221–240 (Folien ~441–480)
+**Inhalt:** Design in Greyscale First (Spacing/Contrast/Size erzwingen klare Hierarchie). Use Color to Direct Attention. Principle of Focal Point (Uber-Beispiel: einziger farbiger Button = Call-to-Action; Pop-Out-Zahlen-Beispiel). Using Color for Attentional Control (komplexe Interfaces). Folie 447: „Finde alle Werte >1.0" — parallele Erkennung durch Farbhervorhebung. Continuity (Folie 448–450): Elemente in Linie/Kurve = zusammengehörig. Gestalt Principles in a Nutshell (Folie 450): Zusammenfassung aller 7 Gesetze. Applying Gestalt Principles (Sony Fernbedienung). Wahrnehmung abstrahiert: G/g-Buchstaben-Beispiel; Euro vs. Schweizer Franken (redundante Kodierung); Chihuahua vs. Muffin; Boundary Extension. Parallele Wahrnehmung + Wahrnehmung und Komplexität (Folien 464–467). Lineare vs. parallele Wahrnehmung — Reaktionszeitgraph. Subitizing: 2–4 Objekte 50ms/Obj., 6+ Objekte 250–300ms/Obj. Reduktion der Komplexität durch Ordnung (Folie 471). Gruppierung und Abstände — Nielsen-Heuristik „Ästhetisches und minimalistisches Design" (Folien 472–480): Abstandsregel (Abstand zwischen Feldern > Abstand Label-Feld), Farbe zur Gruppenbildung reduziert wahrgenommene Komplexität.
+
+**Beantwortete/ergänzte Fragen:**
+- Gruppe A, 1: Chunking ⚠️ Subitizing + Parallele Wahrnehmung als Grundlage ergänzt (Miller's Law noch offen)
+- Gruppe A, 6: Gestaltgesetze ✅ vollständig + Continuity + Focal Point + Nutshell-Übersicht
+- Gruppe C, 6: Gestaltungsgesetz und Interface-Beispiel ✅ Continuity + Focal Point ergänzt
+- Aufgabe 4: Heuristiken ✅ Nielsen "Ästhetisches und minimalistisches Design" vollständig (psychologische Basis, Abstandsregel, Farbe)
+- Aufgabe 5: Redundante Kodierung ✅ vollständig (Definition, Euro/Franken-Beispiel, Interface-Anwendung)
+- Gruppe B, 5: Label-Alignment ⚠️ Abstandsregel ergänzt (Top/Left/Right noch offen)
+- Aufgabe 6: Links/Rechts/Top-Alignment ⚠️ Grundprinzip ergänzt (Details noch offen)
 
 ### Iteration 11 — Seiten 201–220 (Folien ~401–438)
 **Inhalt:** Gestaltgesetze vollständig: Einführung (80 % sehen Kopf im Baum, kognitives System sucht Sinn im Ganzen). Geschlossenheit/Closure (Gehirn füllt Lücken: Apple, IBM, Toblerone, Paris 2024 Logos). Gesetz der Nähe (Proximity: Elemente nah beieinander = Gruppe, kein Rahmen nötig, Die Post-Beispiel). Gesetz der Ähnlichkeit (Similarity: ähnliche Elemente = Gruppe; Navigation vs. Text differenzieren; Ähnlichkeit > Nähe). Law of Common Region (gemeinsame Region = Gruppe; explizit durch Rahmen/Farbe oder implizit durch Symmetrie+Nähe). Gesetz der Symmetrie. Figur/Hintergrund Prinzip (kleinere Fläche = Figur, konvexe Muster = Figur; trivial: Modal-Dialog; komplex: Rexton-Interface). Law of Prägnanz (einfachste mögliche Interpretation). Pop-Out Effekt / Merkmalswahrnehmung (Farbe, Form, Größe, Orientierung, Animation → parallele Suche; Reijnen & Wallach 2008). Las Vegas Effect (zu viele Hervorhebungen → keine Hervorhebung).
