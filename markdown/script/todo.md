@@ -16,13 +16,21 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 161–180
-- **Zuletzt gelesen:** 141–160
-- **Achtung:** Interaction Design vollständig (5 Dimensionen, Affordance/Signifier, Sunk Cost Fallacy, Sketches). Wireframes noch offen. Nächste Seiten: Wireframes, Prototypen, Lo-Fi/Hi-Fi, Validierung
+- **Nächste Seiten:** 181–200
+- **Zuletzt gelesen:** 161–180
+- **Achtung:** Wireframes vollständig (Definition, Design Funnel, Progression). Noise & Clutter vollständig (Tufte 5 Prinzipien). Grid erklärt. Prototypen, MVP, Validierung, Prototyp-Typen noch offen.
 
 ---
 
 ## Iterationslog
+
+### Iteration 9 — Seiten 161–180 (Folien ~321–360)
+**Inhalt:** Design Funnel (Elaborate & Reduce, 4 Iterationen: General/Coarse/Medium/Fine). Progression: Sketches → Wireframes → Visual Design. Wireframe-Definition vollständig (skeletal framework, information architecture, grid, floor plan Analogie). Tullis-Studie 1987 (Struktur = 3,2 vs. 5,5 Sek.). Harris 2018-Zitat. Von grob zu fein: 6 Schritte. Grid als Designgrundlage (Nutzen für Designer/Teams/Users). Noise & Clutter: Visual Noise Definition, Saint-Exupéry-Zitat, Cluttered Interfaces. 5 Grand Principles of Data Visualization (Edward Tufte): Show data / Data-ink ratio / Erase non-data-ink / Erase redundant data-ink / Revise and edit. Praxisbeispiel Balkendiagramm-Vereinfachung.
+
+**Beantwortete/ergänzte Fragen:**
+- Aufgabe 10: Sketches vs. Wireframes ✅ vollständig (Wireframe-Definition + Progression ergänzt)
+- Aufgabe 3: Noise vs. Clutter ✅ vollständig (Tufte 5 Prinzipien, Saint-Exupéry, Cluttered Interfaces)
+- Gruppe B, 2: Lo-Fi/Hi-Fi ✅ Wireframe-Zwischenstufe ergänzt (MVP noch offen)
 
 ### Iteration 1 — Seiten 1–20
 **Inhalt:** Einführungsvorlesung. Kursinfos (Dieter Wallach, WS 25/26). Definition von Design (Herbert A. Simon). UX-Mythen (#1 Kunst, #2 Beautification, #3 UI-Design, #4 Testing, #5 Teuer). Konzentrische Kreise: UI → UX → Product Design → CX Design → Service Design. Business Value of Design (DMI 228%, McKinsey 10%). Einführung Psychologie als empirische Wissenschaft. Moore'sches Gesetz vs. kognitive Komplexität.

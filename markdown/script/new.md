@@ -382,6 +382,36 @@ Eine Persona-Beschreibung umfasst:
 
 ### 2. Low-Fidelity / High-Fidelity erläutern und Unterschied Prototyp – MVP
 
+**Quelle:** Folien 313–336 (Sketches, Wireframes, Progression)
+
+**Fidelity** beschreibt den Detailgrad und die Realitätsnähe eines Designartefakts.
+
+**Low-Fidelity (Lo-Fi):**
+- Bewusst unfertig, abstrakt von Details
+- Fokus auf Essenz, Struktur, Ideen
+- Kein visuelles Design (keine Farben für Ästhetik)
+- Beispiele: **Sketches** (Hand auf Papier), einfache Wireframes
+- Ziel: Schnelles Iterieren, Sunk Cost Fallacy vermeiden
+- „The whole point of designing in low-fidelity is to be able to move fast."
+
+**High-Fidelity (Hi-Fi):**
+- Realitätsnah, detailliert ausgearbeitet
+- Beinhaltet Farben, Typografie, echte Inhalte, Animationen
+- Wird im Rahmen von Usability-Tests oder für die Übergabe an Entwickler eingesetzt
+- Beispiele: Figma-Mockups, interaktive Prototypen
+
+**Progression (Folie 322, 336):**
+```
+Sketches (Lo-Fi) → Wireframes (Lo-Fi/Mid) → Visual Design/Mockup (Hi-Fi)
+```
+
+**Wireframe als Zwischenstufe:**
+- Skelettrahmen des Interfaces
+- Legt Informationsarchitektur und Grid fest
+- Kein visuelles Design — konzentriert sich auf Struktur und Controls
+
+*(Prototyp vs. MVP folgt auf späteren Seiten)*
+
 ---
 
 ### 3. Fitts'sches Gesetz mit Beispiel
@@ -659,6 +689,41 @@ Wer zu früh zu viel in Visual Design investiert, fällt in die Sunk Cost Fallac
 
 ### 3. Noise vs. Clutter im Interface Design
 
+**Quelle:** Folien 348–352
+
+**Visual Noise (Folie 349):**
+> Unnötige visuelle Elemente — Ablenkung von visuellen Elementen, die **Funktionalität und Verhalten** einer Anwendung kommunizieren.
+
+→ Noise stört die Wahrnehmung relevanter Inhalte.
+
+**Leitsatz (Antoine de Saint-Exupéry):**
+> „Perfektion ist dann erreicht, wenn nichts mehr weggenommen kann — nicht, wenn nichts mehr hinzugefügt werden kann."
+
+→ Gutes UI-Design bedeutet **Reduktion auf das Wesentliche**, nicht das Hinzufügen von immer mehr Elementen.
+
+**Cluttered Interfaces (Folie 350):**
+- Exzessives Drängen von Informationen in zu kleinen **Screen Real Estate**
+- Resultat: **Interferieren von UI-Elementen** — Elemente konkurrieren miteinander, statt zu unterstützen
+
+**Noise vs. Clutter — Unterschied:**
+| Begriff | Bedeutung |
+|---|---|
+| **Visual Noise** | Überflüssige Elemente, die keine Information transportieren (Dekoration, übermäßige Linien, Hintergründe) |
+| **Clutter** | Zu viele relevante Elemente auf zu wenig Raum — erzeugt Überlastung, obwohl jede Info relevant sein könnte |
+
+**3D in Visualisierungen (Folie 352):**
+> „3D can make visualizations harder to understand."
+→ 3D fügt visuelle Komplexität hinzu, ohne Informationswert zu erhöhen — klares Beispiel für unnötigen Noise.
+
+**5 Grand Principles of Data Visualization (Edward Tufte, Folien 355–358):**
+1. **Above all else show the data** — Betrachter soll über den Inhalt nachdenken, nicht die Form
+2. **Maximize the data-ink ratio** — Data-ink = Tinte, die tatsächlich Daten zeigt; Verhältnis data-ink / total ink maximieren
+3. **Erase non-data-ink** — Alle unnötigen Nicht-Daten-Elemente eliminieren (z. B. übermäßige Gitternetzlinien, Rahmen)
+4. **Erase redundant data-ink** — Jede Tinte entfernen, die dieselbe Information doppelt zeigt
+5. **Revise and edit** — Erste Version durch Überarbeitung klären
+
+**Praxisbeispiel Tufte (Folien 359–360):** Balkendiagramm schrittweise vereinfacht — horizontale/vertikale Linien eliminiert → Struktur bleibt erkennbar, visuelle Last sinkt drastisch.
+
 ---
 
 ### 4. Heuristiken (Nielsen) mit psychologischen Grundlagen
@@ -761,7 +826,45 @@ Der Collaborative UX Design Prozess besteht aus 3 Phasen mit je eigenen Workshop
 
 Sketches verhindern die **Sunk Cost Fallacy**: Wer zu früh in Pixelarbeit investiert, kann Ideen nicht mehr verwerfen.
 
-#### Wireframes — (folgt)
+#### Wireframes (Folie 334–336)
+
+> „A wireframe represents the skeletal framework of an interface."
+
+**Eigenschaften:**
+- Dictates an interface's **information architecture**
+- Lays out a **consistent way of presenting information**
+- Helps to **prioritize content in a consistent grid**
+- „Wireframes are like floor plans" — sie zeigen Struktur, nicht visuelle Ausarbeitung
+
+**Wann Wireframes?**
+> „The minute you turn on the screen, you're not generating. You're editing." (Harris, 2018)
+
+→ Wireframes kommen **nach** Sketches, **vor** Visual Design. Erst im Wireframe wird aus der freien Skizze eine strukturierte Darstellung der Informationsarchitektur.
+
+**Progression: Von grob zu fein (Folie 336):**
+1. Breite Erkundung des Lösungsraums durch **Scribbles/Sketches**
+2. Bewertung von alternativen Lösungsoptionen
+3. Reduktion auf aussichtsreiche Lösungskonzepte
+4. **Elaboration in Wireframes** (Struktur, Grid, Controls)
+5. Bewertung und Reduktion
+6. **Visuelle Ausarbeitung** von Zielkonzepten (Hi-Fi, Visual Design)
+
+**Design Funnel — Elaborate & Reduce (Folie 321):**
+- Iterativer Prozess: Concepts generation → Iteration 1 (Coarse) → Iteration 2 (Medium) → Iteration 3 (Fine) → Concept selected
+- Granularität: General → Coarse (significant alternatives) → Medium (intermediate development) → Fine (detailed refinement)
+- In jeder Iteration: Elaboration (neue Ideen) und Reduction (Einschränkung) wechseln sich ab
+
+**Strukturstudie: Tullis (1987, Folie 332):**
+- Screen 1 (ohne Struktur, alles lesen): Ø 5,5 Sek. Suchzeit
+- Screen 2 (mit vertikalen Kategorien): Ø 3,2 Sek. Suchzeit
+- → Klare Struktur und Whitespace reduzieren kognitiven Aufwand erheblich
+
+| | Sketch | Wireframe | Visual Design (Mockup) |
+|---|---|---|---|
+| Fidelity | Low (by intention) | Low–Mid | High |
+| Fokus | Ideen, Essenz | Struktur, IA, Grid | Farben, Typografie, Pixel |
+| Werkzeug | Papier, Stift | Tool (z. B. Figma) oder Papier | Design-Tool |
+| Wann | Ideation | Vor Visual Design | Deliver-Phase |
 
 ---
 
