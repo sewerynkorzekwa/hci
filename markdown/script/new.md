@@ -99,6 +99,41 @@ Die Disziplinen sind konzentrisch ineinander verschachtelt — von innen nach au
 
 **Hartson & Pyla (2020):** „Getting your nose in the customer's tent"
 
+**Filter-Problem (Folie 165):** Zwischen Forscher und Nutzer wirken 4 Filter, die Daten verfälschen:
+1. **Nicht erinnern** — Nutzer hat vergessen, was passiert ist
+2. **Nicht für relevant halten** — Nutzer denkt, das sei unwichtig (Expertise-Blindheit)
+3. **Nicht sagen wollen** — Nutzer verschweigt aus sozialer Erwünschtheit
+4. **Nicht, oder falsch fragen** — Forscher stellt die falsche oder führende Frage
+→ Deshalb: Beobachtung **vor** dem Interview! ("Observe before the interview!")
+
+**Interview-Typen (Folie 166):**
+| Typ | Beschreibung |
+|---|---|
+| **Free Interviews** | Offen, kein festes Schema |
+| **Structured Interviews** | Strikter Fragenkatalog, keine Abweichung |
+| **Semi-Structured Interviews** | Leitfaden als Orientierung, aber flexibel |
+
+**Master-Apprentice Model (Folie 167):**
+- Interviewer behandelt den Nutzer als **Master**, sich selbst als **Apprentice**
+- Ziel: Nutzerziele und -aufgaben verstehen, wie ein Lehrling lernt
+- **Typische Fehler:** Unterbrechen des Masters, Beeinflussen, Anzweifeln oder korrigieren, Checkliste zum Steuern statt zum Orientieren nutzen
+
+**Fragetypen im Interview:**
+- **Open Question**: gibt keine Indikation über Format oder Inhalt der Antwort (bevorzugt!)
+- **Closed Question**: erfordert Antwort aus vorgegebenen Alternativen (z. B. Ja/Nein)
+- **Neutral Question**: keine eingebauten Annahmen, kein Frame — z. B. „What happened?", „What do you mean by that?"
+
+**Best Practices (Folie 176):**
+- Beobachten, möglichst offene Fragen
+- Nach kürzlichen Ereignissen fragen (nicht abstrakte Zukunft)
+- Einem Beispiel folgen, keine Synthesen verlangen
+- Haltung eines „Lernenden" einnehmen
+- Lösungen nicht ohne konkretisierenden Prototyp diskutieren
+
+**Jakob Nielsen — First Rule of Usability:** „Don't Listen!" → Schau, was Nutzer **tun**, nicht was sie sagen. Self-reported claims sind unzuverlässig (Beispiel: Telefon-Hörer — Nutzer sagt „Gewicht ist genau richtig", wählt aber bei Prototypen das halb so schwere Gerät).
+
+**Anzahl Interviews (Folie 200):** Typisch 3–6 Beobachtungen/Interviews pro Rolle; max. 2 Stunden pro Interview.
+
 ---
 
 ### 10. Vorgehensmodell – menschzentriert / ISO – Gemeinsamkeiten und Unterschiede
@@ -341,6 +376,21 @@ Discoverability ist eine Komponente von Learnability. Beispiel: Viele iOS-Gesten
 → Siehe Gruppe A, Frage 9 (vollständige Antwort dort)
 
 **Zusatz für Aufgabe:** Typisches Beispiel aus Vorlesung — Forscher begleitet Fabrikarbeiter an CNC-Maschine und beobachtet echte Arbeitsabläufe, Workarounds und Nutzungsmuster (Job Shadowing / GOOB = Get Out Of The Building).
+
+**Vorbereitung (Folie 165):** Von Scoping zu Research — drei Artefakte vorbereiten: Annahmen-Board (Auswirkung × Wissen), Interview-Fragen, Beobachtungs-Fragen.
+
+**Durchführung (Folien 173–176):**
+- Beobachtung **vor** dem Interview
+- Offene und neutrale Fragen, keine führenden Fragen
+- Interviews zu zweit (Interviewer + Note-Taker)
+- Exakte Aufzeichnung der Antworten (keine Korrekturen, keine „Verbesserungen")
+
+**Auswertung (Folien 179–185):**
+1. **Sighting** — Protokolle sichten und markieren
+2. **Classify** — Protokolle klassifizieren (farblich)
+3. **Extraction and Compacting** — Extrahieren auf Post-its
+4. **Organize and Group** — Post-its gruppieren und thematisch ordnen
+5. → **Insights** gewinnen (Interpretation der Rohdaten)
 
 ---
 

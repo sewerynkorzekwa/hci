@@ -16,9 +16,9 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 81–100
-- **Zuletzt gelesen:** 61–80
-- **Achtung:** User Research / Contextual Inquiry Kapitel begonnen (Folie ~153) — Details kommen in 81–100
+- **Nächste Seiten:** 101–120
+- **Zuletzt gelesen:** 81–100
+- **Achtung:** Kapitel „Nützliche Methoden / Modellierung von Daten" begonnen (Folie ~186) — Empathy Maps, Feature Maps gezeigt; weitere Methoden folgen in 101–120
 
 ---
 
@@ -38,6 +38,13 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 - Gruppe A, 3: UX vs. Usability ✅ vollständig
 - Gruppe B, 6: Konsistenz-Prinzip ✅
 - Gruppe B, 7: Interaction Design Prinzipien ⚠️ (Prinzip #7 fehlt noch)
+
+### Iteration 5 — Seiten 81–100 (Folien ~163–200)
+**Inhalt:** Vertiefung Contextual Inquiries: Filter-Modell (4 Filter zwischen Forscher und Nutzer), Interview-Typen (Free / Structured / Semi-Structured), Master-Apprentice Model, Fragetypen (Open / Closed / Neutral), Best Practices für Interview-Durchführung, Auswertungsprozess (Sighting → Classify → Extract → Organize → Insights). Jakob Nielsen „First Rule of Usability: Don't Listen!" — Beobachtung vor Interview. Anzahl: 3–6 Interviews/Observationen pro Rolle. Beginn neues Kapitel „Nützliche Methoden": Empathy Maps (4 Quadranten: Says/Thinks/Does/Feels), Feature Maps (Funktionen je nach Relevanz zur Persona), Focus Groups (Steve Jobs-Kritik).
+
+**Ergänzte Fragen:**
+- Gruppe A, 9: Contextual Inquiries ✅ vollständig ergänzt (Filter, Interview-Typen, Master-Apprentice, Auswertungsprozess)
+- Aufgabe 9: Contextual Inquiries ✅ vollständig ergänzt
 
 ### Iteration 4 — Seiten 61–80 (Folien ~121–160)
 **Inhalt:** Persona vollständig erklärt (fictional archetypical user, goals/backgrounds/behaviors/utilization). Warum Personas (consensus-building, anti self-referential design, Cooper 2004). Primary vs. Secondary Persona. Proto-Persona vs. Validierte Persona (Annahmen vs. empirische Daten). Prince Charles/Ozzy Osbourne Beispiel (gleiche Demografie ≠ gleiche Designanforderungen). Scenarios (Persona + Context + Goals): Ist-Szenario vs. Soll-Szenario. User Research: Zielsetzung, Methoden. Annahmen-Board / Annahmen-Map (Impact × Unsicherheit). Contextual Inquiries Definition + Funktionsweise + Job Shadowing (GOOB).
