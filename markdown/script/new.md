@@ -167,6 +167,14 @@ Journey → Initial Challenge → Opportunity Areas → Ideas → Concept → Us
 
 ### 6. Gestaltgesetz
 
+**Psychologische Grundlage (Folien 382–395):**
+
+Gestaltgesetze basieren auf der menschlichen Fähigkeit zur **visuellen Mustererkennung**. Das visuelle System konstruiert aktiv Bedeutung aus Rohinformation:
+- **Bottom-up**: Reizverarbeitung von der Retina aufwärts
+- **Top-down**: Vorannahmen aus Wissen, Erfahrung und Kontext
+
+*(Konkrete Gestaltgesetze — Nähe, Ähnlichkeit, Kontinuität, Geschlossenheit etc. — folgen auf späteren Seiten)*
+
 ---
 
 ### 7. Was ist Affordance
@@ -321,6 +329,39 @@ Abgeleitete Nutzungsanforderung (Beispiel):
 ---
 
 ### 11. Was ist Mentales Design Modell
+
+**Kognitive Architektur als Grundlage (Folien 369–374):**
+
+**Einfache Theorie menschlichen Verhaltens (Folie 369):**
+```
+Wissen ──────────────┐
+(Angeboren /         │
+ Erlernt /           ├──→ Rationalität ──→ Verhalten
+ Wahrgenommen)       │
+                     │
+Ziele ───────────────┘
+(Intrinsisch /
+ Extrinsisch)
+```
+> Menschen wählen Handlungen, deren Durchführung — bei einem gegebenen Wissensstand, der auch die Handlungskosten berücksichtigt — die **Wahrscheinlichkeit einer Zielerreichung maximiert**.
+
+**Cognitive Architecture (Folie 373):**
+> Was vereint Einstein, eine Frau auf der Straße, einen Stammesangehörigen — und dich?
+
+**Same cognitive architecture**: fixed mental structures that form the basis for running processes or «cognitive algorithms» — unabhängig von Kultur, Wissen und Intelligenz.
+
+**Cognitive Psychology of Interaction Design (Folie 372, Peter Morville 2002):**
+> „The design of good houses requires an understanding of both the **construction materials** and the **behavior of real humans**."
+
+- construction materials → [Psychology] → **Cognitive Architecture**
+- behavior of real humans → [Knowledge, Goals, Context] → **Contextual Inquiry**
+
+**Cognitive re-engineering:**
+> „Exploration of cognitive structures and processes as well as applying gained insights in system design"
+- Überwindung von **Einschränkungen** menschlicher Kognition durch angemessene Systemunterstützung
+- Berücksichtigung der **Stärken** menschlicher Kognition
+
+*(Mentales Modell im engeren Sinne — Norman's Design Model vs. User's Mental Model — folgt auf späteren Seiten)*
 
 ---
 
@@ -722,11 +763,57 @@ Wer zu früh zu viel in Visual Design investiert, fällt in die Sunk Cost Fallac
 4. **Erase redundant data-ink** — Jede Tinte entfernen, die dieselbe Information doppelt zeigt
 5. **Revise and edit** — Erste Version durch Überarbeitung klären
 
-**Praxisbeispiel Tufte (Folien 359–360):** Balkendiagramm schrittweise vereinfacht — horizontale/vertikale Linien eliminiert → Struktur bleibt erkennbar, visuelle Last sinkt drastisch.
+**Praxisbeispiel Tufte (Folien 359–364) — schrittweise Vereinfachung:**
+1. Ausgangszustand (mit Hintergrund, Rahmen, Gitternetz)
+2. Eliminierung des Hintergrunds
+3. Eliminierung des Rahmens
+4. Einführen strukturierender Segmente (dezente Hilfslinien)
+→ Jeder Schritt reduziert non-data-ink, ohne Erkennbarkeit zu verlieren.
+
+**Zu wenig des Guten? (Folie 364):**
+Tufte zeigt auch die untere Grenze: Werden Balken durch bloße vertikale Linien ersetzt, entsteht neue Unleserlichkeit. Reduktion muss enden, wenn die Wahrnehmbarkeit der Datenmuster leidet. Ziel: **minimale, aber ausreichende Datendarstellung**.
 
 ---
 
 ### 4. Heuristiken (Nielsen) mit psychologischen Grundlagen
+
+**Psychologische Grundlage: Visuelle Wahrnehmung und foveales Sehen (Folien 382–391)**
+
+**Visuelle Wahrnehmung — dominanter menschlicher Kanal:**
+- Beschäftigt grob **50 % des menschlichen Cortex**
+- Ca. **70 % der sensorischen Rezeptoren** entfallen auf den visuellen Apparat
+- **80 % der aufgenommenen Information** wird über den visuellen Kanal verarbeitet
+- Intelligentes Verhalten greift auf die menschliche Fähigkeit zur **Mustererkennung** zurück
+
+**Foveales Sehen (Folie 384):**
+- Vom Zentrum des schärfsten Sehens (**Fovea**) nimmt die Auflösung zur Peripherie ab
+- Das foveale Sehen ist auf eine eng gefasste Fläche limitiert: **ca. Daumennagel bei ausgestrecktem Arm**
+- Farbwahrnehmung ebenfalls: Im Zentrum zuverlässig, nach außen nur noch Dunkel/Hell-Unterscheidung
+
+**Klassisches Experiment (Clark, 1998, Folie 386):**
+- Eye-Tracker bestimmt fovealen Fokus einer lesenden Person
+- Alle Buchstaben außerhalb des Fokus werden zu zufälligen Zeichen konvertiert
+- **„Participants do not notice the manipulation"** → Wir lesen in Wahrheit nur einen kleinen Bereich scharf
+
+**Abgeleitete Guideline: Lokales Feedback (Folien 389–391):**
+> „Show the user where the error occurred and provide a reason." (**Specify errors inline**)
+
+- Eine oben platzierte Erfolgsmeldung (z. B. „Daten gespeichert") kann leicht übersehen werden
+- Im Moment des Button-Drückens liegt der visuelle Fokus **auf dem Button** — daher: Feedback direkt beim Button platzieren → wird sofort foveal wahrgenommen
+- Psychologische Grundlage: foveales Sehen, nicht periphere Wahrnehmung
+
+**Periphere Wahrnehmung (Folie 392):**
+- Liefert niedrig aufgelöste Hinweise zur schnellen **Orientierung der fovealen Wahrnehmung**
+- Erkennt Bewegung → Einsatz bei animierten Bannern (bewusst oder unbewusst ablenkend!)
+
+**Sehen als aktiver Konstruktionsprozess (Folie 393):**
+- **Sehen ≠ Spiegel der Umwelt** — das Gehirn konstruiert aktiv eine Interpretation
+- **Bottom-up**: Verarbeitung von Rohdaten der Retina nach oben
+- **Top-down**: Vorannahmen aus Wissen und Zielen beeinflussen Wahrnehmung
+- Abhängig von: **Erfahrungen/Wissen** (Vergangenheit) · **Ziele** (Zukunft) · **Kontext** (Gegenwart)
+- Beispiel Kontext: „1N73LL1G3NC3" wird als „INTELLIGENCE" gelesen — Kontext ermöglicht das
+
+*(Heuristiken selbst — Nielsen 10 — folgen auf späteren Seiten)*
 
 ---
 

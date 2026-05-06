@@ -16,13 +16,22 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 181–200
-- **Zuletzt gelesen:** 161–180
-- **Achtung:** Wireframes vollständig (Definition, Design Funnel, Progression). Noise & Clutter vollständig (Tufte 5 Prinzipien). Grid erklärt. Prototypen, MVP, Validierung, Prototyp-Typen noch offen.
+- **Nächste Seiten:** 201–220
+- **Zuletzt gelesen:** 181–200
+- **Achtung:** Neues Kapitel Psychologie/Kognition gestartet. Gestaltgesetze noch offen (kommen bald). Mentales Modell, Prototypen/MVP, Heuristiken (Nielsen 10), Fitts, Chunking, Progressive Disclosure, SUS, Metriken noch offen.
 
 ---
 
 ## Iterationslog
+
+### Iteration 10 — Seiten 181–200 (Folien ~361–400)
+**Inhalt:** Tufte-Praxisbeispiel Abschluss (Eliminierung Hintergrund/Rahmen, strukturierende Segmente, „Zu wenig des Guten?"). Neues Kapitel: Psychologische Grundlagen des Interaction Design. Dieter Rams-Zitat. UX Designer als „holistic empathic problem solvers". Einfache Theorie: Wissen + Ziele → Rationalität → Verhalten. Peter Morville 2002 (construction materials → Cognitive Architecture / behavior → Contextual Inquiry). Cognitive Psychology of Interaction Design: Cognitive re-engineering. Cognitive Architecture (Card, Moran, Newell 1983). Angeboren vs. gelernt (Gesichtserkennung, Johnson & Morton 1991 — 7 Minuten alte Neugeborene). Visuelle Wahrnehmung: 50 % Cortex, 70 % Rezeptoren, 80 % Information. Fovea (Daumennagel-Faustregel), periphere Wahrnehmung. Klassisches Experiment Clark 1998 (Eye-Tracker). Lokales Feedback: „Specify Errors Inline" — Feedback direkt beim Button. Periphere Wahrnehmung: Bewegungserkennung. Sehen als aktiver Konstruktionsprozess (Bottom-up / Top-down, abhängig von Wissen/Zielen/Kontext). Kontext-Beispiel (1N73LL1G3NC3). Optische Täuschungen.
+
+**Beantwortete/ergänzte Fragen:**
+- Aufgabe 3: Noise vs. Clutter ✅ ergänzt (Tufte-Praxisbeispiel Abschluss + „Zu wenig des Guten")
+- Aufgabe 4: Heuristiken ⚠️ Psychologische Grundlage ergänzt (visuelles System, foveales Sehen, lokales Feedback, Sehen als Konstruktionsprozess) — Nielsen 10 noch offen
+- Gruppe A, 6: Gestaltgesetze ⚠️ Fundament ergänzt (visuelle Mustererkennung) — Gesetze selbst noch offen
+- Gruppe A, 11: Mentales Design Modell ⚠️ Cognitive Architecture + einfache Theorie ergänzt — Norman's Mental Model noch offen
 
 ### Iteration 9 — Seiten 161–180 (Folien ~321–360)
 **Inhalt:** Design Funnel (Elaborate & Reduce, 4 Iterationen: General/Coarse/Medium/Fine). Progression: Sketches → Wireframes → Visual Design. Wireframe-Definition vollständig (skeletal framework, information architecture, grid, floor plan Analogie). Tullis-Studie 1987 (Struktur = 3,2 vs. 5,5 Sek.). Harris 2018-Zitat. Von grob zu fein: 6 Schritte. Grid als Designgrundlage (Nutzen für Designer/Teams/Users). Noise & Clutter: Visual Noise Definition, Saint-Exupéry-Zitat, Cluttered Interfaces. 5 Grand Principles of Data Visualization (Edward Tufte): Show data / Data-ink ratio / Erase non-data-ink / Erase redundant data-ink / Revise and edit. Praxisbeispiel Balkendiagramm-Vereinfachung.
