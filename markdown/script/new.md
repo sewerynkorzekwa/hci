@@ -167,13 +167,131 @@ Journey → Initial Challenge → Opportunity Areas → Ideas → Concept → Us
 
 ### 6. Gestaltgesetz
 
-**Psychologische Grundlage (Folien 382–395):**
+**Psychologische Grundlage (Folien 382–401):**
 
 Gestaltgesetze basieren auf der menschlichen Fähigkeit zur **visuellen Mustererkennung**. Das visuelle System konstruiert aktiv Bedeutung aus Rohinformation:
 - **Bottom-up**: Reizverarbeitung von der Retina aufwärts
 - **Top-down**: Vorannahmen aus Wissen, Erfahrung und Kontext
 
-*(Konkrete Gestaltgesetze — Nähe, Ähnlichkeit, Kontinuität, Geschlossenheit etc. — folgen auf späteren Seiten)*
+> „Wenn wir etwas sehen, so versucht unser kognitives System Sinn im Ganzen zu entdecken — und nicht alleine auf die individuellen Teile einer Szene zu fokussieren."
+
+> „Gestalt Prinzipien beschreiben, wie Eigenschaften der individuellen Teile die Wahrnehmung einer gesamten Konfiguration beeinflussen."
+
+**80 %** aller Menschen sehen in einem Baumfoto einen menschlichen Kopf (Beispiel Folie 401).
+
+---
+
+#### 1. Gesetz der Geschlossenheit / Closure (Folien 403–408)
+
+> Bei der Betrachtung einer komplexen Struktur visueller Elemente identifiziert unser Gehirn nach **Muster**. Wahrnehmung füllt Lücken und ergänzt bei der Identifikation vollständiger, erkennbarer Muster.
+
+**Beispiele:**
+- Apple Logo (negative Fläche des Apfels wird als vollständige Form wahrgenommen)
+- IBM Logo (aus horizontalen Strichen wird „IBM" gelesen)
+- Toblerone Logo (im Berg ist ein Bär versteckt)
+- Paris 2024 Logo (Flamme + Marianne-Gesicht = zwei Lesarten)
+- WWF Panda (aus wenigen Flecken wird ein vollständiger Panda erkannt)
+
+---
+
+#### 2. Gesetz der Nähe / Law of Proximity (Folien 409–412)
+
+> „Objects that are near, or proximate to each other, tend to be grouped together."
+
+- The law of proximity allows us to group different clusters of content **at a glance**
+- **Implication:** No need for surrounding boxes to group elements — räumliche Nähe genügt
+
+**Interface-Beispiel:** Das Suchfeld der „Die Post"-Website — Nähe des Eingabefelds zum Suchbutton bestimmt die Gruppe, nicht eine Box.
+
+---
+
+#### 3. Gesetz der Ähnlichkeit / Law of Similarity (Folien 413–418)
+
+> „The human eye tends to perceive similar elements in a design as a complete picture, shape, or a group, even if those elements are separated."
+
+> „Elements that are similar to each other are more likely to be perceived as related to each other than elements that are different."
+
+**Takeaways:**
+1. Visuell ähnliche Elemente werden als zusammengehörig wahrgenommen
+2. Farbe, Form, Größe, Orientierung und Bewegung signalisieren Gruppenzugehörigkeit
+3. Links und Navigation müssen visuell von normalem Text differenziert sein
+
+**Interface-Beispiel:** Navigation vs. Fließtext — visuelle Differenzierung (Farbe, Unterstrich) macht Interaktionselemente erkennbar.
+
+**Nähe vs. Ähnlichkeit:** Ähnlichkeit ist mächtiger als Nähe bei der Herstellung von gruppierender Ordnung.
+
+**Herkunft:** Gestalt Laws of Grouping (Gestaltpsychologen) — fünf Kategorien: Proximity, Similarity, Continuity, Closure, Connectedness.
+
+---
+
+#### 4. Law of Common Region (Folien 419–424)
+
+> „Elements tend to be perceived into groups if they are sharing an area with a clearly defined boundary."
+
+> „The principle of common region states that objects bounded in a close region, appear to be a single group."
+
+**Umsetzungsmöglichkeiten:**
+- Expliziter Rahmen (Border/Box)
+- Hintergrundfarbe / Schattenbereich
+- Trennlinie
+
+**Interface-Beispiel:** Profilkarten (Foto + Name + Text in einem Rahmen). Foodpanda: **implizite** gemeinsame Region durch Symmetrie und Nähe — ohne expliziten Rahmen.
+
+---
+
+#### 5. Gesetz der Symmetrie (Folie 425)
+
+Symmetrische Muster werden als Einheit wahrgenommen. Bei konkurrierenden Cues (Farbe/Nähe) kann Symmetrie die Gruppenbildung beeinflussen.
+
+---
+
+#### 6. Figur / Hintergrund Prinzip (Folien 426–430)
+
+> Erkennen von Objekten durch Fokussierung auf Figur oder Hintergrund.
+
+**Zwei bestimmende Faktoren:**
+- **Fläche**: Die kleinere überlappende Fläche zweier Objekte wird als Figur, die größere als Hintergrund gesehen (Beispiel: weißer Apple = Figur, schwarze Fläche = Hintergrund)
+- **Konvexität**: Konvexe (gerundete) Muster werden eher als Figur gesehen
+
+**Interface-Beispiele:**
+- **Trivial:** Modal-Dialog (z. B. Airbnb Login) — Dialog ist Figur, abgedunkelter Hintergrund ist Background
+- **Komplex:** Hörgeräte-Software Rexton — fehlende Figur/Hintergrund-Trennung macht das Interface schwer navigierbar (schlechtes Beispiel)
+
+---
+
+#### 7. Law of Prägnanz (Folie 431)
+
+> „People will perceive and interpret ambiguous or complex images as the **simplest form possible**, because it is the interpretation that requires the **least cognitive effort** of us."
+
+Menschen bevorzugen die einfachste mögliche Interpretation.
+
+---
+
+#### 8. Pop-Out Effekt / Merkmalswahrnehmung (Folien 432–438)
+
+> **Gesetz der Prägnanz in der Praxis:** Wir achten besonders auf jene Elemente, die sich von der Umgebung abheben — **Pop-Out Effekt**.
+
+Ein Element, das sich von den anderen unterscheidet, wird sofort fokussiert (saliente Information).
+
+**Pop-Out-Merkmale (parallele Suche, unabhängig von Elementanzahl):**
+| Merkmal | Beispiel |
+|---|---|
+| Farbe | Rotes Quadrat unter schwarzen Kreisen |
+| Position & Alignierung | Versetztes Element |
+| Sättigung | Helles Element in dunkler Menge |
+| Größe | Größeres Element |
+| Helligkeit | Leuchtendes Element |
+| Orientierung | Gedrehtes Element |
+| Textur | Anderes Muster |
+| Form | Anderer Shape |
+| Animation | Bewegendes Element |
+
+**Reijnen & Wallach (2008):** Pop-Out = parallele Suche (Reaktionszeit bleibt konstant, egal wie viele Elemente). Kombinierte Merkmale = serielle Suche (Reaktionszeit steigt).
+
+**⚠️ Las Vegas Effect / Hervorhebung (Folien 437–438):**
+> Gibt es viele Elemente mit auffälligen Merkmalen, sticht ein einzelnes Element **nicht mehr hervor**.
+
+→ Wenn alles hervorgehoben ist, ist nichts hervorgehoben. Zu viele Pop-Out-Reize neutralisieren sich gegenseitig.
 
 ---
 
@@ -532,6 +650,33 @@ Discoverability ist eine Komponente von Learnability. Beispiel: Viele iOS-Gesten
 
 ### 10. Nähe-Gesetz Definition mit Zeichnung
 
+**Quelle:** Folien 409–412
+
+**Definition:**
+> „Objects that are near, or proximate to each other, tend to be grouped together."
+
+Das **Gesetz der Nähe** (Law of Proximity) besagt: Elemente, die räumlich nah beieinander liegen, werden vom menschlichen Wahrnehmungssystem als Gruppe interpretiert — **ohne dass ein Rahmen oder eine Box nötig ist**.
+
+**Implikation für Interface Design:**
+- Kein Need für umrahmende Boxen zur Gruppierung von Elementen
+- Whitespace kann Gruppen trennen; enger Abstand signalisiert Zusammengehörigkeit
+
+**Zeichnung (schematisch):**
+```
+●  ●  ●    ●  ●  ●
+●  ●  ●    ●  ●  ●
+●  ●  ●    ●  ●  ●
+  Gruppe 1      Gruppe 2
+  (Nähe intern groß, Abstand zwischen Gruppen größer)
+```
+→ Vier enge Spalten werden als eine Gruppe wahrgenommen; werden zwei Spalten weiter beabstandet, entstehen zwei Gruppen.
+
+**Interface-Beispiel (Folie 412 — „Die Post"):**
+- Version 1: Suchfeld und Suchbutton haben gleichen Abstand zu Navigation → unklar, ob Suche zur Navigation gehört
+- Version 2: Suchfeld direkt neben Suchbutton (enger Abstand) → wird klar als Sucheinheit wahrgenommen
+
+→ Nähe allein reicht, um Elemente als Einheit zu kommunizieren.
+
 ---
 
 ### 11. Phasen und Artefakte im Collaborative UX Prozess
@@ -699,6 +844,22 @@ Wer zu früh zu viel in Visual Design investiert, fällt in die Sunk Cost Fallac
 ---
 
 ### 6. Gestaltungsgesetz und Interface-Beispiel
+
+→ Vollständige Antwort: Gruppe A, Frage 6 (alle Gestaltgesetze mit Beispielen).
+
+**Kurzfassung für Klausur — zwei Gesetze mit Interface-Beispiel:**
+
+**1. Gesetz der Nähe:**
+> Objekte, die räumlich nah beieinander sind, werden als Gruppe wahrgenommen.
+- Interface-Beispiel: Suchfeld + Suchbutton direkt nebeneinander → klar als Sucheinheit erkannt. Kein umgebender Rahmen nötig.
+
+**2. Gesetz der Ähnlichkeit:**
+> Visuell ähnliche Elemente werden als zusammengehörig wahrgenommen.
+- Interface-Beispiel: Alle Navigationspunkte in gleicher Farbe und Schriftart → werden als Navigation erkannt. Links visuell (Farbe, Unterstrich) von Fließtext unterschieden.
+
+**3. Law of Common Region (Bonus):**
+> Elemente innerhalb einer gemeinsamen Region (Rahmen, Hintergrundfarbe) werden als Gruppe wahrgenommen.
+- Interface-Beispiel: Profilkarte (Foto + Name + Beschreibung in einer Card) → wird als Einheit gelesen.
 
 ---
 

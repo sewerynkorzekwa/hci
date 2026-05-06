@@ -16,13 +16,21 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 201–220
-- **Zuletzt gelesen:** 181–200
-- **Achtung:** Neues Kapitel Psychologie/Kognition gestartet. Gestaltgesetze noch offen (kommen bald). Mentales Modell, Prototypen/MVP, Heuristiken (Nielsen 10), Fitts, Chunking, Progressive Disclosure, SUS, Metriken noch offen.
+- **Nächste Seiten:** 221–240
+- **Zuletzt gelesen:** 201–220
+- **Achtung:** Gestaltgesetze jetzt vollständig (Closure, Nähe, Ähnlichkeit, Common Region, Symmetrie, Figur/Hintergrund, Prägnanz, Pop-Out). Noch offen: Mentales Modell (Norman), Prototypen/MVP, Heuristiken (Nielsen 10), Fitts, Chunking, Progressive Disclosure, SUS, Metriken, Redundante Kodierung, Label-Alignment, Summative/Formative, Triangulation, Stakeholder vs. User.
 
 ---
 
 ## Iterationslog
+
+### Iteration 11 — Seiten 201–220 (Folien ~401–438)
+**Inhalt:** Gestaltgesetze vollständig: Einführung (80 % sehen Kopf im Baum, kognitives System sucht Sinn im Ganzen). Geschlossenheit/Closure (Gehirn füllt Lücken: Apple, IBM, Toblerone, Paris 2024 Logos). Gesetz der Nähe (Proximity: Elemente nah beieinander = Gruppe, kein Rahmen nötig, Die Post-Beispiel). Gesetz der Ähnlichkeit (Similarity: ähnliche Elemente = Gruppe; Navigation vs. Text differenzieren; Ähnlichkeit > Nähe). Law of Common Region (gemeinsame Region = Gruppe; explizit durch Rahmen/Farbe oder implizit durch Symmetrie+Nähe). Gesetz der Symmetrie. Figur/Hintergrund Prinzip (kleinere Fläche = Figur, konvexe Muster = Figur; trivial: Modal-Dialog; komplex: Rexton-Interface). Law of Prägnanz (einfachste mögliche Interpretation). Pop-Out Effekt / Merkmalswahrnehmung (Farbe, Form, Größe, Orientierung, Animation → parallele Suche; Reijnen & Wallach 2008). Las Vegas Effect (zu viele Hervorhebungen → keine Hervorhebung).
+
+**Beantwortete/ergänzte Fragen:**
+- Gruppe A, 6: Gestaltgesetze ✅ vollständig (alle 7+ Gesetze mit Definitionen, Beispielen, Interface-Implikationen)
+- Gruppe B, 10: Nähe-Gesetz ✅ vollständig (Definition, Zeichnung, Interface-Beispiel)
+- Gruppe C, 6: Gestaltungsgesetz und Interface-Beispiel ✅ vollständig (Kurzfassung + Verweis)
 
 ### Iteration 10 — Seiten 181–200 (Folien ~361–400)
 **Inhalt:** Tufte-Praxisbeispiel Abschluss (Eliminierung Hintergrund/Rahmen, strukturierende Segmente, „Zu wenig des Guten?"). Neues Kapitel: Psychologische Grundlagen des Interaction Design. Dieter Rams-Zitat. UX Designer als „holistic empathic problem solvers". Einfache Theorie: Wissen + Ziele → Rationalität → Verhalten. Peter Morville 2002 (construction materials → Cognitive Architecture / behavior → Contextual Inquiry). Cognitive Psychology of Interaction Design: Cognitive re-engineering. Cognitive Architecture (Card, Moran, Newell 1983). Angeboren vs. gelernt (Gesichtserkennung, Johnson & Morton 1991 — 7 Minuten alte Neugeborene). Visuelle Wahrnehmung: 50 % Cortex, 70 % Rezeptoren, 80 % Information. Fovea (Daumennagel-Faustregel), periphere Wahrnehmung. Klassisches Experiment Clark 1998 (Eye-Tracker). Lokales Feedback: „Specify Errors Inline" — Feedback direkt beim Button. Periphere Wahrnehmung: Bewegungserkennung. Sehen als aktiver Konstruktionsprozess (Bottom-up / Top-down, abhängig von Wissen/Zielen/Kontext). Kontext-Beispiel (1N73LL1G3NC3). Optische Täuschungen.
