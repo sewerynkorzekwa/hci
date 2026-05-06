@@ -12,9 +12,37 @@
 
 ### 3. UX – Usability
 
+**UX Design** (aus Vorlesung, Folie 8):
+> „(UX) Designers are **holistic, empathic problem solvers** skilled at balancing (potentially conflicting) **user-, technical-, and economical and ecological constraints** in a specific context."
+
+UX Design ist kein Teilbereich von UI, keine Verschönerung und keine einzelne Phase — sondern ein **wertschöpfender Prozess**.
+
+**Abgrenzung (aus Mythen-Folien):**
+- UX ≠ Art (Design braucht Objektivität, schließt intelligente Kompromisse, ist auf das Machbare ausgerichtet)
+- UX ≠ UI (UI ist Teilmenge von UX — aber aus Nutzersicht *ist* das Interface das Produkt)
+- UX ≠ Testing (Testing ist diagnostische Perspektive, ein Werkzeug innerhalb von UX)
+
+⚠️ **Usability** als eigener Begriff wird in diesen Folien noch nicht definiert — wird in späteren Kapiteln behandelt.
+
 ---
 
 ### 4. Service Design – UX Design
+
+**Quelle:** Folie 5 (konzentrische Kreise-Diagramm)
+
+Die Disziplinen sind konzentrisch ineinander verschachtelt — von innen nach außen:
+
+| Ebene | Inhalte |
+|---|---|
+| **UI** (innerster Kreis) | Color Theory, Typography, Design Patterns, Pixel-perfect, Accessibility |
+| **UX** | Wireframe/Prototyping, User Research, Experiments, Target Groups, Information Architecture, Copywriting |
+| **Product Design** | Product Strategy, Product Outcomes, Opportunities & Solutions, Prioritization, Project Output Management |
+| **CX Design** | Market Research, Sales, Marketing, Branding, Customer Service, Touchpoints, Customer Research |
+| **Service Design** (äußerster Kreis) | Business Strategy, Team Composition, Process Design, Business Processes |
+
+**Unterschied:**
+- **UX Design** fokussiert auf das direkte Nutzungserlebnis mit einem Produkt (Forschung, Prototyping, Informationsarchitektur)
+- **Service Design** umfasst das gesamte Geschäftsökosystem — Prozesse, Teams, Strategie und alle Touchpoints — weit über das einzelne Produkt hinaus
 
 ---
 
