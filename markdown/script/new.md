@@ -2460,6 +2460,71 @@ Ergänzende psychologische Gesetze mit Relevanz für UX und Interface Design:
 - **Takeaway 3**: Bei Redesigns: Nutzer die Möglichkeit geben, vorübergehend die alte Version zu nutzen (Übergangszeit)
 - Direkte Verbindung zu Nielsen-Heuristik H4 (Beständigkeit & Standards) und zum Konsistenz-Prinzip
 
+**Occam's Razor — Prinzip der Sparsamkeit (William of Ockham, ca. 1287–1347):**
+> „Among competing hypotheses that predict equally well, the one with the fewest assumptions should be selected."
+
+- Auch bekannt als **lex parsimoniae** („law of parsimony")
+- Im UX-Design: Komplexität wird am besten vermieden, indem man sie gar nicht erst einbaut
+- **Takeaway 1**: Die beste Methode zur Reduktion von Komplexität ist, sie von Anfang an zu vermeiden
+- **Takeaway 2**: Jedes Element analysieren und so viele wie möglich entfernen, ohne die Gesamtfunktion zu beeinträchtigen
+- **Takeaway 3**: Erst wenn kein Element mehr entfernt werden kann, gilt das Design als vollständig
+
+**Goal-Gradient Effect (Clark Hull, 1932):**
+> „The tendency to approach a goal increases with proximity to the goal."
+
+- Ursprung: Behaviorist Clark Hull 1932 — Ratten liefen in einem geraden Gang progressiv schneller, je näher sie dem Futter waren (Hull 1934)
+- **Takeaway 1**: Je näher Nutzer dem Abschluss einer Aufgabe sind, desto schneller und motivierter arbeiten sie
+- **Takeaway 2**: Künstlicher Fortschritt in Richtung eines Ziels erhöht die Motivation, die Aufgabe abzuschließen (z. B. vorausgefüllte Treuekarte)
+- **Takeaway 3**: Klare Fortschrittsanzeige motiviert Nutzer zur Vervollständigung
+- Interface-Beispiel: Progress Bar beim Onboarding — zeige Nutzer, wie weit sie bereits sind
+
+**Parkinson's Law (Cyril Northcote Parkinson, 1955):**
+> „Any task will inflate until all of the available time is spent."
+
+- Ursprung: Humorvoller Essay in **The Economist** (1955), später veröffentlicht als „Parkinson's Law: The Pursuit of Progress" (London, John Murray, 1958)
+- Abgeleitet aus Parkinson's Erfahrung im British Civil Service
+- **Takeaway 1**: Die Zeit, die Nutzer für eine Aufgabe benötigen, auf das beschränken, was sie erwarten
+- **Takeaway 2**: Die tatsächliche Dauer einer Aufgabe unter die erwartete Dauer zu senken verbessert die gesamte User Experience
+- Interface-Anwendung: Formulare, Checkout-Prozesse kürzer gestalten als erwartet → positive Überraschung
+
+**Pareto-Prinzip / 80/20-Regel (Vilfredo Pareto):**
+> „For many events, roughly 80% of the effects come from 20% of the causes."
+
+- Ursprung: Ökonom Vilfredo Pareto beobachtete, dass **80 % des Landes in Italien** 20 % der Bevölkerung gehören
+- **Takeaway 1**: Inputs und Outputs sind häufig ungleich verteilt
+- **Takeaway 2**: Eine große Gruppe enthält oft nur wenige wirklich bedeutende Beiträge zum Ergebnis
+- **Takeaway 3**: Den Großteil der Entwicklungsarbeit auf die Features konzentrieren, die den **größten Nutzen für die meisten User** bringen
+- UX-Anwendung: Progressive Disclosure — 80 % der Nutzer brauchen nur 20 % der Features → wichtigste Features priorisieren (Verbindung zu Hick's Law + Action Priority Matrix)
+
+**Postel's Law — Robustness Principle (Jon Postel):**
+> „Be liberal in what you accept, and conservative in what you send."
+
+- Ursprung: Jon Postel, Early Pioneer of the Internet — Design Guideline für Software (TCP/Networks): „TCP implementations should follow a general principle of robustness: be conservative in what you do, be liberal in what you accept from others."
+- **Takeaway 1**: Empathisch, flexibel und tolerant gegenüber den verschiedenen Aktionen und Eingaben des Nutzers sein
+- **Takeaway 2**: Nahezu alles im Hinblick auf Input, Zugang und Fähigkeiten antizipieren, dabei ein zuverlässiges und zugängliches Interface bieten
+- **Takeaway 3**: Je mehr man antizipieren und im Design einplanen kann, desto robuster das Design
+- **Takeaway 4**: Variable Nutzereingaben akzeptieren, in eigene Anforderungen übersetzen, klares Feedback geben
+
+**Doherty Threshold (Walter J. Doherty & Ahrvind J. Thadani, 1982):**
+> „Productivity soars when a computer and its users interact at a pace (<400ms) that ensures that neither has to wait on the other."
+
+- Ursprung: 1982 veröffentlichten Doherty & Thadani im **IBM Systems Journal** eine Forschungsarbeit, die die Anforderung für Computer-Antwortzeit auf **400 ms** (statt früher 2000 ms) setzte
+- Wenn ein Befehl in unter 400 ms ausgeführt wurde, galt dies als „Doherty Threshold überschritten" — solche Anwendungen wurden als „addictive" bezeichnet
+- **Takeaway 1**: System-Feedback innerhalb von **400 ms** geben, um Aufmerksamkeit und Produktivität zu erhalten
+- **Takeaway 2**: Perceived Performance nutzen, um Antwortzeit zu verbessern und Wartewahrnehmung zu reduzieren
+- **Takeaway 3**: Animation ist eine Möglichkeit, Nutzer visuell zu beschäftigen während Laden/Verarbeitung im Hintergrund stattfindet
+- **Takeaway 4**: Progress Bars machen Wartezeiten tolerabler — unabhängig von ihrer Genauigkeit
+- **Takeaway 5**: Gezieltes Hinzufügen einer Verzögerung kann den wahrgenommenen Wert erhöhen und Vertrauen stärken (auch wenn der Prozess eigentlich schneller ist)
+
+**TIME: THE POWER OF 10 (Nielsen, 2009):**
+- **0,1 Sekunden** = Limit für direktes Aktionsgefühl — Nutzer hat das Gefühl, die Aktion direkt verursacht zu haben
+- **1 Sekunde** = Computer erscheint als Verursacher des Ergebnisses — kurze Verzögerung wahrnehmbar, aber Fokus bleibt erhalten
+- **10 Sekunden** = Flow bricht ab — Nutzer verliert den Fokus; Aufmerksamkeit wird von der Aufgabe abgelenkt
+
+**Cheating the Perception of Time:**
+- Pulsende / animierte Progress Bars werden als **schneller** wahrgenommen als statische (auch bei gleicher tatsächlicher Dauer)
+- Chunked progress (in Segmente aufgeteilt) → angenehmer als linearer Fortschritt
+
 ---
 
 ### 5. Redundante Kodierung (z. B. für Farbfehlsichtigkeit)
