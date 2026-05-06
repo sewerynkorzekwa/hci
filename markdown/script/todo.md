@@ -16,9 +16,9 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 61–80
-- **Zuletzt gelesen:** 41–60
-- **Achtung:** (Proto-)Persona Kapitel hat begonnen (Folie 120) — Details kommen in 61–80
+- **Nächste Seiten:** 81–100
+- **Zuletzt gelesen:** 61–80
+- **Achtung:** User Research / Contextual Inquiry Kapitel begonnen (Folie ~153) — Details kommen in 81–100
 
 ---
 
@@ -38,6 +38,16 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 - Gruppe A, 3: UX vs. Usability ✅ vollständig
 - Gruppe B, 6: Konsistenz-Prinzip ✅
 - Gruppe B, 7: Interaction Design Prinzipien ⚠️ (Prinzip #7 fehlt noch)
+
+### Iteration 4 — Seiten 61–80 (Folien ~121–160)
+**Inhalt:** Persona vollständig erklärt (fictional archetypical user, goals/backgrounds/behaviors/utilization). Warum Personas (consensus-building, anti self-referential design, Cooper 2004). Primary vs. Secondary Persona. Proto-Persona vs. Validierte Persona (Annahmen vs. empirische Daten). Prince Charles/Ozzy Osbourne Beispiel (gleiche Demografie ≠ gleiche Designanforderungen). Scenarios (Persona + Context + Goals): Ist-Szenario vs. Soll-Szenario. User Research: Zielsetzung, Methoden. Annahmen-Board / Annahmen-Map (Impact × Unsicherheit). Contextual Inquiries Definition + Funktionsweise + Job Shadowing (GOOB).
+
+**Beantwortete/ergänzte Fragen:**
+- Gruppe A, 9: Contextual Inquiries ✅ vollständig
+- Gruppe B, 1: Proto-Persona und Persona ✅ vollständig
+- Gruppe C, 3: Persona / Proto-Persona ✅ (Kurzfassung)
+- Aufgabe 9: Contextual Inquiries ✅
+- Aufgabe 14: »Proto« vor Artefakten ✅
 
 ### Iteration 3 — Seiten 41–60 (Folien ~81–120)
 **Inhalt:** Abschluss 7 Prinzipien (Prinzip 7: Flexibility). Widerspruch Simplicity vs. Visibility. Discoverability-Konzept. Collaborative UX Design Prozess (Double Diamond, 3 Phasen: Understand/Explore/Deliver). Gegen Wasserfall — lineares Modell vs. iteratives. Scoping-Workshop: Proto-Problem Statement, Proto-Persona, Proto-Journey. Problem Statement Vorlage. „Who is the user?" Einstieg Proto/Persona.

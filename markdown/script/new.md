@@ -75,6 +75,30 @@ Die Disziplinen sind konzentrisch ineinander verschachtelt — von innen nach au
 
 ### 9. Contextual Inquiries mit Beispiel
 
+**Quelle:** Folien 153–160 (User Research Kapitel)
+
+**Definition:**
+> „Contextual inquiry is a type of ethnographic field study that involves in-depth observation and interviews of a small sample of users to gain a robust understanding of work practices and behaviors."
+
+**Kernprinzip:** *Inquiry in Context* — Forschung findet in der natürlichen Umgebung der Nutzer statt.
+
+**Zwei Komponenten (Site Visits):**
+- **Observation**: Forscher beobachtet Nutzer bei der Arbeit in ihrer gewöhnlichen Umgebung (Büro, Zuhause, …)
+- **Interview**: Forscher fragt nach, um zu verstehen wie und warum Nutzer das tun, was sie tun
+
+**Wofür besonders geeignet:** Komplexe Systeme, tiefe Prozesse, Expertenperspektive
+
+**Job Shadowing:** Spezialform — Forscher wird zum „Schatten" des Nutzers und begleitet ihn bei der Arbeit (GOOB = Get Out Of The Building!). Beobachtet: Wo findet Arbeit statt, welche technische Infrastruktur, Workarounds, Arbeitsschritte, Ablenkungen, Fachbegriffe, Zeitdruck, Rolleninteraktionen.
+
+**Einbettung in User Research:**
+- Ziel: aktuelle Situation von Nutzern durch Beobachtungen + Interviews erheben, Annahmen validieren
+- Andere Methoden: Tagebücher, Befragungen, Interviews
+- **Annahmen-Map** (vorher): zeigt Impact und Unsicherheit von Annahmen → priorisiert, welche Annahmen im Contextual Inquiry geklärt werden müssen (Fokus: hohe Auswirkung + hohe Unsicherheit)
+
+**Beispiel:** Forscher begleitet einen Fabrikarbeiter an einer CNC-Maschine — beobachtet, welche Tastenkombinationen er sucht, welche Workarounds er entwickelt hat, wann er unter Zeitdruck arbeitet → versteht Nutzer:in ↔ Kontext ↔ Ziel
+
+**Hartson & Pyla (2020):** „Getting your nose in the customer's tent"
+
 ---
 
 ### 10. Vorgehensmodell – menschzentriert / ISO – Gemeinsamkeiten und Unterschiede
@@ -88,6 +112,56 @@ Die Disziplinen sind konzentrisch ineinander verschachtelt — von innen nach au
 ## Gruppe B
 
 ### 1. Proto-Persona und Persona
+
+**Quelle:** Folien 121–131
+
+#### Persona
+
+> **Fictional, archetypical user: needs and goals are representative for the target audience**
+
+Eine Persona-Beschreibung umfasst:
+- **Goals, personal backgrounds, depiction of behaviors, utilization patterns** relevant to an interactive system
+
+**Warum Personas?**
+- Consensus-building zwischen Stakeholdern — implizite Vorannahmen werden aufgedeckt
+- Ziel: Software an Nutzerbedürfnisse anpassen (nicht umgekehrt)
+- Gegengewicht zu **self-referential design** (Designerfokus statt Nutzerfokus)
+- „Personas help to end feature debates" (Cooper, 2004)
+- Keine abstrakten „elastic user concepts" — stattdessen konkrete Repräsentationen archtypischer Nutzer
+
+**Primary vs. Secondary Persona:**
+- **Primary Persona**: Eine Persona pro Interface — das Produkt soll primär auf sie ausgerichtet sein (ohne andere auszuschließen)
+- **Secondary Persona**: Wäre vollständig zufrieden, wenn noch kleinere zusätzliche Attribute erfüllt wären; das Interface erfordert für sie zusätzliche Aktionen, ist aber für die Primary Persona leichter erlernbar
+
+**Personas erstellen:** Durch Beobachtung und Interviews — Ziele, Aktivitäten, Tasks, Häufigkeit, Bildung, Computer-Affinität, Einstellung zur Technologie, Lernmotivation → Brainstorming mit Stakeholdern → Ableitung von Primary Personas
+
+#### Proto-Persona
+
+> **Modeled, archetypical users — based on assumptions and subjective perceptions of the development team**
+
+- Repräsentiert **Annahmen** über hypothetische archetypische User für eine bestimmte Nutzergruppe
+- Typisch in Rohform präsentiert
+- Sammelt und strukturiert Annahmen über User — Validierung ist verschoben (aber darf nicht vergessen werden!)
+- **Negative Personas**: machen deutlich, für wen man **nicht** designed
+
+**Proto-Persona Template:**
+| Bereich | Inhalt |
+|---|---|
+| Name, Quote | Kurzes Zitat |
+| Person & Workplace | Alter, Experience level, Beruf, Job-Beschreibung, Computer-Erfahrung, Arbeitsplatz, Hardware |
+| Tasks | Tägliche Aufgaben, typischer Workflow, Team/Kommunikation, Kontext anderer Tasks |
+| Pain Points | Negative Aspekte, Workarounds, Wünsche/Anfragen |
+| Goals & Needs | Ziele des Nutzers |
+
+#### Proto-Persona vs. Validierte Persona
+
+| | Proto-Persona | Validierte Persona |
+|---|---|---|
+| Basis | Annahmen, subjektive Wahrnehmung des Teams | Empirische Forschungsergebnisse |
+| Realitätsbezug | Hypothetisch, Merkmale = temporäre Annahme | In der Realität verankert, glaubwürdig |
+| Entstehung | Workshopbasiert (Entwurf) | Empirische Feldforschung + Gruppierung ähnlicher Proto-Personas |
+
+**Wichtig (Prince Charles / Ozzy Osbourne Beispiel):** Zwei Personen können identische demografische Daten haben (Jahrgang 1948, England, verheiratet, reich, Kinder, mag Hunde) — aber völlig unterschiedliche Designanforderungen haben. → Auf **relevante Attribute** kommt es an, nicht auf demografische Ähnlichkeit!
 
 ---
 
@@ -192,6 +266,12 @@ Discoverability ist eine Komponente von Learnability. Beispiel: Viele iOS-Gesten
 
 ### 3. Persona / Proto-Persona
 
+→ Siehe Gruppe B, Frage 1 (vollständige Antwort dort)
+
+**Kurzfassung:**
+- **Proto-Persona**: Annahmenbasiert, hypothetisch, vom Team erstellt, Entwurfscharakter — basiert auf subjektiven Wahrnehmungen
+- **Persona (validiert)**: Empirisch, auf echter Feldforschung basierend, in der Realität verankert
+
 ---
 
 ### 4. Heuristiken (2 erläutern)
@@ -258,6 +338,10 @@ Discoverability ist eine Komponente von Learnability. Beispiel: Viele iOS-Gesten
 
 ### 9. Contextual Inquiries mit Beispiel
 
+→ Siehe Gruppe A, Frage 9 (vollständige Antwort dort)
+
+**Zusatz für Aufgabe:** Typisches Beispiel aus Vorlesung — Forscher begleitet Fabrikarbeiter an CNC-Maschine und beobachtet echte Arbeitsabläufe, Workarounds und Nutzungsmuster (Job Shadowing / GOOB = Get Out Of The Building).
+
 ---
 
 ### 10. Unterschied Sketches und Wireframes
@@ -277,6 +361,20 @@ Discoverability ist eine Komponente von Learnability. Beispiel: Viele iOS-Gesten
 ---
 
 ### 14. »Proto« vor verschiedenen Artefakten — was bedeutet das?
+
+**Quelle:** Folien 120–131 (Proto-Persona), Folien 100–106 (Scoping Workshop)
+
+Das Präfix **„Proto"** vor einem Artefakt signalisiert:
+
+> **Annahmenbasiert, noch nicht validiert — ein Entwurf, der auf subjektiven Wahrnehmungen des Teams basiert und auf Validierung wartet**
+
+| Artefakt | Was es ist | Was „Proto" bedeutet |
+|---|---|---|
+| **Proto-Persona** | Archetypischer Nutzer | Basiert auf Team-Annahmen, nicht auf Feldforschung; Validierung ist aufgeschoben |
+| **Proto-Problem Statement** | Problembeschreibung | Erste Hypothese über das Problem, noch nicht durch Research bestätigt |
+| **Proto-Journey** | User Journey Map | Angenommener Ablauf des Nutzers, noch nicht aus echten Daten gewonnen |
+
+**Kerngedanke:** Proto-Artefakte sind **Werkzeuge zum schnellen Starten** — sie strukturieren Annahmen, die dann durch echte User Research (z. B. Contextual Inquiries) validiert werden. Wichtig: Validierung darf nicht vergessen werden!
 
 ---
 
