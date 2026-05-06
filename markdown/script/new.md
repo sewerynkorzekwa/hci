@@ -502,6 +502,43 @@ Umliegende Elemente verstärken die Affordance eines Buttons — z. B. das Muste
 
 ### 8. Prototyp – MVP
 
+→ Vollständige Vergleichstabelle: Gruppe B, Frage 2
+
+**Quelle:** Folien 831–837
+
+**MVP — Definition (Folie 834):**
+> „The smallest possible thing we can build to fulfill the **basic narrative** and **delight the users**."
+
+- **Narrative-complete, not feature-complete** — nicht alle Features, aber eine vollständige Story
+- Ziel: Marktfeedback einholen, implizite Annahmen validieren, Features priorisieren
+
+**MVP Pyramide (Folie 832) — von unten nach oben:**
+```
+BEDEUTUNGSVOLL
+BEGEISTERND
+PRAKTISCH
+BENUTZBAR
+ZUVERLÄSSIG
+FUNKTIONAL  ← MVP = Core Features Done Right
+```
+→ MVP ≠ „Lots of Features Done Poorly" → MVP = „Core Features Done Right"
+
+**MVP vs. Prototyp (Folie 837):**
+
+| | Prototyp | MVP (= Erstes Release eines Produktes) |
+|---|---|---|
+| **Zweck** | Schnell & günstig, erlebbar, anschaulich, inspirierend, Identifikation von Usabilitybarrieren, kommunikativ | Erhebung von Kundenfeedback, Validieren (impliziter) Annahmen, Priorisierung von Features, technische + wirtschaftliche Produktvalidierung, Überprüfung von Marktreaktionen |
+| **Vollständigkeit** | Bewusst unvollständig — kein echter Release | Minimal vollständig — erster Release des Produkts |
+| **Zielgruppe** | Testnutzer im kontrollierten Rahmen | Echte Kunden im Markt |
+
+**Richtige MVP-Analogie (Folie 835):**
+- Falsch: Reifen → Fahrgestell → Karosserie → Auto (nie nutzbar während der Entwicklung)
+- Richtig: Skateboard → Roller → Fahrrad → Motorrad → Auto (in jeder Stufe nutzbar und Feedback liefernd)
+
+**Minimum Viable vs. Minimum Lovable (Folie 836):**
+- MVP = Kuchen ohne Dekoration (funktional, aber nicht verführerisch)
+- MLP (Minimum Lovable Product) = liebevoll dekorierter Cupcake (minimal, aber begeisternd)
+
 ---
 
 ### 9. Contextual Inquiries mit Beispiel
@@ -830,6 +867,42 @@ Sketches (Lo-Fi) → Wireframes (Lo-Fi/Mid) → Visual Design/Mockup (Hi-Fi)
 
 → Ein Prototyp ist ein Werkzeug zum **Lernen über Design**; ein MVP ist ein Werkzeug zum **Lernen über Märkte**.
 
+**Formale Definitionen (Folie 837):**
+
+**Prototyp (≠ Evolutionärer Prototyp):**
+- Schnell & günstig, erlebbar, anschaulich, inspirierend
+- Identifikation von Usabilitybarrieren
+- Kommunikativ & aussagekräftig
+- (Überzeugung von Stakeholdern)
+
+**MVP (= Erstes Release eines Produktes):**
+- Erhebung von Kundenfeedback
+- Validieren (impliziter) Annahmen
+- Priorisierung von Features
+- Technische Produktvalidierung
+- Wirtschaftliche Produktvalidierung
+- Überprüfung von Marktreaktionen
+
+**MVP Pyramide (Folie 832) — von unten nach oben:**
+```
+BEDEUTUNGSVOLL
+BEGEISTERND
+PRAKTISCH
+BENUTZBAR
+ZUVERLÄSSIG
+FUNKTIONAL  ← MVP = Core Features Done Right
+```
+→ MVP ist nicht „Lots of Features Done Poorly" sondern „Core Features Done Right"
+
+**MVP-Definition (Folie 834):**
+> „The smallest possible thing we can build to fulfill the **basic narrative** and **delight the users**."
+- Narrative-complete, not feature-complete
+- Ziel: Marktfeedback einholen + implizite Annahmen validieren
+
+**Richtige MVP-Analogie (Folie 835):**
+- Falsch: Reifen → Fahrgestell → Karosserie → Auto (nie nutzbar während Entwicklung)
+- Richtig: Skateboard → Roller → Fahrrad → Motorrad → Auto (immer nutzbar + Feedback liefernd)
+
 ---
 
 ### 3. Fitts'sches Gesetz mit Beispiel
@@ -930,6 +1003,92 @@ Time (in msec) = a + b · log₂(D / W + 1)
 - Neutral aufzeichnen was gesagt wurde (keine Interpretation)
 - Nur der Moderator spricht; Note-Taker ist im Hintergrund
 - Statements werden den jeweiligen Tasks und Screens zugeordnet
+
+---
+
+**Wie viele Teilnehmer? (Folien 801–803):**
+
+- Häufige Empfehlung: ca. **5 Teilnehmende**
+- Mit 5 Probanden werden **85% der Usability-Probleme** festgestellt
+- Ab dem 6. Proband nimmt der **Lerneffekt ab** — es werden zunehmend dieselben Probleme entdeckt
+- Nielsens eigentliche Empfehlung: **3 iterative Testings à 5 Teilnehmende** statt einmalig 15
+- Anzahl hängt ab von: Ziel (Summativ vs. Formativ), Komplexität des Systems, Anzahl Nutzergruppen, Fehlertoleranz
+- Mehr Nutzergruppen → mehr Teilnehmende nötig
+
+**Onion Model — Mehrmals Testen (Folie 802):**
+- Usability-Probleme können **einander verdecken**
+- Erst wenn manche Probleme beseitigt sind, können andere entdeckt werden
+- → Mit wenigen Probanden **mehrere Testings** stufenweise durchführen (nach Behebung von Problemen neu testen)
+
+**Zeitplan (Folie 804):**
+- Test-Session: **30–45 Minuten** Dauer
+- Mindestens **15 Minuten Puffer** zwischen Sessions einplanen
+
+**Rollen & Setup (Folie 805):**
+- **Proband**: Testperson, arbeitet allein am System
+- **Moderator**: Leitet die Session, stellt Aufgaben, interagiert mit Probanden
+- **Note Taker**: Protokolliert im Hintergrund, spricht nicht mit Probanden
+- Keine „prüfungsähnlichen" Situationen schaffen
+- Reduziere unmittelbare Teilnehmende auf Proband + Moderator + Note Taker
+
+**Geführter vs. Ungeführter Test (Folie 808):**
+
+| | Geführter (moderierter) Test | Ungeführter (unmoderierter) Test |
+|---|---|---|
+| **Befragung** | Möglich — Gründe für Verhalten nachvollziehbar | Nicht möglich |
+| **Hilfestellung** | Möglich | Nicht möglich |
+| **Kosten** | Günstig (wenige Probanden reichen) | Teuer (hunderte Tests für repräsentative Ergebnisse) |
+| **Forschungsfragen** | Gezielte Abfrage möglich | Keine situationsbedingte Befragung |
+
+**Usability-Test in 3 Phasen (Folie 808):**
+
+| Phase | Inhalte |
+|---|---|
+| **1. Vorbereitung** | Scoping & Analyse, Testaufgaben, Leitfaden/Moderationsskript, Teilnahmeerklärung, Issue Map, Pre-Test |
+| **2. Durchführung** | Moderation, Beobachtung der Probanden, Protokollierung der Erkenntnisse |
+| **3. Auswertung** | Konsolidierung & Digitalisierung der Erkenntnisse, Bewertung der Ergebnisse, Testbericht, Priorisierung von Optimierungsmöglichkeiten |
+
+**Bewertung von Usability-Problemen — 5 Schwere-Klassen (Folien 811–812):**
+
+**Drei Bewertungsfragen:**
+1. Betrifft das Problem eine **kritische Aufgabe**? (wichtigste Aufgaben → betreffen meiste Benutzer:innen)
+2. Ist das Problem **schwierig zu überwinden**? (schwer lösbar → Erfolgsrate sinkt, Ziele werden nicht erreicht)
+3. Ist das Problem **persistent**? (Nutzer werden wiederholt gestört, auch wenn sie davon wissen)
+
+**Fünf Klassen:**
+
+| Klasse | Beschreibung |
+|---|---|
+| **Schwerwiegend** | Massives Problem, nachhaltig negative Konsequenzen, kann zu Bearbeitungsabbruch führen. **Dringend beseitigen.** |
+| **Moderat** | Deutlich behindernd, steht positiver UX entgegen. **Prioritäre Behebung empfohlen.** |
+| **Geringfügig** | Kosmetisches Problem. Behebung empfohlen, aber niedrige Priorität. |
+| **Positiv** | Aspekte, die positiv aufgefallen sind und beibehalten werden sollen. |
+| **Beobachtung** | Neutrale Erkenntnisse über System/Fachdomäne (z. B. typische Nutzeranforderungen, Konkurrenzlösungen). |
+
+**Häufigkeit von Beobachtungen (Folie 813):**
+- Usability Tests sind qualitative Methoden → keine statistische Signifikanz
+- Häufigkeit wird symbolisch angegeben (nicht exakt): KEINE:R / EIN:E / EINIGE / VIELE / ALLE
+- Bei der Priorisierung: **Schweregrad und Aufgaben-Wichtigkeit** stärker gewichtet als bloße Häufigkeit
+
+**Heuristische Evaluation vs. Usability Testing — Vergleich (Folie 810):**
+
+| | Heuristische Evaluation | Usability Testing |
+|---|---|---|
+| **Kosten** | Günstig & flexibel | Aufwändiger & teurer |
+| **Geeignet für** | Einfache Domänen, frühe Stadien | Ausgereifte & komplexe Designs |
+| **Probleme** | Weniger als beim UT | Mehr Probleme gefunden |
+| **False Positives** | Gefahr der Überbewertung | Weniger False Positives |
+| **Nutzer** | Keine echten Nutzer | Reale Nutzer — oft eine Überraschung |
+| **Repräsentativität** | Nicht für echte Nutzer repräsentativ | Repräsentativ für reale User |
+| **Wichtig** | KEIN ERSATZ FÜR USABILITY TESTING | — |
+
+**Empfehlung (Folie 809):** Expert Review & Usability Testing kombinieren:
+- Frühe Stadien → Expert Reviews (HE)
+- Ausgereifte, komplexe Designs → Usability Testing mit repräsentativen Nutzern
+- Expert Review als **Vorbereitung** des Usability Tests (Vorhersage möglicher Probleme → Auswahl von Tasks)
+
+**Action Priority Matrix für Findings (Folie 822):**
+→ Vollständig unter Gruppe B, Frage 9
 
 ---
 
@@ -1127,8 +1286,6 @@ Das Hick'sche Gesetz besagt: Die Zeit für eine Entscheidungsfindung wächst als
 
 **Visuelle Priorisierung (Folien 484–488) — ergänzende Designprinzipien:**
 
-*(Hinweis: Die Priorisierungsmatrix im UX-Sinne = Impact × Unsicherheit / Effort-Wert-Matrix — folgt auf späteren Seiten. Folien 484–488 behandeln visuelle Priorisierung im Interface-Design.)*
-
 **Priorisierung: Visuell (Folie 485):**
 > Informationen visuell priorisieren — wichtigere Inhalte sollen stärker hervortreten.
 
@@ -1141,6 +1298,42 @@ Das Hick'sche Gesetz besagt: Die Zeit für eine Entscheidungsfindung wächst als
 - Ohne Priorisierung: alles gleichwertig — schwer zu lesen
 - Mit Priorisierung: Schlüsselelement (roter Balken, roter Text) sofort erkennbar
 - Verbindung zu Pop-Out Effekt (Gestalt) und Focal Point
+
+---
+
+**Action Priority Matrix — Priorisierung von Findings (Folie 822):**
+
+> Nach einem Usability-Test werden Findings nach **Impact** (Wirkung) und **Effort** (Aufwand zur Behebung) eingeordnet.
+
+**Vier Felder:**
+
+| | **Hoher Impact** | **Geringer Impact** |
+|---|---|---|
+| **Hoher Effort** | **MUST HAVES (YES!)** — trotz Aufwand priorisieren | **MONEY PITS (NO!)** — vermeiden |
+| **Geringer Effort** | **LOW HANGING FRUITS (YES!)** — sofort umsetzen | **QUICK WINS (MAYBE)** — optional |
+
+→ **Low Hanging Fruits** (hoher Impact, geringer Aufwand) haben höchste Priorität.
+→ **Money Pits** (geringer Impact, hoher Aufwand) sollen vermieden werden.
+
+---
+
+**Priorisierungsmatrix für MVP-Features (Folien 838–839):**
+
+> Welche Features soll ein MVP haben?
+
+**Drei Leitfragen (Folie 838):**
+1. Welche **Businessziele** werden durch das Produkt unterstützt?
+2. Welche **Nutzerziele** werden durch das Produkt unterstützt?
+3. Mit welchem **Umsetzungsaufwand** rechnen wir?
+
+Abgeleitet aus: Problemstatement, Konzeptideen, Aufwandsabschätzung.
+
+**Aufbau der Matrix (Folie 839):**
+- Zeilen: Features (z. B. „Mehr verwendbare Bundles", „Reduktion von Ablenkungen", „Effiziente Erfassung")
+- Spalten: Kriterien (Gewichtung der Businessziele, Gewichtung Kundenneutzen, Gruppenleistungen, Übernahme von Formularen, Kürzlich verwendete Lösungen, Projektbudget)
+- Zeilen-Summe: Punkte für Kundennutzen / Aufwand → Gesamtpunkte → Priorität
+
+> **Hinweis:** „Die Priorisierungsmatrix gibt einen heuristischen Eindruck wieder!"
 
 ---
 
@@ -1480,6 +1673,47 @@ Wer zu früh zu viel in Visual Design investiert, fällt in die Sunk Cost Fallac
 ---
 
 ### 10. System Usability Scale (SUS)
+
+**Quelle:** Folien 815–819 (Brooke, 1996; Sauro, 2011)
+
+**Definition:**
+> Die System Usability Scale (SUS) ist ein branchenweit etablierter, standardisierter Fragebogen zur Messung der subjektiv wahrgenommenen Usability eines interaktiven Systems.
+
+**Eigenschaften:**
+- **10 Items** (Aussagen), die auf einer 5-Punkte-Likert-Skala bewertet werden (Stimme gar nicht zu → Stimme voll zu)
+- **Technologieunabhängig** — kann bei jedem System (Software, Hardware, Web, App) eingesetzt werden
+- **Robust bei kleinen Stichproben** — funktioniert auch bei wenigen Probanden
+- **Kann bei jedem Reifegrad** des Systems verwendet werden
+
+**Skalierung:**
+- SUS-Score zwischen **0 und 100**
+- **68** gilt als **Mittelwert** / Benchmark (basierend auf umfassenden Benchmark-Daten, Sauro 2011)
+
+**Interpretation der Werte (Folie 817):**
+
+| Bereich | Bewertung | Akzeptabilität |
+|---|---|---|
+| 0–51 | Sehr schlecht / Schlecht | Nicht akzeptabel |
+| 51–68 | Okay | Grenzwertig |
+| 68–80 | Gut | Akzeptabel |
+| 80–90 | Exzellent | Akzeptabel |
+| 90–100 | Perfekt | Akzeptabel |
+
+**Beispiel (Folie 817):**
+- Mobile-Variante: SUS-Score **74** (SD=10,3, n=4) → **gut** eingestuft, über Benchmark
+- Desktop-Variante: SUS-Score **85,6** → **exzellent**
+
+**Alternative: UMUX-Lite (Folien 818–819):**
+> Kürzere Alternative zum SUS — nur **2 Fragen** statt 10.
+
+- Geeignet für **Online-Befragungen** oder als Ergänzung zu anderen Fragebögen
+- Hohe **Korrelation zum SUS** (r = 0,83) → erlaubt potentiellen SUS-Wert vorherzusagen
+- Misst zwei Dimensionen separat: **Usefulness** und **Usability**
+- Beispiel: UMUX-Lite Score 80,09 → vorhergesagter SUS-Wert: 74 → „gut"
+
+**Einordnung in UX Evaluation Methods Matrix:**
+- SUS / UMUX-Lite = **Opinion + Quantitativ** (Questionnaire-Zelle in der Matrix)
+- Typisch kombiniert mit Usability Testing (Behavior + Qualitativ) → **Triangulation**
 
 ---
 
@@ -2207,9 +2441,12 @@ Warum: Fällt ein Kanal aus (z. B. Farbfehlsichtigkeit, S/W-Druck, schlechte Bel
 - Wird im formativen Usability-Test erhoben; auch Basis für summative Baseline-Messung
 - Gehört zur ISO-Metrik **Effektivität**
 
-**Ergänzend: Zufriedenstellung**
-- Wird oft mit dem **SUS (System Usability Scale)** gemessen — standardisierter 10-Item-Fragebogen, Skala 0–100
-- SUS-Score > 68 gilt als überdurchschnittlich; < 51 als schlecht
+**Ergänzend: Zufriedenstellung — SUS (Folien 815–817)**
+- Wird mit dem **SUS (System Usability Scale)** gemessen — standardisierter 10-Item-Fragebogen (Brooke, 1996)
+- Skala: **0–100**, Benchmark-Mittelwert: **68**
+- < 51: schlecht / nicht akzeptabel; 68–80: gut / akzeptabel; > 80: exzellent
+- Technologieunabhängig, robust bei kleinen Stichproben, bei jedem Reifegrad einsetzbar
+- Alternative: **UMUX-Lite** (2 Fragen, Korrelation r=0,83 zum SUS) für Online-Befragungen
 
 **UX Evaluation Methods Matrix (Folie 778):**
 
@@ -2352,6 +2589,42 @@ Sketches verhindern die **Sunk Cost Fallacy**: Wer zu früh in Pixelarbeit inves
 ---
 
 ### 11. Unterschied Stakeholder und User
+
+**Quelle:** ISO 9241-11 (2018), ISO 9241-210, Vorlesung Iteration 2 (Folien 41–80)
+
+**User (Nutzer:in):**
+> Person, die direkt mit dem interaktiven System interagiert — das System bedient, steuert oder nutzt.
+
+- Steht im Mittelpunkt der **Usability-Definition** (ISO 9241-11): „specific users"
+- Hat konkrete **Aufgaben** (Tasks), die mit dem System erledigt werden
+- Erlebt Effektivität, Effizienz und Zufriedenstellung direkt bei der Nutzung
+- Beispiel: Die Buchhalterin, die eine Zeiterfassungs-App nutzt
+
+**Stakeholder:**
+> Jede Person oder Gruppe, die ein Interesse am System hat oder von ihm betroffen ist — unabhängig davon, ob sie das System direkt nutzt.
+
+- Kann **Nutzer:innen einschließen**, ist aber weiter gefasst
+- Umfasst auch: Auftraggeber, Geschäftsführung, Projektbeteiligte, Entwickler, Regulierungsbehörden, indirekt Betroffene
+- Hat **eigene Ziele** (Geschäftsziele, wirtschaftliche Interessen, Compliance-Anforderungen), die sich von Nutzerzielen unterscheiden können
+
+**Unterschied (Tabelle):**
+
+| Merkmal | User | Stakeholder |
+|---|---|---|
+| **Direkter Kontakt mit dem System** | Ja — interagiert unmittelbar | Nicht zwingend |
+| **Primäres Interesse** | Aufgaben effizient erledigen | Businessziele, wirtschaftlicher Erfolg, Compliance |
+| **Einfluss auf Design** | Zentral (User Research, Testing) | Wesentlich (Auftraggeber, Anforderungen) |
+| **Beispiele** | Endnutzer, Sachbearbeiterin, Kunde | CEO, Produktmanager, Rechtsabteilung, Investoren |
+
+**ISO 9241-11 (2018) — Neuerung: Stakeholder-Ziele:**
+> Die 2018er Revision erweiterte die Usability-Definition explizit um **Stakeholder-Ziele** — nicht nur Nutzerziele, sondern auch organisationale und gesellschaftliche Ziele werden berücksichtigt.
+
+**Warum der Unterschied relevant ist:**
+- Nutzer wollen **einfache, effiziente Nutzung**
+- Stakeholder wollen **Geschäftsziele erfüllen** (z. B. Umsatz, Compliance, Kosten)
+- **Zielkonflikte** sind möglich: Was für Stakeholder vorteilhaft ist (z. B. Datenerhebung), kann die User Experience beeinträchtigen
+- Gutes UX Design balanciert: **User ↔ Technik ↔ Ökonomie ↔ Ökologie**
+- „Nutzerzentrierung is a lie" → echter Anspruch: **Menschzentrierte Gestaltung** (human-centered), die alle betroffenen Parteien einbezieht
 
 ---
 
