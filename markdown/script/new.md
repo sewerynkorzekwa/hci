@@ -721,6 +721,23 @@ Discoverability ist eine Komponente von Learnability. Beispiel: Viele iOS-Gesten
 
 ### 9. Priorisierungsmatrix
 
+**Visuelle Priorisierung (Folien 484–488) — ergänzende Designprinzipien:**
+
+*(Hinweis: Die Priorisierungsmatrix im UX-Sinne = Impact × Unsicherheit / Effort-Wert-Matrix — folgt auf späteren Seiten. Folien 484–488 behandeln visuelle Priorisierung im Interface-Design.)*
+
+**Priorisierung: Visuell (Folie 485):**
+> Informationen visuell priorisieren — wichtigere Inhalte sollen stärker hervortreten.
+
+**Priorisierung: Hierarchie (Folie 486):**
+- Durch **Kontrast** (dunkle vs. helle Elemente), **Größe** und **Gewicht** (Schriftstärke)
+- Wichtige Elemente: dunkel, groß, fett — unwichtigere Elemente: heller, kleiner, dünner
+
+**Priorisierung: Auszeichnung (Folie 487–488):**
+- Gezielter Farbeinsatz für die **wichtigsten Elemente** (z. B. kritischer Messwert im Dashboard)
+- Ohne Priorisierung: alles gleichwertig — schwer zu lesen
+- Mit Priorisierung: Schlüsselelement (roter Balken, roter Text) sofort erkennbar
+- Verbindung zu Pop-Out Effekt (Gestalt) und Focal Point
+
 ---
 
 ### 10. Nähe-Gesetz Definition mit Zeichnung
@@ -1081,13 +1098,46 @@ Die Heuristik ist direkt aus der menschlichen Wahrnehmungspsychologie abgeleitet
 - → Label wird dem Feld eindeutig zugeordnet
 - → Gruppe (Label + Feld) wird durch größeren Abstand zum nächsten Label-Feld-Paar deutlich
 
+**Farbkonventionen (kognitive Ebene, Folie 505–507):**
+
+> „Eine (kognitive) Ebene höher: Farbkonventionen"
+
+Gelernte Farbkonventionen beeinflussen, **wie Nutzer Interfaces interpretieren** — unabhängig von Gestaltgesetzen:
+- **Grün = OK / Erfolg**, **Rot = Fehler / Gefahr** (westliche Konvention)
+- Gegenbeispiel (Folie 505): Dialog „Delete All Records" — Yes-Button = grün, No-Button = rot
+  → Grün suggeriert „alles gut" — aber die Aktion ist destruktiv. Konvention widerspricht Intention!
+- Weitere Beispiele:
+  - Fehlermeldung in gelbem Banner + Ausrufezeichen → wirkt wie Warnung, nicht Fehler
+  - Grüner Haken + grüner Text → wird als Erfolg erkannt → beste Kommunikation
+
+**Regeln für Farbzurückhaltung (Folie 520):**
+- **Wenige Farben** — Signalfarben reservieren für wichtige Aufmerksamkeitssteuerung
+- **Vorsicht mit Rot+Blau**: diametrale Pole des Farbspektrums — gleichzeitige Lesbarkeit anstrengend
+- **Blauer Text**: ca. **4× mehr Lesefehler** als schwarz/weiß (1 vs. 4/1000 bei grün/weiß vs. blau/weiß)
+- **Kulturabhängig**: Farben haben je nach Kulturraum verschiedene Bedeutungen
+- Allgemein: **„Design in monochrome first"** (bestätigt Greyscale-First-Prinzip)
+
 *(Weitere Nielsen-Heuristiken folgen auf späteren Seiten)*
 
 ---
 
 ### 5. Redundante Kodierung (z. B. für Farbfehlsichtigkeit)
 
-**Quelle:** Folie 454 (Euro vs. Schweizer Franken), Folien 441–442 (Design in Greyscale First)
+**Quelle:** Folie 454 (Euro vs. Schweizer Franken), Folien 441–442 (Design in Greyscale First), Folien 490–496
+
+**Biologische Grundlage: Farbfehlsichtigkeit (Folien 490–492)**
+
+**Stäbchen und Zäpfchen:**
+- **Zäpfchen** (Cones): konzentriert in der Fovea — zuständig für **Farbsehen** (3 Typen: S=420nm blau, M=534nm grün, L=564nm rot)
+- **Stäbchen** (Rods): peripher verteilt — zuständig für **Hell/Dunkel-Unterscheidung** (kein Farbsehen)
+
+**Farbfehlsichtigkeit:**
+> Unvermögen, Farben korrekt zu benennen / Farben differenzieren zu können.
+
+- **Rot/grün-Fehlsichtigkeit** in westlichen Ländern weit verbreitet:
+  - **8 % der Männer**, ca. **0,4 % der Frauen**
+  - Ursache: Zäpfchen ohne/mit eingeschränkter Funktionstüchtigkeit
+  - Angeboren: Das **X-Chromosom** ist für gesundes Farbsehen von großer Bedeutung (XX vs. XY)
 
 **Definition:**
 > Redundante Kodierung bedeutet, dass **dieselbe Information über mehrere unabhängige Kodierungskanäle** gleichzeitig vermittelt wird — z. B. Farbe + Form + Beschriftung.
@@ -1105,6 +1155,28 @@ Warum: Fällt ein Kanal aus (z. B. Farbfehlsichtigkeit, S/W-Druck, schlechte Bel
 | **Redundante Kanäle** | Farbe + Zahl + Text + Motiv + Sterne + Sicherheitsstreifen | Weniger klare Hierarchie |
 
 → Der Euro nutzt **redundante Kodierung** konsequent: Selbst Farbfehlsichtige können die Banknote anhand von Zahl, Motiv und Struktur unterscheiden.
+
+**Beispiel: Ampel-Icons (Folie 495)**
+
+| Ebene | Ohne Red. Kodierung | Mit Red. Kodierung |
+|---|---|---|
+| Normales Sehen | Grüne Kugel = OK, rote Kugel = Fehler | Grüner Haken, rotes X |
+| Bei Farbblindheit | Beide Kugeln grau → **nicht unterscheidbar** | Haken vs. Kreuz bleibt erkennbar |
+
+→ Form (Haken/Kreuz) + Farbe (grün/rot) + ggf. Text = drei unabhängige Kanäle.
+
+**Beispiel: Metriken-Dashboard (Folie 496) — „Don't rely on color alone"**
+> „With this design, someone who suffers from impaired color vision can't easily tell if a metric has gotten better or worse."
+
+- Bei normalem Sehen: Pfeil + Zahl grün = Anstieg; rot = Rückgang
+- Bei Rot-Grün-Blindheit: beide Zahlen identisch grau → keine Information übermittelt
+- Lösung: Pfeil-Icon (↑/↓) + Farbe = redundante Kodierung
+
+**Kernregel (Folie 497):**
+> „Always use color to support something that your design is already saying; **never use it as the only means of communication.**"
+
+**Kontrast statt Farbe (Folie 497):**
+> Es ist für Farbblinde wesentlich leichter, zwischen Hell und Dunkel zu unterscheiden als zwischen zwei Farben. → **Kontrast als primärer Differenzierungskanal** nutzen.
 
 **Anwendung im Interface Design:**
 
@@ -1124,6 +1196,20 @@ Warum: Fällt ein Kanal aus (z. B. Farbfehlsichtigkeit, S/W-Druck, schlechte Bel
 **Abstandsregel als Grundprinzip (Folie 480):**
 - Label immer näher am eigenen Eingabefeld als an anderen Feldern — unabhängig von Alignmenttyp
 - Größerer Abstand zwischen Label-Feld-Gruppen als innerhalb einer Gruppe
+
+**Group Labels with their Inputs (Folie 481):**
+- Label und Input **close together** präsentieren — Gesetz der Nähe (Proximity) erzeugt klare Label-Feld-Zuordnung
+- **Ausreichend Höhe zwischen den Feldern** — sonst verwechseln User, zu welchem Feld ein Label gehört
+- Do: enger Abstand Label→Feld, größerer Abstand Feld→nächstes Label
+- Don't: gleichmäßige Abstände überall — Label „klebt" am falschen Feld
+
+**Group Related Information (Folie 482–483):**
+> „Users think in batches, and long forms can feel overwhelming."
+> „By creating logical groups the user will make sense of the form much faster."
+
+- Lange Formulare in **logische Abschnitte** unterteilen (z. B. „Personal / Account / Contact")
+- Trennmethoden: Whitespace, Linie (Separator), gemeinsame Region (Hintergrundfarbe / Common Region)
+- Slider-Beispiel (Folie 483): RGB-Werte direkt beim Slider-Control platzieren, nicht oben — sonst Proximity-Verletzung
 
 *(Detaillierte Regeln zu Top/Left/Right-Alignment folgen auf späteren Seiten)*
 

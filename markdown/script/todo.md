@@ -16,13 +16,22 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 241–260
-- **Zuletzt gelesen:** 221–240
-- **Achtung:** Gestaltgesetze jetzt vollständig inkl. Continuity + Focal Point. Redundante Kodierung ✅ (Euro-Beispiel). Subitizing + Parallele Wahrnehmung ✅ (Chunking-Grundlage). Nielsen-Heuristik „Ästhetisches und minimalistisches Design" ✅. Label-Abstandsregel ✅ (Grundprinzip). Noch offen: Mentales Modell (Norman), Prototypen/MVP, Nielsen restliche Heuristiken (9 von 10), Fitts, Chunking (Miller's Law), Progressive Disclosure, SUS, Metriken, Top/Left/Right-Label-Alignment, Summative/Formative, Triangulation, Stakeholder vs. User.
+- **Nächste Seiten:** 261–280
+- **Zuletzt gelesen:** 241–260
+- **Achtung:** Redundante Kodierung ✅ vollständig (Ampel-Icons, Dashboard, biologische Grundlage Stäbchen/Zäpfchen, Farbfehlsichtigkeit). Label-Alignment ergänzt (Group Labels with their Inputs, Group Related Information). Farbkonventionen ergänzt (Delete-Dialog-Problem, Regeln Farbzurückhaltung). Visuelle Priorisierung ergänzt (Hierarchie, Auszeichnung). Noch offen: Mentales Modell (Norman), Prototypen/MVP, Nielsen restliche Heuristiken (9 von 10), Fitts, Chunking (Miller's Law), Progressive Disclosure, SUS, Metriken, Top/Left/Right-Label-Alignment (explizit), Summative/Formative, Triangulation, Stakeholder vs. User, Priorisierungsmatrix (Impact×Effort).
 
 ---
 
 ## Iterationslog
+
+### Iteration 13 — Seiten 241–260 (Folien ~481–520)
+**Inhalt:** Group Labels with their Inputs (Folie 481): Label close together, genug Abstand zwischen Feldern. Group Related Information (Folie 482–483): lange Formulare in logische Abschnitte unterteilen; Slider-Werte direkt beim Control. Priorisierung (Folie 484–488): Visuell / Hierarchie (Kontrast, Größe, Gewicht) / Auszeichnung (gezielter Farbeinsatz für Schlüsselelemente). Erkennen von Farben (Folie 490–492): Stäbchen (peripher, Hell/Dunkel) vs. Zäpfchen (Fovea, Farbsehen 3 Typen S/M/L); Farbfehlsichtigkeit Rot/Grün: 8% Männer, 0,4% Frauen, Ursache X-Chromosom. Redundante Kodierung (Folie 495–496): Ampel-Icons (Grün/Rot → grau/grau bei Blindheit → Haken/Kreuz nötig); Dashboard-Metriken (Farbänderung + Pfeil). Kontrast statt Farbe (Folie 497). Supporting Cognition with Colors (Folie 498–503): zeige nur relevant; Sättigung für quantitative Darstellung; Natural Order of Objects. Intentional Misuse (Folie 503–504): Jobs-Tortendiagramm. Farbkonventionen (Folie 505–507): Delete-Dialog (Yes=grün, No=rot); Fehlermeldung in falscher Farbe. Unterscheidbarkeit von Farben (Folie 508–512): angrenzend/größer/gesättigter leichter zu unterscheiden. Farben sind relativ (Folie 513–516): Checkerboard-Illusion. Zurückhaltung Farben (Folie 519–520): wenige, Signalfarben reservieren, Rot+Blau anstrengend, Blau = 4× mehr Lesefehler, kulturabhängig, Design monochrome first.
+
+**Beantwortete/ergänzte Fragen:**
+- Aufgabe 5: Redundante Kodierung ✅ vollständig (Ampel-Icons, Dashboard, Stäbchen/Zäpfchen, Farbfehlsichtigkeit, Kontrast-statt-Farbe-Regel)
+- Aufgabe 4: Heuristiken ✅ Farbkonventionen ergänzt (Delete-Dialog, Farbregeln)
+- Aufgabe 6 / Gruppe B, 5: Label-Alignment ✅ Group Labels + Group Related Information ergänzt
+- Gruppe B, 9: Priorisierungsmatrix ⚠️ Visuelle Priorisierung (Hierarchie/Auszeichnung) ergänzt — Impact×Effort-Matrix noch offen
 
 ### Iteration 12 — Seiten 221–240 (Folien ~441–480)
 **Inhalt:** Design in Greyscale First (Spacing/Contrast/Size erzwingen klare Hierarchie). Use Color to Direct Attention. Principle of Focal Point (Uber-Beispiel: einziger farbiger Button = Call-to-Action; Pop-Out-Zahlen-Beispiel). Using Color for Attentional Control (komplexe Interfaces). Folie 447: „Finde alle Werte >1.0" — parallele Erkennung durch Farbhervorhebung. Continuity (Folie 448–450): Elemente in Linie/Kurve = zusammengehörig. Gestalt Principles in a Nutshell (Folie 450): Zusammenfassung aller 7 Gesetze. Applying Gestalt Principles (Sony Fernbedienung). Wahrnehmung abstrahiert: G/g-Buchstaben-Beispiel; Euro vs. Schweizer Franken (redundante Kodierung); Chihuahua vs. Muffin; Boundary Extension. Parallele Wahrnehmung + Wahrnehmung und Komplexität (Folien 464–467). Lineare vs. parallele Wahrnehmung — Reaktionszeitgraph. Subitizing: 2–4 Objekte 50ms/Obj., 6+ Objekte 250–300ms/Obj. Reduktion der Komplexität durch Ordnung (Folie 471). Gruppierung und Abstände — Nielsen-Heuristik „Ästhetisches und minimalistisches Design" (Folien 472–480): Abstandsregel (Abstand zwischen Feldern > Abstand Label-Feld), Farbe zur Gruppenbildung reduziert wahrgenommene Komplexität.
