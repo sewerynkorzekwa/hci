@@ -16,9 +16,9 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 121–140
-- **Zuletzt gelesen:** 101–120
-- **Achtung:** Collaborative UX Phase „Explore" beginnt (Folie 240) — Ideation, Konzept, Prototyping folgen in 121–140
+- **Nächste Seiten:** 141–160
+- **Zuletzt gelesen:** 121–140
+- **Achtung:** Ideation vollständig (6-3-5, HMW, Opportunity Areas). User Story Mapping begonnen (Folie 276–280). Nächste Seiten: Konzept, Prototyping, Validierung (Explore-Phase Fortsetzung)
 
 ---
 
@@ -38,6 +38,14 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 - Gruppe A, 3: UX vs. Usability ✅ vollständig
 - Gruppe B, 6: Konsistenz-Prinzip ✅
 - Gruppe B, 7: Interaction Design Prinzipien ⚠️ (Prinzip #7 fehlt noch)
+
+### Iteration 7 — Seiten 121–140 (Folien ~241–280)
+**Inhalt:** Ideation-Phase vollständig: Ideation fehlt in ISO 9241-210 (Kritik). Iteration vs. Ideation (Cartoon). Satisficing (Herbert Simon). Bill Buxton: Design Elaborate ↔ Reduce. Brainstorming-Problematik (Dominanz einzelner). Decomposition (Simon 1962: bounded rationality). Opportunity Areas: Definition, Entstehung, Prozessfluss (Journey → Challenge → OA → Ideas → Concept → Use-Scenarios). Insight Statements. What-if-Analyse. HMW-Fragen (HOW/MIGHT/WE). 6-3-5 Methode (6 TN, 3 Ideen, 5 Runden, Uhrzeigersinn). Prinzipien Ideation. Nutzungszenario (Definition, Sabine-Frank-Beispiel). User Stories + User Story Mapping.
+
+**Beantwortete/ergänzte Fragen:**
+- Gruppe A, 5: 6-3-5 / HMW / Opportunity Areas ✅ vollständig beantwortet
+- Gruppe B, 11: Phasen + Artefakte ✅ ergänzt (Ideation, Nutzungszenario, User Story Mapping)
+- Aufgabe 8: UX Workshop Ablauf ✅ ergänzt (Ideations-Workshop)
 
 ### Iteration 6 — Seiten 101–120 (Folien ~201–240)
 **Inhalt:** Analyse-Regel (24h), Confirmation Bias (Bias der User Research). User Research Prozess vollständig: Proto → Research → Validiert. Customer/User Journey Map: Definition, 8 Elemente (Who/What/Phases/Actions/Thoughts/Emotional Exp./Opportunities/Ownership), 3 Zonen (Lens/Experience/Insights), Mapping-Prozess (Steps → Details → Problems → Insight Statements → Feelings → User Needs → Opportunity Areas). Marketing-Phasen (Awareness → Conversion). Peak-End Rule (Kahneman). Service Design: Definition, Produkt vs. Service, UX vs. Service Experience, 5 Prinzipien (Human-Centered/Co-Creation/Sequencing/Evidencing/Holistic). Erfordernisse + Nutzungsanforderungen (Root-Cause Analysis, Wecker-Beispiel). Übergang zu Phase Explore.

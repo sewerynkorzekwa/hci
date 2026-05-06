@@ -94,6 +94,75 @@ Bedeutung: 69,7 % der deutschen Bruttowertschöpfung (2023, Statista) — Wandel
 
 ### 5. 6-3-5 / HMW / Opportunity Areas
 
+**Quelle:** Folien 258–275 (Explore-Phase, Ideation)
+
+**Kontext:** Diese drei Methoden gehören zur **Explore-Phase** im Collaborative UX Prozess. Ziel: Von Opportunity Areas zu konkreten Ideen kommen.
+
+---
+
+#### Opportunity Areas
+
+> **Opportunity Areas sind Themenfelder, in denen Innovationspotenzial identifiziert wurde → Innovationsfelder.**
+
+- Entstehen aus Herausforderungen, mit denen Kunden oder Nutzende konfrontiert sind
+- Oder aus **nicht genutzten Chancen**, die sich aus: technischen / regulatorischen / prozessualen Bedingungen ergeben
+- Verbinden den **Problem Space** mit dem **Solution Space**
+
+**Prozessfluss:**
+```
+Journey → Initial Challenge → Opportunity Areas → Ideas → Concept → Use-Scenarios
+```
+
+**Insight Statements** (Folie 259):
+- Bauen auf den Ergebnissen der User Research auf
+- Identifizieren **key findings für die Produktentwicklung**
+- Opportunity Areas fassen Findings zusammen → zeigen Bereiche für Produktchancen
+
+---
+
+#### How-Might-We (HMW) Fragen
+
+> HMW-Fragen beschreiben eine **Aufgabenstellung zur Ideenfindung** in Form einer konkreten Frage.
+
+- Frage: „Wie könnten wir ein **Problem überwinden**?"
+- Nicht *eine* Lösung ist gefragt — der Lösungsraum soll **umfassend erkundet** werden
+
+**Struktur:**
+
+| Teil | Bedeutung |
+|---|---|
+| **HOW** | Reframing Insights (Schlüssel zum Problem) |
+| **MIGHT** | Opportunities for Design (mögliche Wege) |
+| **WE?** | Explore Together (gemeinsam im Team) |
+
+**Beispiel:** „How might we create a moment in time that frees drug-users from threat?"
+
+---
+
+#### 6-3-5 Methode
+
+**Ablauf:**
+- **6** Teilnehmende, **3** Ideen, **5** Iterationen (Runden)
+- Alle erstellen ein A4 Papier mit 3 Spalten und 6 Zeilen
+- Startpunkt: eine (oder mehrere) **HMW-Frage(n)**
+
+**Runde 1:**
+- Jede:r generiert **3 Ideen** in die erste Zeile (1–2 Sätze pro Idee, 6–12 Worte)
+
+**Runden 2–5:**
+- Blatt wird **im Uhrzeigersinn** weitergegeben
+- Vorherige Ideen werden **weiterentwickelt, konkretisiert, gechallenged oder angepasst**
+
+**Hinweis:** Funktioniert auch mit weniger Personen → 534, 433, 322 (Zahl der Personen, Ideen, Iterationen)
+
+**Prinzipien Ideation (Folie 272):**
+- STEHLEN IST ERLAUBT!
+- QUANTITÄT VOR QUALITÄT!
+- ALLE BRINGEN SICH EIN!
+- MANCHE DINGE SIND ALLEINE EFFIZIENTER!
+- |: ARBEITEN, ITERIEREN! :|
+- VISUALISIEREN!
+
 ---
 
 ### 6. Gestaltgesetz
@@ -380,6 +449,23 @@ Discoverability ist eine Komponente von Learnability. Beispiel: Viele iOS-Gesten
 
 Research-Prozess im Detail: Proto-Artefakte → Forschungsfragen → Forschungsplan → Leitfaden → Interviews/Beobachtungen → Persona + Journey + Problem Statement
 
+**Ideation in HCD — fehlende Phase (Folie 242):**
+> In der ISO 9241-210 ist **Ideation explizit nicht enthalten** — der HCD-Prozess geht direkt von „Specify User Requirements" zu „Produce Design Solutions". Ideation ist eine eigenständige kreative Phase, die im Collaborative UX Prozess (Explore-Phase) ergänzt wird.
+
+**Nutzungszenario / Use Scenario (Folie 266):**
+- Beschreibt ein **konkretes Fallbeispiel** im kontextuellen Zusammenhang
+- Enthält eine **Ausgangslage** und eine **Beschreibung des Ablaufs**
+- Ist **nicht lösungsneutral** — abstrahiert noch von den Details der Interaktion
+- Kann verschiedene Lösungsideen kombinieren
+- Kann durch Skizzen oder ein Storyboard illustriert werden
+- Beispiel: Sabine Frank erfasst Zeitrapporteinträge im Zug auf der Heimfahrt
+
+**User Story Mapping (Folie 276–280):**
+- User Stories aus der agilen Softwareentwicklung: benutzerzen­trierte Anforderungen statt technische Kriterien
+- Formulierung: **„Als … (Rolle/Persona) möchte ich … (Ziel/Wunsch), um … (Nutzen)."**
+- Bestandteile: Person (Nutzertyp/Rolle) + Ziel (Wunsch) + Nutzen (Intention)
+- User Story Map: visualisiert Aufgaben nach **Priorität und Sequenz** — Überblick über relevante Aufgaben im Anwendungskontext
+
 **User/Customer Journey Map (Folien 205–218):**
 
 > „Journey maps combine two powerful instruments — **storytelling and visualization** — in order to help teams understand and address customer needs."
@@ -542,6 +628,14 @@ Der Collaborative UX Design Prozess besteht aus 3 Phasen mit je eigenen Workshop
 3. Gruppieren und thematisch ordnen (Organize & Group)
 4. Insights ableiten → Journey Map erstellen
 → Artefakt: **Ist-Journey-Map** (aus echten Forschungsdaten, zeigt Pain Points + Opportunities)
+
+**Beispiel-Ablauf Ideations-Workshop (Explore):**
+1. Opportunity Areas aus Journey Map ableiten
+2. HMW-Fragen formulieren (How Might We)
+3. 6-3-5 Methode durchführen (6 Personen × 3 Ideen × 5 Runden)
+4. Ideen sichten, clustern und priorisieren
+5. Konzept ableiten + als Nutzungszenario beschreiben
+→ Artefakt: **Nutzungszenario / Use Scenario** (konkretes Fallbeispiel, nicht lösungsneutral, kombiniert Ideen)
 
 ---
 
