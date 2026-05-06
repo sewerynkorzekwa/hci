@@ -16,13 +16,20 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 321–340
-- **Zuletzt gelesen:** 301–320
-- **Achtung:** Konsistenz ✅ vollständig (Definition, 8 Typen, Vorteile/Challenges, Radio vs. Checkbox, Font-Dialog). Label-Alignment ✅ vollständig (Top/Left/Right Vor-/Nachteile + Eye-Tracking + Empfehlung). Tabellen-Design ✅ ergänzt (Tufte-Anwendung, Gruppierungen/Erkennen vs. Erinnern). Unterscheidbarkeit ✅ ergänzt. Progressive Disclosure Drucker-Beispiel ✅ ergänzt. Noch offen: Prototypen/MVP, Nielsen restliche Heuristiken, SUS, Metriken, Summative/Formative, Triangulation, Stakeholder vs. User, Priorisierungsmatrix (Impact×Effort), Aufgabe 2 (Bild bewerten), Gruppe C 8 (Euro-Dollar-Interface).
+- **Nächste Seiten:** 341–360
+- **Zuletzt gelesen:** 321–340
+- **Achtung:** Aufgabe 2 (Bild bewerten) ✅ vollständig (Bewertungsrahmen 8 Kriterien, Squint Test, Kontrastwerte). Heuristiken ✅ Flexibilität/Effizienz + Logischer Fluss + Buttons im korrekten State + Squint Test + Kontrastwerte ergänzt. Noch offen: Prototypen/MVP, SUS, Metriken, Summative/Formative, Stakeholder vs. User, Priorisierungsmatrix (Impact×Effort), Gruppe C 8 (Euro-Dollar-Interface), Aufgabe 7 (Metriken), Aufgabe 11 (Stakeholder vs. User), Aufgabe 13 (Prototypenarten).
 
 ---
 
 ## Iterationslog
+
+### Iteration 17 — Seiten 321–340 (Folien ~633–680)
+**Inhalt:** Adress-Interface-Fallstudie Fortsetzung (Folien 633–650): Gruppieren (Abstände strukturieren Formular), Aufgabengerechte Informationsdarstellung (Kontakt im Header → Progressive Disclosure via Tabs), Buttons im korrekten State (grau = deaktiviert, aktiv wenn Änderung möglich), Aufteilen der Information nach Personas (Tab-basierte Aufteilung Allgemein/Mitarbeiter). Tabellendesign-Fallstudie (Vertikale Linien weglassen, Buttons differenzieren, Filter weglassen, Unnötige Spalten weglassen, Progressive Disclosure für Filter, Schmale Darstellung, Bilder zur Recognition). Minidashboards (Aufgabengerechte Datenzusammenfassung). Flexibilität und Effizienz (Folie ~658): Keynote zeigt zuletzt genutzte Vorlagen vs. PowerPoint zuletzt genutzte Dateien. Logischer Fluss (Folie ~660): Augenbewegungen sollen dem Interface-Pfad folgen. Fallstudie „Fixing a UI design in 16 steps" (Dannaway 2023, Folien ~662–680): Grouping related elements (4 Methoden: Container/Abstand/Ähnlichkeit/Kontinuität), Be consistent (Ikonenstil einheitlich, Text Labels für Screen Reader), Similar looking = function similarly (keine Button-Optik für nicht-interaktive Elemente), Create visual hierarchy (Größe/Kontrast/Gewicht/Farbe/Position), Squint Test (Augenzusammenkneifen: primäre Aktion muss hervorstechen), Remove unnecessary styles (kein dekorativer Clutter → cognitive load), Use colour purposefully (Farbe nur für Interaktives), Kontrastwerte WCAG 2.1 AA: 3:1 für Interface-Elemente, 4.5:1 für kleinen Text.
+
+**Beantwortete/ergänzte Fragen:**
+- Aufgabe 2: Bild bewerten ✅ vollständig (Bewertungsrahmen 8 Kriterien + Squint Test + Kontrastwerte + Mängeltabelle)
+- Aufgabe 4: Heuristiken ✅ Flexibilität/Effizienz (Keynote-Beispiel) + Logischer Fluss + Buttons im State + Squint Test + WCAG Kontrastwerte ergänzt
 
 ### Iteration 16 — Seiten 301–320 (Folien ~601–637)
 **Inhalt:** Progressive Disclosure (Folie 601–602): Fokus auf 80%-Fälle, Drucker-Dialog als Beispiel (Details einblenden). Konsistenz (Folien 603–610): Definition, 8 Konsistenz-Typen, Vorteile (Learnability/Error reduction/Performance), Challenges (was bedeutet konsistent?), Radio-Buttons vs. Checkboxes, Font-Dialog Mac vs. Windows. Label-Alignment (Folien 611–620): Top-Alignierung (bekannte Felder, min. Bearbeitungszeit, einfache Lokalisierung; Nachteil: mehr vertikaler Platz), Rechts-Alignierung (klare Zuordnung, wenig Platz; Nachteil: Weihnachtsbaumeffekt), Links-Alignierung (unbekannte Formulare, einfaches Scannen; Nachteil: Zuordnungsproblem), Eye-Tracking-Daten (Top > Right > Left), Empfehlung. Unterscheidbarkeit (Folien 621–624): verschiedene Elemente müssen sich visuell klar unterscheiden, Buttons vs. Eingabefelder vs. Labels. Tabellen-Design als Tufte-Anwendung (Folien 625–631): Reduktion von Rahmen/vertikalen Linien, Ähnlichkeitsgesetz für Kopfzeilen. Erkennen vor Erinnern — Gruppierungen (Folien 631–632): Getränkeliste (ungrouped → mit Abständen → mit Kategorie-Labels).

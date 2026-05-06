@@ -1345,6 +1345,71 @@ Wer zu früh zu viel in Visual Design investiert, fällt in die Sunk Cost Fallac
 
 ### 2. Bild bewerten (z. B. Ticketautomat)
 
+**Quelle:** Fallstudie „Fixing a UI design in 16 steps" (Dannaway, 2023), Folien ~662–680
+
+Beim Bewerten eines Interface-Bilds systematisch vorgehen — die folgenden Fragen/Kriterien anwenden:
+
+---
+
+#### Bewertungsrahmen: 8 Leitfragen
+
+**1. Gruppierung (Use space to group related elements)**
+> Werden zusammengehörige Elemente durch Abstände/Container klar gruppiert?
+- Problem: Alles gleich weit entfernt → keine Struktur erkennbar
+- Lösung: Abstand zwischen Gruppen > Abstand innerhalb einer Gruppe (Proximity)
+
+**2. Konsistenz (Be consistent)**
+> Sehen ähnliche Elemente gleich aus und verhalten sich gleich?
+- Problem: Icons teils gefüllt, teils nicht → suggeriert falschen „Selected"-State
+- Lösung: Einheitlicher Stil (z. B. alle Icons mit 2pt Strich, einheitliche Ecken)
+- Text Labels zu Icons hinzufügen → Screen-Reader-Zugänglichkeit
+
+**3. Gleich aussehen = gleich funktionieren (Similar looking = function similarly)**
+> Sehen nur interaktive Elemente interaktiv aus?
+- Problem: Icon-Container hat denselben visuellen Stil wie ein Button → wirkt interaktiv, ist es aber nicht
+- Lösung: Nicht-interaktive Elemente ohne Button-Styling; Farbe nur für tatsächlich klickbare Elemente
+
+**4. Visuelle Hierarchie (Create a clear visual hierarchy)**
+> Sticht das Wichtigste hervor?
+- Problem: Alle Textelemente gleich prominent — kein Call-to-Action erkennbar
+- Lösung: Größe, Kontrast, Gewicht (fett/dünn), Farbe gezielt zur Priorisierung einsetzen
+- Primäre Aktion = prominentestes Element
+
+**5. Squint Test (als Methode)**
+> Augen zusammenkneifen oder Design unscharf stellen: Was sieht man zuerst?
+- Der primäre Call-to-Action sollte auch beim unscharfen Sehen sofort hervorstechen
+- Wenn mehrere Elemente gleich stark konkurrieren → Hierarchie fehlerhaft
+
+**6. Unnötige Stile entfernen (Remove unnecessary styles)**
+> Gibt es Linien, Rahmen, Hintergründe, die keine Information tragen?
+- Problem: Rahmen um Bilder, Whitespace-Elemente ohne Funktion → erhöhen cognitive load
+- Lösung: Alles entfernen, was nicht zur Informationsübermittlung oder Gruppierung beiträgt (→ Tufte)
+
+**7. Farbe gezielt einsetzen (Use colour purposefully)**
+> Wird Farbe zur Bedeutungsvermittlung genutzt oder nur dekorativ?
+- Problem: Blauer Titel wirkt wie ein Link → nicht interaktiv, also nicht blau
+- Lösung: Markenfarbe nur für interaktive Elemente (Links, Buttons); nicht-interaktive Elemente neutral
+
+**8. Kontrast (WCAG 2.1 Level AA)**
+> Sind Kontrastverhältnisse ausreichend?
+- Interface-Elemente (Buttons, Felder, Icons): mind. **3:1** Kontrastverhältnis
+- Text (klein ≤18px): mind. **4.5:1** Kontrastverhältnis
+- Großtext (>18px regulär oder >14px fett): mind. **3:1**
+- Problem: Pfeil-Icon auf Foto → zu wenig Kontrast → mit weißem Hintergrundkreis verstärken
+
+---
+
+#### Zusammenfassung: Typische Mängel und ihre Ursachen
+
+| Mangel | Ursache | Lösung |
+|---|---|---|
+| Kein klarer Fokuspunkt | Fehlende Hierarchie | Größe/Kontrast/Gewicht gezielt einsetzen |
+| Gruppenunklarheit | Gleiche Abstände überall | Proximity-Regel (Abstand zwischen > innerhalb Gruppen) |
+| Inkonsistente Elemente | Keine Designsprache | Einheitlichen Stil für alle gleichen Elemente |
+| Überladenheit / Clutter | Zu viele Stile und Rahmen | Unnötige Stile entfernen (Tufte) |
+| Farbverwirrung | Farbe nicht bedeutungstragend | Farbe nur für interaktive Elemente |
+| Zugänglichkeitsprobleme | Zu geringer Kontrast | 3:1 (UI) / 4.5:1 (Text) sicherstellen |
+
 ---
 
 ### 3. Noise vs. Clutter im Interface Design
@@ -1569,6 +1634,76 @@ Beispiel Keyboard Shortcuts für einen Document Editor:
 - Eingabefelder: umrandet, weißer Hintergrund
 - Buttons: gefüllte Farbe, klare Beschriftung, andere Form
 - Labels: grauere, kleinere Schrift → vom Inhalt der Felder unterscheidbar
+
+---
+
+**Nielsen-Heuristik: Flexibilität und Effizienz der Nutzung (Flexibility and Efficiency of Use)**
+
+> „Accelerators — unseen by the novice user — may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users."
+
+- Experten-Nutzer können schneller arbeiten, wenn das System Abkürzungen bietet, die für Anfänger unsichtbar sind
+- Das System muss beide Nutzertypen unterstützen
+
+**Beispiel — Keynote vs. PowerPoint (Folie ~658):**
+- **Keynote (gut):** Nach dem Start werden sofort die **zuletzt genutzten Vorlagen** angezeigt — der häufigste Anwendungsfall ist sofort zugänglich
+- **PowerPoint:** Zeigt nach dem Start direkt die **zuletzt genutzten Dateien** an — noch näher am typischen Nutzungsfluss
+- → „Zuletzt verwendete Objekte anbieten" = Accelerator für erfahrene Nutzer; reduziert Schritte zur Zielerreichung
+
+**Weitere Acceleratoren im Interface:**
+- Keyboard Shortcuts (sichtbar im Menü, aber primär für Experten)
+- Default-Auswahlen vorbelegen (häufigste Option)
+- Auto-Complete für Texteingaben
+- Zuletzt verwendete Objekte / Dokumente anbieten
+
+---
+
+**Logischer Fluss (Achten Sie auf einen logischen Fluss — Folie ~660)**
+
+> „Good logical flow: Eye movements match the path through the interface."
+> „Bad logical flow: Everything is all over the place."
+
+- Augenbewegungen des Nutzers sollten dem natürlichen Lesefluss (oben-links → unten-rechts) folgen
+- Schlechtes Design zwingt Augen zu springen: hohe kognitive Last, Orientierungsverlust
+- Verbindung zur Nielsen-Heuristik „Ästhetisches und minimalistisches Design": klare Hierarchie = logischer Fluss
+
+---
+
+**Buttons im korrekten State (Folie ~635)**
+
+> Buttons müssen den aktuellen Systemstatus widerspiegeln — interaktiv wenn möglich, deaktiviert wenn nicht.
+
+- **Greyed-out Buttons** (deaktiviert): wenn keine Aktion möglich ist (z. B. „Speichern" ohne Änderungen)
+- **Aktive Buttons** (farbig, klickbar): wenn eine Aktion ausführbar ist
+- Verbindung zu Nielsen-Heuristik: Visibility of System Status + Constraints (physische/logische Einschränkungen)
+- Beispiel: Adress-Interface — „Abbrechen" und „Speichern" sind grau wenn kein Edit-Modus aktiv; sobald User etwas ändert, werden Buttons aktiv
+
+---
+
+**Squint Test — Methode zur Hierarchieprüfung (Folie ~672)**
+
+> „Simply squint your eyes and look at your design."
+
+- Augen zusammenkneifen, zurücktreten oder Design unscharf stellen
+- Man sollte noch erkennen können: a) was das wichtigste Element ist, b) wofür das Interface ist
+- **Problem-Indikator:** Wenn mehrere Elemente gleich stark hervorstechen, fehlt eine klare Hierarchie
+- **Der primäre Call-to-Action** sollte auch unscharf sofort sichtbar sein: hoher Kontrast-Hintergrund + fette Schrift
+- Verbindung zu: Visual Hierarchy, Focal Point, Priorisierung
+
+---
+
+**Kontrastwerte: WCAG 2.1 Level AA (Folien ~678–680)**
+
+| Typ | Mindest-Kontrast |
+|---|---|
+| **Interface-Elemente** (Buttons, Felder, Icons) | **3:1** |
+| **Kleiner Text** (≤18px oder ≤14px fett) | **4.5:1** |
+| **Großer Text** (>18px regulär / >14px fett) | **3:1** |
+
+- Kontrast = wahrgenommene Helligkeitsdifferenz zwischen zwei Farben, ausgedrückt als Verhältnis (1:1 bis 21:1)
+- Schwarz auf Weiß = 21:1 (höchster Kontrast)
+- Schwarz auf Schwarz = 1:1 (kein Kontrast)
+- **Figma-Plugins** helfen beim Messen des Kontrastverhältnisses
+- Kontrast erhöhen: weißen Hintergrundkreis hinter Icon, Opazität des Containers erhöhen, Textschatten hinzufügen
 
 ---
 
