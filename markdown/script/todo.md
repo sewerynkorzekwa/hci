@@ -16,13 +16,24 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 301–320
-- **Zuletzt gelesen:** 281–300
-- **Achtung:** Mentales Modell ✅ vollständig (Definition, Entstehung, Beispiele Textverarbeitung/Heizung/Time Machine, Zeigarnik-Effekt, Piktorielles Gedächtnis). Fitts's Law ✅ vollständig (Formel, 3 Subprozesse, Mac vs. Windows, Implikationen). Progressive Disclosure ✅ vollständig (Definition, Vor-/Nachteile, Beispiele, Hick's Law + Choice Overload als Kontext). Noch offen: Prototypen/MVP, Nielsen restliche Heuristiken, SUS, Metriken, Top/Left/Right-Label-Alignment (explizit), Summative/Formative, Triangulation, Stakeholder vs. User, Priorisierungsmatrix (Impact×Effort), Aufgabe 2 (Bild bewerten), Gruppe C 8 (Euro-Dollar-Interface).
+- **Nächste Seiten:** 321–340
+- **Zuletzt gelesen:** 301–320
+- **Achtung:** Konsistenz ✅ vollständig (Definition, 8 Typen, Vorteile/Challenges, Radio vs. Checkbox, Font-Dialog). Label-Alignment ✅ vollständig (Top/Left/Right Vor-/Nachteile + Eye-Tracking + Empfehlung). Tabellen-Design ✅ ergänzt (Tufte-Anwendung, Gruppierungen/Erkennen vs. Erinnern). Unterscheidbarkeit ✅ ergänzt. Progressive Disclosure Drucker-Beispiel ✅ ergänzt. Noch offen: Prototypen/MVP, Nielsen restliche Heuristiken, SUS, Metriken, Summative/Formative, Triangulation, Stakeholder vs. User, Priorisierungsmatrix (Impact×Effort), Aufgabe 2 (Bild bewerten), Gruppe C 8 (Euro-Dollar-Interface).
 
 ---
 
 ## Iterationslog
+
+### Iteration 16 — Seiten 301–320 (Folien ~601–637)
+**Inhalt:** Progressive Disclosure (Folie 601–602): Fokus auf 80%-Fälle, Drucker-Dialog als Beispiel (Details einblenden). Konsistenz (Folien 603–610): Definition, 8 Konsistenz-Typen, Vorteile (Learnability/Error reduction/Performance), Challenges (was bedeutet konsistent?), Radio-Buttons vs. Checkboxes, Font-Dialog Mac vs. Windows. Label-Alignment (Folien 611–620): Top-Alignierung (bekannte Felder, min. Bearbeitungszeit, einfache Lokalisierung; Nachteil: mehr vertikaler Platz), Rechts-Alignierung (klare Zuordnung, wenig Platz; Nachteil: Weihnachtsbaumeffekt), Links-Alignierung (unbekannte Formulare, einfaches Scannen; Nachteil: Zuordnungsproblem), Eye-Tracking-Daten (Top > Right > Left), Empfehlung. Unterscheidbarkeit (Folien 621–624): verschiedene Elemente müssen sich visuell klar unterscheiden, Buttons vs. Eingabefelder vs. Labels. Tabellen-Design als Tufte-Anwendung (Folien 625–631): Reduktion von Rahmen/vertikalen Linien, Ähnlichkeitsgesetz für Kopfzeilen. Erkennen vor Erinnern — Gruppierungen (Folien 631–632): Getränkeliste (ungrouped → mit Abständen → mit Kategorie-Labels).
+
+**Beantwortete/ergänzte Fragen:**
+- Gruppe B, 5: Label-Alignment ✅ vollständig (Top/Left/Right + Eye-Tracking + Empfehlung)
+- Gruppe B, 6: Konsistenz ✅ vollständig (Definition, 8 Typen, Vorteile/Challenges, Radio vs. Checkbox, Font-Dialog)
+- Aufgabe 6: Label-Alignment ✅ vollständig (Top/Left/Right mit Vor-/Nachteilen, Eye-Tracking, Empfehlung)
+- Aufgabe 3: Noise vs. Clutter ✅ Tabellen-Design + Gruppierungen als Tufte-Anwendungsbeispiel ergänzt
+- Aufgabe 4: Heuristiken ✅ Unterscheidbarkeit ergänzt
+- Gruppe B, 8 / Aufgabe 1: Progressive Disclosure ✅ Drucker-Beispiel ergänzt
 
 ### Iteration 15 — Seiten 281–300 (Folien ~561–600)
 **Inhalt:** Mentale Rotation/Bildhaftes Gedächtnis (Shepard & Metzler 1977 — lineare Reaktionszeit/Rotationswinkel-Beziehung). Piktorielles Gedächtnis (Folie 563): vorstellbare Wörter besser memoriert, bildhafte + propositionale Repräsentation. Komplexeres Gedächtnismodell (Folie 564): parallele Kanäle Sprache+Bild im Arbeitsgedächtnis. Mentale Modelle (Folien 565–568): subjektives Annahmengerüst, handlungsleitend aber nicht notwendig korrekt; Entstehung aus Erfahrungen + visueller Struktur + vergleichbaren Systemen; Beispiele Textverarbeitung (Autosave vs. Manuell) und Heizung/Backofen. Time Machine als gelungenes Interface-Mentales-Modell (Folie 569). Zeigarnik-Effekt (Folie 572): unvollendete Tasks besser erinnert — Progress Bars als Implikation. Design-Implikationen Gedächtnis (Folie 573): Chunks, externe Hinweise, Mehrfachkodierung, Rekognition, Erwartungskonformität. Aufmerksamkeit (Folie 575): selektive Auswahl, Change Blindness. Fitts's Law (Folien 579–583): T = a + b·log₂(D/W+1), 3 Subprozesse (ballistisch/Homing/Stop), Mac-Menü vertikale Endlosigkeit, Implikationen (große Controls, Select vs. Type, Default Selections, Auto-Complete). Hick's Law (Folien 585–591): Entscheidungszeit als Funktion der Optionsanzahl, 4 Schritte, Beispiele Menüs/Bremsen/Device-Settings, Implikationen (Subtask-Zerlegung, Highlighting). Paradox of Choice (Folien 593–597): Marmeladen-Studie (6→30% Käufer vs. 24→3% Käufer), Choice Overload (Analysis Paralysis + Buyer's Remorse), Lösungen (Kategorisierung, Highlighting, Exklusion+Vergleich). Progressive Disclosure (Folien 599–600): Informationen in Schichten, nur relevantes anzeigen, Vorteile (Clutter, Lernbarkeit, Fehlerreduktion), Nachteile (Hidden Affordance, mehr Klicks).
@@ -91,21 +102,6 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 - Aufgabe 3: Noise vs. Clutter ✅ vollständig (Tufte 5 Prinzipien, Saint-Exupéry, Cluttered Interfaces)
 - Gruppe B, 2: Lo-Fi/Hi-Fi ✅ Wireframe-Zwischenstufe ergänzt (MVP noch offen)
 
-### Iteration 1 — Seiten 1–20
-**Inhalt:** Einführungsvorlesung. Kursinfos (Dieter Wallach, WS 25/26). Definition von Design (Herbert A. Simon). UX-Mythen (#1 Kunst, #2 Beautification, #3 UI-Design, #4 Testing, #5 Teuer). Konzentrische Kreise: UI → UX → Product Design → CX Design → Service Design. Business Value of Design (DMI 228%, McKinsey 10%). Einführung Psychologie als empirische Wissenschaft. Moore'sches Gesetz vs. kognitive Komplexität.
-
-**Beantwortete Fragen:**
-- Gruppe A, 3: UX (teilweise — Usability noch nicht definiert)
-- Gruppe A, 4: Service Design vs. UX Design ✅
-
-### Iteration 2 — Seiten 21–40 (Folien ~41–80)
-**Inhalt:** Usability & UX-Kapitel. ISO 9241-11 (2018) Usability-Definition (effective, efficient, satisfactory). 5 Neuerungen ISO 2018 vs. 1998 (Interactive Systems, Stakeholder-Ziele, Zufriedenstellung neu, Umgebung erweitert, menschzentrierte Qualität). UX-Definition (Donald Norman + ISO). UX-Zeitstrahl: UX = before/during/after, Usability = only during. „Nutzerzentrierung is a lie" → Balance User/Technik/Ökonomie/Ökologie. Menschzentrierte Gestaltung (DIN EN ISO 9241-210:2019). Myth #6: Planung ist alles. 7 Interaction Design Prinzipien (1–6 gezeigt: Visibility, Consistency, Mapping, Feedback, Constraints, Simplicity).
-
-**Beantwortete Fragen:**
-- Gruppe A, 3: UX vs. Usability ✅ vollständig
-- Gruppe B, 6: Konsistenz-Prinzip ✅
-- Gruppe B, 7: Interaction Design Prinzipien ⚠️ (Prinzip #7 fehlt noch)
-
 ### Iteration 8 — Seiten 141–160 (Folien ~281–320)
 **Inhalt:** User Story Mapping vollständig (Zweck, Durchführung, Struktur mit Ziel/Aufgaben/Teilaufgaben). Konzept-Kapitel: Steve Jobs Design Philosophy. Interaction Design: Definition, Three Levels of Experiences (Interaction/Journey/Relationship). Was ist Interaktion? (inter agere, perceive•think•act-Zyklen, Sinnesmodalitäten, Handlungsoperatoren). Interaktivität kein binäres Attribut. Architecture (statisch) vs. Interaction Design (dynamisch). 5 Dimensions of Interaction Design (Silver 2018): Words/Visual Representations/Physical Objects or Space/Time/Behaviour. Affordance, Signifier und Feedback: Definition, 4 Signifier (Button), Inherited Affordance, Basic/Complex/Hidden Signifier. Sunk Cost Fallacy: Definition, Concorde-Beispiel, Skireise-Studie, Sunk Cost Loop. Sketches: Definition, Low-Fi by intention, focus on essence.
 
@@ -158,3 +154,18 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 - Gruppe B, 7: Interaction Design 7 Prinzipien ✅ vollständig (Prinzip 7 ergänzt)
 - Gruppe B, 11: Phasen und Artefakte Collaborative UX ✅
 - Gruppe B, 1: Proto-Persona ⚠️ (Einstieg, Details folgen)
+
+### Iteration 2 — Seiten 21–40 (Folien ~41–80)
+**Inhalt:** Usability & UX-Kapitel. ISO 9241-11 (2018) Usability-Definition (effective, efficient, satisfactory). 5 Neuerungen ISO 2018 vs. 1998 (Interactive Systems, Stakeholder-Ziele, Zufriedenstellung neu, Umgebung erweitert, menschzentrierte Qualität). UX-Definition (Donald Norman + ISO). UX-Zeitstrahl: UX = before/during/after, Usability = only during. „Nutzerzentrierung is a lie" → Balance User/Technik/Ökonomie/Ökologie. Menschzentrierte Gestaltung (DIN EN ISO 9241-210:2019). Myth #6: Planung ist alles. 7 Interaction Design Prinzipien (1–6 gezeigt: Visibility, Consistency, Mapping, Feedback, Constraints, Simplicity).
+
+**Beantwortete Fragen:**
+- Gruppe A, 3: UX vs. Usability ✅ vollständig
+- Gruppe B, 6: Konsistenz-Prinzip ✅
+- Gruppe B, 7: Interaction Design Prinzipien ⚠️ (Prinzip #7 fehlt noch)
+
+### Iteration 1 — Seiten 1–20
+**Inhalt:** Einführungsvorlesung. Kursinfos (Dieter Wallach, WS 25/26). Definition von Design (Herbert A. Simon). UX-Mythen (#1 Kunst, #2 Beautification, #3 UI-Design, #4 Testing, #5 Teuer). Konzentrische Kreise: UI → UX → Product Design → CX Design → Service Design. Business Value of Design (DMI 228%, McKinsey 10%). Einführung Psychologie als empirische Wissenschaft. Moore'sches Gesetz vs. kognitive Komplexität.
+
+**Beantwortete Fragen:**
+- Gruppe A, 3: UX (teilweise — Usability noch nicht definiert)
+- Gruppe A, 4: Service Design vs. UX Design ✅

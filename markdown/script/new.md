@@ -845,6 +845,8 @@ Time (in msec) = a + b · log₂(D / W + 1)
 
 ### 5. Top und links und rechts Felder (Label-Alignment)
 
+→ Vollständige Antwort: Aufgabe 6
+
 **Abstandsregel (Folie 480 — „Mit Abständen arbeiten"):**
 
 > Abstände **zwischen** Eingabefeldern sind größer als Abstände **zwischen** Labels und ihren zugehörigen Eingabefeldern.
@@ -852,22 +854,70 @@ Time (in msec) = a + b · log₂(D / W + 1)
 - Das Label „klebt" näher am eigenen Feld als am nächsten Feld → Gesetz der Nähe (Proximity) erzeugt klare Label-Feld-Zuordnung
 - Gruppe aus Label + Feld wird durch größeren Abstand zur nächsten Gruppe deutlich abgegrenzt
 
-*(Konkrete Regeln zu Top-Alignment, Left-Alignment, Right-Alignment folgen auf späteren Seiten)*
+**Drei Alignment-Typen im Überblick (Folien 611–620):**
+
+| Typ | Beste Situation | Nachteil |
+|---|---|---|
+| **Top-Aligned** | Bekannte Formulare, Geschwindigkeit wichtig | Mehr vertikaler Platzbedarf |
+| **Right-Aligned** | Vertikaler Platz eingeschränkt | Weihnachtsbaumeffekt, Scannen schwerer |
+| **Left-Aligned** | Unbekannte Formulare (unvertraute Labels) | Zuordnung Label↔Feld kann schwierig sein |
+
+**Eye-Tracking-Fazit (Folie 619):**
+- Top-Aligned: schnellste Verarbeitungszeit (Label + Feld in einer Fixation)
+- Right-Aligned: halbe Fixationszeit vs. Left-Aligned
+- Left-Aligned: größter Abstand Label↔Feld → höchste Verarbeitungszeit
 
 ---
 
 ### 6. Konsistenz-Prinzip
 
-**Quelle:** Vorlesung, Interaction Design 7 Principles (Folie 67–70)
+**Quelle:** Vorlesung, Interaction Design 7 Principles (Folie 67–70) + Folien 603–610
 
-**Definition:** Konsistenz bedeutet die **Verwendung gleicher Designelemente** (Farben, Typografie, Layout, Interaktionsmuster) durchgängig im gesamten Produkt.
+**Definition (Folie 604):**
+> „The same information is presented in the same way throughout the **interactive system**, in accordance with the **user's** expectation."
 
-**Warum:** Konsistenz hilft Nutzenden zu verstehen, wie sie mit einem Produkt interagieren, und **reduziert Verwirrung**.
+Konsistenz stellt die **Einheitlichkeit** der Screens eines User Interfaces in Erscheinung und Verhalten der Elemente sicher.
 
-**Beispiel aus der Vorlesung (OK/Cancel-Problem):**
-- Windows: OK zuerst (links)
-- Apple: OK zuletzt (rechts)
-→ Inkonsistenz zwischen Plattformen kostet Nutzenden **mehrere Minuten** durch Nachdenken oder Fehler. „Deviate from the standard, and you'll easily cost users several minutes."
+**8 Konsistenz-Typen (Folie 605):**
+
+| Typ | Bedeutung |
+|---|---|
+| **Consistency of groupings** | Elemente werden immer auf dieselbe Weise gruppiert |
+| **Consistency of interactions** | Interaktionen und ihre Effekte sind durchgängig gleich |
+| **Consistency of order sequence** | Reihenfolge von Optionen/Schritten bleibt konstant |
+| **Consistency of identifiers** | Bezeichnungen für Elemente sind eindeutig und konsistent |
+| **Consistency of controls** | Gleiche Controls (Buttons, Felder) verhalten sich überall gleich |
+| **Consistency of terminology** | Gleiche Begriffe für gleiche Konzepte |
+| **Consistency of icons** | Icons haben immer dieselbe Bedeutung |
+| **Consistency of colors** | Farben kodieren Bedeutung konsistent |
+
+**Vorteile (Folie 606):**
+- User können Wissen von einer App auf andere übertragen
+- **Learnability**: einmal gelerntes Muster überall anwendbar
+- **Error reduction**: weniger Fehler durch vertraute Interaktionsmuster
+- **Performance**: schnellere Aufgabenerledigung
+
+**Problem: Was bedeutet „konsistent"? (Folie 606):**
+- Konsistenz innerhalb der Applikation?
+- Konsistenz mit früheren Versionen?
+- Konsistenz mit Interface-Guidelines (welchen)?
+- Konsistenz mit Nutzererwartungen?
+
+**Beispiel OK/Cancel-Problem:**
+- Windows: OK links, Cancel rechts
+- Apple: Cancel links, OK rechts
+→ Inkonsistenz zwischen Plattformen → Nutzende klicken falsch, Fehlklicks kosten mehrere Minuten.
+
+**Radio-Buttons vs. Checkboxes — Konsistenz bei Controls (Folie 608):**
+
+| Control | Verwendung |
+|---|---|
+| **Radio-Buttons** | User wählt aus einer Liste mit **mind. zwei sich gegenseitig ausschließenden** Optionen; Auswahl eines Buttons de-selektiert alle anderen |
+| **Checkboxes** | User kann **beliebig viele** Elemente auswählen (0, 1, …, n); jede Checkbox ist unabhängig; eine einzelne Checkbox schaltet Option an/aus |
+
+**Font-Dialog-Beispiel (Mac vs. Windows, Folie 609):**
+- Beide zeigen „Font"-Dialog — aber unterschiedliche Struktur, Optionen-Reihenfolge und Terminologie
+→ Keine Cross-Platform-Konsistenz: User muss neues mentales Modell aufbauen
 
 ---
 
@@ -979,6 +1029,7 @@ Das Hick'sche Gesetz besagt: Die Zeit für eine Entscheidungsfindung wächst als
 - „Erweiterte Einstellungen"-Button (versteckt selten genutzte Parameter)
 - „Mehr anzeigen" / „Details"-Toggle
 - Onboarding-Flow: zunächst nur Kernfunktionen, erweiterte Features schrittweise freischalten
+- **Drucker-Dialog (Folie 602):** Einfache Ansicht zeigt nur Kopien, Seiten, Ausgabe. „Details einblenden"-Button → erweiterte Optionen (Papierwahl, Qualität, Ausrichtung) werden sichtbar. Fokus auf **80%-Fälle** — Gelegenheitsnutzer werden nicht mit seltenen Optionen überflutet.
 
 ---
 
@@ -1341,6 +1392,28 @@ Wer zu früh zu viel in Visual Design investiert, fällt in die Sunk Cost Fallac
 **Zu wenig des Guten? (Folie 364):**
 Tufte zeigt auch die untere Grenze: Werden Balken durch bloße vertikale Linien ersetzt, entsteht neue Unleserlichkeit. Reduktion muss enden, wenn die Wahrnehmbarkeit der Datenmuster leidet. Ziel: **minimale, aber ausreichende Datendarstellung**.
 
+**Tufte-Anwendung: Tabellen-Design (Folien 625–631)**
+
+Schrittweise Vereinfachung einer Datentabelle — Tufte-Prinzipien in der Praxis:
+
+| Schritt | Maßnahme | Begründung |
+|---|---|---|
+| Ausgangslage | Vollständige Tabelle mit Rahmen + vertikalen Linien | Viel non-data-ink |
+| Schritt 1 | Vertikale Linien entfernen | Nicht notwendig — Spalten-Abstände reichen zur Trennung |
+| Schritt 2 | Äußeren Rahmen entfernen | Nicht notwendig — Whitespace trennt Tabelle von Umgebung |
+| Schritt 3 | Horizontale Linien zurücknehmen | Nur Trennlinie unter Kopfzeile nötig |
+| Schritt 4 | **Ähnlichkeitsgesetz** für Kopfzeile: Fettschrift | Header hebt sich durch Gewicht ab — Gesetz der Ähnlichkeit |
+
+**Erkennen vor Erinnern — Gruppierungen (Folien 631–632):**
+
+> User können sich bei langen Listen besser zurechtfinden, wenn sinnvolle Gruppen vorhanden sind.
+
+- Ungruppierte Liste (18 Getränke): User muss alles zählen und merken — Recall-intensive Aufgabe
+- Mit Abständen zwischen Kategorien: sofortiges Erkennen von Gruppen (z. B. Limonaden, Milchprodukte, Wein, Bier, Tee) → Recognition statt Recall
+- Noch hilfreicher: **Kategorie-Labels** (Überschriften) — User betrachtet zuerst Hauptbegriff, dann Details der Gruppe
+
+→ Verbindung zur Nielsen-Heuristik „Recognition rather than Recall" + Hick's Law (Kategorisierung reduziert wahrgenommene Optionsanzahl)
+
 ---
 
 ### 4. Heuristiken (Nielsen) mit psychologischen Grundlagen
@@ -1480,6 +1553,25 @@ Beispiel Keyboard Shortcuts für einen Document Editor:
 → Konsistenz (Interaction Design Prinzip) reduziert Interferenz im Arbeitsgedächtnis — einmal Gelerntes muss nicht überschrieben werden
 → Verbindung zum Konsistenz-Prinzip (Interaction Design, Folie 69)
 
+**Unterscheidbarkeit (Folien 621–624)**
+
+> „Unterschiedliche Elemente werden auch **deutlich unterschiedlich** dargestellt."
+
+- Elemente, die sich in ihrer Funktion unterscheiden, müssen sich **visuell klar unterscheiden**
+- Problem-Beispiel: Eingabefelder und Buttons sehen identisch aus → User weiß nicht, was anklickbar ist und was eingegeben werden soll
+- Problem-Beispiel 2: Labels und Feldinhalt in gleicher Schriftgröße/Farbe → nicht unterscheidbar (View vs. Edit Mode)
+
+**Praxis-Beispiele (Folien 623–624):**
+- Adressverwaltungs-Interface: Alle Felder gleich grau → Buttons und Eingabefelder visuell kaum differenzierbar (schlecht)
+- Ohne visuelle Unterscheidung: User kann „Speichern"-Button nicht von Eingabefeld unterscheiden
+
+**Lösung:**
+- Eingabefelder: umrandet, weißer Hintergrund
+- Buttons: gefüllte Farbe, klare Beschriftung, andere Form
+- Labels: grauere, kleinere Schrift → vom Inhalt der Felder unterscheidbar
+
+---
+
 *(Weitere Nielsen-Heuristiken folgen auf späteren Seiten)*
 
 ---
@@ -1574,7 +1666,76 @@ Warum: Fällt ein Kanal aus (z. B. Farbfehlsichtigkeit, S/W-Druck, schlechte Bel
 - Trennmethoden: Whitespace, Linie (Separator), gemeinsame Region (Hintergrundfarbe / Common Region)
 - Slider-Beispiel (Folie 483): RGB-Werte direkt beim Slider-Control platzieren, nicht oben — sonst Proximity-Verletzung
 
-*(Detaillierte Regeln zu Top/Left/Right-Alignment folgen auf späteren Seiten)*
+---
+
+**TOP-ALIGNIERUNG (Folien 612–614)**
+
+> Label steht **direkt über** dem Eingabefeld — beide in einer vertikalen Einheit.
+
+**Vorteile:**
+- Einsatz bei **bekannten Datenfeldern** (User kennt das Formular → schnelles Ausfüllen)
+- **Minimale Bearbeitungszeit** — schnellste Verarbeitungszeit aller drei Typen
+- **Sehr einfache Lokalisierung** (Übersetzungen verlängern Labels → kein Layout-Problem da Label oben)
+- **Flexibel bei komplexen Eingaben** (z. B. lange Label-Texte passen gut)
+- Label und Feld können in **einer einzigen Fixation** wahrgenommen werden (Eye-Tracking)
+- → „Rapid Processing": Auge wandert direkt von Label zu Feld, ohne horizontale Sprünge
+
+**Nachteile:**
+- **Höherer vertikaler Platzbedarf** (mehr Screen Real Estate benötigt)
+- Abstände oder Kontrast notwendig, um effizientes Scannen zu unterstützen
+
+**Interface-Beispiel:** Amazon Checkout „Enter Shipping Address" (Folie 613) — alle Labels direkt über den Feldern, schnelles Ausfüllen für bekannte Adressfelder.
+
+---
+
+**RECHTS-ALIGNIERUNG (Folien 615–616)**
+
+> Label steht **rechts-bündig links neben** dem Eingabefeld.
+
+**Vorteile:**
+- **Klare Zuordnung** von Label und Feld (enger visueller Abstand)
+- **Geringer vertikaler Platzbedarf** (Label neben Feld, nicht darüber)
+- **Schnelle Bearbeitungszeit** — jedoch höher als bei Top-Alignierung
+
+**Nachteile:**
+- **Scannen der Labels aufwendiger** — Labels enden an unterschiedlichen horizontalen Positionen (je nach Label-Länge)
+- **„Weihnachtsbaumeffekt"**: unregelmäßige linke Kante der Labels erzeugt unruhiges Layout
+
+**Interface-Beispiel:** Amazon-Checkout (ältere Version, Folie 616) — rechts-ausgerichtete Labels neben Eingabefeldern.
+
+---
+
+**LINKS-ALIGNIERUNG (Folien 617–618)**
+
+> Label steht **links-bündig links neben** dem Eingabefeld.
+
+**Vorteile:**
+- **Vorteilhaft bei unbekannten Formularen** — User können Labels sehr einfach von oben nach unten scannen (klare linke Kante)
+- **Geringer vertikaler Platzbedarf**
+
+**Nachteile:**
+- **Zuordnung Label↔Feld kann problematisch sein** — abhängig vom Unterschied zwischen längstem und kürzestem Label (großer Leerraum zwischen Label und Feld)
+- **Änderungen der Labels können das Layout beeinträchtigen** → Vorsicht bei Lokalisierungen
+
+---
+
+**EYE-TRACKING-DATEN (Folie 619)**
+
+| Alignment | Fixationsaufwand | Verarbeitungszeit |
+|---|---|---|
+| **Left-Aligned Labels** | Kein Zuordnungsproblem, aber **großer Abstand** Label↔Feld → höhere Verarbeitungszeit | Langsamste |
+| **Right-Aligned Labels** | Fixationen auf fast **halbiertem** Niveau im Vergleich zu Left-Aligned | Mittel (~halbe Verarbeitungszeit vs. Left) |
+| **Top-Aligned Labels** | Label + Feld in **einer Fixation** wahrnehmbar | **Schnellste** |
+
+---
+
+**EMPFEHLUNG (Folie 620)**
+
+| Alignment | Empfohlener Einsatz |
+|---|---|
+| **Links-alignierte Labels** | Wenn Formulare dem User **nicht vertraut** sind (unbekannte Felder → Labels müssen gut gescannt werden) |
+| **Rechts-alignierte Labels** | Wenn **vertikaler Platz eingeschränkt** ist |
+| **Top-alignierte Labels** | Wenn **Geschwindigkeit** wichtig ist (und bekannte Formulare vorliegen) |
 
 ---
 
