@@ -16,13 +16,20 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 341–360
-- **Zuletzt gelesen:** 321–340
-- **Achtung:** Aufgabe 2 (Bild bewerten) ✅ vollständig (Bewertungsrahmen 8 Kriterien, Squint Test, Kontrastwerte). Heuristiken ✅ Flexibilität/Effizienz + Logischer Fluss + Buttons im korrekten State + Squint Test + Kontrastwerte ergänzt. Noch offen: Prototypen/MVP, SUS, Metriken, Summative/Formative, Stakeholder vs. User, Priorisierungsmatrix (Impact×Effort), Gruppe C 8 (Euro-Dollar-Interface), Aufgabe 7 (Metriken), Aufgabe 11 (Stakeholder vs. User), Aufgabe 13 (Prototypenarten).
+- **Nächste Seiten:** 361–380
+- **Zuletzt gelesen:** 341–360
+- **Achtung:** Aufgabe 2 (Bild bewerten) ✅ vollständig (Bewertungsrahmen 8+8 Kriterien inkl. Typografie/Barrierefreiheit). Aufgabe 13 (Prototypen) ⚠️ Grunddefinition ergänzt (Typen folgen). Noch offen: Prototypen-Arten/MVP, SUS, Metriken, Summative/Formative, Stakeholder vs. User, Priorisierungsmatrix (Impact×Effort), Gruppe C 8 (Euro-Dollar-Interface), Aufgabe 7 (Metriken), Aufgabe 11 (Stakeholder vs. User), Aufgabe 15 (Triangulation).
 
 ---
 
 ## Iterationslog
+
+### Iteration 18 — Seiten 341–360
+**Inhalt:** Fortsetzung „Fixing a UI design in 16 steps" (Dannaway, Seiten 341–354): Textkontrastwert 4.5:1 (Seite 341); Don't rely on colour alone — redundante Kodierung für Links (Seite 342); Eine Sans-Serif-Schrift verwenden (Seite 343); x-Height — Schriften mit hohen Kleinbuchstaben besser lesbar bei kleinen Größen (Seiten 344–345); Großschrift einschränken — All Caps verhindert Worterkennung (Seite 346); Nur Regular+Bold verwenden — zu viele Gewichte = Noise (Seiten 348–349); Text linksbündig ausrichten — Zentrierter Text bei Fließtext schwer lesbar (Seiten 350–351); Mindest-Zeilenabstand 1.5 (Seiten 352–353). Neues Kapitel Prototyping (Seiten 355–360): Creativity needs Feedback; Alfred Hitchcock + Prototyping; Minimizing risks: „Find the cheapest way to relevant insights"; PROTOTYPING-Definition: Prototypen traversieren Design Spaces, generieren/kommunizieren/evaluieren Ideen, fördern Lernen; Marty-Thaler-Zitat „A prototype is anything that move the process forward."
+
+**Beantwortete/ergänzte Fragen:**
+- Aufgabe 2: Bild bewerten ✅ 8 weitere Typografie/Barrierefreiheits-Kriterien ergänzt (Kriterien 9–16)
+- Aufgabe 13: Prototypenarten ⚠️ Grunddefinition + Motivation ergänzt (Typen folgen auf späteren Seiten)
 
 ### Iteration 17 — Seiten 321–340 (Folien ~633–680)
 **Inhalt:** Adress-Interface-Fallstudie Fortsetzung (Folien 633–650): Gruppieren (Abstände strukturieren Formular), Aufgabengerechte Informationsdarstellung (Kontakt im Header → Progressive Disclosure via Tabs), Buttons im korrekten State (grau = deaktiviert, aktiv wenn Änderung möglich), Aufteilen der Information nach Personas (Tab-basierte Aufteilung Allgemein/Mitarbeiter). Tabellendesign-Fallstudie (Vertikale Linien weglassen, Buttons differenzieren, Filter weglassen, Unnötige Spalten weglassen, Progressive Disclosure für Filter, Schmale Darstellung, Bilder zur Recognition). Minidashboards (Aufgabengerechte Datenzusammenfassung). Flexibilität und Effizienz (Folie ~658): Keynote zeigt zuletzt genutzte Vorlagen vs. PowerPoint zuletzt genutzte Dateien. Logischer Fluss (Folie ~660): Augenbewegungen sollen dem Interface-Pfad folgen. Fallstudie „Fixing a UI design in 16 steps" (Dannaway 2023, Folien ~662–680): Grouping related elements (4 Methoden: Container/Abstand/Ähnlichkeit/Kontinuität), Be consistent (Ikonenstil einheitlich, Text Labels für Screen Reader), Similar looking = function similarly (keine Button-Optik für nicht-interaktive Elemente), Create visual hierarchy (Größe/Kontrast/Gewicht/Farbe/Position), Squint Test (Augenzusammenkneifen: primäre Aktion muss hervorstechen), Remove unnecessary styles (kein dekorativer Clutter → cognitive load), Use colour purposefully (Farbe nur für Interaktives), Kontrastwerte WCAG 2.1 AA: 3:1 für Interface-Elemente, 4.5:1 für kleinen Text.

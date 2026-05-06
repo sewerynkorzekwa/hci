@@ -1399,6 +1399,57 @@ Beim Bewerten eines Interface-Bilds systematisch vorgehen — die folgenden Frag
 
 ---
 
+#### Fortsetzung: Typografie und Barrierefreiheit (Seiten 341–354, Fallstudie Dannaway)
+
+**9. Textkontrastwert sicherstellen (Seite 341)**
+> „Ensure text has a 4.5:1 contrast ratio"
+- Auch dünne Schriftgewichte mit ausreichendem Helligkeitskontrast verwenden
+- Dunklere Grautöne für Body-Text wählen, um Mindest-Kontrastverhältnis zu erreichen
+
+**10. Nicht allein auf Farbe verlassen (Seite 342)**
+> „Don't rely on colour alone as an indicator"
+- Links nur durch Farbe (z. B. blau) zu kennzeichnen reicht nicht — Farbfehlsichtige können den Link nicht erkennen
+- Lösung: **Redundante Kodierung** = Unterstreichung + Farbe
+- Gilt für alle bedeutungstragenden Elemente: immer mindestens zwei unabhängige Kanäle nutzen
+
+**11. Eine einzige Sans-Serif-Schrift verwenden (Seite 343)**
+> „Use a single sans serif typeface"
+- Sans-Serif-Schriften sind lesbarer, neutraler, einfacher als Serif-Schriften
+- Serifs können für manche Nutzer ablenken oder schwer lesbar wirken
+- Maximal eine Schriftfamilie im Interface-Design verwenden
+
+**12. Schriftart mit hoher x-height wählen (Seiten 344–345)**
+> „Use a typeface with taller lower case letters"
+- **x-Height** = Höhe der Kleinbuchstaben in einem Schriftschnitt
+- Höhere x-Height → bessere Lesbarkeit bei kleinen Größen
+- Beispiel: Inter (hohe x-Height) besser lesbar als League Spartan (niedrige x-Height)
+
+**13. Großschrift einschränken (Seite 346)**
+> „Limit the use of uppercase"
+- Großschrift erzwingt buchstabenweises Lesen statt Worterkennung (→ Wortform monotone Rechtecke)
+- Beim Lesen wird die **Form des Wortes** erkannt, nicht die einzelnen Buchstaben → All Caps verhindert das
+- Statt ALL CAPS: Sentence case verwenden (nur erster Buchstabe + Eigennamen groß)
+
+**14. Nur Regular und Bold verwenden (Seiten 348–349)**
+> „Use regular and bold font weights only"
+- Viele verschiedene Schriftgewichte = Noise und Clutter
+- Designsystem einfach halten: Regular für Body-Text, Bold für Überschriften
+- Sehr dünne (Light) oder sehr dicke Gewichte nur für Überschriften/großen Text
+
+**15. Text linksbündig ausrichten (Seiten 350–351)**
+> „Left align text"
+- Englisch (und Deutsch) wird links-nach-rechts gelesen → linksbündige Ausrichtung optimal
+- Zentrierter Text bei langen Absätzen schwer lesbar: Zeilenbeginn wechselt ständig, Auge muss suchen
+- Zentrierte Ausrichtung nur für Überschriften und kurze Texte akzeptabel
+
+**16. Mindestens 1,5-facher Zeilenabstand (Seiten 352–353)**
+> „Use at least 1.5 line height for body text"
+- **Line Height** = vertikaler Abstand zwischen zwei Textzeilen
+- Zu geringer Abstand → Nutzer liest dieselbe Zeile mehrfach
+- Empfehlung: Line-Height 1.5–2.0 (150–200 %) für Fließtext
+
+---
+
 #### Zusammenfassung: Typische Mängel und ihre Ursachen
 
 | Mangel | Ursache | Lösung |
@@ -1409,6 +1460,8 @@ Beim Bewerten eines Interface-Bilds systematisch vorgehen — die folgenden Frag
 | Überladenheit / Clutter | Zu viele Stile und Rahmen | Unnötige Stile entfernen (Tufte) |
 | Farbverwirrung | Farbe nicht bedeutungstragend | Farbe nur für interaktive Elemente |
 | Zugänglichkeitsprobleme | Zu geringer Kontrast | 3:1 (UI) / 4.5:1 (Text) sicherstellen |
+| Schlechte Lesbarkeit | All Caps, schlechte x-Height, zu viele Gewichte | Sans-Serif, hohe x-Height, nur Regular+Bold, Sentence Case |
+| Unlesbarer Fließtext | Zentriert oder Zeilenabstand < 1.5 | Linksbündig + Line-Height ≥ 1.5 |
 
 ---
 
@@ -2013,6 +2066,25 @@ Sketches verhindern die **Sunk Cost Fallacy**: Wer zu früh in Pixelarbeit inves
 ---
 
 ### 13. Arten von Prototypen und wann welche zum Einsatz
+
+**Quelle:** Seiten 355–360 (Beginn Prototyping-Kapitel)
+
+**Grunddefinition (Seite 360):**
+> „A prototype is anything that move the process forward." (Marty Thaler)
+
+> „Prototypes are tools to traverse design spaces."
+
+> „Prototypes help to generate, communicate and evaluate design ideas – allowing informed decisions."
+
+> „Prototypes challenge preconceptions and facilitate learnings."
+
+**Motivation (Seiten 357–359):**
+> „Find the cheapest way to relevant insights! It's all about informative prototypes."
+
+- Prototypen minimieren Risiken, indem sie früh und günstig Erkenntnisse liefern
+- Iterative Entwicklung: Jeder Prototyp ist ein Lernschritt, kein fertiges Produkt
+
+*(Typen von Prototypen und wann welcher Einsatz folgt auf späteren Seiten)*
 
 ---
 
