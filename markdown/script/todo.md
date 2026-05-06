@@ -16,9 +16,9 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 101–120
-- **Zuletzt gelesen:** 81–100
-- **Achtung:** Kapitel „Nützliche Methoden / Modellierung von Daten" begonnen (Folie ~186) — Empathy Maps, Feature Maps gezeigt; weitere Methoden folgen in 101–120
+- **Nächste Seiten:** 121–140
+- **Zuletzt gelesen:** 101–120
+- **Achtung:** Collaborative UX Phase „Explore" beginnt (Folie 240) — Ideation, Konzept, Prototyping folgen in 121–140
 
 ---
 
@@ -38,6 +38,16 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 - Gruppe A, 3: UX vs. Usability ✅ vollständig
 - Gruppe B, 6: Konsistenz-Prinzip ✅
 - Gruppe B, 7: Interaction Design Prinzipien ⚠️ (Prinzip #7 fehlt noch)
+
+### Iteration 6 — Seiten 101–120 (Folien ~201–240)
+**Inhalt:** Analyse-Regel (24h), Confirmation Bias (Bias der User Research). User Research Prozess vollständig: Proto → Research → Validiert. Customer/User Journey Map: Definition, 8 Elemente (Who/What/Phases/Actions/Thoughts/Emotional Exp./Opportunities/Ownership), 3 Zonen (Lens/Experience/Insights), Mapping-Prozess (Steps → Details → Problems → Insight Statements → Feelings → User Needs → Opportunity Areas). Marketing-Phasen (Awareness → Conversion). Peak-End Rule (Kahneman). Service Design: Definition, Produkt vs. Service, UX vs. Service Experience, 5 Prinzipien (Human-Centered/Co-Creation/Sequencing/Evidencing/Holistic). Erfordernisse + Nutzungsanforderungen (Root-Cause Analysis, Wecker-Beispiel). Übergang zu Phase Explore.
+
+**Beantwortete/ergänzte Fragen:**
+- Gruppe A, 4: Service Design vs. UX Design ✅ vollständig ergänzt (5 Prinzipien, Service vs. Produkt, Service Experience)
+- Gruppe A, 9: Contextual Inquiries ✅ ergänzt (Confirmation Bias, 24h-Analyse-Regel)
+- Gruppe A, 10: Erfordernisse + Nutzungsanforderungen ✅ ergänzt
+- Gruppe B, 11: Phasen + Artefakte ✅ ergänzt (Von Research zur Synthese, Journey Map als Artefakt)
+- Aufgabe 8: UX Workshop Ablauf ✅ vollständig beantwortet
 
 ### Iteration 5 — Seiten 81–100 (Folien ~163–200)
 **Inhalt:** Vertiefung Contextual Inquiries: Filter-Modell (4 Filter zwischen Forscher und Nutzer), Interview-Typen (Free / Structured / Semi-Structured), Master-Apprentice Model, Fragetypen (Open / Closed / Neutral), Best Practices für Interview-Durchführung, Auswertungsprozess (Sighting → Classify → Extract → Organize → Insights). Jakob Nielsen „First Rule of Usability: Don't Listen!" — Beobachtung vor Interview. Anzahl: 3–6 Interviews/Observationen pro Rolle. Beginn neues Kapitel „Nützliche Methoden": Empathy Maps (4 Quadranten: Says/Thinks/Does/Feels), Feature Maps (Funktionen je nach Relevanz zur Persona), Focus Groups (Steve Jobs-Kritik).

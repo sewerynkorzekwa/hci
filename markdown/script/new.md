@@ -39,7 +39,7 @@ UX umfasst alle Emotionen, Überzeugungen, Präferenzen, Wahrnehmungen — **vor
 
 ### 4. Service Design – UX Design
 
-**Quelle:** Folie 5 (konzentrische Kreise-Diagramm)
+**Quelle:** Folie 5 (konzentrische Kreise-Diagramm), Folien 221–229
 
 Die Disziplinen sind konzentrisch ineinander verschachtelt — von innen nach außen:
 
@@ -54,6 +54,41 @@ Die Disziplinen sind konzentrisch ineinander verschachtelt — von innen nach au
 **Unterschied:**
 - **UX Design** fokussiert auf das direkte Nutzungserlebnis mit einem Produkt (Forschung, Prototyping, Informationsarchitektur)
 - **Service Design** umfasst das gesamte Geschäftsökosystem — Prozesse, Teams, Strategie und alle Touchpoints — weit über das einzelne Produkt hinaus
+
+**Service Design — vertiefende Definition (Folie 221–227):**
+
+> „Service design applies design methods and craft to the definition and **orchestration of service experiences**."
+
+> „Service design examines the products, communications, interactions, operations, culture, and structure of an organization for impact on **service experience**."
+
+**Dienstleistung (Service) vs. Produkt:**
+
+| | Produkt | Service |
+|---|---|---|
+| Art | Vorproduziertes, fertiges Objekt | Entsteht erst durch Interaktion während der Nutzung |
+| Speicherbar | Ja | Nein |
+| Besitz | Ja | Nein |
+| Produziert | Vor der Nutzung | Gleichzeitig mit der Nutzung (Production = Consumption) |
+
+Was wird durch Services erworben? Erlebnis/Erfahrung, Transport, Zugang, Wissen.
+
+> „Services are everything that you cannot drop on your foot."
+
+Bedeutung: 69,7 % der deutschen Bruttowertschöpfung (2023, Statista) — Wandel von Produktions- zur Dienstleistungsgesellschaft.
+
+**UX vs. Service Experience:**
+
+| | User Experience (UX) | Service Experience |
+|---|---|---|
+| Fokus | Experience zwischen Person und **einem** Touchpoint (meist digitales Produkt) | Orchestrierte Experience **aller** Teile eines Service (Menschen, Objekte, Orte, Interfaces) |
+
+**Service Design — 5 Prinzipien der Methodologie (Folie 229):**
+
+1. **Human-Centered** — Der Mensch steht im Mittelpunkt
+2. **Co-Creation** — Stakeholder werden aktiv in den Gestaltungsprozess einbezogen
+3. **Sequencing** — Services werden als zeitliche Abfolge betrachtet (Before / During / After)
+4. **Evidencing** — Immaterielle Services werden durch physische Artefakte erlebbar gemacht
+5. **Holistic** — Das gesamte System wird berücksichtigt
 
 ---
 
@@ -134,9 +169,57 @@ Die Disziplinen sind konzentrisch ineinander verschachtelt — von innen nach au
 
 **Anzahl Interviews (Folie 200):** Typisch 3–6 Beobachtungen/Interviews pro Rolle; max. 2 Stunden pro Interview.
 
+**Don't wait with analysis! (Folie 201):** Protokolle und Aufzeichnungen sollten **innerhalb von 24 Stunden** nach dem Interview ausgewertet werden. Screenshots, Notizen, Videos, Fotos und Audioaufnahmen sind die wichtigsten Gedächtnisstützen.
+
+**Confirmation Bias (Folie 202):**
+> „The tendency to interpret new evidence as confirmation of one's existing beliefs or theories."
+
+User Research darf **nicht nur** darauf abzielen, Annahmen zu bestätigen — es muss aktiv geprüft werden, ob es Belege gibt, die Annahmen zu **widerlegen**. Sonst entsteht ein Confirmation Bias, der zu falschen Designentscheidungen führt.
+
 ---
 
 ### 10. Vorgehensmodell – menschzentriert / ISO – Gemeinsamkeiten und Unterschiede
+
+**Erfordernisse und Nutzungsanforderungen (Folien 231–237) — Ergänzung zum ISO-Prozess:**
+
+**Root-Cause Analysis (Theodore Levitt):**
+> „People don't want to buy a quarter-inch drill bit — they want a quarter-inch hole."
+
+→ Ziel ist es, die **eigentlichen Nutzerziele** zu verstehen, nicht nur die Oberfläche. Das Aufdecken der echten Ziele kann ein bedeutsamer Innovationstreiber sein.
+
+**Nutzungskontext (Folie 232) — Attribute:**
+- Benutzergruppen
+- Aufgaben
+- Umgebungen
+- Ausrüstung
+- Szenarien, die illustrieren, was im Nutzungskontext passiert
+
+**Erfordernisse (Folie 233):**
+> Erfordernisse sind **notwendige Voraussetzungen**, damit Nutzende in einem gegebenen Nutzungskontext ein Ziel erreichen können.
+
+Formulierung: **Voraussetzung** (was der User wissen/können/haben muss) + **Ziel** (Aktivität, um etwas zu entscheiden oder zu tun).
+
+**Beispiel Wecker:** Brillenträger wird nachts wach → muss wissen, wie lange er noch schlafen kann → entscheidet, ob er aufsteht.
+Erfordernis: *„Der brillentragende Schlafende muss (auch ohne seine Brille aufzusetzen) wissen, wie lange er noch schlafen kann, um zu entscheiden, ob er auf die Toilette geht."*
+
+**Von Erfordernissen zu Nutzungsanforderungen (Folie 235–237):**
+
+> Nutzungsanforderungen beschreiben, was ein:e Nutzer:in am System **erkennen, eingeben oder auswählen** muss, während er/sie Ziele im gegebenen Nutzungskontext bearbeitet.
+
+Drei Leitfragen:
+1. Was müssen User **erkennen** können?
+2. Was müssen User **eingeben** können?
+3. Was müssen User **auswählen** können?
+
+Abgeleitete Nutzungsanforderung (Beispiel):
+> „Ein User muss am System — auch ohne seine/ihre Brille aufzusetzen — **erkennen** können, wie lange er/sie noch schlafen kann."
+
+→ Aus solchen Nutzungsanforderungen ergeben sich **Opportunity Areas** (z. B. Wecker mit großer Leuchtziffernanzeige oder Sprachausgabe).
+
+| Begriff | Zweck | Abgeleitet von |
+|---|---|---|
+| **Erfordernis** | Verstehen, was notwendig ist für Nutzerziele | Nutzungskontextbeschreibung |
+| **Nutzungsanforderung** | Richtschnur für Design + Akzeptanzkriterien | Erfordernisse (möglichst aus Nutzungskontext) |
 
 ---
 
@@ -287,6 +370,67 @@ Discoverability ist eine Komponente von Learnability. Beispiel: Viele iOS-Gesten
 - Wasserfall = linear, sequentiell (Business → Designer → Engineer → User)
 - Collaborative UX = iterativ, gegen den Wasserfall — kontinuierliches Feedback statt „fix it later"
 
+**Von Research zur Synthese (Folie 203–204):**
+
+| Stufe | Artefakte |
+|---|---|
+| **Proto-Problem-Statement** (Ausgangspunkt) | Proto-Problem Statement, Proto-Personas, Proto-Journey-Maps |
+| **Research** (Feldforschung) | Beobachtung, Interviews, Fragebogen, Diaries |
+| **Validiertes Problem-Statement** (Synthese) | Problem-Statement, Personas, Ist-Journey-Maps |
+
+Research-Prozess im Detail: Proto-Artefakte → Forschungsfragen → Forschungsplan → Leitfaden → Interviews/Beobachtungen → Persona + Journey + Problem Statement
+
+**User/Customer Journey Map (Folien 205–218):**
+
+> „Journey maps combine two powerful instruments — **storytelling and visualization** — in order to help teams understand and address customer needs."
+
+Zweck: Die Interaktionen einer Zielgruppe mit einem Produkt oder Service **ganzheitlich** betrachten. Schafft einheitliches Verständnis der Nutzerziele, hilft Anforderungen zu definieren, entwickelt Empathie für Nutzer und zeigt Pain Points sowie Opportunity Areas auf.
+
+**Customer Journey — Marketing-Phasen (Folie 206):**
+1. **Awareness** — Bewusstsein für das Produkt wird geweckt
+2. **Favorability** — Interesse wird verstärkt (Favorisierung)
+3. **Consideration** — Kunde erwägt den Kauf (Wunsch)
+4. **Intent to Purchase** — Kaufabsicht wird konkret (Anstoß)
+5. **Conversion** — Das Produkt wird gekauft (Umsetzung)
+
+**8 Elemente einer Journey Map (Folie 209–210):**
+
+| # | Element | Beschreibung |
+|---|---|---|
+| 1 | **Who** | Persona |
+| 2 | **What** | Scenario (+ Goals and Expectations) |
+| 3 | **Phases** | Phasen der Journey |
+| 4 | **Actions** | Was der Nutzer tut |
+| 5 | **Thoughts** | Was der Nutzer denkt |
+| 6 | **Emotional Experience** | Emotionale Kurve |
+| 7 | **Opportunities** | Chancen für Verbesserungen |
+| 8 | **Ownership** | Wer intern verantwortlich ist |
+
+**3 Zonen:**
+- **Zone A — The Lens:** Who (1) + What (2) — definiert Rahmen der Map
+- **Zone B — The Experience:** Actions (4) + Thoughts (5) + Emotional Experience (6) — Herzstück
+- **Zone C — The Insights:** Opportunities (7) + Ownership (8) — Erkenntnisse
+
+**Journey Mapping Prozess (schrittweise, Folien 211–218):**
+1. Persona + Scenario festlegen
+2. Steps (Schritte der Journey) definieren
+3. Details (Erkenntnisse aus Research) hinzufügen
+4. Problems (Probleme) markieren
+5. Insight Statements formulieren
+6. Feelings (emotionale Kurve) einzeichnen
+7. User Needs ergänzen
+8. → **Opportunity Areas** ableiten
+
+**Peak-End Rule (Folie 219, David Kahneman):**
+> „A psychological heuristic in which people judge an experience largely based on how they felt **at its peak** (i.e., its most intense point) and **at its end**, rather than based on the total sum or average of every moment of the experience."
+
+**5 Regeln für eine großartige Experience (Folie 220):**
+1. Set expectations
+2. Follow through
+3. Reduce pain
+4. **Wow strategically** (key moments!)
+5. **End strong**
+
 ---
 
 ## Gruppe C
@@ -368,6 +512,36 @@ Discoverability ist eine Komponente von Learnability. Beispiel: Viele iOS-Gesten
 ---
 
 ### 8. UX Workshop Ablauf und jeweils ein Artefakt
+
+**Quelle:** Folien 100–106 (Collaborative UX), Folien 203–240 (Research + Synthese + Explore)
+
+Der Collaborative UX Design Prozess besteht aus 3 Phasen mit je eigenen Workshops:
+
+| Phase | Workshop | Artefakt (Beispiel) |
+|---|---|---|
+| **Understand** | Scoping-Workshop | Proto-Problem Statement |
+| **Understand** | Research-Workshop (User Research) | Proto-Persona, Proto-Journey-Map |
+| **Understand** | Synthese-Workshop | Persona (validiert), Ist-Journey-Map, Problem Statement |
+| **Explore** | Ideations-Workshop | Sketches, Konzepte |
+| **Explore** | Konzept-Workshop | Wireframes, Screen Flow |
+| **Explore** | Prototyping-Workshop | Prototyp (Lo-Fi oder Hi-Fi) |
+| **Explore** | Validierungs-Workshop | Validierungsbefunde, Testprotokolle |
+| **Deliver** | Requirements-Workshop | Spezifikationen, Sprint Backlog |
+| **Deliver** | Planning-Workshop | User Story Map, Domain Model |
+| **Deliver** | Review-Workshop | Component Library, Prüfbericht |
+
+**Beispiel-Ablauf Scoping-Workshop (Understand):**
+1. Proto-Problem Statement formulieren
+2. Proto-Personas erstellen
+3. Proto-Journey-Maps skizzieren
+→ Artefakt: **Proto-Persona** (archetypischer Nutzer basierend auf Team-Annahmen)
+
+**Beispiel-Ablauf Synthese-Workshop (nach Research):**
+1. Rohdaten aus Interviews/Beobachtungen sichten (Sighting)
+2. Klassifizieren (Classify) und auf Post-its extrahieren
+3. Gruppieren und thematisch ordnen (Organize & Group)
+4. Insights ableiten → Journey Map erstellen
+→ Artefakt: **Ist-Journey-Map** (aus echten Forschungsdaten, zeigt Pain Points + Opportunities)
 
 ---
 
