@@ -29,7 +29,83 @@
 - 16 ungeordnete Elemente → werden als **viele einzelne Objekte** wahrgenommen
 - → Ordnung reduziert die wahrgenommene Komplexität drastisch
 
-*(Chunking im engeren Sinne — Miller's Law — folgt auf späteren Seiten)*
+---
+
+**Miller's Gesetz / Magic Number 7 (±2) (Folien 543–544):**
+
+> „The average person can only keep 7 (plus or minus 2) items in their working memory."
+
+Miller (1957): Menschen können **7 ± 2 Chunks** von Informationen für ca. **30 Sekunden** im Arbeitsgedächtnis halten.
+
+**Chunking — Definition:**
+> Fähigkeit zum inhaltlichen Clustern bedeutsamer Information bei der mentalen Repräsentation.
+
+- Größe und Struktur von Chunks hängen vom **Vorwissen** ab
+- Je mehr wir wissen, desto größer und effizienter können Chunks sein
+- Memorieren wird umso einfacher, je mehr Vorwissen vorhanden ist
+
+**Beispiele für Chunks (Folie 546–547):**
+
+| Folge | Merkbarkeit | Warum |
+|---|---|---|
+| `3 8 4 7 5 3 9` | schwer | Zufällige Zahlen, keine Struktur |
+| `3 1 4 1 5 9 2` | leichter | Beginnt mit Pi (3.14159…) |
+| `1 3 5 7 9 11 13` | leicht | Ungerade Zahlen — Muster erkennbar |
+| `town river corn string car shovel` | gut | Bekannte Substantive |
+| `what is the meaning of life` | sehr gut | Bekannte Phrase = ein Chunk |
+| `CSPBUSAIR` | schwer ohne Wissen | CS · PB · US AIR → 4 bekannte Marken = 4 Chunks |
+
+**Schach-Experiment (Folien 548–549):**
+- Schachspieler bekamen echte Spielpositionen vs. zufällig platzierte Figuren kurz gezeigt
+- **Experten** erinnerten sich bei echten Positionen deutlich besser als Anfänger → Spielmuster sind als Chunks im Langzeitgedächtnis gespeichert
+- Bei zufälligen Positionen: kein Vorteil für Experten (keine Chunks nutzbar)
+→ Je mehr Vorwissen, desto effizienter das Chunking
+
+**Gedächtnissystem als Grundlage (Folien 537–539):**
+
+Drei strukturelle Systeme in Interaktion:
+
+| System | Beschreibung |
+|---|---|
+| **Sensorisches Gedächtnis** | Kurzer Filter-Puffer (< 1 Sekunde); selektive Wahrnehmung entscheidet, was weiterverarbeitet wird |
+| **Arbeitsgedächtnis** | Limitiert auf 7 ± 2 Chunks; FILO-Puffer (wird ständig erneuert); ca. 30 Sekunden |
+| **Langzeitgedächtnis** | Semantisches Netzwerk + Prozedurales/Deklaratives Wissen; durch Wiederholung, Emotion, Motivation gefestigt |
+
+**Drei Prozesse des Gedächtnisses (Folie 539):**
+1. **Enkodierung**: Transformation sensorischer Stimuli zu mentalen Repräsentationen
+2. **Speicherung**: Mentale Ablage enkodierter Repräsentationen im Gedächtnis
+3. **Retrieval**: Abruf von Gedächtnisinhalten
+
+Warum vergessen wir? Fehlschlagen der Enkodierung / Verlust gespeicherter Inhalte / Fehlschlagen des Abrufs.
+
+**Vergessenskurve (Folie 541) — Behalten sinnfreier Silben:**
+- Nach 20 min: ~55 % behalten
+- Nach 1 h: ~45 %
+- Nach 24 h: ~30 %
+- Langfristig: ~15 %
+
+**Serial Position Effect (Folie 550–551):**
+> „Users have a propensity to best remember the first and last items in a series."
+
+- **Primacy Effect**: Erste Elemente werden gut erinnert (in Langzeitgedächtnis überführt)
+- **Recency Effect**: Letzte Elemente werden gut erinnert (noch im Arbeitsgedächtnis)
+- Bei **verzögerter** Wiedergabe: Recency Effect verschwindet — nur Primacy bleibt
+→ Wichtige Navigationspunkte gehören ans **Anfang oder Ende** einer Liste/Navigation
+
+**Von Restorff Effect / Isolation Effect (Folie 552):**
+> „The Von Restorff effect predicts that when multiple similar objects are present, the one that differs from the rest is most likely to be remembered."
+
+→ Einzeln hervorstechendes Element wird am besten erinnert — Verbindung zum Pop-Out Effekt und Las Vegas Effect
+
+**Verbindung Peak-End Rule (Folie 553):**
+Serieller Positionseffekt + Von Restorff-Effekt → bilden die Gedächtnisbasis der Peak-End Rule (Kahneman)
+
+**Konsequenz für UI-Design:**
+- Maximal **7 ± 2 Menüoptionen** oder Navigationseinträge (besser: ≤ 5)
+- Informationen in **logische Gruppen (Chunks)** unterteilen → Group Related Information
+- Bekannte Strukturen und Muster nutzen → reduziert kognitive Last
+- Wichtige Elemente an **Anfang oder Ende** platzieren (Serial Position Effect)
+- Schlüsselelemente visuell hervorheben (Von Restorff Effect)
 
 ---
 
@@ -1116,6 +1192,62 @@ Gelernte Farbkonventionen beeinflussen, **wie Nutzer Interfaces interpretieren**
 - **Blauer Text**: ca. **4× mehr Lesefehler** als schwarz/weiß (1 vs. 4/1000 bei grün/weiß vs. blau/weiß)
 - **Kulturabhängig**: Farben haben je nach Kulturraum verschiedene Bedeutungen
 - Allgemein: **„Design in monochrome first"** (bestätigt Greyscale-First-Prinzip)
+
+**Nielsen-Heuristik: Recognition rather than Recall (Folie 557)**
+
+> „Minimize the user's memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue to another."
+
+- **Recall**: Ungestützter Zugriff auf Gedächtnisinhalte (User muss sich eigenständig erinnern)
+- **Recognition**: Wiedererkennen von (externen) Stimuli aus einer vorgegebenen Auswahl
+- **Recognition ist Recall typischerweise deutlich überlegen**
+
+Interface-Beispiel:
+- Kommandozeile: `copy doc1 doc2` → User muss Befehl **erinnern** (Recall) — hohe kognitive Last
+- GUI-Menü: Auswahl aus Liste → User **erkennt** den richtigen Menüeintrag (Recognition) — niedrige kognitive Last
+→ Das WIMP-Paradigma (Windows, Icons, Menus, Pointer) basiert auf Recognition statt Recall
+
+**Lesen — Fixationen und Sakkaden (Folie 523):**
+
+**Fixationen:**
+- Dauer: ~200–300 ms
+- In dieser Zeit findet die eigentliche **Aufnahme von Information** statt
+
+**Sakkaden:**
+- Extrem schnelle Augenbewegungen zur räumlichen Sequenzierung der Fixation (~50 ms)
+- Gerade Linien = Vorwärtssakkaden; Bögen = Regressions-Sakkaden (Rücksprünge)
+
+**Stroop-Effekt — Lesen als automatisierte Fertigkeit (Folien 524–526):**
+> Lesen ist eine so stark automatisierte Fertigkeit, dass sie schwerer zu unterdrücken ist als die Wahrnehmung von Farbe.
+
+Experiment: Farbwörter in falscher Farbe benennen (z. B. „ROT" in blau geschrieben → Farbe = blau nennen)
+- **Average Stroop**: ~40 Sekunden für 30 Wörter (kognitiver Konflikt durch Interferenz)
+- **Average Matching**: ~17 Sekunden (Wortfarbe stimmt mit Inhalt überein)
+→ Konsequenz: Farbkodierung im Interface darf nicht im Widerspruch zu konventionellen Bedeutungen stehen (→ Delete-Dialog-Problem)
+
+**All Caps / Großschrift (Folien 527–528):**
+- Lesbarkeit hängt von der **oberen Hälfte** der Buchstaben ab
+- Großschrift erzeugt **monotone Rechtecke** — Wortformen sind nicht unterscheidbar
+- Gemischte Groß-/Kleinschrift: Wortformen klar erkennbar → deutlich besser lesbar
+→ Längere Texte nie in ALL CAPS setzen
+
+**Scannability und F-Pattern (Folien 534–535):**
+
+> „Scannable content gestattet Nutzenden einen schnellen Überblick: Was interessiert sie, was soll gelesen werden?"
+
+- Nutzer **lesen** Webseiten nicht vollständig — sie **scannen** zunächst
+- **Nielsen's F-Pattern**: Nutzer schauen zuerst horizontal oben, dann kürzer horizontal in der Mitte, dann vertikal links hinunter → F-Form im Eye-Tracker
+- Strukturierter Text (Überschriften, Absätze) wird schneller erfasst als Fließtextblöcke
+
+**Interferenz (Folie 559–560) — Konsistenz und Lernbarkeit:**
+
+> Design A, B oder C: Was ist am Besten erlernbar?
+
+Beispiel Keyboard Shortcuts für einen Document Editor:
+- **Design A**: Gleiche Shortcuts (CTRL-X / CTRL-V) für alle Objekttypen (Text, Sketch, Table, Image, Video) — **konsistent**
+- **Design B/C**: Unterschiedliche Shortcuts je Objekttyp — hohe Interferenz, schwer zu lernen
+
+→ Konsistenz (Interaction Design Prinzip) reduziert Interferenz im Arbeitsgedächtnis — einmal Gelerntes muss nicht überschrieben werden
+→ Verbindung zum Konsistenz-Prinzip (Interaction Design, Folie 69)
 
 *(Weitere Nielsen-Heuristiken folgen auf späteren Seiten)*
 

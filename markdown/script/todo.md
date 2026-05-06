@@ -16,13 +16,22 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 261–280
-- **Zuletzt gelesen:** 241–260
-- **Achtung:** Redundante Kodierung ✅ vollständig (Ampel-Icons, Dashboard, biologische Grundlage Stäbchen/Zäpfchen, Farbfehlsichtigkeit). Label-Alignment ergänzt (Group Labels with their Inputs, Group Related Information). Farbkonventionen ergänzt (Delete-Dialog-Problem, Regeln Farbzurückhaltung). Visuelle Priorisierung ergänzt (Hierarchie, Auszeichnung). Noch offen: Mentales Modell (Norman), Prototypen/MVP, Nielsen restliche Heuristiken (9 von 10), Fitts, Chunking (Miller's Law), Progressive Disclosure, SUS, Metriken, Top/Left/Right-Label-Alignment (explizit), Summative/Formative, Triangulation, Stakeholder vs. User, Priorisierungsmatrix (Impact×Effort).
+- **Nächste Seiten:** 281–300
+- **Zuletzt gelesen:** 261–280
+- **Achtung:** Chunking/Miller's Law ✅ vollständig (7±2, Gedächtnissystem, Vergessenskurve, Schach-Experiment, Serial Position Effect, Von Restorff Effect). Nielsen: Recognition rather than Recall ✅ + Stroop-Effekt, Fixationen/Sakkaden, All Caps, Scannability/F-Pattern, Interferenz/Konsistenz ergänzt. Noch offen: Mentales Modell (Norman), Prototypen/MVP, Nielsen restliche Heuristiken, Fitts, Progressive Disclosure, SUS, Metriken, Top/Left/Right-Label-Alignment (explizit), Summative/Formative, Triangulation, Stakeholder vs. User, Priorisierungsmatrix (Impact×Effort).
 
 ---
 
 ## Iterationslog
+
+### Iteration 14 — Seiten 261–280 (Folien ~522–560)
+**Inhalt:** Lesen-Kapitel: R-E-A-D-I-N-G Intro (Folie 522). Fixationen (~200–300ms, Informationsaufnahme) + Sakkaden (50ms, Vor-/Rückwärtssakkaden) (Folie 523). Stroop-Effekt (Folien 524–526): Lesen als automatisierte Fertigkeit; Average Stroop ~40s vs. Average Matching ~17s bei 30 Wörtern. All Caps (Folien 527–528): Lesbarkeit hängt von oberer Worthälfte ab; Großschrift = monotone Rechtecke, schlechter lesbar. Fare Details (Folien 529–532): Beispiele für Clutter (Textblöcke in Tickets). Scannability (Folie 534): Strukturierter Text schneller erfassbar. Nielsen's F-Pattern (Folie 535): Eye-Tracking zeigt F-förmiges Scan-Muster. Gedächtnis-Kapitel (ab Folie 536): Enkodierung + Zugriff auf Wissen. Strukturelle Systeme (Folie 538): Sensorisches → Arbeitsgedächtnis (7±2 Chunks, FILO) → Langzeitgedächtnis. Prozesse (Folie 539): Enkodierung/Speicherung/Retrieval. Vergessenskurve (Folie 541): 100%→55%→45%→30%→15%. Miller's Gesetz (Folien 543–544): Magic Number 7±2, Chunking-Definition. Chunks-Beispiele (Folie 546–547): Pi, ungerade Zahlen, bekannte Phrasen, CSPBUSAIR. Schach-Experiment (Folien 548–549): Experten nutzen Chunks für echte Positionen. Serial Position Effect (Folie 550–551): Primacy + Recency Effect. Von Restorff Effect (Folie 552): Das abweichende Element wird am besten erinnert. Peak-End Rule + Serial/Von-Restorff-Verbindung (Folie 553). Sperling Task (Folien 554–556): Evidenz für sensorisches Gedächtnis. Recognition vs. Recall (Folien 557–558): Recognition > Recall; WIMP = Recognition-Paradigma. Interferenz (Folie 559–560): Design A (konsistent) am besten erlernbar.
+
+**Beantwortete/ergänzte Fragen:**
+- Gruppe A, 1: Chunking ✅ vollständig (Miller's Law, Gedächtnissystem, Vergessenskurve, Schach-Experiment, Serial Position Effect, Von Restorff Effect)
+- Aufgabe 4: Heuristiken ✅ Recognition rather than Recall + Stroop/All Caps/Scannability/F-Pattern/Interferenz ergänzt
+
+
 
 ### Iteration 13 — Seiten 241–260 (Folien ~481–520)
 **Inhalt:** Group Labels with their Inputs (Folie 481): Label close together, genug Abstand zwischen Feldern. Group Related Information (Folie 482–483): lange Formulare in logische Abschnitte unterteilen; Slider-Werte direkt beim Control. Priorisierung (Folie 484–488): Visuell / Hierarchie (Kontrast, Größe, Gewicht) / Auszeichnung (gezielter Farbeinsatz für Schlüsselelemente). Erkennen von Farben (Folie 490–492): Stäbchen (peripher, Hell/Dunkel) vs. Zäpfchen (Fovea, Farbsehen 3 Typen S/M/L); Farbfehlsichtigkeit Rot/Grün: 8% Männer, 0,4% Frauen, Ursache X-Chromosom. Redundante Kodierung (Folie 495–496): Ampel-Icons (Grün/Rot → grau/grau bei Blindheit → Haken/Kreuz nötig); Dashboard-Metriken (Farbänderung + Pfeil). Kontrast statt Farbe (Folie 497). Supporting Cognition with Colors (Folie 498–503): zeige nur relevant; Sättigung für quantitative Darstellung; Natural Order of Objects. Intentional Misuse (Folie 503–504): Jobs-Tortendiagramm. Farbkonventionen (Folie 505–507): Delete-Dialog (Yes=grün, No=rot); Fehlermeldung in falscher Farbe. Unterscheidbarkeit von Farben (Folie 508–512): angrenzend/größer/gesättigter leichter zu unterscheiden. Farben sind relativ (Folie 513–516): Checkerboard-Illusion. Zurückhaltung Farben (Folie 519–520): wenige, Signalfarben reservieren, Rot+Blau anstrengend, Blau = 4× mehr Lesefehler, kulturabhängig, Design monochrome first.
