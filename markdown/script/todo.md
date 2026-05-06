@@ -16,13 +16,22 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 441–460
-- **Zuletzt gelesen:** 421–440
-- **Achtung:** Gruppe B 9 ✅ Lucky Noodle Berechnungsbeispiel (Tischwahl=18, Tischdeko=24, Menü=3) ergänzt. Gruppe B 11 ✅ CUXD vollständig (Artefaktliste, Basis, ITERATION≠DESIGN, Lean UX, Agile). Aufgabe 8 ✅ Workshop-Prinzipien ergänzt (9 Prinzipien: Einzel+Teamwork, Ergebnisorientiert, Annahmen, Moderation, Transparenz, Nur eine Person, Iterativ, Time Boxing, Alle aktivieren). Noch offen: Gruppe C 8 (Euro-Dollar-Interface), Reliabilität & Validität.
+- **Nächste Seiten:** 461–475
+- **Zuletzt gelesen:** 441–460
+- **Achtung:** Aufgabe 8 ✅ jetzt 11 Workshop-Prinzipien (Separat Entscheiden + Diversität ergänzt). Gruppe A 6 ✅ Law of Uniform Connectedness ergänzt. Aufgabe 4 ✅ Psychologische Prinzipien ergänzt (Aesthetic-Usability Effect, Tesler's Law, Jakob's Law). Gruppe B 11 ✅ Don Norman Zitat + vollständiger CUXD-Prozessfluss ergänzt. Noch offen: Gruppe C 8 (Euro-Dollar-Interface), Reliabilität & Validität.
 
 ---
 
 ## Iterationslog
+
+### Iteration 23 — Seiten 441–460 (Folien ~881–920)
+**Inhalt:** Workshop-Zusammenfassung Abschluss (Folie 883): Vollständige 11 Prinzipien — die letzten beiden: Separat Entscheiden (Sammeln ≠ Entscheiden) + Diversität (gemischte Fachbereiche/Hierarchieebenen). Collaborative UX Design Übersicht (Folien 884–902): Don Norman-Zitat „Act First, Do Research Later"; CUXD-Prozessphasen schrittweise aufgebaut: SCOPING→RESEARCH→SYNTHESE → OPPORTUNITIES → IDEATION → KONZEPT → PROTOTYPING+VALIDIERUNG → ROADMAPPING+SPRINT; vollständiger Flow (Folie 902): VERSTEHEN–ERKUNDEN–UMSETZEN. UX Designer Skills (Folie 903): 9-Köpfiger Drachen (Understand/Observe/Creative/Prototype/Evaluate/Persistent/Empathy/Curious/Cross boundaries). T-Shaped Expertise (Folie 904): McKinsey 2018 „Cross-functional talents", Breadth + Depth, Designers als holistic problem solvers. Psychologische Prinzipien (Folien 905–920+): Aesthetic-Usability Effect (Kurosu & Kashimura 1995, Hitachi, 252 TN, 26 ATM-Var.); Tesler's Law / Law of Conservation of Complexity (Larry Tesler, Xerox PARC); Jakob's Law (Nielsen: Users spend most time on other sites); Law of Common Region + Law of Proximity + Law of Prägnanz (Max Wertheimer 1910) + Law of Similarity + Law of Uniform Connectedness — alle mit Origins und Takeaways.
+
+**Beantwortete/ergänzte Fragen:**
+- Aufgabe 8: Workshop-Prinzipien ✅ jetzt 11 vollständig (Separat Entscheiden + Diversität ergänzt)
+- Gruppe A, 6: Gestaltgesetze ✅ Law of Uniform Connectedness ergänzt
+- Aufgabe 4: Heuristiken ✅ Psychologische Prinzipien ergänzt (Aesthetic-Usability Effect, Tesler's Law, Jakob's Law)
+- Gruppe B, 11: CUXD ✅ Don Norman Zitat + vollständiger Prozessfluss (Folie 902) ergänzt
 
 ### Iteration 22 — Seiten 421–440 (Folien ~841–880)
 **Inhalt:** Priorisierungsmatrix Berechnung (Folien 843–844): Lucky Noodle Reservationssystem — Tischwahl 18 Punkte, Tischdeko 24, Menü vorbestellen 3; Formel: (Businessziele×Prio + Kundennutzen) / Realisierungsaufwand. Studie Usability in Germany (Folie 847): Gould & Lewis 1985 — 3 Prinzipien (Early Focus on Users & Tasks / Empirical Measurement / Iterative Design). CUXD Kapitel (Folien 848–851): Basis = Design Thinking + Lean UX + Agile + HCD; vollständige Artefaktliste aller Phasen (Scoping→Research→Synthese→Konzept→Ideation→Prototyping→Validierung→Roadmap→Delivery). Menschzentrierte Gestaltung UXQB 2023 vs. 2018 (Folie 858): Neuerung 2023 — Nutzungsanforderungen explizit als Steuerungsgröße; direkter Sprung von Erfordern zur Gestaltung ist falsch. ITERATION ≠ DESIGN (Folien 859–860): Iteration = Refinement, kann nicht innovieren; Problem des lokalen Maximums. Lean UX (Folien 861–863): Build→Measure→Learn; 15 Lean UX Principles (Cross-functional Teams, GOOB, Small Batch Size, etc.). Agile Development (Folien 864–866): Sprint-Struktur (Test/Build/Design/Deploy), Agile UX = UX Design einen Sprint voraus. Collaborative Workshops (Folien 867–880): 9 Workshop-Prinzipien (Einzel+Teamwork, Ergebnisorientiert, Annahmen-Map, Moderation, Transparenz, Nur eine Person spricht, Iterativ, Time Boxing, Alle aktivieren).

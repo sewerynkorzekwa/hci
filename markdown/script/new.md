@@ -452,6 +452,16 @@ Ein Element, das sich von den anderen unterscheidet, wird sofort fokussiert (sal
 
 ---
 
+#### 10. Law of Uniform Connectedness (Folie ~915)
+
+> „Elements that are visually connected are perceived as more related than elements with no connection."
+
+Visuell verbundene Elemente (z. B. durch Linien, gemeinsame Konturen) werden als stärker zusammengehörig wahrgenommen als unverbundene Elemente — selbst wenn Abstände und Ähnlichkeit dagegen sprechen.
+
+**Interface-Implikation:** Linien, Verbindungsmarkierungen und Pfade (z. B. in Diagrammen, Step-Indicators, Breadcrumbs) stellen visuelle Verbindungen her und gruppieren Elemente stärker als bloße Nähe.
+
+---
+
 #### Zusammenfassung: Gestalt Principles in a Nutshell (Folie 450)
 
 > „User Interface Design is (also) about the feelings of users. Gestalt principles help to give users a good feeling while using your design — **they make a bridge between the design and the emotion of users**."
@@ -1449,6 +1459,20 @@ Das **Gesetz der Nähe** (Law of Proximity) besagt: Elemente, die räumlich nah 
 - **Agile** (Sprints, kontinuierliche Lieferung)
 - **Human-centered Design** (ISO 9241-210)
 
+**Warum mit Annahmen starten? — Don Norman (Folie 885):**
+> „In the real world of product development, time is always short and budgets limited, so it is almost impossible to start with research. [F]or many projects the order is 'design, then study.'"
+
+CUXD beginnt bewusst mit **Proto-Artefakten** (Annahmen) → diese werden durch Research validiert oder verworfen. So kann das Team sofort arbeiten, ohne auf vollständige Forschungsdaten zu warten.
+
+**Vollständiger CUXD-Prozessfluss (Folie 902):**
+```
+VERSTEHEN: Scoping → Research → Synthese
+                                        ↘
+ERKUNDEN:                    ← Konzept ←→ Validierung →
+                                        ↗
+UMSETZEN:                    Prototyping → Roadmapping → Sprint Planning
+```
+
 **Durchführung:** Kollaborative Workshops cross-funktionaler Teams
 
 ---
@@ -2404,6 +2428,40 @@ Beispiel Keyboard Shortcuts für einen Document Editor:
 
 ---
 
+**Psychologische Prinzipien / Laws of UX (Folien ~905–920)**
+
+Ergänzende psychologische Gesetze mit Relevanz für UX und Interface Design:
+
+**Aesthetic-Usability Effect (Kurosu & Kashimura, 1995):**
+> „Users often perceive aesthetically pleasing design as design that's more usable."
+
+- Ursprung: Kurosu & Kashimura, Hitachi Design Center — 252 Probanden bewerteten **26 ATM-UI-Variationen** auf Ästhetik und wahrgenommene Bedienbarkeit
+- Korrelation zwischen ästhetischer Attraktivität und wahrgenommener Bedienbarkeit war **stärker** als zwischen Ästhetik und tatsächlicher Bedienbarkeit
+- **Takeaway 1**: Ästhetisch ansprechendes Design erzeugt positive Reaktion — Nutzer glauben, es funktioniere besser
+- **Takeaway 2**: Menschen tolerieren kleine Usability-Probleme leichter bei schönen Designs
+- **Takeaway 3 (Achtung!)**: Visuell ansprechendes Design kann Usability-Probleme verdecken → Probleme werden in Usability-Tests seltener entdeckt
+
+**Tesler's Law — Law of Conservation of Complexity (Larry Tesler, Xerox PARC, 1980er):**
+> „For any system there is a certain amount of complexity which cannot be reduced."
+
+- Jeder Prozess hat eine inhärente Kernkomplexität — diese kann nicht wegdesignt werden, muss aber entweder **das System** oder **der Nutzer** übernehmen
+- → Lieber System-seitig die Komplexität handeln als sie auf Nutzer abwälzen
+- **Takeaway 1**: Mache so viel Komplexität wie möglich unsichtbar → Handle sie in Design & Entwicklung
+- **Takeaway 2**: Nicht bis zur Abstraktion vereinfachen — Über-Vereinfachung schafft neue Probleme (z. B. Siri)
+- Gegenthese Bruce Tognazzini: Wenn eine Anwendung vereinfacht wird, beginnen Nutzer komplexere Aufgaben zu versuchen → Komplexität kehrt zurück
+
+**Jakob's Law (Jakob Nielsen, Nielsen Norman Group):**
+> „Users spend most of their time on other sites. This means that users prefer your site to work the same way as all the other sites they already know."
+
+- Nutzer übertragen Erwartungen von bekannten Produkten auf neue Produkte
+- → Existierende mentale Modelle nutzen → überlegene UX, bei der Nutzer sich auf ihre Aufgaben konzentrieren können
+- **Takeaway 1**: Vertrautheit aus anderen Produkten wirkt direkt auf neue Produkte
+- **Takeaway 2**: Leverage existing mental models → Nutzer müssen keine neuen Modelle lernen
+- **Takeaway 3**: Bei Redesigns: Nutzer die Möglichkeit geben, vorübergehend die alte Version zu nutzen (Übergangszeit)
+- Direkte Verbindung zu Nielsen-Heuristik H4 (Beständigkeit & Standards) und zum Konsistenz-Prinzip
+
+---
+
 ### 5. Redundante Kodierung (z. B. für Farbfehlsichtigkeit)
 
 **Quelle:** Folie 454 (Euro vs. Schweizer Franken), Folien 441–442 (Design in Greyscale First), Folien 490–496
@@ -2665,6 +2723,10 @@ Workshops sind zentraler Bestandteil kollaborativer Arbeitsmethoden. Stakeholder
 | **Iterativ** | Mehrere Iterationen durchführen: Ausarbeiten → Präsentation → Feedback → Verbesserung. Jeder lernt von den Perspektiven der anderen. |
 | **Time Boxing** | Strikt begrenzte Zeitfenster für Aufgaben und Arbeitsphasen. Fördert Konzentration, vermeidet Zeitverschwendung, verteilt Arbeitsbelastung. |
 | **Alle aktivieren** | Gedanken zunächst **einzeln** niederschreiben, dann im Plenum teilen. Gewährleistet, dass jeder Beitrag Beachtung findet. |
+| **Separat Entscheiden** | Sammeln und Entscheiden klar trennen. Erst alle Ergebnisse sammeln, dann auf Basis klarer Regeln entscheiden — ohne voreilige Urteile. Entscheidungen können so umfassend reflektiert und die Ergebnisse objektiv einbezogen werden. |
+| **Diversität** | Gemischte Gruppen aus verschiedenen Fachbereichen und Hierarchieebenen einbinden. Fördert breite Perspektiven → innovative und ganzheitliche Lösungen. Fachwissen kombinieren, Verständnis über Abteilungsgrenzen → bessere Umsetzbarkeit der Ergebnisse. |
+
+→ **Vollständig: 11 Workshop-Prinzipien** (Folien 867–883)
 
 ---
 
