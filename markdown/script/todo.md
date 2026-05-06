@@ -16,13 +16,23 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 381–400
-- **Zuletzt gelesen:** 361–380
-- **Achtung:** Aufgabe 13 (Prototypen) ✅ vollständig (Typen, Fidelity, Lo-Fi/Hi-Fi, Wizard of Oz, Google Glass, 3 Rules, IT DEPENDS). Gruppe B,2 ✅ Formale Definitionen Folie 729 + Prototyp vs. MVP ergänzt. Gruppe C,2 ✅ Summative/Formative Kurzfassung ergänzt. Gruppe C,4 ✅ Heuristiken 2 erläutert + vollständige 10er-Liste. Aufgabe 4 ✅ vollständige 10er-Heuristiken-Tabelle ergänzt. Noch offen: SUS, Metriken, Stakeholder vs. User, Priorisierungsmatrix (Impact×Effort), Gruppe C 8 (Euro-Dollar-Interface), Aufgabe 7 (Metriken), Aufgabe 11 (Stakeholder vs. User), Aufgabe 15 (Triangulation), Gruppe B 4 (Usability-Metriken).
+- **Nächste Seiten:** 401–420
+- **Zuletzt gelesen:** 381–400
+- **Achtung:** Aufgabe 15 ✅ Triangulation vollständig (Folie 779–782). Gruppe B 4 ✅ Usability-Metriken + UX Eval Methods Matrix + Usability-Test + Thinking Aloud + Issue Map. Gruppe C 9 ✅ UX-Metriken (Effektivität/Effizienz/Zufriedenstellung + Matrix). Aufgabe 7 ✅ Time-on-Task + Task Completion Rate + SUS-Verweis + Triangulation. Aufgabe 4 ✅ H2–H4, H9–H10 mit Beispielen + Heuristische Evaluation (Phasen, Vor-/Nachteile, Expertise). Noch offen: SUS (vollständig), Stakeholder vs. User, Priorisierungsmatrix (Impact×Effort), Gruppe C 8 (Euro-Dollar-Interface), Aufgabe 11 (Stakeholder vs. User), Gruppe C 10 (SUS).
 
 ---
 
 ## Iterationslog
+
+### Iteration 20 — Seiten 381–400 (Folien ~761–800)
+**Inhalt:** Heuristische Evaluation (Nielsen & Molich, Folien 761–776): Entstehung aus 249 Usability-Problemen; 3 Phasen (Einführung / Inspektion / Konsolidierung); Vor-/Nachteile; Expertise-Effekt (Doppelexperten). Nielsens 10 Heuristiken mit Beispielen (Folien 763–774): H1 Sichtbarkeit (Fortschrittsbalken, Kopieren-Dialog), H2 System/Wirklichkeit (Windows-Taschenrechner, App Store bytes), H3 Kontrolle+Freiheit (Gmail Rückgängig), H4 Beständigkeit+Standards (Material Design Icons), H5 Fehlervermeidung (Küchenschrank-Sticker), H6 Wiedererkennen (Galaxus Produktvergleich), H7 Flexibilität+Effizienz (MS Word Ctrl+C), H8 Ästhetik (Rechnung), H9 Fehlerunterstützung (Passwortfeld Live-Feedback), H10 Hilfe+Dokumentation (MS Word Hilfe). UX Evaluation Methods Matrix (Folie 778): Behavior/Opinion × Qualitativ/Quantitativ → Usability Testing / A/B Testing / User Interviews / Questionnaire. Triangulation / Mixed Methods (Folien 779–782): Kombination qualitativer+quantitativer Methoden, Erika Hall Zitat, Fragebogen+Usability Testing+Analytics. Usability Testing (Folien 783–800): User-Based Evaluation, Zielsetzung (Identifikation UX-Barrieren, Messung Effektivität/Effizienz/Zufriedenstellung), Setup (Userraum+Observationsraum), Thinking Aloud (Verbalisierung Arbeitsgedächtnis, Video ist beste Aufzeichnung), Formativ (Koch/Suppe) vs. Summativ (Gast/Suppe) im Detail, Teilnehmende/Repräsentativität (4 Auswahltypen: zufällig/systematisch/strategisch/zweckmäßig), Tipps Probandenrekrutierung (Persona-Beschreibung, min. Probanden, keine Projektmitarbeitenden außer Pilottest), Issue Map (neutrale Erfassung von Findings, nach Tasks+Screens).
+
+**Beantwortete/ergänzte Fragen:**
+- Aufgabe 4: Heuristiken ✅ H2–H4, H9–H10 mit Beispielen + Heuristische Evaluation Phasen + Vor-/Nachteile + Expertise
+- Aufgabe 7: Metriken ✅ Time-on-Task + Task Completion Rate + SUS-Verweis + Triangulation + UX Eval Matrix
+- Aufgabe 15: Triangulation ✅ vollständig (Definition, Achsen, Erika Hall, Matrix, Anwendungsbeispiel)
+- Gruppe B, 4: Usability-Metriken ✅ vollständig (ISO-Metriken, UX Eval Matrix, Usability Test, Thinking Aloud, Issue Map)
+- Gruppe C, 9: UX-Metriken ✅ vollständig (Effektivität/Effizienz/Zufriedenstellung + Matrix + Thinking Aloud)
 
 ### Iteration 19 — Seiten 361–380 (Folien ~721–760)
 **Inhalt:** Prototypen-Arten vollständig (Folie 721): Paper, Wireframes/Klick-Dummy, Mixed/AR, VR, Verbale, Video, Statische&Dynamische Simulatoren, Wizard of Oz, Interaktive. Fidelität (Folie 725): Low→High, 3 Komponenten Dahl et al. 2009 (Prototype/Environment/Psychological Fidelity). Richtige Fidelity zur richtigen Zeit (Folie 726): Paper Scribbles→Wireframes→Visual Design. Horizontal/Vertikal/Diagonal (Folie 724). Bewertungsdimensionen (Folie 728): Fidelität, Zeitaufwand, Kosten, Fähigkeiten, Umfang. Lo-Fi-Definition (Folie 729): low-cost illustration... Hi-Fi-Definition (Folie 729): software prototype... resembles finished system. Wizard of Oz Beispiel (Folie 731): elektrischer EQV + 43" TV. Experimentelle Studie Display-Varianten. Bill Buxton 2007 (Folie 734): „Everything is best for something and worst for something else." Mike Dodge 2019 (Folie 735): WHAT×WHY×HOW/TIME×WHEN×FOR WHOM×WHERE = IMPACT. Fazit (Folie 736): IT DEPENDS. Google Glass (Folien 737–744): 1 Tag visueller Prototyp + 45 Minuten Gesteninteraktion. 3 Prototyping Rules: (1) quickest path to experience, (2) doing is best kind of thinking, (3) build on ideas of others. UX Evaluation (Folie 753–759): Formative vs. Summative, Analytische vs. Empirische Verfahren, möglichst früh evaluieren. Nielsens 10 Heuristiken (Folien 761–774): vollständige Liste mit Beispielen pro Heuristik.

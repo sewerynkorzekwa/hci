@@ -888,6 +888,49 @@ Time (in msec) = a + b · log₂(D / W + 1)
 
 ### 4. Usability und Metriken
 
+**Quelle:** ISO 9241-11 (2018), Folien 778–786
+
+**Die drei Kern-Usability-Metriken (ISO 9241-11):**
+
+| Metrik | Definition | Beispiel-Messung |
+|---|---|---|
+| **Effektivität** | Werden Nutzerziele vollständig und korrekt erreicht? | Task Completion Rate (% erfolgreich abgeschlossener Aufgaben) |
+| **Effizienz** | Mit wie viel Aufwand werden Ziele erreicht? | Time-on-Task, Fehleranzahl, Anzahl Klicks |
+| **Zufriedenstellung** | Wie zufrieden sind Nutzende mit dem System? | SUS-Fragebogen, Likert-Skalen |
+
+**UX Evaluation Methods Matrix (Folie 778, Rohrer 2014):**
+
+|  | **Qualitativ** | **Quantitativ** |
+|---|---|---|
+| **Behavior** | Usability Testings, Walkthrough | A/B Testing, Analytics |
+| **Opinion** | User Interviews | Questionnaire (Fragebogen) |
+
+**Usability-Test — Definition (Folie 786):**
+> Usability-Evaluation, bei der **repräsentative Benutzer:innen** bestimmte Aufgaben mit einem interaktiven System ausführen.
+
+- Identifikation von UX-Barrieren anhand von Prototypen
+- Aufdecken von Optimierungspotenzialen
+- Messung von UX-Metriken: Effektivität, Effizienz, Zufriedenstellung
+- Pro Interview ca. 45–60 Minuten; Interviews mit Möglichkeit zur Beobachtung durch Projektbeteiligte
+
+**Setup (Folie 789):**
+- **Userraum**: Testperson arbeitet allein am System
+- **Observationsraum**: Beobachter sehen durch One-Way-Mirror zu — ohne die Testperson zu beeinflussen
+
+**Thinking Aloud (Folie 790–791):**
+> Prozessbegleitende Verbalisierungen von Ausschnitten des Arbeitsgedächtnisses
+
+- Erfahren was Probanden bei der Bearbeitung durch den Kopf geht — nicht nur was, sondern auch warum
+- Instruktion: „Tell me what you are thinking about as you work."
+- Wichtig: Das System wird getestet, nicht der Nutzer
+- Video liefert reichste Daten; Audio weniger; Notizen: schnell & effektiv
+
+**Issue Map (Folien 799–800):**
+- Struktur zur organisierten Erfassung von Findings im Usability-Test
+- Neutral aufzeichnen was gesagt wurde (keine Interpretation)
+- Nur der Moderator spricht; Note-Taker ist im Hintergrund
+- Statements werden den jeweiligen Tasks und Screens zugeordnet
+
 ---
 
 ### 5. Top und links und rechts Felder (Label-Alignment)
@@ -1411,6 +1454,29 @@ Wer zu früh zu viel in Visual Design investiert, fällt in die Sunk Cost Fallac
 
 ### 9. UX-Metriken und ihre Bedeutung
 
+→ Vollständige Metriken-Tabelle: Gruppe B, Frage 4
+
+**Quelle:** ISO 9241-11, Folien 778–786
+
+**Die drei Kern-UX-Metriken (ISO 9241-11, 2018):**
+
+| Metrik | Beschreibung | Messung |
+|---|---|---|
+| **Effektivität** | Werden Nutzerziele vollständig und korrekt erreicht? | Task Completion Rate |
+| **Effizienz** | Mit wie viel Aufwand werden Ziele erreicht? | Time-on-Task, Fehleranzahl |
+| **Zufriedenstellung** | Wie zufrieden sind Nutzende? | SUS, Likert-Skalen, Interviews |
+
+**UX Evaluation Methods Matrix (Folie 778):**
+
+|  | Qualitativ | Quantitativ |
+|---|---|---|
+| **Behavior** | Usability Testing, Walkthrough | A/B Testing, Analytics |
+| **Opinion** | User Interviews | Questionnaire |
+
+**Thinking Aloud (Folie 790):**
+- Probanden verbalisieren, was ihnen bei der Aufgabe durch den Kopf geht
+- Gibt Aufschluss über Denkprozesse und emotionale Reaktionen
+
 ---
 
 ### 10. System Usability Scale (SUS)
@@ -1884,7 +1950,77 @@ Beispiel Keyboard Shortcuts für einen Document Editor:
 
 ---
 
-*(Weitere Nielsen-Heuristiken folgen auf späteren Seiten)*
+**Heuristik 2 — Übereinstimmung von System und Wirklichkeit (Folie 765)**
+
+> Das System sollte die Sprache der Benutzenden sprechen, mit Worten, Sätzen und Konzepten, die ihnen bereits vertraut sind. Auf systemorientierte oder technische Begriffe sollte verzichtet werden.
+
+- In der digitalen Welt helfen Bezeichnungen oder Modelle, die der analogen Welt entsprechen → **Mentale Modelle**
+- **Beispiel:** Windows-Taschenrechner — Design ist dem physischen Taschenrechner aus der realen Welt nachempfunden (Layout, Tasten, Funktion)
+- **Negativbeispiel:** Apple App Store Keyword-Feld → technische Fehlermeldung „Keywords for German cannot be longer than 100 bytes" — Nutzer denkt in Zeichen, nicht Bytes
+
+---
+
+**Heuristik 3 — Kontrolle und Freiheit für Nutzende (Folie 767)**
+
+> Nutzer:innen sollen jederzeit die Kontrolle darüber haben, eine Systemfunktion zu verlassen oder eine getätigte Aktion rückgängig zu machen.
+
+- Hierzu gehört der Überblick, wo man sich im Prozess befindet, und die Möglichkeit, den Prozessschritt einfach zu wechseln
+- Wurde fälschlicherweise ein Item ausgewählt oder hinzugefügt, sollte es wieder abgewählt oder gelöscht werden können
+- **Beispiel:** Gmail „Nachricht gesendet" — das System bietet für wenige Sekunden die Option an, die Sendung rückgängig zu machen
+
+---
+
+**Heuristik 4 — Beständigkeit und Standards (Folie 768)**
+
+> Wörter, Interaktionselemente oder Navigationselemente sollten stets konsistent sein. Die Definition von Standards über das gesamte System ist dafür unabdingbar (z. B. Content Guidelines, Styleguides). Auch systemübergreifende Standards sollen berücksichtigt werden.
+
+- **Beispiel:** Buttons aus Plattform-Libraries (z. B. Google Material Design) haben in verschiedenen Systemen stets dieselbe Funktion → systemübergreifende Konsistenz
+
+---
+
+**Heuristik 9 — Unterstützung bei Erkennung, Diagnose und Behebung von Fehlern (Folie 772)**
+
+> Fehlermeldungen sollten in einer einfachen und prägnanten Sprache verfasst sein. Sie erklären das Problem und schlagen konstruktive Lösungen vor.
+
+- Erhalten wir eine Fehlermeldung, möchten wir direkt die Ursache und Lösung sehen — keinen kryptischen Error-Code
+- Auch der Zeitpunkt, wann die Fehlermeldung erscheint, ist relevant für die Nutzendenerfahrung
+- **Beispiel:** Passwortfeld — schon während der Eingabe erhalten wir Feedback, welche Passwortregeln bereits erfüllt sind und welche noch ausstehen (Inline-Validierung, Folie 772)
+
+---
+
+**Heuristik 10 — Hilfe und Dokumentation (Folie 773)**
+
+> Ein System sollte in seiner Anwendung möglichst selbsterklärend sein. Sollten Dokumentationen oder FAQs notwendig sein, sollen sie in verständlicher Sprache geschrieben und einfach auffindbar sein.
+
+- Kommt man bei einer Aufgabe nicht weiter und muss sie erledigen, so werden Lösungen in einer Dokumentation oder beim Support-Dienst gesucht
+- **Beispiel:** Microsoft Word — bietet Hilfe, Feedback, Schulung, Neuigkeiten im Hilfe-Menü an
+
+---
+
+**Heuristische Evaluation — Methode und Phasen (Folien 761–776)**
+
+> Entwickelt von Jacob Nielsen und Rolf Molich in den 90ern. Basierend auf einer empirischen Analyse von **249 Usability-Problemen** destillierte Designrichtlinien als „Usability-Faustregeln".
+
+**3 Phasen der Heuristischen Evaluation (Folie 762):**
+
+| Phase | Beschreibung |
+|---|---|
+| **Phase 1: Einführung** | Evaluatoren werden auf Grundlage eines vorbereiteten Scripts in Ziele der HE eingeführt und geeignete Heuristiken vorgestellt |
+| **Phase 2: Durchführung der Inspektion** | Experten inspizieren jeweils **alleine** das System auf Basis der Heuristiken — 2 Schritte: (1) Überblick gewinnen, (2) eigentliche Inspektion mit Protokollierung der Findings |
+| **Phase 3: Ergebniskonsolidierung** | Gemeinsame Diskussion, Priorisierung der Findings (Schweregrade bestimmen), Erarbeitung von Lösungen + Was soll beibehalten werden? |
+
+**Vorteile & Nachteile — Heuristic Analysis (Folie 775):**
+
+| Vorteile | Nachteile |
+|---|---|
+| Keine Testnutzer notwendig (kein Recruiting) | Rekrutierung von Doppelexperten (Usability + Fachdomäne) schwierig |
+| Kein spezifisches Equipment/Labor nötig | Findet Sequenzierungs- und Workflow-Probleme nur bedingt (Hartson & Pyla, 2012) |
+| Zeitlich und örtlich flexibel | Für Nutzer relevante Probleme werden oft nicht gefunden |
+|  | Triviale Probleme werden oft überschätzt |
+
+**Evaluationserfolg: Expertise ist zentral (Folie 776):**
+- Task & Usability Experts finden deutlich mehr Probleme als Regular Evaluators oder Novice Evaluators
+- Bei komplexen Domänen sind **Doppelexperten** (Usability-Expertise + Domänenwissen) zwingend notwendig
 
 ---
 
@@ -2052,6 +2188,40 @@ Warum: Fällt ein Kanal aus (z. B. Farbfehlsichtigkeit, S/W-Druck, schlechte Bel
 ---
 
 ### 7. Zwei beliebige Usability-Metriken (z. B. Time-to-Task, SUS)
+
+→ Vollständiger Kontext: Gruppe B, Frage 4
+
+**Quelle:** ISO 9241-11, Folien 778–792
+
+**Metrik 1 — Time-on-Task (Effizienz):**
+> Misst, wie lange ein Nutzer benötigt, um eine definierte Aufgabe erfolgreich abzuschließen.
+
+- Kurze Zeit = effizientes Interface; lange Zeit = Hinweis auf Usability-Problem
+- Gemessen im Usability-Test: Start-Zeitpunkt (Aufgabe gestellt) → End-Zeitpunkt (Aufgabe abgeschlossen)
+- Gehört zur ISO-Metrik **Effizienz**
+
+**Metrik 2 — Task Completion Rate (Effektivität):**
+> Anteil der Probanden, die eine Aufgabe erfolgreich abgeschlossen haben (in %).
+
+- 100% = alle Probanden lösen die Aufgabe; < 70% = kritisches Usability-Problem
+- Wird im formativen Usability-Test erhoben; auch Basis für summative Baseline-Messung
+- Gehört zur ISO-Metrik **Effektivität**
+
+**Ergänzend: Zufriedenstellung**
+- Wird oft mit dem **SUS (System Usability Scale)** gemessen — standardisierter 10-Item-Fragebogen, Skala 0–100
+- SUS-Score > 68 gilt als überdurchschnittlich; < 51 als schlecht
+
+**UX Evaluation Methods Matrix (Folie 778):**
+
+|  | Qualitativ | Quantitativ |
+|---|---|---|
+| **Behavior** | Usability Testing, Walkthrough | A/B Testing, Analytics |
+| **Opinion** | User Interviews | Questionnaire (z. B. SUS) |
+
+**Thinking Aloud als qualitative Ergänzung (Folie 790):**
+- Erklärt das **Warum** hinter Metriken
+- „Tell me what you are thinking about as you work."
+- Kombiniert mit quantitativen Metriken = Triangulation (Mixed Methods)
 
 ---
 
@@ -2324,5 +2494,45 @@ Das Präfix **„Proto"** vor einem Artefakt signalisiert:
 ---
 
 ### 15. Triangulation erklären
+
+**Quelle:** Folien 779–782
+
+**Definition — Triangulation / Mixed Methods:**
+> „Deeper understanding by combining different methods!"
+
+**Data Triangulation (Folie 781):**
+> Kombination von zwei oder mehr (qualitativen oder quantitativen) Methoden, um Ergebnisse aus verschiedenen Perspektiven zu betrachten und Interpretationen zu validieren.
+
+**Warum Triangulation?**
+- Jede einzelne Methode hat **blinde Flecken** → eine andere Methode gleicht diese aus
+- Nicht auf eine einzelne Kennzahl verlassen — besonders bei wichtigen Designentscheidungen
+- Mehrere KPIs **und** verschiedene Methoden kombinieren
+
+**Erika Hall (Folie 780):**
+> „The best way to assess a functional design is through a combination of quantitative and qualitative methods."
+
+**Zwei Achsen der Triangulation (Folie 779):**
+1. **Qualitativ vs. Quantitativ** — Tiefe des Verstehens vs. messbare Zahlen
+2. **Analytische Inspektion vs. Empirischer Test** — Experte bewertet vs. echte Nutzer testen
+
+**UX Evaluation Methods Matrix (Folie 778, Rohrer 2014):**
+
+|  | **Qualitativ** | **Quantitativ** |
+|---|---|---|
+| **Behavior** | Usability Testings, Walkthrough | A/B Testing, Analytics |
+| **Opinion** | User Interviews | Questionnaire (Fragebogen) |
+
+**Typische Mixed-Methods-Kombination (Folie 782):**
+
+```
+Fragebogen  +  Quantitatives Usability Testing  und/oder  Analytics
+```
+
+→ Fragebogen liefert Meinung (Opinion), Usability Testing liefert Verhalten (Behavior), Analytics liefert quantitative Daten → drei unabhängige Blickwinkel auf dasselbe Design.
+
+**Anwendungsbeispiel:**
+- Nur Fragebogen → weiß was Nutzer **sagen**, aber nicht was sie **tun**
+- Nur Analytics → weiß was Nutzer tun, aber nicht **warum**
+- Kombination: Fragebogen + Analytics + Usability Test → vollständiges Bild (Triangulation)
 
 ---
