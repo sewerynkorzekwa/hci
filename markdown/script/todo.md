@@ -14,8 +14,9 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 21–40
-- **Zuletzt gelesen:** 1–20
+- **Nächste Seiten:** 41–60
+- **Zuletzt gelesen:** 21–40
+- **Achtung:** Prinzip #7 der Interaction Design Prinzipien noch nicht gesehen — kommt in 41–60
 
 ---
 
@@ -27,3 +28,11 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 **Beantwortete Fragen:**
 - Gruppe A, 3: UX (teilweise — Usability noch nicht definiert)
 - Gruppe A, 4: Service Design vs. UX Design ✅
+
+### Iteration 2 — Seiten 21–40 (Folien ~41–80)
+**Inhalt:** Usability & UX-Kapitel. ISO 9241-11 (2018) Usability-Definition (effective, efficient, satisfactory). 5 Neuerungen ISO 2018 vs. 1998 (Interactive Systems, Stakeholder-Ziele, Zufriedenstellung neu, Umgebung erweitert, menschzentrierte Qualität). UX-Definition (Donald Norman + ISO). UX-Zeitstrahl: UX = before/during/after, Usability = only during. „Nutzerzentrierung is a lie" → Balance User/Technik/Ökonomie/Ökologie. Menschzentrierte Gestaltung (DIN EN ISO 9241-210:2019). Myth #6: Planung ist alles. 7 Interaction Design Prinzipien (1–6 gezeigt: Visibility, Consistency, Mapping, Feedback, Constraints, Simplicity).
+
+**Beantwortete Fragen:**
+- Gruppe A, 3: UX vs. Usability ✅ vollständig
+- Gruppe B, 6: Konsistenz-Prinzip ✅
+- Gruppe B, 7: Interaction Design Prinzipien ⚠️ (Prinzip #7 fehlt noch)

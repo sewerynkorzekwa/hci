@@ -12,17 +12,28 @@
 
 ### 3. UX – Usability
 
-**UX Design** (aus Vorlesung, Folie 8):
-> „(UX) Designers are **holistic, empathic problem solvers** skilled at balancing (potentially conflicting) **user-, technical-, and economical and ecological constraints** in a specific context."
+**Usability** — ISO 9241-11 (2018):
+> „The extent to which an **interactive system** can be used by **specific users** to achieve **specific objectives effectively, efficiently** and **satisfactorily** in a **specific context** of use."
 
-UX Design ist kein Teilbereich von UI, keine Verschönerung und keine einzelne Phase — sondern ein **wertschöpfender Prozess**.
+- **Effektivität**: Werden die Ziele erreicht?
+- **Effizienz**: Mit welchem Aufwand?
+- **Zufriedenstellung** (neu 2018): Ausmaß der Übereinstimmung der physischen, kognitiven und emotionalen Reaktionen des Benutzers mit seinen Bedürfnissen und Erwartungen
 
-**Abgrenzung (aus Mythen-Folien):**
-- UX ≠ Art (Design braucht Objektivität, schließt intelligente Kompromisse, ist auf das Machbare ausgerichtet)
-- UX ≠ UI (UI ist Teilmenge von UX — aber aus Nutzersicht *ist* das Interface das Produkt)
-- UX ≠ Testing (Testing ist diagnostische Perspektive, ein Werkzeug innerhalb von UX)
+**User Experience (UX)** — ISO 9241-210:
+> „Person's perceptions and responses resulting from the **use and/or anticipated use** of a product, system or service." (Donald Norman)
 
-⚠️ **Usability** als eigener Begriff wird in diesen Folien noch nicht definiert — wird in späteren Kapiteln behandelt.
+UX umfasst alle Emotionen, Überzeugungen, Präferenzen, Wahrnehmungen — **vor, während und nach** der Nutzung.
+
+**Verhältnis UX ↔ Usability:**
+
+```
+|←————————— USER EXPERIENCE ——————————→|
+          |←— USABILITY —→|
+  BEFORE       DURING          AFTER
+  (Erwartung)  (Nutzung)       (Reflexion)
+```
+
+**Kernunterschied:** Usability misst die Qualität der Interaktion *während* der Nutzung (effektiv, effizient, zufriedenstellend). UX ist breiter und schließt auch Erwartungen vor der Nutzung und die Bewertung danach ein.
 
 ---
 
@@ -98,9 +109,34 @@ Die Disziplinen sind konzentrisch ineinander verschachtelt — von innen nach au
 
 ### 6. Konsistenz-Prinzip
 
+**Quelle:** Vorlesung, Interaction Design 7 Principles (Folie 67–70)
+
+**Definition:** Konsistenz bedeutet die **Verwendung gleicher Designelemente** (Farben, Typografie, Layout, Interaktionsmuster) durchgängig im gesamten Produkt.
+
+**Warum:** Konsistenz hilft Nutzenden zu verstehen, wie sie mit einem Produkt interagieren, und **reduziert Verwirrung**.
+
+**Beispiel aus der Vorlesung (OK/Cancel-Problem):**
+- Windows: OK zuerst (links)
+- Apple: OK zuletzt (rechts)
+→ Inkonsistenz zwischen Plattformen kostet Nutzenden **mehrere Minuten** durch Nachdenken oder Fehler. „Deviate from the standard, and you'll easily cost users several minutes."
+
 ---
 
 ### 7. Dimensionen des Interaction Design
+
+**Quelle:** Vorlesung, „Interaction Design 101: Master These 7 Principles" (Folien 67–80+)
+
+Die Vorlesung behandelt **7 Prinzipien** des Interaction Design (nicht die klassischen 5 Dimensionen nach Crampton Smith):
+
+| # | Prinzip | Bedeutung |
+|---|---|---|
+| 1 | **Visibility** | Alle Funktionen/Optionen müssen für Nutzende sichtbar und verständlich sein |
+| 2 | **Consistency** | Gleiche Designelemente durchgängig verwenden — reduziert Lernaufwand |
+| 3 | **Mapping** | Beziehung zwischen Bedienelementen und ihren Aktionen muss logisch und intuitiv sein (z. B. Herdknöpfe zur Plattenanordnung) |
+| 4 | **Feedback** | Das System muss auf jede Nutzerinteraktion reagieren (visuell, auditiv oder haptisch) — bestätigt Aktionen, reduziert Unsicherheit |
+| 5 | **Constraints** | Einschränkungen verhindern Fehler und leiten Nutzende zu richtigen Aktionen (physisch, logisch, kulturell) |
+| 6 | **Simplicity** | Einfache, intuitive Oberfläche — reduziert kognitive Last, vermeidet Clutter |
+| 7 | *(folgt in nächsten Seiten)* | — |
 
 ---
 
