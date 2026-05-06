@@ -16,13 +16,24 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 361–380
-- **Zuletzt gelesen:** 341–360
-- **Achtung:** Aufgabe 2 (Bild bewerten) ✅ vollständig (Bewertungsrahmen 8+8 Kriterien inkl. Typografie/Barrierefreiheit). Aufgabe 13 (Prototypen) ⚠️ Grunddefinition ergänzt (Typen folgen). Noch offen: Prototypen-Arten/MVP, SUS, Metriken, Summative/Formative, Stakeholder vs. User, Priorisierungsmatrix (Impact×Effort), Gruppe C 8 (Euro-Dollar-Interface), Aufgabe 7 (Metriken), Aufgabe 11 (Stakeholder vs. User), Aufgabe 15 (Triangulation).
+- **Nächste Seiten:** 381–400
+- **Zuletzt gelesen:** 361–380
+- **Achtung:** Aufgabe 13 (Prototypen) ✅ vollständig (Typen, Fidelity, Lo-Fi/Hi-Fi, Wizard of Oz, Google Glass, 3 Rules, IT DEPENDS). Gruppe B,2 ✅ Formale Definitionen Folie 729 + Prototyp vs. MVP ergänzt. Gruppe C,2 ✅ Summative/Formative Kurzfassung ergänzt. Gruppe C,4 ✅ Heuristiken 2 erläutert + vollständige 10er-Liste. Aufgabe 4 ✅ vollständige 10er-Heuristiken-Tabelle ergänzt. Noch offen: SUS, Metriken, Stakeholder vs. User, Priorisierungsmatrix (Impact×Effort), Gruppe C 8 (Euro-Dollar-Interface), Aufgabe 7 (Metriken), Aufgabe 11 (Stakeholder vs. User), Aufgabe 15 (Triangulation), Gruppe B 4 (Usability-Metriken).
 
 ---
 
 ## Iterationslog
+
+### Iteration 19 — Seiten 361–380 (Folien ~721–760)
+**Inhalt:** Prototypen-Arten vollständig (Folie 721): Paper, Wireframes/Klick-Dummy, Mixed/AR, VR, Verbale, Video, Statische&Dynamische Simulatoren, Wizard of Oz, Interaktive. Fidelität (Folie 725): Low→High, 3 Komponenten Dahl et al. 2009 (Prototype/Environment/Psychological Fidelity). Richtige Fidelity zur richtigen Zeit (Folie 726): Paper Scribbles→Wireframes→Visual Design. Horizontal/Vertikal/Diagonal (Folie 724). Bewertungsdimensionen (Folie 728): Fidelität, Zeitaufwand, Kosten, Fähigkeiten, Umfang. Lo-Fi-Definition (Folie 729): low-cost illustration... Hi-Fi-Definition (Folie 729): software prototype... resembles finished system. Wizard of Oz Beispiel (Folie 731): elektrischer EQV + 43" TV. Experimentelle Studie Display-Varianten. Bill Buxton 2007 (Folie 734): „Everything is best for something and worst for something else." Mike Dodge 2019 (Folie 735): WHAT×WHY×HOW/TIME×WHEN×FOR WHOM×WHERE = IMPACT. Fazit (Folie 736): IT DEPENDS. Google Glass (Folien 737–744): 1 Tag visueller Prototyp + 45 Minuten Gesteninteraktion. 3 Prototyping Rules: (1) quickest path to experience, (2) doing is best kind of thinking, (3) build on ideas of others. UX Evaluation (Folie 753–759): Formative vs. Summative, Analytische vs. Empirische Verfahren, möglichst früh evaluieren. Nielsens 10 Heuristiken (Folien 761–774): vollständige Liste mit Beispielen pro Heuristik.
+
+**Beantwortete/ergänzte Fragen:**
+- Aufgabe 13: Prototypenarten ✅ vollständig (Typen, Fidelity, Horizontal/Vertikal, Lo-Fi/Hi-Fi Definitionen, Wizard of Oz, Google Glass, 3 Rules, Bill Buxton, IT DEPENDS)
+- Gruppe B, 2: Lo-Fi/Hi-Fi ✅ Formale Definitionen (Folie 729) + Prototyp vs. MVP ergänzt
+- Gruppe A, 2: Formativer/Summativer Test ✅ bereits vollständig (vorherige Session)
+- Gruppe C, 2: Summative und formative ✅ Kurzfassung + Verweis ergänzt
+- Gruppe C, 4: Heuristiken (2 erläutern) ✅ Sichtbarkeit des Systemstatus + Fehlervermeidung vollständig
+- Aufgabe 4: Heuristiken ✅ Vollständige 10er-Tabelle (DE+EN) mit Entstehungskontext ergänzt
 
 ### Iteration 18 — Seiten 341–360
 **Inhalt:** Fortsetzung „Fixing a UI design in 16 steps" (Dannaway, Seiten 341–354): Textkontrastwert 4.5:1 (Seite 341); Don't rely on colour alone — redundante Kodierung für Links (Seite 342); Eine Sans-Serif-Schrift verwenden (Seite 343); x-Height — Schriften mit hohen Kleinbuchstaben besser lesbar bei kleinen Größen (Seiten 344–345); Großschrift einschränken — All Caps verhindert Worterkennung (Seite 346); Nur Regular+Bold verwenden — zu viele Gewichte = Noise (Seiten 348–349); Text linksbündig ausrichten — Zentrierter Text bei Fließtext schwer lesbar (Seiten 350–351); Mindest-Zeilenabstand 1.5 (Seiten 352–353). Neues Kapitel Prototyping (Seiten 355–360): Creativity needs Feedback; Alfred Hitchcock + Prototyping; Minimizing risks: „Find the cheapest way to relevant insights"; PROTOTYPING-Definition: Prototypen traversieren Design Spaces, generieren/kommunizieren/evaluieren Ideen, fördern Lernen; Marty-Thaler-Zitat „A prototype is anything that move the process forward."

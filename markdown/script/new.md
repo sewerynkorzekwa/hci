@@ -111,6 +111,37 @@ Serieller Positionseffekt + Von Restorff-Effekt → bilden die Gedächtnisbasis 
 
 ### 2. Formativer und summativer (Test / Evaluation)
 
+**Quelle:** Folie 755 (UX Evaluation — Was ist das?)
+
+**Definition — Usability Evaluation (Folie 755):**
+> „Mit dem Begriff Usability Evaluation wird eine Sammlung von Methoden zur strukturierten Erfassung der Gebrauchstauglichkeit (Usability)/User Experience eines interaktiven Systems angesprochen."
+
+**Zwei Hauptunterscheidungen:**
+
+**1. Formative vs. Summative Evaluation:**
+
+| | Formative Evaluation | Summative Evaluation |
+|---|---|---|
+| **Ziel** | Input für die **nächste Iteration** — was soll verbessert werden? | **Feststellung des Ist-Zustands** — wie gut ist das System aktuell? |
+| **Zeitpunkt** | Während des Designprozesses (früh, iterativ) | Am Ende — nach Abschluss des Designs oder einer Phase |
+| **Ergebnis** | Konkrete Verbesserungsvorschläge | Messung gegen Baseline/Standard |
+| **Analogie** | Arzt behandelt Patient während Krankheit | Arzt stellt Diagnose nach Genesung |
+
+**2. Analytische vs. Empirische Verfahren:**
+
+| | Analytische Verfahren | Empirische Verfahren |
+|---|---|---|
+| **Benutzerbeteiligung** | **Benutzerfrei** — Experten evaluieren ohne echte User | **Benutzer involviert** — echte Nutzer testen das System |
+| **Beispiele** | Heuristische Evaluation (Nielsen), Kognitive Walkthrough | Usability-Test, Befragung, Beobachtung |
+
+**Wichtiger Hinweis — Wann evaluieren? (Folie 759):**
+> „Möglichst früh evaluieren — nicht auf das GO! von Designern warten."
+
+- Feedback zu **prinzipiellen Designentscheidungen** ist zentral — Detailausarbeitungen sollten nachgeordnet werden
+- **Papierprototypen** statt High-Fidelity Design: frühe, günstige Erkenntnisse sind wertvoll
+- Problem: Designer sehen (negatives) Feedback oft als **Kritik** → möchten möglichst perfektes Ergebnis vorlegen → dadurch verschleppen sie Evaluation
+- Evaluationsergebnisse dokumentieren früh mögliche **Schwächen (aber auch Stärken)** eines Entwurfs
+
 ---
 
 ### 3. UX – Usability
@@ -771,6 +802,12 @@ Eine Persona-Beschreibung umfasst:
 - Wird im Rahmen von Usability-Tests oder für die Übergabe an Entwickler eingesetzt
 - Beispiele: Figma-Mockups, interaktive Prototypen
 
+**Formale Definitionen (Folie 729):**
+
+> **Low-Fidelity Prototype:** „A low-cost, simple illustration of a design or concept used to gather user feedback at the very early stages of design."
+
+> **High-Fidelity Prototype:** „A software prototype of the user interface to the interactive system that is being designed. A high-fidelity prototype resembles the finished interactive system and may or may not be interactive."
+
 **Progression (Folie 322, 336):**
 ```
 Sketches (Lo-Fi) → Wireframes (Lo-Fi/Mid) → Visual Design/Mockup (Hi-Fi)
@@ -781,7 +818,17 @@ Sketches (Lo-Fi) → Wireframes (Lo-Fi/Mid) → Visual Design/Mockup (Hi-Fi)
 - Legt Informationsarchitektur und Grid fest
 - Kein visuelles Design — konzentriert sich auf Struktur und Controls
 
-*(Prototyp vs. MVP folgt auf späteren Seiten)*
+**Unterschied Prototyp vs. MVP:**
+
+| | Prototyp | MVP (Minimum Viable Product) |
+|---|---|---|
+| **Zweck** | Validierung von Design-Annahmen / UX-Feedback | Marktvalidierung — echte Nutzung durch echte Nutzer |
+| **Fertigungsgrad** | Kann Lo-Fi oder Hi-Fi sein — nicht notwendigerweise funktionsfähig | Einfachste, aber vollständig funktionsfähige Version |
+| **Zielgruppe** | Testnutzer im kontrollierten Rahmen | Echte Kunden/Nutzer im Markt |
+| **Ergebnis** | Design-Verbesserungen, Iterationsgrundlage | Marktfeedback, Business-Entscheidungen |
+| **Fertigstellung** | Nicht fertig — bewusst unvollständig | Minimal fertig — auslieferbar |
+
+→ Ein Prototyp ist ein Werkzeug zum **Lernen über Design**; ein MVP ist ein Werkzeug zum **Lernen über Märkte**.
 
 ---
 
@@ -1229,6 +1276,26 @@ Wer zu früh zu viel in Visual Design investiert, fällt in die Sunk Cost Fallac
 
 ### 2. Summative und formative
 
+→ Vollständige Antwort: Gruppe A, Frage 2
+
+**Kurzfassung (Folie 755 + 792):**
+
+**Formative Evaluation:**
+> Input für die **nächste Iteration** — was soll verbessert werden?
+
+- Findet **während** des Designprozesses statt (früh, iterativ)
+- Weniger Proband:innen nötig
+- Ziel: Usability-Probleme erkennen und beseitigen
+- **Analogie: Der Koch probiert die Suppe selbst** (→ kontrolliert laufenden Prozess)
+
+**Summative Evaluation:**
+> **Feststellung des Ist-Zustands** — wie gut ist das System?
+
+- Findet am **Ende** (einer Phase oder Entwicklung) statt
+- Höhere Anzahl von Proband:innen erforderlich (mehrere Nutzergruppen)
+- Ziel: Messung gegen Baseline-Metriken
+- **Analogie: Ein Gast probiert die Suppe** (→ Endbeurteilung)
+
 ---
 
 ### 3. Persona / Proto-Persona
@@ -1242,6 +1309,44 @@ Wer zu früh zu viel in Visual Design investiert, fällt in die Sunk Cost Fallac
 ---
 
 ### 4. Heuristiken (2 erläutern)
+
+→ Vollständige Liste aller 10 Heuristiken + psychologische Grundlagen: Aufgaben, Frage 4
+
+**Überblick: Nielsens 10 Usability-Heuristiken (Nielsen & Molich, 1990):**
+1. Sichtbarkeit des Systemstatus
+2. Übereinstimmung von System und Wirklichkeit
+3. Kontrolle und Freiheit für Nutzende
+4. Beständigkeit und Standards
+5. Fehlervermeidung
+6. Wiedererkennen statt Erinnern
+7. Flexibilität und Effizienz
+8. Ästhetisches und minimalistisches Design
+9. Unterstützung bei Erkennung, Diagnose und Behebung von Fehlern
+10. Hilfe und Dokumentation
+
+---
+
+**Heuristik 1 — Sichtbarkeit des Systemstatus (Folie 764):**
+
+> Nutzer:innen sollten stets wissen, wo sie sich im Prozess befinden und wie der aktuelle Systemstatus ist. Wird eine Aktion durchgeführt, wird eine unmittelbare Rückmeldung durch das System erwartet.
+
+- Rückmeldung kann in Form von Ton, Animation oder Screenwechsel erfolgen
+- Muss **unmittelbar**, **einfach verständlich** und **prägnant** sein
+- **Beispiel:** Fortschrittsbalken beim Datei-Upload — Nutzer weiß in Echtzeit wie lange es noch dauert
+
+**Psychologische Grundlage:** Foveales Sehen — Feedback muss dort platziert sein, wo der Nutzer gerade schaut (z. B. direkt beim Button, nicht oben auf der Seite)
+
+---
+
+**Heuristik 5 — Fehlervermeidung (Folie 769):**
+
+> Gute Fehlermeldungen sind wichtig, aber ein sorgfältiges Design stellt sicher, dass Fehler erst gar nicht auftreten. Fehleranfällige Bedingungen sollen eliminiert oder zumindest durch Bestätigung gesichert werden.
+
+- Zwei Fehlerkategorien:
+  - **Ausrutscher** (Slips): Entstehen durch mangelnde Aufmerksamkeit
+  - **Bewusste Fehler** (Mistakes): Entstehen durch Diskrepanz zwischen Nutzerverständnis und System
+- **Beispiel:** Küchenschränke mit Stickern — vermeidet, dass Personen versuchen, Schränke von der falschen Seite zu öffnen (physisches Constraint-Design)
+- Interface-Beispiel: Löschen-Aktion erfordert explizite Bestätigung (Confirmation Dialog)
 
 ---
 
@@ -1535,6 +1640,25 @@ Schrittweise Vereinfachung einer Datentabelle — Tufte-Prinzipien in der Praxis
 ---
 
 ### 4. Heuristiken (Nielsen) mit psychologischen Grundlagen
+
+**Nielsens 10 Usability-Heuristiken — Vollständige Liste (Folien 763–774):**
+
+| # | Heuristik (DE) | Heuristik (EN) |
+|---|---|---|
+| 1 | Sichtbarkeit des Systemstatus | Visibility of System Status |
+| 2 | Übereinstimmung von System und Wirklichkeit | Match Between System and the Real World |
+| 3 | Kontrolle und Freiheit für Nutzende | User Control and Freedom |
+| 4 | Beständigkeit und Standards | Consistency and Standards |
+| 5 | Fehlervermeidung | Error Prevention |
+| 6 | Wiedererkennen statt Erinnern | Recognition Rather Than Recall |
+| 7 | Flexibilität und Effizienz | Flexibility and Efficiency of Use |
+| 8 | Ästhetisches und minimalistisches Design | Aesthetic and Minimalist Design |
+| 9 | Unterstützung bei Erkennung, Diagnose und Behebung von Fehlern | Help Users Recognize, Diagnose, and Recover from Errors |
+| 10 | Hilfe und Dokumentation | Help and Documentation |
+
+**Entstehung:** Entwickelt von Jakob Nielsen und Rolf Molich in den 90ern. Aufbauend auf Heuristiken, die aus einer empirischen Analyse von **249 Usability-Problemen** destilliert wurden (Folie 761).
+
+---
 
 **Psychologische Grundlage: Visuelle Wahrnehmung und foveales Sehen (Folien 382–391)**
 
@@ -2067,24 +2191,117 @@ Sketches verhindern die **Sunk Cost Fallacy**: Wer zu früh in Pixelarbeit inves
 
 ### 13. Arten von Prototypen und wann welche zum Einsatz
 
-**Quelle:** Seiten 355–360 (Beginn Prototyping-Kapitel)
+**Quelle:** Folien 721–750 (Prototyping-Kapitel)
 
-**Grunddefinition (Seite 360):**
+**Grunddefinition:**
 > „A prototype is anything that move the process forward." (Marty Thaler)
 
 > „Prototypes are tools to traverse design spaces."
 
 > „Prototypes help to generate, communicate and evaluate design ideas – allowing informed decisions."
 
-> „Prototypes challenge preconceptions and facilitate learnings."
-
-**Motivation (Seiten 357–359):**
 > „Find the cheapest way to relevant insights! It's all about informative prototypes."
 
-- Prototypen minimieren Risiken, indem sie früh und günstig Erkenntnisse liefern
-- Iterative Entwicklung: Jeder Prototyp ist ein Lernschritt, kein fertiges Produkt
+---
 
-*(Typen von Prototypen und wann welcher Einsatz folgt auf späteren Seiten)*
+**Typen von Prototypen (Folie 721):**
+
+| Typ | Beschreibung |
+|---|---|
+| **Paper Prototyp** | Handgezeichnete Skizzen, schnellste und günstigste Methode |
+| **Wireframes / „Klick"-Dummy** | Digitale Skelett-Struktur ohne visuelles Design |
+| **Mixed / Augmented Reality Prototyp** | Überlagerung digitaler und realer Welt (z. B. mit AR-Brille) |
+| **Virtual Reality Prototyp** | Vollständig immersive digitale Umgebung |
+| **Video Prototyp** | Filmische Simulation des Nutzungsszenarios |
+| **Verbale Prototypen** | Beschreibung/Erklärung eines Konzepts durch Sprache |
+| **Statische & Dynamische Simulatoren** | Hardware-basierte Nachbildung (z. B. Cockpit-Simulator) |
+| **Wizard of Oz Prototyping** | Mensch simuliert Systemverhalten im Hintergrund (unsichtbar für Nutzer) |
+| **Interaktive Prototypen** | Vollständig klickbares, digitales Interface (z. B. Figma-Prototyp) |
+
+**Beispiel Wizard of Oz (Folie 731):** Elektrischer EQV + 43" TV — Testperson interagiert mit Display, dahinter steuert ein Mensch die Reaktionen.
+
+---
+
+**Fidelität — Realitätstreue (Folie 725):**
+
+> „Realitätstreue", „Echtheitsgrad"
+
+Skala: **LOW ←——→ HIGH**
+
+**3 Komponenten nach Dahl et al. (2009):**
+1. **Prototype Fidelity** — Detailgrad des Prototyps selbst
+2. **Environment Fidelity** — Realitätsnähe der Testumgebung
+3. **Psychological Fidelity** — Realitätsnähe des psychologischen Erlebens
+
+**Richtige Fidelity zur richtigen Zeit (Folie 726):**
+```
+Paper Scribbles → Wireframes → Visual Design
+```
+Je nach Projektphase und Fragestellung variiert die benötigte Fidelity.
+
+---
+
+**Horizontale, vertikale und diagonale Prototypen (Folie 724):**
+
+| Typ | Abdeckung | Tiefe |
+|---|---|---|
+| **Horizontal** | Viele Features | Wenig Tiefe je Feature |
+| **Vertikal** | Ein Feature | Sehr tiefe Abdeckung |
+| **Diagonal** | Kombination aus H + V | Selektive Tiefe bei Breite |
+
+---
+
+**Lo-Fi und Hi-Fi Definitionen (Folie 729):**
+
+**Low-Fidelity Prototype:**
+> „A low-cost, simple illustration of a design or concept used to gather user feedback at the very early stages of design."
+
+**High-Fidelity Prototype:**
+> „A software prototype of the user interface to the interactive system that is being designed. A high-fidelity prototype resembles the finished interactive system and may or may not be interactive."
+
+---
+
+**Bewertungsdimensionen von Prototypen (Folie 728):**
+- **Fidelität** (Echtheitsgrad)
+- **Zeitaufwand**
+- **Kosten** (monetär)
+- **Benötigte Fähigkeiten**
+- **Umfang**
+
+→ Kein Prototyp ist in allen Dimensionen optimal — es sind immer Trade-offs.
+
+---
+
+**Google Glass Beispiel — Tom Chi, Google (Folien 737–744):**
+
+- **1 Tag** für den ersten visuellen Prototyp (augmentierte Erfahrung: Wie fühlt sich digitale Überlagerung an?)
+- **45 Minuten** für gestenbasierte Interaktion mit der Brille
+
+**3 Prototyping Rules:**
+
+1. **Find the quickest path to experience.**
+   → Nicht planen — so schnell wie möglich ein Erlebnis schaffen.
+
+2. **Doing is the best kind of thinking.**
+   → Handeln liefert Erkenntnisse, die Nachdenken allein nicht liefert.
+
+3. **Build on the ideas of others.**
+   → Ideen sind nicht privat — auf dem Aufgebautem anderer aufbauen.
+
+---
+
+**Bill Buxton (2007) — Folie 734:**
+> „Everything is best for something and worst for something else. The trick is knowing what is what, for what, when, for whom, where, and most importantly, why."
+
+**Mike Dodge (2019) — Folie 735:**
+> **(WHAT × WHY × HOW / TIME SPENT) × WHEN × FOR WHOM × WHERE = IMPACT ON DESIGN**
+
+---
+
+**Fazit — Folie 736:**
+> „Je nach Fragestellung und Kontext eignen sich andere Vorgehensweisen. Es gibt nicht den perfekten Prototypen oder das perfekte Tool. Erfolg und Effizienz werden stattdessen maßgeblich vom Zeitpunkt und den eingesetzten Ressourcen beeinflusst."
+
+**→ IT DEPENDS.**
 
 ---
 
