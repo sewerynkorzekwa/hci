@@ -1337,6 +1337,45 @@ Abgeleitet aus: Problemstatement, Konzeptideen, Aufwandsabschätzung.
 
 ---
 
+**Berechnungsbeispiel: Lucky Noodle Reservationssystem (Folien 841–844):**
+
+Kontext: Restaurant-App mit drei möglichen Features — Tischwahl, Tischdeko individualisieren, Menü vorbestellen.
+
+**Bewertungsskala (Punkte-System):**
+- Dots: ● = NIEDRIG (1 Pkt.), ●● = MITTEL (2 Pkt.), ●●● = HOCH (3 Pkt.)
+
+**Kriterien und Gewichtung (Zeilen):**
+- **Prio (Nutzer)** — Wichtigkeit aus Nutzerperspektive
+- **Auslastung optimieren** — Beitrag zum Businessziel
+- **Kundenerlebnis verbessern** — Nutzenmehrwert
+- **Alleinstellungsmerkmal** — Differenzierung vom Wettbewerb
+- **Realisierungsaufwand (Techn.)** — technische Komplexität (inverted: hoher Aufwand = weniger Punkte)
+
+**Ausgefüllte Matrix (Beispiel):**
+
+| Kriterium | Tischwahl | Tischdeko | Menü vorbestellen |
+|---|---|---|---|
+| Prio (Nutzer) | ●●● (3) | ●● (2) | ● (1) |
+| Auslastung optimieren | ●● (2) | ● (1) | ● (1) |
+| Kundenerlebnis verbessern | ●●● (3) | ●●● (3) | ●● (2) |
+| Alleinstellungsmerkmal | ●● (2) | ●●● (3) | ●●● (3) |
+| Realisierungsaufwand (Techn.) | ●● (2) | ● (1) | ●●● (3) |
+
+**Berechnung (Folie 844):**
+
+> **Formel:** (Summe Businessziele × Nutzerprio + Kundennutzen) / Realisierungsaufwand = Punkte
+
+| Feature | Berechnung | Punkte |
+|---|---|---|
+| **Tischwahl** | (3×2×2 + 3×2×3 + 3×2×1) / 2 = (12+18+6)/2 | **18** |
+| **Tischdeko individualisieren** | (2×0×2 + 3×3×2 + 3×1×2) / 1 = (0+18+6)/1 | **24** |
+| **Menü vorbestellen** | (1×0×2 + 2×3×1 + 3×1×1) / 3 = (0+6+3)/3 | **3** |
+
+→ **Ergebnis:** Tischdeko individualisieren (24) hat höchste Priorität, Menü vorbestellen (3) die niedrigste.
+→ Matrix ist heuristisch — gibt Orientierung, ersetzt keine vollständige Analyse.
+
+---
+
 ### 10. Nähe-Gesetz Definition mit Zeichnung
 
 **Quelle:** Folien 409–412
@@ -1387,6 +1426,113 @@ Das **Gesetz der Nähe** (Law of Proximity) besagt: Elemente, die räumlich nah 
 **Abgrenzung zum Wasserfallmodell:**
 - Wasserfall = linear, sequentiell (Business → Designer → Engineer → User)
 - Collaborative UX = iterativ, gegen den Wasserfall — kontinuierliches Feedback statt „fix it later"
+
+---
+
+**CUXD — Vollständige Artefaktübersicht (Folie 851):**
+
+| Phase | Sub-Phase | Artefakte |
+|---|---|---|
+| **UNDERSTAND** | Scoping | Proto-Problem Statement, Proto-Personas, Annahmen-Map, Forschungsplan, Proto-Journey |
+| **UNDERSTAND** | Research | Interview-Leitfaden, Contextual Inquiry, Tagebuch |
+| **UNDERSTAND** | Synthese | Persona, Transkript, Refined Problem Statement, User Journey |
+| **EXPLORE** | Konzept | Wireframes, Keyscreen, Framework, User Story Map, Szenarien, Bewertung der Ideen, Morphologischer Kasten |
+| **EXPLORE** | Ideation | Kreativmethode 6-3-5, Blumenblatting, Design Studio, How-Might-We-Fragen |
+| **EXPLORE** | Prototyping | Validierungsplanung, Prototyp, Leitfaden |
+| **EXPLORE** | Validierung | Experimente, Expert Review, Findings, Auswertung, Walkthrough |
+| **DELIVER** | Roadmap | Priorisierungsmatrix, Roadmap, Meritenboard |
+| **DELIVER** | Delivery | Release Backlog |
+
+**Basis von CUXD (Folie 849):**
+- **Design Thinking** (menschzentriert, kreativ, iterativ)
+- **Lean UX** (Build → Measure → Learn, schnell & günstig)
+- **Agile** (Sprints, kontinuierliche Lieferung)
+- **Human-centered Design** (ISO 9241-210)
+
+**Durchführung:** Kollaborative Workshops cross-funktionaler Teams
+
+---
+
+**Menschzentrierte Gestaltung — UXQB Fassung 2023 vs. 2018 (Folie 858):**
+
+| Version | Formulierung |
+|---|---|
+| **2018** | „Die Gestaltung wird durch **Usability-Evaluierung** gesteuert und verfeinert." |
+| **2023** | „Die Gestaltung wird durch **Nutzungsanforderungen und durch Usability-Evaluierung** verfeinert." |
+
+→ Neuerung 2023: Nutzungsanforderungen als explizite Steuerungsgröße hinzugefügt
+
+**WARNUNG: VON ERFORDERNISSEN (DIREKT) ZUR GESTALTUNG???!**
+> Direkt von Erfordernissen zur Gestaltung zu springen ist falsch (Dakks, 2010). Erst der Schritt vom Erfordernis zum Dialogprinzip schlägt die Brücke vom Nutzungskontext zum interaktiven System.
+
+---
+
+**ITERATION ≠ DESIGN — Iteration als Designtool (Folien 859–860):**
+
+> Iteration ist ein Verfeinerungswerkzeug — kein Innovationswerkzeug.
+
+**Grenzen der Iteration:**
+- **Iteration kann nicht innovieren** → Problem des **lokalen Maximums**
+  - Aktueller Designentwurf → wird zum lokalen Maximum optimiert ≠ tatsächliches Maximum
+  - Iteration führt immer nur bergauf zum nächsten lokalen Hügel — nicht zum globalen Optimum
+- **Iteration kann Usabilityprobleme finden — aber nicht lösen**
+  - Iteration = „Refinement" (Verfeinerung bestehender Ideen)
+- **„Delight"** ist durch Iteration allein nicht erreichbar — dafür braucht es Ideation und kreative Sprünge
+
+**Analogie:** Fahrrad → E-Bike → besseres E-Bike (Iteration) ≠ Auto (Innovation durch Technologiesprung)
+
+---
+
+**Lean UX — Build, Learn, Measure (Folien 861–863):**
+
+**Grundannahme:**
+> „The assumption at the core of the Lean methodology is that the **first thing you design will be wrong**. The aim is to create something as quickly as possible so you can measure and test to find the problems as quickly and inexpensively as possible." (Ben Ralph, 2017)
+
+**Lean Kreislauf:**
+```
+BUILD → MEASURE → LEARN → (zurück zu BUILD)
+```
+
+**Lean UX Principles — Cheat Sheet (Folie 863):**
+
+| Prinzip | Kernaussage |
+|---|---|
+| **Cross-functional teams** | Teams mit verschiedenen Fähigkeiten — kein Silodenken |
+| **Small, dedicated, co-located** | Team klein halten (7 ± 2) |
+| **Progress = outcomes, not output** | Features sind Output; Businessziele sind Outcomes |
+| **Problem-focused teams** | Probleme lösen, nicht nur Features implementieren |
+| **Removing waste** | Arbeit entfernen, die keinen Businesswert bringt |
+| **Small batch size** | Nur genug Design, um das Team voranzubringen |
+| **Continuous discovery** | Kunden regelmäßig einbinden (alle 2–3 Wochen) |
+| **Get out of the building (GOOB)** | Endlose Debatten durch echte Nutzerbeobachtung ersetzen |
+| **Shared understanding** | Wissen teilen, gemeinsam wachsen |
+| **Anti-pattern rockstars, gurus and ninjas** | Keine Einzelkämpfer — kein Mitglied ist wichtiger als das Team |
+| **Externalizing your work** | Ideen aus dem Kopf auf Whiteboard bringen |
+| **Making over analysis** | Machen statt Debattieren in Konferenzräumen |
+| **Learning over growth** | Erst das Richtige richtig machen, dann skalieren |
+| **Permission to fail** | Experimentieren und Risiken eingehen |
+| **Getting out of the deliverables business** | Minimale Dokumentation — User brauchen kein Design-Dokument |
+
+---
+
+**Agile Development — Sprints für einen Marathon (Folien 864–866):**
+
+**Basic Agile Methodology:**
+- Starker Fokus auf **Prozesse und Team-Rituale**
+- Klare Struktur, um das Team auf Kurs zu halten
+- Ziel: Kontinuierlich möglichst viel Wert für das Business liefern
+
+**Sprint-Struktur:**
+```
+Sprint 1 (Test → Build → Design → Deploy → Launch)
+→ Sprint 2 (Test → Build → Design → Deploy → Launch)
+→ Sprint 3 ...
+```
+
+**Agile UX (Folie 866):**
+- UX Design läuft **parallel** zu Development-Sprints
+- UX Design ist typischerweise **einen Sprint voraus** (Design Sprint N+1 → Development Sprint N)
+- Bewertungspunkte (gelbe Dots) = Evaluation-Checkpoints im UX-Stream
 
 **Von Research zur Synthese (Folie 203–204):**
 
@@ -2501,6 +2647,24 @@ Der Collaborative UX Design Prozess besteht aus 3 Phasen mit je eigenen Workshop
 4. Ideen sichten, clustern und priorisieren
 5. Konzept ableiten + als Nutzungszenario beschreiben
 → Artefakt: **Nutzungszenario / Use Scenario** (konkretes Fallbeispiel, nicht lösungsneutral, kombiniert Ideen)
+
+---
+
+**Workshop-Prinzipien für effektive Collaborative Workshops (Folien 871–880):**
+
+Workshops sind zentraler Bestandteil kollaborativer Arbeitsmethoden. Stakeholder werden aktiv einbezogen — kein Einzelkämpfer (kein „Superman"), sondern **Collaboration in Workshops**.
+
+| Prinzip | Beschreibung |
+|---|---|
+| **Einzelarbeiten & Teamwork** | Teamarbeit = Abfolge von Einzel- und Gruppenarbeiten (flexible Gruppengrößen). Ausschließliche Gruppenarbeit ist oft ineffizient. |
+| **Ergebnisorientiert** | Zu Beginn klar definieren: Welche Ergebnisse sollen erzielt werden? Struktureller Rahmen vorbereiten. Inhalte flexibel (Post-its: einfach veränderbar, schrittweise verfeinerbar). |
+| **Annahmen festhalten** | Wenn Informationen fehlen oder Uneinigkeiten entstehen → Annahmen treffen und in **Annahmen-Map** (Impact × Unsicherheit) festhalten; später nach Kritikalität prüfen. |
+| **Moderation** | Moderator:in lenkt Diskussion, bezieht alle ein, sorgt für reibungslosen Ablauf. Fördert konstruktive Interaktionen; schafft positive, produktive Atmosphäre. |
+| **Transparente Dokumentation** | Alle Beiträge sorgfältig dokumentieren. Zusätzliche Bereiche: 'Offene Fragen', 'Hinweise', 'Annahmen', 'To-do-Liste', 'Themenparkplatz'. |
+| **Nur eine Person spricht** | Immer nur eine Person gleichzeitig sprechen — vermeidet Verwirrung, alle können zuhören. |
+| **Iterativ** | Mehrere Iterationen durchführen: Ausarbeiten → Präsentation → Feedback → Verbesserung. Jeder lernt von den Perspektiven der anderen. |
+| **Time Boxing** | Strikt begrenzte Zeitfenster für Aufgaben und Arbeitsphasen. Fördert Konzentration, vermeidet Zeitverschwendung, verteilt Arbeitsbelastung. |
+| **Alle aktivieren** | Gedanken zunächst **einzeln** niederschreiben, dann im Plenum teilen. Gewährleistet, dass jeder Beitrag Beachtung findet. |
 
 ---
 
