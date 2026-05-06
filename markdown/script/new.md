@@ -136,7 +136,13 @@ Die Vorlesung behandelt **7 Prinzipien** des Interaction Design (nicht die klass
 | 4 | **Feedback** | Das System muss auf jede Nutzerinteraktion reagieren (visuell, auditiv oder haptisch) — bestätigt Aktionen, reduziert Unsicherheit |
 | 5 | **Constraints** | Einschränkungen verhindern Fehler und leiten Nutzende zu richtigen Aktionen (physisch, logisch, kulturell) |
 | 6 | **Simplicity** | Einfache, intuitive Oberfläche — reduziert kognitive Last, vermeidet Clutter |
-| 7 | *(folgt in nächsten Seiten)* | — |
+| 7 | **Flexibility** | Das Produkt muss sich an verschiedene Nutzerbedürfnisse anpassen (z. B. Touch-Gesten, Sprachbefehle, verschiedene Eingabemethoden) |
+
+**⚠️ Widerspruch Simplicity vs. Visibility:** Ein einfaches Interface versteckt Funktionen; ein sichtbares Interface wirkt komplex — kein universeller Sweet Spot, kulturelle Unterschiede spielen eine Rolle.
+
+**Zusatzkonzept: Discoverability**
+> „The degree of ease with which the user can find all the elements and features of a new system when they first encounter it."
+Discoverability ist eine Komponente von Learnability. Beispiel: Viele iOS-Gesten sind nicht offensichtlich (Benachrichtigungen, Apps löschen, Undo …).
 
 ---
 
@@ -153,6 +159,24 @@ Die Vorlesung behandelt **7 Prinzipien** des Interaction Design (nicht die klass
 ---
 
 ### 11. Phasen und Artefakte im Collaborative UX Prozess
+
+**Quelle:** Vorlesung, Folien 100–106 (Collaborative UX Design — Design Thinking | Lean UX | Agile Development | HCD)
+
+**Grundstruktur: Double Diamond**
+- **Problem Space** (1. Diamant): Research → Insights
+- **Solution Space** (2. Diamant): Ideation → Prototypes
+
+**3 Phasen im Collaborative UX Design:**
+
+| Phase | Ziel | Workshops / Aktivitäten | Beispiel-Artefakte |
+|---|---|---|---|
+| **Understand** | User Needs verstehen, Chancen erkennen | Scoping, Research, Synthese | Proto-Problem Statement, Proto-Persona, Proto-Journey, Personas, Journey Map |
+| **Explore** | User Interface Konzept entwickeln und validieren | Ideation, Konzept, Prototyping, Validierung | Sketches, Wireframes, Prototyp, Validierungsbefunde |
+| **Deliver** | Screens für weitere Anwendungsfälle ausarbeiten — oft in Sprints | Spezifikation, Review, Detaildesign, Planung | Spezifikationen, Component Library, Sprint Backlog |
+
+**Abgrenzung zum Wasserfallmodell:**
+- Wasserfall = linear, sequentiell (Business → Designer → Engineer → User)
+- Collaborative UX = iterativ, gegen den Wasserfall — kontinuierliches Feedback statt „fix it later"
 
 ---
 

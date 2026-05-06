@@ -8,15 +8,16 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 - Nach jeder Iteration diese Datei aktualisieren:
   1. **Nächste Seiten** — wo weitermachen
   2. **Zusammenfassung** — was die letzten 20 Seiten behandelt haben
+- Wenn neue Infos zu einer bereits beantworteten Frage gefunden werden → **immer ergänzen**, nicht ignorieren
 
 ---
 
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 41–60
-- **Zuletzt gelesen:** 21–40
-- **Achtung:** Prinzip #7 der Interaction Design Prinzipien noch nicht gesehen — kommt in 41–60
+- **Nächste Seiten:** 61–80
+- **Zuletzt gelesen:** 41–60
+- **Achtung:** (Proto-)Persona Kapitel hat begonnen (Folie 120) — Details kommen in 61–80
 
 ---
 
@@ -36,3 +37,11 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 - Gruppe A, 3: UX vs. Usability ✅ vollständig
 - Gruppe B, 6: Konsistenz-Prinzip ✅
 - Gruppe B, 7: Interaction Design Prinzipien ⚠️ (Prinzip #7 fehlt noch)
+
+### Iteration 3 — Seiten 41–60 (Folien ~81–120)
+**Inhalt:** Abschluss 7 Prinzipien (Prinzip 7: Flexibility). Widerspruch Simplicity vs. Visibility. Discoverability-Konzept. Collaborative UX Design Prozess (Double Diamond, 3 Phasen: Understand/Explore/Deliver). Gegen Wasserfall — lineares Modell vs. iteratives. Scoping-Workshop: Proto-Problem Statement, Proto-Persona, Proto-Journey. Problem Statement Vorlage. „Who is the user?" Einstieg Proto/Persona.
+
+**Beantwortete/ergänzte Fragen:**
+- Gruppe B, 7: Interaction Design 7 Prinzipien ✅ vollständig (Prinzip 7 ergänzt)
+- Gruppe B, 11: Phasen und Artefakte Collaborative UX ✅
+- Gruppe B, 1: Proto-Persona ⚠️ (Einstieg, Details folgen)
