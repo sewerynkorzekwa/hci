@@ -9,6 +9,7 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
   1. **Nächste Seiten** — wo weitermachen
   2. **Zusammenfassung** — was die letzten 20 Seiten behandelt haben
 - Wenn neue Infos zu einer bereits beantworteten Frage gefunden werden → **immer ergänzen**, nicht ignorieren
+- Nach jeder Iteration einen **git commit** erstellen
 
 ---
 
