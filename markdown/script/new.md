@@ -171,6 +171,34 @@ Journey → Initial Challenge → Opportunity Areas → Ideas → Concept → Us
 
 ### 7. Was ist Affordance
 
+**Quelle:** Folien 302–308
+
+**Definition:**
+> „Affordance is a term we use to qualify the ability of an object or a product to communicate its function. **Affordances are what an object can do based on a user interaction.**"
+
+→ Affordance beschreibt, was ein Objekt dem Nutzer signalisiert, was er damit tun kann.
+
+**Signifier:**
+> Ein Signifier ist ein Indikator (physisch oder digital), der bedeutungsvoll interpretiert werden kann — er verstärkt die Affordance eines Objekts.
+
+Beispiel: Die kleine LED am Monitor ist ein **Signifier** (weiß = an, rot = aus mit Strom, aus = kein Strom). Die Farbe ist das **Feedback**.
+
+**Vier Signifier eines Login-Buttons (Folie 303):**
+| Signifier | Wirkung |
+|---|---|
+| **Der Button selbst** | Erfahrene Nutzer:innen erkennen ihn als klickbar |
+| **Farbwechsel beim Hover** | Zeigt, dass man darauf klicken kann |
+| **Cursor-Wechsel** (Pfeil → Zeigefinger) | Verstärkt die Klick-Affordance |
+| **Text auf dem Button** | Zeigt, was die Aktion bewirkt |
+
+**Inherited Affordance (Folie 308):**
+Umliegende Elemente verstärken die Affordance eines Buttons — z. B. das Muster „username input → password input → login button" ist so bekannt, dass der Button automatisch als klickbar wahrgenommen wird.
+
+**Typen von Signifiern in Mobile Design:**
+- **Basic**: Icon + Label (2 Signifier)
+- **Complex**: Remove/Add-Symbol + Label + Draggable-Handle (3 Signifier)
+- **Hidden**: Affordance erst durch Interaktion entdeckbar (z. B. Swipe → Delete)
+
 ---
 
 ### 8. Prototyp – MVP
@@ -385,7 +413,23 @@ Eine Persona-Beschreibung umfasst:
 
 ### 7. Dimensionen des Interaction Design
 
-**Quelle:** Vorlesung, „Interaction Design 101: Master These 7 Principles" (Folien 67–80+)
+**Quelle:** Folien 67–80 (7 Prinzipien) + Folie 299 (5 Dimensionen, Silver 2018)
+
+---
+
+#### 5 Dimensionen des Interaction Design (Silver, 2018) — Folie 299
+
+| # | Dimension | Beschreibung |
+|---|---|---|
+| 1 | **Words** | Wörter (z. B. Button-Labels) sollen bedeutungsvoll und einfach verständlich sein — nicht zu viel Information |
+| 2 | **Visual Representations** | Grafische Elemente: Bilder, Typografie, Icons — ergänzen die Worte |
+| 3 | **Physical Objects or Space** | Womit interagiert der Nutzer physisch? (Laptop, Maus, Smartphone, Finger) — und in welchem Kontext? (Zug, Büro) |
+| 4 | **Time** | Medien, die sich über die Zeit verändern (Animationen, Videos, Sounds); Fortschrittsverfolgung und Unterbrechbarkeit |
+| 5 | **Behaviour** | Der Mechanismus des Produkts: Wie führen Nutzer:innen Aktionen aus? Wie reagiert das System? (emotionale Reaktionen, Feedback) |
+
+---
+
+#### 7 Prinzipien des Interaction Design — Folien 67–80
 
 Die Vorlesung behandelt **7 Prinzipien** des Interaction Design (nicht die klassischen 5 Dimensionen nach Crampton Smith):
 
@@ -460,11 +504,21 @@ Research-Prozess im Detail: Proto-Artefakte → Forschungsfragen → Forschungsp
 - Kann durch Skizzen oder ein Storyboard illustriert werden
 - Beispiel: Sabine Frank erfasst Zeitrapporteinträge im Zug auf der Heimfahrt
 
-**User Story Mapping (Folie 276–280):**
+**User Story Mapping (Folien 276–282):**
 - User Stories aus der agilen Softwareentwicklung: benutzerzen­trierte Anforderungen statt technische Kriterien
 - Formulierung: **„Als … (Rolle/Persona) möchte ich … (Ziel/Wunsch), um … (Nutzen)."**
 - Bestandteile: Person (Nutzertyp/Rolle) + Ziel (Wunsch) + Nutzen (Intention)
 - User Story Map: visualisiert Aufgaben nach **Priorität und Sequenz** — Überblick über relevante Aufgaben im Anwendungskontext
+
+**Zweck (Folie 281):** Entwicklung eines holistischen Bildes über geplante Funktionalitäten + gemeinsames „Big Picture" im Team; Nutzer:innen im Mittelpunkt.
+
+**Durchführung (Folie 282):**
+1. User Stories aus Nutzerforschung vorliegen (keine bloßen Annahmen!)
+2. Auf vertikaler Achse: **Ziel** oben → darunter **Aufgaben** nach Priorität (je höher die Aufgabe, desto wichtiger)
+3. Aufgaben werden in **Teilaufgaben** gesplittet
+4. Daraus: Priorisierung der wichtigsten Funktionen → nächste Maßnahmen ableiten
+
+**Anmerkung:** Je mehr Stories gemappt werden, desto mehr Überschneidungen — diese helfen dabei, Key Features zu identifizieren.
 
 **User/Customer Journey Map (Folien 205–218):**
 
@@ -522,6 +576,32 @@ Zweck: Die Interaktionen einer Zielgruppe mit einem Produkt oder Service **ganzh
 ## Gruppe C
 
 ### 1. Sunk Cost Fallacy
+
+**Quelle:** Folien 316–318
+
+**Definition:**
+> „Die Sunk Cost Fallacy bezeichnet die Tendenz, ein Projekt fortsetzen zu wollen, in das wir Geld, Mühe und Zeit investiert haben, **obwohl sich herausstellt, dass die laufenden Kosten in einem negativen Verhältnis zu den gewünschten Ergebnissen stehen.**"
+
+Allgemeiner: Wir neigen dazu, mit einem Vorhaben fortzufahren, in das wir bereits viel investiert haben — auch wenn die Kosten den Nutzen bereits übersteigen.
+
+**Sunk Cost Fallacy Loop:**
+```
+"We already spent so much time and money."
+        ↓
+"We need to stick to it and make it work."
+        ↓ (zurück zum Start)
+```
+
+**Beispiel 1 — Concorde (klassisches Paradebeispiel):**
+Im Januar 1976 hob die Concorde zu ihrem ersten kommerziellen Flug ab. Britische und französische Regierung hatten 2,8 Milliarden Dollar investiert. Als sich herausstellte, dass das Flugzeug nicht rentabel sein würde, pumpten die Investoren weitere 27 Jahre lang Geld in das gescheiterte Projekt.
+
+**Beispiel 2 — Skireisen-Studie:**
+Teilnehmende hatten versehentlich zwei Skireisen gebucht: Michigan (100 $) und Wisconsin (50 $). Zusatzinfo: Wisconsin macht mehr Spaß. Die Mehrzahl entschied sich trotzdem für Michigan — wegen der höheren Vorauszahlung.
+
+**Relevanz für UX Design (Folie 316):**
+> *„Thou shall not expend effort beyond the necessary — Start with raw sketches, don't use your computer!"*
+
+Wer zu früh zu viel in Visual Design investiert, fällt in die Sunk Cost Fallacy Loop und kann Ideen nicht mehr loslassen. Deshalb: immer mit rohen Sketches beginnen — Lo-Fi ermöglicht schnelles Iterieren und verhindert emotionale Bindung an unfertige Konzepte.
 
 ---
 
@@ -663,6 +743,25 @@ Der Collaborative UX Design Prozess besteht aus 3 Phasen mit je eigenen Workshop
 ---
 
 ### 10. Unterschied Sketches und Wireframes
+
+**Quelle:** Folie 313 (Sketches), Wireframes folgen auf Seiten 161+
+
+#### Sketches (Folie 313)
+
+> „Sketches are hand-drawn visualizations of a future interface — or parts of it."
+
+**Eigenschaften:**
+- **Low-fidelity by intention** — bewusst unfertig
+- **Abstract from details** — abstrahieren von Details
+- **Focus on the essence** — Fokus auf das Wesentliche
+- Verwenden typischerweise **keine Farben** für visuelle Ausarbeitung — Farben nur zur Lenkung der Aufmerksamkeit
+
+**Warum Sketches zuerst?**
+> *„The whole point of designing in low-fidelity is to be able to move fast — so you can build the right thing AND build it right."*
+
+Sketches verhindern die **Sunk Cost Fallacy**: Wer zu früh in Pixelarbeit investiert, kann Ideen nicht mehr verwerfen.
+
+#### Wireframes — (folgt)
 
 ---
 

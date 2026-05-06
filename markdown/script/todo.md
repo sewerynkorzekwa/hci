@@ -16,9 +16,9 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 ## Status
 
 ### Aktueller Stand
-- **Nächste Seiten:** 141–160
-- **Zuletzt gelesen:** 121–140
-- **Achtung:** Ideation vollständig (6-3-5, HMW, Opportunity Areas). User Story Mapping begonnen (Folie 276–280). Nächste Seiten: Konzept, Prototyping, Validierung (Explore-Phase Fortsetzung)
+- **Nächste Seiten:** 161–180
+- **Zuletzt gelesen:** 141–160
+- **Achtung:** Interaction Design vollständig (5 Dimensionen, Affordance/Signifier, Sunk Cost Fallacy, Sketches). Wireframes noch offen. Nächste Seiten: Wireframes, Prototypen, Lo-Fi/Hi-Fi, Validierung
 
 ---
 
@@ -38,6 +38,16 @@ Das PDF `HCI 25_26 kompakt.pdf` (475 Seiten) schrittweise (je 20 Seiten) lesen u
 - Gruppe A, 3: UX vs. Usability ✅ vollständig
 - Gruppe B, 6: Konsistenz-Prinzip ✅
 - Gruppe B, 7: Interaction Design Prinzipien ⚠️ (Prinzip #7 fehlt noch)
+
+### Iteration 8 — Seiten 141–160 (Folien ~281–320)
+**Inhalt:** User Story Mapping vollständig (Zweck, Durchführung, Struktur mit Ziel/Aufgaben/Teilaufgaben). Konzept-Kapitel: Steve Jobs Design Philosophy. Interaction Design: Definition, Three Levels of Experiences (Interaction/Journey/Relationship). Was ist Interaktion? (inter agere, perceive•think•act-Zyklen, Sinnesmodalitäten, Handlungsoperatoren). Interaktivität kein binäres Attribut. Architecture (statisch) vs. Interaction Design (dynamisch). 5 Dimensions of Interaction Design (Silver 2018): Words/Visual Representations/Physical Objects or Space/Time/Behaviour. Affordance, Signifier und Feedback: Definition, 4 Signifier (Button), Inherited Affordance, Basic/Complex/Hidden Signifier. Sunk Cost Fallacy: Definition, Concorde-Beispiel, Skireise-Studie, Sunk Cost Loop. Sketches: Definition, Low-Fi by intention, focus on essence.
+
+**Beantwortete/ergänzte Fragen:**
+- Gruppe A, 7: Was ist Affordance ✅ vollständig
+- Gruppe B, 7: Dimensionen des Interaction Design ✅ 5 Dimensionen ergänzt
+- Gruppe B, 11: Phasen + Artefakte ✅ User Story Mapping vollständig ergänzt
+- Gruppe C, 1: Sunk Cost Fallacy ✅ vollständig
+- Aufgabe 10: Sketches vs. Wireframes ⚠️ Sketches-Teil ergänzt (Wireframes folgen)
 
 ### Iteration 7 — Seiten 121–140 (Folien ~241–280)
 **Inhalt:** Ideation-Phase vollständig: Ideation fehlt in ISO 9241-210 (Kritik). Iteration vs. Ideation (Cartoon). Satisficing (Herbert Simon). Bill Buxton: Design Elaborate ↔ Reduce. Brainstorming-Problematik (Dominanz einzelner). Decomposition (Simon 1962: bounded rationality). Opportunity Areas: Definition, Entstehung, Prozessfluss (Journey → Challenge → OA → Ideas → Concept → Use-Scenarios). Insight Statements. What-if-Analyse. HMW-Fragen (HOW/MIGHT/WE). 6-3-5 Methode (6 TN, 3 Ideen, 5 Runden, Uhrzeigersinn). Prinzipien Ideation. Nutzungszenario (Definition, Sabine-Frank-Beispiel). User Stories + User Story Mapping.
