@@ -590,6 +590,76 @@ Abgeleitete Nutzungsanforderung (Beispiel):
 
 ### 11. Was ist Mentales Design Modell
 
+**Mentales Modell — Definition (Folie 566):**
+
+> Subjektives Annahmengerüst über die Funktionsweise eines (interaktiven) Systems.
+> Das Mentale Modell ist **handlungsleitend**, muss aber **nicht mit der Realität übereinstimmen** (Vereinfachungen, Fehlannahmen).
+
+**Entstehung (Folie 567) — Mentale Modelle resultieren aus:**
+- Erfahrungen, Trainings, Instruktionen
+- (1) Interpretation von **Handlungskonsequenzen** und der **visuellen Struktur/Anmutung** des Systems
+- (2) **Nutzungserfahrungen mit vergleichbaren Systemen** (Transfer)
+
+**Funktion von Mentalen Modellen:**
+- Erleichtern die zusammenhängende **Verankerung neuer Gedächtnisinhalte** im Langzeitgedächtnis
+- Unterstützen das **Lernen** — neue Informationen werden an das bestehende Modell angeknüpft
+- Liefern **Hypothesen** über mögliche Ursachen bei Systemfehlern
+
+**Beispiel Textverarbeitung (Folie 566):**
+- **Modell 1:** Änderungen werden immer und unmittelbar (ohne initierende Aktion) gespeichert
+- **Modell 2:** Änderungen werden erst gespeichert, wenn User explizit „Save" selektiert
+- → Die beiden Mentalen Modelle **resultieren in Handlungsunterschieden** mit Blick auf Systemcrashes
+
+**Beispiel Heizung/Backofen (Folie 568):**
+- Weit verbreitetes falsches Modell: Heizung auf Maximum stellen = wird schneller warm
+- Realität: Thermostat schaltet ab, wenn Temperatur erreicht — Einstellung beeinflusst Zieltemperatur, nicht die Heizgeschwindigkeit
+- Falles Modell: Backofen auf Maximum → Pizza wird schneller fertig (falsch bei Umluft-/Backofentypen)
+
+**Mentale Modelle: Apple's Time Machine (Folie 569):**
+- Räumlich-zeitliche Rückzugs-Metapher für Dateisystem-Backups: „Reise in die Vergangenheit" — Dateien als Schichten
+- Das Interface kommuniziert ein mentales Modell von Backups als räumlicher Zeitreise → intuitiv verständlich
+
+**Piktoriales (bildhaftes) Gedächtnis (Folien 561–564) — Ergänzung:**
+
+**Mentale Rotation (Shepard & Metzler, 1977):**
+- Frage: Können Objekte der unteren Reihe rotiert werden, um wie das Objekt oben auszusehen?
+- Ergebnis: **Lineare Beziehung** zwischen Reaktionszeit und Rotationswinkel → ca. 1 Sek. pro 40°
+- Schlussfolgerung: *„Visual images seem to reflect internal representations that operate in a way that is analogous to the functioning of the perception of physical objects"*
+
+**Piktorielles Gedächtnis:**
+- Instruktionen zur Generierung visueller Vorstellungsbilder verbessern die Behaltensleistung
+- Gedächtnisleistung ist generell besser für **konkrete, „vorstellbare" Wörter** als für abstrakte Konzepte
+  - Beispiel: „Piano" (vorstellbar) besser erinnert als „Kontext" (abstrakt)
+  - Gilt auch für blinde Menschen (mentale Bilder ohne visuelle Erfahrung)
+- Erklärung: Das generierte visuelle Vorstellungsbild wird als **„mentales Bild"** repräsentiert — **zusätzlicher Gedächtnispfad** (bildhafte + propositionale Repräsentation)
+
+**Komplexeres Gedächtnismodell (Folie 564):**
+
+```
+Eingabe → Sensorischer Puffer
+  Words → Ears → Sounds → Verbal Model  ──┐
+  Pictures → Eyes → Images → Pictorial Model ─┤→ integrating → Prior Knowledge (LTM)
+```
+→ Sprache und Bild werden in **parallelen Kanälen** im Arbeitsgedächtnis verarbeitet und dann integriert.
+
+**Zeigarnik-Effekt (Folie 572):**
+> „People remember uncompleted or interrupted tasks better than completed tasks."
+
+- Unfertige oder unterbrochene Tasks werden besser erinnert als abgeschlossene
+- **Anwendung:** Progress Bars bei komplexen Tasks — visualisieren, dass die Task noch nicht abgeschlossen ist → erhöht die Wahrscheinlichkeit, dass die Aufgabe nicht vergessen wird
+
+**Design-Implikationen für Gedächtnisgrenzen (Folie 573):**
+- Organisation von Informationen in Chunks
+- Kurze, lineare Sequenzen von Schritten: Memory Overload verhindern
+- Bedeutsame Information **nicht nur temporär** anzeigen
+- Messages (Zustandsinformationen, Feedback) als **externe Gedächtnisstützen** nutzen
+- **Mehrfachkodierung** (Bild und Text: Icons und Labels) einsetzen
+- Bildung handlungsadäquater Mentaler Modelle unterstützen
+- Rekognition statt aktiver Erinnerung: Optionen visualisieren
+- **Erwartungskonformität**: Organisation von Daten (z. B. Auto-Formatierung bei Telefonnummern)
+
+---
+
 **Kognitive Architektur als Grundlage (Folien 369–374):**
 
 **Einfache Theorie menschlichen Verhaltens (Folie 369):**
@@ -717,6 +787,56 @@ Sketches (Lo-Fi) → Wireframes (Lo-Fi/Mid) → Visual Design/Mockup (Hi-Fi)
 
 ### 3. Fitts'sches Gesetz mit Beispiel
 
+**Quelle:** Folien 579–583
+
+**Overview:**
+> „The time to acquire a target is a function of the **distance** to and **size** of the target."
+
+**Formel (Folie 581):**
+```
+Time (in msec) = a + b · log₂(D / W + 1)
+```
+- **D** = Distance zwischen Zeigegerät und Target
+- **W** = Width/Size des Targets
+- a = 0,230 sec, b = 0,166 sec (experimentell bestimmt)
+
+**Kernaussage:** Je weiter das Target entfernt und je kleiner es ist, desto länger dauert es, es zu treffen — und desto höher ist die Fehlerrate.
+
+**Drei Subprozesse der Mausbewegung (Folie 581):**
+
+| Subprozess | Beschreibung |
+|---|---|
+| **Ballistische Bewegung** | Schnell, aber ungenau — Bewegung grob in Richtung Target |
+| **Homing** | Mikromotorisches Adjustieren zum exakten Treffen des Targets |
+| **Stop-Position** | Vorbereitung zum Klick |
+
+> Homing-Bewegungen haben die **höchsten zeitlichen Kosten** — und sind für die meisten Fehler verantwortlich.
+
+**Mac vs. Windows — Vertikale Endlosigkeit (Folie 582):**
+- Das **Mac-Menü** positioniert sich an der **oberen Bildschirmkante** → die Trefferfläche wird effektiv "unendlich groß" (kein Cursor-Überfahren möglich)
+- Der **Mac Dock** nutzt ebenfalls vertikale Endlosigkeit → schnellerer Zugriff als bei Windows-Taskbar
+- **Quizantwort:** 5 Pixel-Targets ideal an den **4 Bildschirmecken + Bildschirmmitte** (Endlosigkeit in alle Richtungen)
+
+**Implikationen für Interface Design (Folie 583):**
+
+**Einsatz von großen Controls:**
+- Größere Targets sind schneller und mit geringerer Fehlerwahrscheinlichkeit erreichbar
+
+**Minimierung von Input:**
+- Anbieten von effizienter Selektion aus Listen (**„Select vs. Type"**)
+- Nutzen von **Default Selections** (häufigste Option vorausgewählt)
+- Beachtung der Nutzungsfrequenz (User Research!)
+- Unterstützung von Maus- und Tastaturinput
+
+**Effiziente Texteingabe:**
+- **Auto Complete** anbieten
+- Synonyme akzeptieren, Fehlerkorrektur
+- Strukturvorgaben zur Fehlervermeidung
+
+**Beispiel:**
+- Primärer CTA-Button (z. B. „Kaufen") groß und nahe am Cursor-Aktionsbereich → schneller und fehlerärmer erreichbar
+- Kleines Schließen-X in Ecke = hohe Fehlerrate (klein + weit vom Aktionsbereich)
+
 ---
 
 ### 4. Usability und Metriken
@@ -792,6 +912,73 @@ Discoverability ist eine Komponente von Learnability. Beispiel: Viele iOS-Gesten
 ---
 
 ### 8. Was versteht man unter Progressive Disclosure?
+
+**Quelle:** Folien 599–600 (im Kontext von Hick's Law und Choice Overload)
+
+**Hick's Law — Motivation für Progressive Disclosure (Folien 585–591):**
+
+> „The time it takes to make a decision increases with the **number and complexity of choices**."
+
+Das Hick'sche Gesetz besagt: Die Zeit für eine Entscheidungsfindung wächst als Funktion der verfügbaren Entscheidungsoptionen.
+
+**Aufgaben als Sequenz von 4 Schritten:**
+1. Identifikation eines Ziels (Was will ich?)
+2. Bewertung der verfügbaren Optionen (Was kann ich tun?)
+3. **Auswahl einer Option** (Was werde ich tun?) — hier wirkt Hick's Law
+4. Umsetzung der Option
+
+**Beispiele für Hick's Law:**
+- Menüs: Zeit zur Auswahl eines Items steigt mit Anzahl der Einträge
+- Bremsen im Auto: Entscheidungszeit steigt, wenn es eine Möglichkeit zum Umfahren gibt
+- Device-Settings: Zeit zur Justierung steigt mit Anzahl verfügbarer Controls
+
+**Einschränkung:** Hick's Law gilt vor allem für **einfache Entscheidungsaufgaben** (eindeutige Reaktion auf Stimulus). Bei komplexen Menüs mit langen Textbeschreibungen oder Submenüs nicht direkt anwendbar.
+
+**Implikationen (Folie 591):**
+- Mehr Entscheidungsoptionen = mehr Zeit
+- Komplexe Aufgaben in kleinere **Subtasks** unterteilen
+- **Highlighting empfohlener Optionen** → reduziert die wahrgenommene Komplexität
+
+**Paradox of Choice (Schwarz, 2005; Iyengar & Lepper, 2000) — Folie 593:**
+- Marmeladenstudie: 6 Sorten → 40% Besucher, 30% Käufer (12% Gesamtkauf) / 24 Sorten → 60% Besucher, **3% Käufer** (2% Gesamtkauf)
+- *„An extensive array of options can at first seem highly appealing, yet can reduce their subsequent motivation to purchase."*
+- **Choice Overload:** User erleben Überforderung → Analysis Paralysis + Buyer's Remorse
+
+**Choice Overload bekämpfen (Folie 596):**
+- Reduktion der Auswahl
+- Angemessene Kategorisierung
+- Highlighting von Optionen
+- Unterstützung der Suche: Exklusion → Vergleich (Suchstrategie, Folie 597)
+
+---
+
+**Progressive Disclosure — Definition (Folie 599):**
+
+> „Effective strategy for taming complexity: Only the **typically relevant information** is shown."
+
+- Informationen werden in **Schichten** aufgeteilt — weniger wichtige Informationen werden **nur auf Aufforderung** angezeigt
+- Screens bleiben übersichtlich → Clutter-Probleme werden vermieden
+- Selten verwendete Informationen werden nur auf Aufforderung dargestellt (Folie 600)
+
+**Vorteile:**
+1. Screens bleiben klar und fokussiert
+2. Lernbarkeit des Interfaces verbessert sich: User können mit einfacher Funktionalität beginnen, Komplexität steigt progressiv
+3. Information, die der User nicht benötigt, ist **Noise** → wird ausgeblendet
+4. Weniger Fehler und geringere Lernzeit
+
+**Nachteile / Grenzen:**
+- Funktionen können versteckt wirken → Discovery-Problem (Hidden Affordance)
+- Mehr Interaktionsschritte nötig, um zur Information zu gelangen
+- Nicht geeignet, wenn Nutzer schnellen Überblick über alle Optionen brauchen
+
+**Wireframe-Beispiel (Folie 600):**
+- Links: Zusatzliste wird **immer** dargestellt → Clutter
+- Rechts: Zusatzliste wird **nur durch Anwählen eines Buttons** dargestellt → Progressive Disclosure
+
+**Interface-Beispiele:**
+- „Erweiterte Einstellungen"-Button (versteckt selten genutzte Parameter)
+- „Mehr anzeigen" / „Details"-Toggle
+- Onboarding-Flow: zunächst nur Kernfunktionen, erweiterte Features schrittweise freischalten
 
 ---
 
@@ -1009,6 +1196,16 @@ Wer zu früh zu viel in Visual Design investiert, fällt in die Sunk Cost Fallac
 
 ### 5. Fitts'sches Gesetz
 
+→ Vollständige Antwort: Gruppe B, Frage 3
+
+**Kurzfassung:**
+> „The time to acquire a target is a function of the distance to and size of the target."
+
+- Formel: **T = a + b · log₂(D/W + 1)**
+- Je größer und näher das Target, desto schneller erreichbar und fehlerärmer
+- Mac-Menü nutzt vertikale Endlosigkeit → effektiv unbegrenzte Trefferfläche
+- Implikation: Wichtige Buttons groß und nahe am Aktionsbereich positionieren
+
 ---
 
 ### 6. Gestaltungsgesetz und Interface-Beispiel
@@ -1041,6 +1238,15 @@ Wer zu früh zu viel in Visual Design investiert, fällt in die Sunk Cost Fallac
 
 ### 7. Progressive Disclosure
 
+→ Vollständige Antwort: Gruppe B, Frage 8
+
+**Kurzfassung:**
+> Nur die typischerweise relevante Information wird angezeigt. Weniger wichtige Information wird in Schichten aufgeteilt und nur auf Aufforderung dargestellt.
+
+**Vorteile:** Screens bleiben übersichtlich, Lernbarkeit verbessert, weniger Fehler.
+**Nachteile:** Funktionen können versteckt wirken (Discovery-Problem), mehr Klicks nötig.
+**Beispiel:** „Erweiterte Einstellungen"-Button — versteckt selten genutzte Parameter.
+
 ---
 
 ### 8. Euro-in-Dollar-Interface effizient erstellen
@@ -1058,6 +1264,31 @@ Wer zu früh zu viel in Visual Design investiert, fällt in die Sunk Cost Fallac
 ## Aufgaben
 
 ### 1. Progressive Disclosure (Vorteile / Nachteile / eigenes Beispiel)
+
+→ Vollständige Definition und Kontext: Gruppe B, Frage 8
+
+**Definition:**
+> Nur die typischerweise relevante Information wird angezeigt. Weniger wichtige Information ist in Schichten aufgeteilt und wird nur auf Aufforderung dargestellt.
+
+**Kontext: Hick's Law + Choice Overload**
+- Mehr Optionen = mehr Entscheidungszeit (Hick's Law)
+- Zu viele Optionen können zur Analysis Paralysis führen (Paradox of Choice)
+- Progressive Disclosure ist eine direkte Antwort auf dieses Problem
+
+**Vorteile:**
+1. Interface bleibt übersichtlich → Clutter vermieden
+2. Lernbarkeit verbessert: User beginnen einfach, lernen schrittweise mehr
+3. Informationen, die der User nicht braucht, sind Noise → werden ausgeblendet
+4. Weniger Fehler, kürzere Lernzeit
+
+**Nachteile:**
+1. Funktionen können schwer findbar sein (Hidden Affordance)
+2. Mehr Interaktionsschritte nötig, um zur versteckten Information zu gelangen
+3. Power-User müssen sich durch mehrere Schichten klicken
+
+**Eigenes Beispiel:**
+- **E-Mail-Client (z. B. Gmail):** Standard-Ansicht zeigt nur To, Subject, Body. „CC / BCC" erscheinen erst nach Klick → Gelegenheits-User werden nicht überfordert, Power-User finden CC trotzdem.
+- **Formular mit „Erweiterte Einstellungen":** Basis-Einstellungen immer sichtbar; selten genutzte Parameter erst nach Klick auf Button — reduziert initiale Komplexität ohne Funktionsverlust.
 
 ---
 
