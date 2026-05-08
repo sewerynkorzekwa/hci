@@ -1,34 +1,34 @@
 ## Fragen von Muddy
 1. Was ist Chunking
-2. Formativer und summerativer
-3. Ux- Usabilty
+2. Formativer und summativer
+3. UX- Usability
 4. Service Design- UX Design 
 5. 635-H-M-v und opportunity Areas
-6. Gestaltgestz -
+6. Gestaltgesetz -
 7. Was ist Affordance 
 8. Prototyp- MVP 
-9. Contextul inquires mit Beispiel 
+9. Contextual Inquiries mit Beispiel 
 10. Vorgehenmodell-menschen.zentrierte ISO gemeinsam und Unterschiede
 11. Was ist Mentales Design Modell
 12. Proto persona und persona 
-13. Low fidefity und high fidefity erläutern und Unterschied zwischen Prototyp und MVP
+13. Low Fidelity und High Fidelity erläutern und Unterschied zwischen Prototyp und MVP
 14. Fische gesetzt mit Beispiel 
-15. usability und Metriken
+15. Usability und Metriken
 16. Top und links und rechts Felder 
-17. Konsistenz principle 
+17. Konsistenz Prinzip 
 18. Dimensionen des Interaction Designs.
 19. Was versteht man unter Progressive Disclosure?
 20. Priorisierungsmatrix
-21. Nähe gesetzte Definition mit zeichnen
-22. die Phasen und Artefakte im Collaborative UX Prozess.
-23. spunk cost fallacy
-24. heuristiken 2
-25. Fittsche Gesetz
-26. gestaltungsgesetz und interface beispiel
-27. euro in dollar interface erstellen sehr effizient
-28. ux metriken und ihre bedeutung
-29. system usability scale
-30. Bild und man soll sagen was verbessert werden kann (Ticketautomat zb)
+21. Nähe-Gesetz - Definition mit zeichnen
+22. Die Phasen und Artefakte im Collaborative UX Prozess.
+23. Sunk Cost Fallacy
+24. Heuristiken 2
+25. Fitts' Gesetz
+26. Gestaltungsgesetz und Interface Beispiel
+27. Euro in Dollar Interface erstellen sehr effizient
+28. UX Metriken und ihre Bedeutung
+29. System Usability Scale
+30. Bild und man soll sagen was verbessert werden kann (Ticketautomat z.B.)
 31. Noise vs Clutter Interface Design
 32. Heuristiken (Nielsen) unter Rückgriff auf Psychologischer Grundlagen
 33. Redundante Kodierung erklären (Doppelte Kodierung für den Fall der Fehlsichtigkeit nicht nur auf färben angewiesen ist)
