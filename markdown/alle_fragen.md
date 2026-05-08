@@ -45,11 +45,7 @@ Wie der Ablauf — C UX -> siehe Bild/ webseite
 Metriken
 PG D kommt immer vor und Nachteile erläutern und Beispiel
 UI und UX begriﬀe unterschied erklären mit Beispiel
-Was ist unterschied zw Persona und Protopersona
 5 dimensioned design words… diese begriﬀe
 Erläuerten Brainstorming und 635 unterschied - ideation Methoden unterschied ist Struktur, bei
 brainstroiming alle gleichzeitig loslegen bei 365 timebox einzeln und Gruppen Aktivitäten
 Userstory mapping anwenden mit Beispiel und begriﬀe - campusboard Beispiel anwenung
-Collarbartive UX 12p -> bitte diskutieren sie das vorgehen bei UX am Beispiel der Entwicklung
-welche Phasen lassen sich unterscheiden und welche Artefakte lassen sich unterscheiden
-Wozu dienst ein prioresierungs Matrix
