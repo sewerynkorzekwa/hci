@@ -38,3 +38,18 @@
 37. Welche Arten von Prototypen gibt es und wann welche zum Einsatz kommen können 
 38. "Proto" vor verschiedenen Artefakten, was bedeutet das? (Annahmen)
 39. Triangulation erklären (Evaluation mit mehreren Datenquellen, qualitativ und quantitativ)
+
+## Pages
+Wie der Ablauf — C UX -> siehe Bild/ webseite
+635 Methode -> Steht in Unterlagen
+Metriken
+PG D kommt immer vor und Nachteile erläutern und Beispiel
+UI und UX begriﬀe unterschied erklären mit Beispiel
+Was ist unterschied zw Persona und Protopersona
+5 dimensioned design words… diese begriﬀe
+Erläuerten Brainstorming und 635 unterschied - ideation Methoden unterschied ist Struktur, bei
+brainstroiming alle gleichzeitig loslegen bei 365 timebox einzeln und Gruppen Aktivitäten
+Userstory mapping anwenden mit Beispiel und begriﬀe - campusboard Beispiel anwenung
+Collarbartive UX 12p -> bitte diskutieren sie das vorgehen bei UX am Beispiel der Entwicklung
+welche Phasen lassen sich unterscheiden und welche Artefakte lassen sich unterscheiden
+Wozu dienst ein prioresierungs Matrix
