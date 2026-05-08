@@ -27,7 +27,16 @@ Was ist Mentales Design Modell
 11- die Phasen und Artefakte im Collaborative UX Prozess.
 
 ## 4 SMS Nachricht
-
+spunk cost fallacy
+summative und formative
+persona proto person
+heuristiken 2
+Fittsche Gesetz
+gestaltungsgesetz und interface beispiel
+progressive disclosure
+euro in dollar interface erstellen sehr effizient
+ux metriken und ihre bedeutung
+system usability scale
 
 
 ## 5 SMS Nachricht
