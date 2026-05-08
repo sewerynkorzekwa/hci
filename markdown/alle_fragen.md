@@ -10,19 +10,17 @@
 9. Contextul inquires mit Beispiel 
 10. Vorgehenmodell-menschen.zentrierte ISO gemeinsam und Unterschiede
 11. Was ist Mentales Design Modell
-
-## 3 SMS Nachricht
-1. Proto persona und persona 
-2. Lew fidefity und high fidefity erläutern und Unterschied zwischen Prototyp und MVP
-3. Fische gesetzt mit Beispiel 
-4. usability und Metriken
-5. Tob und links und rechts Felder 
-6. Konsistenz principle 
-7. Dimensionen des Interaction Designs.
-8. Was versteht man unter Progressive Disclosure?
-9. Priorisierungsmatrix
-10. Nähe gesetzte Definition mit zeichnen
-11. die Phasen und Artefakte im Collaborative UX Prozess.
+12. Proto persona und persona 
+13. Low fidefity und high fidefity erläutern und Unterschied zwischen Prototyp und MVP
+14. Fische gesetzt mit Beispiel 
+15. usability und Metriken
+16. Top und links und rechts Felder 
+17. Konsistenz principle 
+18. Dimensionen des Interaction Designs.
+19. Was versteht man unter Progressive Disclosure?
+20. Priorisierungsmatrix
+21. Nähe gesetzte Definition mit zeichnen
+22. die Phasen und Artefakte im Collaborative UX Prozess.
 
 ## 4 SMS Nachricht
 1. spunk cost fallacy
