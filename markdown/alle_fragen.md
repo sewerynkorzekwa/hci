@@ -28,19 +28,13 @@
 27. euro in dollar interface erstellen sehr effizient
 28. ux metriken und ihre bedeutung
 29. system usability scale
-
-## 5 SMS Nachricht
-1. Progressiv Disclosure (Vorteile Nachteile, eigenes Beispiel)
-2. Bild und man soll sagen was verbessert werden kann (Ticketautomat zb)
-3. Noise vs Clutter Interface Design
-4. Heuristiken (Nielsen) unter Rückgriff auf Psychologischer Grundlagen
-5. Redundante Kodierung erklären (Doppelte Kodierung für den Fall der Fehlsichtigkeit nicht nur auf färben angewiesen ist)
-6. Links-Rechts-Topalligment wann was sinnvoll 
-7. Zwei beliebige Usability-Metriken (Time-to-Task, System-Usability-Scale Subjektiver Eindruck, etc)
-8. UX Workshop Ablauf und jeweils ein Artefakt
-9. Contextual Inquieries mit Beispiel
-10. Unterschied zwischen Sketches und Wireframes
-11. Unterschied zwischen Stakeholder und User
-12. Welche Arten von Prototypen gibt es und wann welche zum Einsatz kommen können 
-13. "Proto" vor verschiedenen Artefakten, was bedeutet das? (Annahmen)
-14. Triangulation erklären (Evaluation mit mehreren Datenquellen, qualitativ und quantitativ)
+30. Bild und man soll sagen was verbessert werden kann (Ticketautomat zb)
+31. Noise vs Clutter Interface Design
+32. Heuristiken (Nielsen) unter Rückgriff auf Psychologischer Grundlagen
+33. Redundante Kodierung erklären (Doppelte Kodierung für den Fall der Fehlsichtigkeit nicht nur auf färben angewiesen ist)
+34. UX Workshop Ablauf und jeweils ein Artefakt
+35. Unterschied zwischen Sketches und Wireframes
+36. Unterschied zwischen Stakeholder und User
+37. Welche Arten von Prototypen gibt es und wann welche zum Einsatz kommen können 
+38. "Proto" vor verschiedenen Artefakten, was bedeutet das? (Annahmen)
+39. Triangulation erklären (Evaluation mit mehreren Datenquellen, qualitativ und quantitativ)
