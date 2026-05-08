@@ -21,18 +21,13 @@
 20. Priorisierungsmatrix
 21. Nähe gesetzte Definition mit zeichnen
 22. die Phasen und Artefakte im Collaborative UX Prozess.
-
-## 4 SMS Nachricht
-1. spunk cost fallacy
-2. summative und formative
-3. persona proto person
-4. heuristiken 2
-5. Fittsche Gesetz
-6. gestaltungsgesetz und interface beispiel
-7. progressive disclosure
-8. euro in dollar interface erstellen sehr effizient
-9. ux metriken und ihre bedeutung
-10. system usability scale
+23. spunk cost fallacy
+24. heuristiken 2
+25. Fittsche Gesetz
+26. gestaltungsgesetz und interface beispiel
+27. euro in dollar interface erstellen sehr effizient
+28. ux metriken und ihre bedeutung
+29. system usability scale
 
 ## 5 SMS Nachricht
 1. Progressiv Disclosure (Vorteile Nachteile, eigenes Beispiel)
