@@ -1,4 +1,4 @@
-## 1 SMS Nachricht
+## Fragen von Muddy
 1. Was ist Chunking
 2. Formativer und summerativer
 3. Ux- Usabilty
@@ -9,9 +9,7 @@
 8. Prototyp- MVP 
 9. Contextul inquires mit Beispiel 
 10. Vorgehenmodell-menschen.zentrierte ISO gemeinsam und Unterschiede
-
-## 2 SMS Nachricht
-1. Was ist Mentales Design Modell
+11. Was ist Mentales Design Modell
 
 ## 3 SMS Nachricht
 1. Proto persona und persona 
@@ -50,7 +48,6 @@
 9. Contextual Inquieries mit Beispiel
 10. Unterschied zwischen Sketches und Wireframes
 11. Unterschied zwischen Stakeholder und User
-12. 
-13. Welche Arten von Prototypen gibt es und wann welche zum Einsatz kommen können 
-14. "Proto" vor verschiedenen Artefakten, was bedeutet das? (Annahmen)
-15. Triangulation erklären (Evaluation mit mehreren Datenquellen, qualitativ und quantitativ)
+12. Welche Arten von Prototypen gibt es und wann welche zum Einsatz kommen können 
+13. "Proto" vor verschiedenen Artefakten, was bedeutet das? (Annahmen)
+14. Triangulation erklären (Evaluation mit mehreren Datenquellen, qualitativ und quantitativ)
