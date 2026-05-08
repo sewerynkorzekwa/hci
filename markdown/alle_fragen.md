@@ -32,31 +32,17 @@ Was ist Mentales Design Modell
 
 ## 5 SMS Nachricht
 Aufgabe 1: Progressiv Disclosure (Vorteile Nachteile, eigenes Beispiel)
-
 Aufgabe 2: Bild und man soll sagen was verbessert werden kann (Ticketautomat zb)
-
 Aufgabe 3: Noise vs Clutter Interface Design
-
 Aufgabe 4: Heuristiken (Nielsen) unter Rückgriff auf Psychologischer Grundlagen
-
 Aufgabe 5: Redundante Kodierung erklären (Doppelte Kodierung für den Fall der Fehlsichtigkeit nicht nur auf färben angewiesen ist)
-
 Aufgabe 6: Links-Rechts-Topalligment wann was sinnvoll 
-
 Aufgabe 7: Zwei beliebige Usability-Metriken (Time-to-Task, System-Usability-Scale Subjektiver Eindruck, etc)
-
 Aufgabe 8: UX Workshop Ablauf und jeweils ein Artefakt
-
 Aufgabe 9: Contextual Inquieries mit Beispiel
-
 Aufgabe 10: Unterschied zwischen Sketches und Wireframes
-
 Aufgabe 11: Unterschied zwischen Stakeholder und User
-
 Aufgabe 12: 
-
 Aufgabe 13: Welche Arten von Prototypen gibt es und wann welche zum Einsatz kommen können 
-
 Aufgabe 14: “Proto” vor verschiedenen Artefakten, was bedeutet das? (Annahmen)
-
 Aufgabe 15: Triangulation erklären (Evaluation mit mehreren Datenquellen, qualitativ und quantitativ)
