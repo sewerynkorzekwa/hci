@@ -43,6 +43,10 @@ Nachdem alle Beteiligten im Raum Platz genommen haben, bittet Tim die Anwesenden
 
 Die im Workshop zur Verfügung stehende Zeit soll möglichst produktiv genutzt werden: Tim öffnet seinen Moderationskoffer und beginnt damit, Karten an eine vorbereitete Pinnwand zu hängen. Er verwendet zunächst blaue Karten und ordnet sie horizontal in einer Reihe an (Abbildung 4). Mit Überschriften auf den Karten gibt Tim die Struktur eines *Proto-Problem Statement* vor, das er nun erarbeiten möchte. Eine erste Map entsteht.
 
+*Abbildung 4: Struktur eines Problem Statement*
+
+Blaue Überschriftenkarten in einer Reihe: Nutzende | Probleme | Lösungsansätze | Metriken | Stakeholder | Randbedingungen | Risiken
+
 Die erste Karte beschriftet Tim mit »Nutzende«. Er fragt die Anwesenden: »Zwischen welchen Nutzergruppen sollten wir unterscheiden? Welche Nutzergruppen haben unterschiedliche Anforderungen an die Leistungserfassung?« Tim erhält auf seine Frage eine Reihe von Antworten – nicht alle davon weisen jedoch in die gleiche Richtung: Es finden sich durchaus widersprüchliche Meinungen.
 
 In einem ersten Versuch zur Segmentierung der Nutzenden von 4Service arbeiten die Teilnehmenden schließlich vier unterschiedliche Nutzergruppen heraus. Diese sind:
@@ -56,11 +60,22 @@ In einem ersten Versuch zur Segmentierung der Nutzenden von 4Service arbeiten di
 
 Tim hält die Wortmeldungen auf Karten fest und ordnet sie in der Spalte »Nutzende« an: Eine Tabelle entsteht (Abbildung 5).
 
+*Abbildung 5: Problem Statement mit der ausgefüllten Spalte »Nutzende«*
+
+- Nutzende: Mitarbeitende, Projektleitung, Teamleitung, Personalleitung
+- Übrige Spalten (Probleme, Lösungsansätze, Metriken, Stakeholder, Randbedingungen, Risiken) noch leer
+
 Als Nächstes fragt Tim: »Welche Probleme möchten wir für die direkten User von 4Service mit Blick auf die Zeiterfassung lösen?« Die Teilnehmenden des Workshops vermuten, dass es viele Reklamationen wegen falscher Rechnungen geben wird. Zum Beispiel dann, wenn eine Anwaltskanzlei, als Kunde von 4Service, für zwei Anwälte, die sich in einer gemeinsamen Sitzung beraten haben, unterschiedliche Zeitaufwände in Rechnung stellt.
 
 Ein weiteres Problem resultiert für Kunden, wenn Arbeiten für einen Klienten zwar ausgeführt, jedoch nicht abgerechnet werden: Der Kanzlei oder einem Unternehmen entstehen Aufwände, denen keine Einnahmen gegenüberstehen. Für dieses Problem lassen sich unterschiedliche Ursachen annehmen: Eine regelmäßige Zeiterfassung könnte für Nutzende zu aufwendig und ineffizient sein und daher vielleicht erst gesammelt am Monatsende durchgeführt werden. Kleinere Arbeiten für einen Klienten »zwischendurch« geraten dann schon mal in Vergessenheit. Da die 4Service AG keine Smartphone-App zur Nutzung von 4Service anbietet, ist eine mobile Erfassung von Arbeitszeiten nicht möglich. Personen, die eine Leistung außerhalb des Büros erbringen, müssen sich die angefallenen Aufwände daher merken oder notieren, bis sie wieder Zugriff auf 4Service haben.
 
 Tim moderiert die Diskussionsrunde zu möglichen Ursachen für ausbleibende Zeiterfassungen, hinterfragt die ausgetauschten Aussagen der Vertreterinnen des Produktmanagements und hält resultierende Erkenntnisse auf Karten fest – sukzessive werden die Spalten des Proto-Problem Statement gefüllt (Abbildung 6).
+
+*Abbildung 6: Erste Übersicht von zu lösenden Problemen*
+
+- Nutzende: Mitarbeitende, Projektleitung, Teamleitung, Personalleitung
+- Probleme: Reklamationen zu Rechnungen; Zu wenig verrechenbare Stunden; Keine App für Smartphones; Erfassung ist zeitaufwendig
+- Übrige Spalten (Lösungsansätze, Metriken, Stakeholder, Randbedingungen, Risiken) noch leer
 
 Die sorgfältige Unterscheidung zwischen Problemen und Ansätzen zu ihrer Lösung ist hilfreich: Wir richten den Fokus zunächst auf das Verständnis der Ausgangslage und die Zielsetzungen eines Projekts.
 
@@ -96,6 +111,15 @@ Das technische Risiko betrifft die Implementierung von 4Service: Die der aktuell
 
 Aus den Diskussionen im Workshop entsteht schließlich ein umfassendes Proto-Problem Statement, das die erarbeiteten Erkenntnisse zusammenfasst (Abbildung 7).
 
+*Abbildung 7: Ausgefülltes Proto-Problem Statement*
+
+| Nutzende | Probleme | Lösungsansätze | Metriken | Stakeholder | Randbedingungen | Risiken |
+|---|---|---|---|---|---|---|
+| Mitarbeitende | Reklamationen zu Rechnungen | Einfachere Erfassungsmasken | Pro 20 Rechnungen maximal eine Reklamation | Produktmanagement | Keine Änderung in der Datenbank | Performance |
+| Projektleitung | Zu wenig verrechenbare Stunden | App für Smartphones | 5% mehr verrechenbare Stunden | Support und Schulung | Keine native Lösung für Smartphones | Zu unterschiedliche Kundenbedürfnisse |
+| Teamleitung | Keine App für Smartphones | | Weniger als 10 Minuten für Erfassung pro Tag | Verkauf und Marketing | | |
+| Personalleitung | Erfassung ist zeitaufwendig | | | | | |
+
 Natürlich könnten wir ein solches Problem Statement auch verbal formulieren. In der dargestellten Form als Map lässt es sich jedoch im Projektverlauf leicht im Lichte neuer Erkenntnisse anpassen und erweitern. Zudem erlaubt es den Einbezug der unterschiedlichen Perspektiven aller Teilnehmenden und der jeweils relevanten Aspekte. Es ist das dynamisch entwickelte, reichhaltige Ergebnis der bisherigen Teamarbeit.
 
 Tim richtet sich an die Kolleginnen und Kollegen aus dem Produktmanagement: »Herzlichen Dank – mit dem Proto-Problem Statement sind wir bei der Klärung der Ausgangslage ein ganzes Stück vorangekommen. Im nächsten Schritt möchten wir nun herausfinden, wie gesichert unser vermeintliches Wissen ist – wir müssen den Status der Annahmen bestimmen, die sich hinter unserem Proto-Problem Statement verbergen.«
@@ -114,6 +138,14 @@ Wir haben Tim gerade bei der Durchführung eines Workshops erlebt. Tim ist ein e
 
 **Ergebnisorientierte Gestaltung.** Bei effizienten Workshops hat der Leiter oder die Leiterin eines Workshops bereits vor dessen Beginn eine klare Vorstellung von den erreichbaren Ergebnissen – natürlich nicht inhaltlich, wohl aber mit Blick auf deren Struktur. Tim bereitet die Wände des Workshop-Raums entsprechend mit Platzhaltern für die erwarteten Inhalte vor. An der Wand hängen Poster, die beispielsweise mit Karten zu »Aufgaben«, »Annahmen«, »Parkplatz« oder mit »Offene Fragen« überschrieben sind. Die inhaltlichen Arbeitsaufträge für den Workshop sind auf diese Weise für alle Teilnehmenden sichtbar (Abbildung 8). Ein Beispiel für eine solche Vorbereitung haben wir zuvor bereits bei der Formulierung des Proto-Problem Statement gesehen.
 
+*Abbildung 8: Beispielstruktur eines ergebnisorientierten Workshops*
+
+| Annahmen | Merkpunkte | Aufgaben | Offene Fragen | Parkplatz |
+|---|---|---|---|---|
+| Alle Mitarbeitenden haben die gleichen Anforderungen | Wochenansicht wird am häufigsten genutzt | Erste Interviewpartner einladen | Müssen wir Normen einhalten? | Wir sollten über einen Styleguide nachdenken |
+| | Zu wenig verrechenbare Stunden | Stakeholder-Liste erstellen | Soll das Marketing involviert werden? | |
+| | | Verfügbarkeit der Ressourcen überprüfen | | |
+
 **Beiträge sichtbar machen.** Damit ein erreichter Diskussionsstand transparent ist und Beiträge aller Teilnehmenden eines Workshops Berücksichtigung finden, sollten die Beiträge visualisiert werden. Auch wenn Tim als Leiter des Workshops einen Beitrag zunächst für weniger wertvoll hält, so dokumentiert er diesen dennoch. Oft geben auch solche Beiträge im späteren Verlauf Anstöße, die sich durch weiteres Nachfragen zu zielführenden Ergebnissen wandeln. Sind alle Beiträge visualisiert und auf diese Weise dokumentiert, so ist auch das Protokoll bereits erledigt – wir alle kennen die lästige Frage nach der Protokollführung in einem Workshop. Tim hält die erreichten Ergebnisse einfach durch ein Foto der Plakate an den Wänden fest – es bedarf lediglich eines Smartphones und das zentrale Ergebnis ist dokumentiert. Fotos von erreichten Zwischenständen eignen sich zur Protokollierung des groben inhaltlichen Verlaufs eines Workshops. Natürlich sind alle in diesem Buch beschriebenen Methoden auch oder sogar explizit für online durchgeführte Workshops geeignet. Verwendete Onlinetools geben in der Regel keine Platzrestriktionen vor und die Dokumentation ist ohnehin ein inhärenter Vorzug dieser Tools.
 
 **Timeboxed.** Aktivitäten im Workshop sollten zeitlich streng begrenzt werden. Zu schnell verlieren sich auch ansonsten produktive Teams in fruchtlosen Diskussionen. Eng getaktete Aufgaben schaffen ein Klima der Fokussierung und Effizienz. Zugegeben: Zeitbegrenzungen sind anspruchsvoll und anstrengend. Auch ist eine starre zeitliche Taktung meist ungewohnt und erfordert einige Überwindung für die moderierende Person eines Workshops. In der Praxis finden wir auch in Workshops die bekannte 80%-Regel oft bestätigt: In 20% der Zeit erarbeiten wir 80% der Ergebnisse. Oft werden Resultate nicht besser, wenn wir ein Thema unstrukturiert hin und her diskutieren – im Gegenteil: Wir drehen uns im Kreis und stellen bereits Erreichtes ohne neue Erkenntnisse infrage, statt uns konzentriert auf die nächsten Schritte vorzubereiten.
@@ -130,6 +162,10 @@ Im Verlauf des Fallbeispiels werden wir verschiedene Workshop-Methoden vorstelle
 
 Stellen wir uns kurz eine Workshop-Situation vor. Die Moderatorin eines Workshops präsentiert zu Beginn einige gesicherte Fakten zu einer Problemstellung. Danach sammeln die Teilnehmenden verschiedene Lösungsideen, die sie sich wiederum gegenseitig präsentieren. Anschließend erfolgt eine Feedbackrunde: Auf dieser Grundlage wird abgestimmt und die präferierte Lösung ausgewählt.
 
+*Abbildung 9: Beispielablauf eines Workshops*
+
+Problem präsentieren → Ideen sammeln → Gegenseitig vorstellen → Feedback geben → Abstimmen
+
 Wie das Beispiel verdeutlicht, besteht der skizzierte Workshop aus unterschiedlichen, aufeinander folgenden Schritten. Die Planung dieser Schritte und die Auswahl einer zielgerichteten Methode in jeder Phase bildet eine wichtige Grundlage für das Gelingen von Workshops. Nachfolgend stellen wir verschiedene Arten solcher Phasen vor.
 
 **Präsentation.** Oft beginnt ein Workshop mit einer Präsentation. Dabei werden typischerweise Ergebnisse vorgestellt, die zuvor alleine oder durch ein kleines Team erarbeitet wurden und die nun mit der gesamten Gruppe geteilt werden. Präsentationen bauen häufig auf vorbereiteten Folien auf – dies bringt einen großen Nachteil mit sich: Einmal gezeigt, sind die Folien danach nicht mehr zu sehen. Weder die verwendeten Folien noch die Kommentare, die zu diesen geäußert wurden, bleiben für die Teilnehmenden eines Workshops über eine gewisse Zeit präsent. Besser ist es, präsentierte Inhalte im Raum für alle zu visualisieren oder auf einem virtuellen Board zur Verfügung zu stellen. So können alle Personen in Ruhe die gesamte Darstellung nochmals überblicken und Fragen oder Anmerkungen formulieren.
@@ -142,6 +178,14 @@ Wie das Beispiel verdeutlicht, besteht der skizzierte Workshop aus unterschiedli
 
 Stellen wir uns beispielsweise vor, es gäbe vier zu bewertende Alternativen. Hier können wir einen Raum aufspannen, dessen Achsen mit für die Aufgabenstellung relevanten Dimensionen – etwa *Kosten* bzw. *Nutzen* – beschriftet sind. Teilnehmende können Alternativen nun relativ zueinander in diesem Raum platzieren, auf der Basis von Diskussionen verschieben und auf diese Weise ein aussagekräftiges, kompaktes und anschauliches Bewertungsdiagramm erstellen.
 
+*Abbildung 10: Beispiel für ein Bewertungsdiagramm*
+
+Koordinatensystem mit den Achsen *Kosten* (vertikal) und *Nutzen* (horizontal), in vier Quadranten geteilt:
+- Variante 1: hohe Kosten, geringer Nutzen (oben links)
+- Variante 2: mittig, nahe dem Schnittpunkt der Achsen
+- Variante 3: geringe Kosten, geringer Nutzen (unten links)
+- Variante 4: geringe Kosten, hoher Nutzen (unten rechts)
+
 Im Verlauf dieses Buches werden wir weitere Methoden zur Durchführung von Bewertungen vorstellen. Hierzu gehören das *Plädoyer* (vgl. Kapitel »Workshop: Ideation«) oder auch die *Priorisierungsmatrix* (vgl. Kapitel »Workshop: Roadmap«).
 
 **Sammeln.** Das Sammeln von Aspekten oder Ideen ist ein zentrales Element in der Lösungsfindung: Durch das gezielte Sammeln lässt sich der Lösungsraum in der Breite erkunden. Zur Verdeutlichung dieses Aspekts hilft ein Gedankenexperiment: Zeichnen Sie, nur grob, fünf unterschiedliche Bäume. Danach wählen Sie einen dieser Bäume als Ausgangspunkt und erstellen für eben diesen fünf Varianten. Es wird Ihnen nicht schwerfallen, diesen Prozess nun zu wiederholen. Wieder wählen Sie eine Variante aus und zeichnen fünf weitere Untervarianten, bei denen Sie gezielt Attribute variieren. Wenn Sie den Prozess für alle ursprünglich gezeichneten Bäume wiederholten, so hätten Sie nun bereits 125 Varianten von Bäumen gezeichnet. Sie haben durch Variation von wenigen Bäumen gezielt Vielfalt erstellt – statt eben einfach »nur« 125 ähnliche Bäume zu zeichnen. Beim Sammeln kann es hilfreich sein, sich gegenseitig zu inspirieren. Stellen Sie sich vor, Sie könnten – während Sie die Bäume zeichnen – bei anderen etwas »spionieren«. Dies würde Sie auf weitere Ideen zur Variation bringen und Sie könnten diese wiederum mit Ihren Ideen kombinieren. Einige Ideation-Methoden, die wir in diesem Buch vorstellen – zum Beispiel die Methode 6-3-5 (vgl. Kapitel »Workshop: Ideation«) –, beinhalten genau dieses Element der wechselseitigen Inspiration.
@@ -153,6 +197,10 @@ Eine weitere Option ist die Zuordnung gesammelter Elemente zu einem zeitlichen A
 **Ausarbeiten.** Schließlich bleibt noch ein letzter Baustein erfolgreicher Workshops: das Ausarbeiten. Beispiele für das Ausarbeiten sind etwa das Anfertigen einer Skizze, das Beschreiben eines Szenarios oder das Bauen eines Prototyps. Auch wenn wir Ausarbeitungen im Rahmen eines Workshops durchführen, ist es oft hilfreich, dies nicht mit allen Teilnehmenden gleichzeitig, sondern in Kleingruppen oder auch in Form von Einzelarbeiten zu tun.
 
 Die unterschiedlichen, oben dargestellten Schritte können wir, wie in Abbildung 11 dargestellt, zu einem beispielhaften Workshop-Ablauf kombinieren.
+
+*Abbildung 11: Beispielablauf eines Workshops*
+
+Annahmen zu Nutzenden sammeln → Gruppen finden → Ausarbeiten Gruppe | Ausarbeiten Gruppe | Ausarbeiten Gruppe (parallel) → Feedback geben
 
 Stellen wir uns vor, wir möchten zwischen unterschiedlichen Benutzergruppen differenzieren. Wir könnten zunächst Annahmen zu möglichen Kandidaten aus der Menge der Nutzenden sammeln, auf Karten schreiben und diese anschließend gruppieren. Für eine detaillierte Ordnung, Bewertung und Ausarbeitung der resultierenden Gruppen können wir dann die Teilnehmenden des Workshops in kleinere Teams aufteilen. Anschließend können die Teams einander die aus den Gruppenarbeiten hervorgegangenen Ergebnisse vorstellen und Feedback geben.
 
@@ -169,6 +217,20 @@ Tim bittet die Anwesenden darum, ihre individuellen Vorstellungen zu Nutzerinnen
 »Nehmt bitte ein Flipchart-Blatt und faltet es einmal entlang der langen Seite: Wenn ihr es wieder aufklappt, habt ihr zwei Hälften. Teilt nun bitte das Blatt entlang der kurzen Seite und ihr erhaltet durch die Faltung vier Quadranten auf dem Blatt.« Tim demonstriert das Falten. »Dies gibt uns eine Struktur zur Beschreibung von Proto-Personas. Damit wir eine Proto-Persona einfach ansprechen können, überlegt euch bitte einen aussagekräftigen Namen und schreibt ihn groß links oben auf das Blatt. Am besten benutzt ihr einen Namen, mit dem deutlich wird, welche Nutzerin damit referenziert wird – ›Marie Beraterin‹ wäre ein solcher sprechender Name. Nun müssen wir nicht mehr vage von ›Nutzerin‹ oder ›Nutzer‹ reden, sondern haben einen Namen, der es uns erlaubt, die Proto-Persona konkret anzusprechen. Wir werden der Persona gleich durch die Nennung relevanter Eigenschaften Leben einhauchen. Schreibt bitte im oberen linken Quadranten der Seite auch auf, welche Ausbildung ihr euch als typisch für die Proto-Persona vorstellt.«
 
 »Darunter könnt ihr dann den Kontext kurz umschreiben, in dem diese Nutzerin arbeitet, und welche typischen Arbeitsaufgaben eure Proto-Persona zu erledigen hat. In einem Segment solltet ihr die Ziele aufführen, von denen ihr glaubt, dass sie für die Proto-Persona bei der Leistungserfassung wichtig sind. Schließlich sollten wir noch die Erwartungen nennen, die die Proto-Persona an ein Modul zur Leistungserfassung nach eurer Ansicht hat. Oft ist es auch hilfreich, zu erwähnen, welche Frustrationspunkte eine Persona bei der Durchführung eines Prozesses hat – oder haben könnte.« Tim gibt den Teilnehmenden etwas Zeit zur inhaltlichen Skizzierung der Proto-Personas und dem Füllen der Felder. Anschließend bittet er sie darum, sich gegenseitig die individuell erstellten Proto-Personas vorzustellen. Abbildung 12 zeigt zwei Proto-Personas als mögliche Ergebnisse der Einzelarbeiten.
+
+*Abbildung 12: Beispiele für Proto-Personas*
+
+**Peter PROJEKTLEITER**
+- Persönliche Attribute: Dipl.-Informatiker; 36 Jahre alt; Gute Kenntnisse in Tabellenkalkulation
+- Probleme und Herausforderungen: Leistungen oft nicht aktuell erfasst; Auswertungen ungeeignet; Budgetüberschreitungen nicht früh genug erkennbar; Reklamationen bei Kundenrechnungen
+- Aufgaben: Projekt anlegen; Kundenrechnungen vorbereiten; Zeitrapport kontrollieren; Projektstand überwachen
+- Bedürfnisse und Ziele: Vollständig erfasste Leistungen; Budgetüberschreitungen frühzeitig erkennen; Geeignete Auswertungen; Aktuelle Erfassung
+
+**Marie BERATERIN**
+- Persönliche Attribute: Betriebswirtin; 32 Jahre alt; Viel Erfahrung in Nutzung von Apps; Oft bei Kunden
+- Probleme und Herausforderungen: Hoher Abstimmungsaufwand; Fehlende Projekte; Fehlende mobile Variante
+- Aufgaben: Reisespesen erfassen; Leistungen erfassen; Arbeitszeitenkontrolle
+- Bedürfnisse und Ziele: Korrekte Erfassung; Reisezeiten für Erfassung nutzen; Gute Übersicht über Überzeiten und Urlaubsansprüche; Effiziente Erfassung
 
 Die Vorstellung der angefertigten Proto-Personas hat eine überraschende Vielfalt zum Ergebnis – offensichtlich gehen die am Workshop Teilnehmenden von recht unterschiedlichen Nutzenden aus. Auch wenn oft von »Nutzerin« oder »Nutzer« gesprochen wird, können sich hinter den gleichen Wortmarken doch sehr unterschiedliche Vorstellungen verbergen. Nach der Präsentation und dem erfolgten Feedback konsolidieren die Teilnehmenden die Proto-Personas und halten schließlich die folgenden anschaulichen Namen für ihre fiktiven Proto-Personas fest:
 
@@ -209,9 +271,35 @@ Tim fragt nach einem Beispiel für eine solche Erfassung, im Team wird die folge
 
 »Marie Beraterin« erfasst ihre Leistungen eines Tages kurz vor Feierabend. Sie überprüft, welche die letzten von ihr erfassten Leistungen waren, und findet die Einträge vom Vortag. Sie trägt die Leistungen des heutigen Tages ein: In der Regel sind dies etwa zwei bis sechs Einträge. Anschließend validiert sie ihre Einträge, indem sie die Gesamtsumme des Tages betrachtet. Nachdem Marie ihre Leistungen eingetragen hat, erfasst sie ihre Spesen. Dazu sucht sie die Belege zusammen und trägt die Summe ein. Die Belege klebt sie auf ein Papier und legt es in ihre Spesenablage. Am Monatsende überprüft Marie alle Leistungseinträge und bestätigt diese anschließend. Sie weiß, dass auf dieser Grundlage die Projektleitung die Leistungen dann den jeweiligen Kunden in Rechnung stellt.
 
-Tim dokumentiert die wesentlichen Ereignisse der Geschichte auf Karten und ordnet diese in ihrem zeitlichen Ablauf an (Abbildung 13).
+Tim dokumentiert die wesentlichen Ereignisse der Geschichte auf Karten und ordnet diese in ihrem zeitlichen Ablauf an.
 
-Über den skizzierten grundlegenden Ablauf der Leistungserfassung herrscht Konsens unter allen Teilnehmenden des Workshops. Tim fragt nun nach vermuteten Problemen bzw. Chancen zur Optimierung des Ablaufs. Er bittet alle am Workshop teilnehmenden Personen darum, sich zunächst alleine Gedanken zu Chancen und möglichen Barrieren der aktuellen Leistungserfassung zu machen. Alle sollen eigene Karten schreiben und diese anschließend vorstellen. Vermutete Probleme werden dann direkt unter den jeweiligen Schritten platziert. Auf diese Weise entsteht das nachfolgende Bild (Abbildung 14).
+*Abbildung 13: Ablauf der Proto-Journey*
+
+Persona: Marie Beraterin
+
+| Phase | Schritte |
+|---|---|
+| Leistungen erfassen | Überprüfen der bisherigen Erfassung → Erfassen der neuen Leistungen → Überprüfen der Zeitsalden |
+| Spesen erfassen | Spesenbelege sammeln → Erfassen von Spesen → Abgabe der Spesenbelege |
+| Freigabe der Leistungen | Korrekturen von Zeiterfassungen → Freigabe der Zeiterfassung → Kommunikation der Freigabe |
+
+Über den skizzierten grundlegenden Ablauf der Leistungserfassung herrscht Konsens unter allen Teilnehmenden des Workshops. Tim fragt nun nach vermuteten Problemen bzw. Chancen zur Optimierung des Ablaufs. Er bittet alle am Workshop teilnehmenden Personen darum, sich zunächst alleine Gedanken zu Chancen und möglichen Barrieren der aktuellen Leistungserfassung zu machen. Alle sollen eigene Karten schreiben und diese anschließend vorstellen. Vermutete Probleme werden dann direkt unter den jeweiligen Schritten platziert. Auf diese Weise entsteht das nachfolgende Bild:
+
+*Abbildung 14: Proto-Journey mit angenommenen Problemen*
+
+Persona: Marie Beraterin – unter den Schritten der Proto-Journey (Abbildung 13) platzierte Problemkarten:
+
+| Phase | Schritt | Vermutete Probleme/Chancen |
+|---|---|---|
+| Leistungen erfassen | Überprüfen der bisherigen Erfassung | – |
+| | Erfassen der neuen Leistungen | Bei vielen Projekten unübersichtlich; Unbequeme Erfassung von Tätigkeiten; Leistungen könnten auch aus Planung übernommen werden; Nutzer erfassen zu wenig Leistungen |
+| | Überprüfen der Zeitsalden | Möchte Überzeitsaldo sehen; Möchte Urlaubsguthaben sehen |
+| Spesen erfassen | Spesenbelege sammeln | – |
+| | Erfassen von Spesen | Fehlende Übersicht über bereits erfasste Spesen |
+| | Abgabe der Spesenbelege | – |
+| Freigabe der Leistungen | Korrekturen von Zeiterfassungen | Fehlendes Projektbudget; Kein einfaches Umbuchen auf andere Projekte |
+| | Freigabe der Zeiterfassung | – |
+| | Kommunikation der Freigabe | Keine automatische Mitteilung |
 
 Tatsächlich zeigt der Ablauf in der Proto-Journey gegenüber dem Entwurf des Proto-Problem Statement einige zusätzliche Probleme auf. So war im ursprünglichen Proto-Problem Statement nicht erwähnt, dass die Leistungserfassung »bei vielen Projekten unübersichtlich« ist, »keine Übersicht über bereits erfasste Spesen« gegeben ist und »kein einfaches Umbuchen« als Problem angesehen wird. Ebenfalls neu ist die Vermutung, dass Leistungseinträge direkt aus der Wochenplanung übernommen werden können. In einer Wochenplanung wird festgelegt, welche Person mit welchem Aufwand an welchem Projekt arbeitet. Dies könnte eine gute Vorlage liefern, sodass ein geringerer Aufwand für die nachträgliche Erfassung der tatsächlich erbrachten Leistungen anfällt.
 
@@ -219,11 +307,35 @@ Offensichtlich vervollständigt sich das Bild – dem Team wird zunehmend klar, 
 
 ## Annahmen-Map
 
-In den vergangenen Stunden des Workshops wurde eine ganze Reihe von Annahmen durch das Team zusammengetragen. Noch aber ist nicht geklärt, ob und wie bedeutsam oder kritisch die identifizierten Annahmen sind. Die am Workshop Teilnehmenden betrachten daher die verschiedenen Annahmen aus der Erarbeitung des Proto-Problem Statement, der Proto-Personas und der Proto-Journey. Tim bittet darum, darin enthaltene zentrale Annahmen herauszustellen und explizit auf Annahmenkarten zu formulieren (Abbildung 15).
+In den vergangenen Stunden des Workshops wurde eine ganze Reihe von Annahmen durch das Team zusammengetragen. Noch aber ist nicht geklärt, ob und wie bedeutsam oder kritisch die identifizierten Annahmen sind. Die am Workshop Teilnehmenden betrachten daher die verschiedenen Annahmen aus der Erarbeitung des Proto-Problem Statement, der Proto-Personas und der Proto-Journey. Tim bittet darum, darin enthaltene zentrale Annahmen herauszustellen und explizit auf Annahmenkarten zu formulieren:
+
+*Abbildung 15: Annahmenkarten*
+
+- Keine Änderung in der Datenbank
+- Native mobile Lösung zu aufwendig
+- Nutzende erfassen weniger Leistungen
+- Genauere Erfassung dank Smartphone
+- Beschwerden wegen Erfassungsfehlern
+- Erfassung ist umständlich
+- Vorgabe einer Wochenplanung hilfreich
+- Budgetzahlen helfen bei der Erfassung
+- Kennzahlen wie Überstunden hilfreich
+- Wir haben alle wesentlichen Personas identifiziert
 
 Tim möchte gemeinsam mit dem Team den »Wissensgrad« – das Vertrauen in die Korrektheit der Annahmen – und dessen erwarteter Einfluss auf die Lösungsfindung einschätzen. Er nutzt hierzu ein Diagramm auf Basis eines Koordinatensystems, dessen Achsen er mit *Unsicherheit* und *Einfluss* beschriftet hat: Je weiter rechts eine Person eine Annahmekarte platziert, umso geringer ist das Vertrauen in den Wahrheitsgehalt, je höher sie positioniert wird, umso höher ist ihr erwarteter Einfluss. Die Positionierung der Karte im Koordinatensystem macht den Status für alle Beteiligten deutlich. Rechts im Koordinatensystem stehen entsprechend die Annahmen, bei deren Korrektheit Zweifel bestehen *(Unsicherheit)*. Die Platzierungshöhe einer Annahmekarte zeigt den erwarteten Schaden *(Einfluss)* an, sollte sich diese Annahme später als falsch erweisen. Karten, die einen hohen Einfluss wiedergeben, sind demnach im oberen Teil des Koordinatensystems platziert.
 
 Tim bittet das Team, alle Annahmenkarten im Koordinatensystem (Abbildung 16) zu platzieren und dann gemeinsam über eine Positionierung abzustimmen. Schnell entbrennen heftige Diskussionen: Annahmenkarten werden mit unterstützenden Argumenten immer wieder hin- und herbewegt, bis das Team schließlich mit dem Ergebnis der Annahmen-Map in Abbildung 17 zufrieden ist.
+
+*Abbildung 16: Koordinatensystem einer Annahmen-Map*
+
+Leeres Koordinatensystem mit den Achsen *Einfluss* (vertikal) und *Unsicherheit* (horizontal), durch eine senkrechte und eine waagerechte Linie in vier Quadranten geteilt.
+
+*Abbildung 17: Ausgefüllte Annahmen-Map*
+
+- Oben rechts (hoher Einfluss, hohe Unsicherheit): Wir haben alle wesentlichen Personas identifiziert; Nutzende erfassen weniger Leistungen; Vorgabe einer Wochenplanung hilfreich; Beschwerden wegen Erfassungsfehlern (auf der senkrechten Mittellinie, überwiegend rechts); Budgetzahlen helfen bei der Erfassung (auf der waagerechten Mittellinie, knapp darüber)
+- Oben links (hoher Einfluss, geringe Unsicherheit): Erfassung ist umständlich; Genauere Erfassung dank Smartphone
+- Unten rechts (geringer Einfluss, hohe Unsicherheit): Native mobile Lösung zu aufwendig; Keine Änderung in der Datenbank
+- Unten links (geringer Einfluss, geringe Unsicherheit): Kennzahlen wie Überstunden hilfreich
 
 Tim betrachtet das Koordinatensystem und stellt die für das Projekt wesentlichen Annahmen heraus: »Die in der Annahmen-Map oben rechts platzierten Annahmen sind kritisch. Sie haben einen hohen Einfluss – aber wir sind uns über ihren Wahrheitsgehalt nur wenig sicher.«
 

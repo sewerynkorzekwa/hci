@@ -48,7 +48,7 @@ Die Vorbereitung des Workshops startet mit der Sondierung der erhobenen Daten du
 
 Mit den Ergebnissen der ausgefüllten Tagebücher und der Auswertung der Contextual Inquiries steht nun eine detaillierte Datenbasis für die Validierung der im Scoping-Workshop erstellten Proto-Personas zur Verfügung. Die ursprüngliche Forschungsfrage zu den Personas zielte darauf ab, herauszufinden, ob Anzahl und postulierte Attribute der angenommenen Personas zur Abbildung der relevanten Unterschiede zwischen Usern von 4Service angemessen ist. Mit diesem Fokus betrachten Tim und Sarah die erhobenen Daten in der Vorbereitung zum Synthese-Workshop.
 
-Durch die Auswertung der Tagebücher möchten Tim und Sarah insbesondere die angenommenen Kategorien von Personas, die Leistungseinträge erfassen bzw. auf diese *zurückgreifen*, überprüfen und die zwischen ihnen bestehenden Unterschiede besser verstehen.
+Durch die Auswertung der Tagebücher möchten Tim und Sarah insbesondere die angenommenen Kategorien von Personas, die Leistungseinträge *erfassen* bzw. auf diese *zurückgreifen*, überprüfen und die zwischen ihnen bestehenden Unterschiede besser verstehen.
 
 ---
 
@@ -56,25 +56,29 @@ Durch die Auswertung der Tagebücher möchten Tim und Sarah insbesondere die ang
 
 Projektverantwortliche und die Personalleitung können in Personas modelliert werden, die sich aus unterschiedlichen Rollen ableiten lassen. Ein Projektleiter wird mithilfe von 4Service typischerweise andere Aufgaben lösen als eine Personalleiterin: Aus den beiden Rollen folgen unterschiedliche Anforderungen an ein Modul zur Leistungserfassung. Oft haben wir es jedoch mit Personas zu tun, die weniger offensichtliche Anforderungen an eine unterstützende Software stellen. Sie mögen über ähnliche Ziele und vergleichbare Aufgaben verfügen und dennoch können andere Anforderungen an ein System resultieren. Wie können wir in empirischen Daten Hinweise auf bedeutsame Attribute von Personas erkennen?
 
-Kim Salazar erläutert einen hierzu hilfreichen Prozess anhand eines einfachen Beispiels: Stellen wir uns vor, wir stehen vor der Herausforderung, ein Gerät zu designen, mit dem wir Steine reinigen und polieren können. Die korrekte technische Gestaltung dieser Maschine hinge von folgenden Merkmalen der zu bearbeitenden Steine ab: Wie groß, wie schwer und wie porös sind diese Steine? Damit die genannten Merkmalsausprägungen als relevant festgestellt werden können, muss eine ganze Reihe von Steinen überprüft werden. In der vergleichenden Beobachtung vieler Steine entdecken wir über die Zeit relativ poröse, große und schwere Steine, aber auch massive, kleinere und leichte Steine: Wir leiten relevante »Steintypen« ab. Wenn wir die Maschine optimal gestalten möchten, muss sie mit den unterschiedlichen Typkombinationen der auftretenden Steine zurechtkommen.
+Kim Salazar[^1] erläutert einen hierzu hilfreichen Prozess anhand eines einfachen Beispiels: Stellen wir uns vor, wir stehen vor der Herausforderung, ein Gerät zu designen, mit dem wir Steine reinigen und polieren können. Die korrekte technische Gestaltung dieser Maschine hinge von folgenden Merkmalen der zu bearbeitenden Steine ab: Wie groß, wie schwer und wie porös sind diese Steine? Damit die genannten Merkmalsausprägungen als relevant festgestellt werden können, muss eine ganze Reihe von Steinen überprüft werden. In der vergleichenden Beobachtung vieler Steine entdecken wir über die Zeit relativ poröse, große und schwere Steine, aber auch massive, kleinere und leichte Steine: Wir leiten relevante »Steintypen« ab. Wenn wir die Maschine optimal gestalten möchten, muss sie mit den unterschiedlichen Typkombinationen der auftretenden Steine zurechtkommen.
 
 In Anlehnung an Salazar übertragen wir das Vorgehen nun in vier Schritten auf eine evidenzbasierte Erstellung von Personas. Proto-Personas können uns hierbei helfen: In ihnen hatten wir bereits Annahmen über Merkmale, die relevant sein könnten, formuliert:
 
 ### Schritt 1: Durchführung einer empirischen Studie
 
-Ziel einer solchen Studie ist es, bedeutsame Merkmale der relevanten Nutzerinnen und Nutzer tatsächlich kennenzulernen — bisher haben wir hierzu lediglich Annahmen. Wir müssen zunächst verstehen, in welchen bedeutsamen Attributen sich die zu betrachtenden User überhaupt unterscheiden. In UX-Projekten untersuchen wir selbstverständlich Personen und keine Steine. Daher können wir die gewünschten Merkmale oft nicht direkt beobachten, sondern müssen diese in einer Studie erheben. Im vorigen Kapitel haben wir verschiedene Methoden und Studiendesigns vorgestellt, die für die Exploration bedeutsamer und die Erhebung bekannter Merkmale und ihrer Ausprägungen geeignet sind. Contextual Inquiry ist ein Beispiel für eine Methode, die auf die Erforschung von Merkmalen, über die wir noch wenig wissen, abzielt. Wir können in einer quantitativen Erhebung im Rahmen einer breiteren Untersuchung Nutzer, zum Beispiel durch eine umfangreichere Tagebuchstudie oder in einem ausführlichen, auf Typologische Studiendesigns oder in einer standardisierten Studie Fragebogen einsetzen, um entsprechende Datengrundlagen zu erhalten. Contextual Inquiry ist auf die Identifikation von ausgewählten Merkmalen ausgerichtet. Für eine umfassende Stichprobe notwendig ist.
+Ziel einer solchen Studie ist es, bedeutsame Merkmale der relevanten Nutzerinnen und Nutzer tatsächlich kennenzulernen — bisher haben wir hierzu lediglich Annahmen. Wir müssen zunächst verstehen, in welchen bedeutsamen Attributen sich die zu betrachtenden User überhaupt unterscheiden. In UX-Projekten untersuchen wir selbstverständlich Personen und keine Steine. Daher können wir die gewünschten Merkmale oft nicht direkt beobachten, sondern müssen Hinweise auf sie in einer Studie erheben. Im vorigen Kapitel haben wir Methoden vorgestellt, die uns Aufschluss über solche Merkmale und ihre Ausprägungen geben. Wir können in einer qualitativen Untersuchung Interviews mit Nutzenden führen, auf Tagebücher zurückgreifen oder in einer quantitativen Studie Fragebögen einsetzen, um eine Datengrundlage zu erhalten. Contextual Inquiries sind zu diesem Zweck oft zu aufwendig, da zur Identifikation aussagekräftiger Verhaltensmuster in der Regel eine umfassendere Stichprobe notwendig ist.
 
-### Schritt 2: Identifikation von Merkmalen
+Wir müssen, übertragen auf das obige Beispiel, zunächst Steine sammeln, um sie in den nächsten Schritten untersuchen zu können: Welche Steine finden wir überhaupt?
 
-Wir müssen Merkmale identifizieren, die für die Ergebnisse bedeutsam sind. Welche Merkmale von Nutzenden sind entscheidend für das Design einer Anwendung wie die Leistungserfassung in Kleno? Spielt es zum Beispiel eine Rolle, zu welcher Uhrzeit die Leistungen erfasst werden? Och scheint zunächst wenig plausibel. Spielt es eine Rolle, ob die Leistungen jedes Mal von sehr unterschiedlicher Art oder eher von sich wiederholender Art sein werden? Als Nutzerin einer Zeiterfassung mit unterschiedlichen Leistungseinträgen liegen häufig bestimmte Gestaltungslösungen vor: Leistungseinträge werden zuerst kopiert und dann angepasst, oder es werden grafische Templates für die Erfassung angeboten. Gibt es eine Gruppe von Personen, die jeweils sehr unterschiedliche Leistungseinträge erfasst, und eine andere Gruppe, deren erfasste Leistungen weitgehend gleich bleiben?
+### Schritt 2: Identifikation von Merkmalen, die für die Experience bedeutsam sind
+
+Welche Merkmale von Nutzenden sind entscheidend für das Design einer Anwendung wie die Leistungserfassung in 4Service? Spielt es zum Beispiel eine Rolle, zu welcher Uhrzeit die Leistungen erfasst werden? Dies scheint zumindest wenig plausibel. Spielt es eine Rolle, ob die Leistungen jedes Mal von sehr unterschiedlicher Art oder eben recht ähnlich sind? Letzteres scheint relevant und würde direkt bestimmte gestalterische Lösungen nahelegen: Leistungseinträge könnten einfach kopiert und dann angepasst werden, oder es werden vorab gefüllte Templates für die Erfassung angeboten. Gäbe es also eine Gruppe von Personen, die jeweils sehr unterschiedliche Leistungen erfasst, und eine andere Gruppe, deren erfasste Leistungen weitgehend gleich sind, so sollte diese Erkenntnis bei der Lösungsgestaltung des Leistungserfassungsmoduls Berücksichtigung finden. In diesem zweiten Schritt helfen uns die formulierten Proto-Personas weiter. Sie wurden auf der Basis von Annahmen zu als relevant erachteten Merkmalen gebildet. So wird beispielsweise postuliert, dass die Projektgröße (Monika Mitarbeiterin-Großprojekt) einen Einfluss haben könnte. Die charakterisierenden Merkmale von Proto-Personas geben uns wichtige Anhaltspunkte. Ihre Validierung klärt, ob diese Merkmale tatsächlich einen konstituierenden Charakter für Personas haben.
 
 ### Schritt 3: Analyse von Merkmalsausprägungen
 
-Haben wir identifiziert, welche Merkmale von Nutzenden von Bedeutung sind, können wir deren Ausprägungen untersuchen und gegebenenfalls in unterschiedlichen Kategorien zusammenfassen: Bezogen auf das Beispiel der Salazar ordnen wir die Merkmale von Steinen nun einer Skala zu. So können wir feststellen, dass es sehr kleine Steine mit einem Durchmesser von etwa fünf Zentimetern gibt. Ebenso finden wir jedoch sowohl großen Stein als auch kleine Steine. Eine Möglichkeit besteht nun darin, alle Steine genau zu vermessen und sie entlang einer konstruierten Skala zu ordnen. In vielen Situationen wird dies jedoch nicht benötigt, eine Kategorisierung in zwei Gruppen könnte hinreichend sein: Wir unterscheiden zwischen kleinen und großen Steinen. Diese Zuordnung von festgestellten Merkmalsausprägungen zu definierten Kategorien wird Codierung genannt. »Wie viele Kategorien bilden wir?« ist dabei eine wichtige Frage, um die Praxis und der Aufwand der Auswertung anzupassen. Es handelt sich um einen iterativen Prozess des Codierungsrahmens: Hinweise auf Auffälligkeiten und Besonderheiten können wir als Anpassung der Kategorien pro Merkmal antizipieren, d.h. zu sie erweitern oder zu reduzieren.
+Haben wir identifiziert, welche Merkmale von Nutzenden von Bedeutung sind, können wir deren Ausprägungen untersuchen und gegebenenfalls in unterschiedlichen Kategorien zusammenfassen: Bezogen auf das Beispiel von Salazar ordnen wir den Merkmalen von Steinen nun verschiedene Kategorien zu. So können wir feststellen, dass es sehr viele kleine Steine mit einem Durchmesser von etwa fünf Zentimetern gibt. Ebenso finden wir jedoch sowohl deutlich größere als auch kleinere Steine. Eine Möglichkeit besteht nun darin, alle Steine genau zu vermessen und sie entlang einer kontinuierlichen Skala zu ordnen. In vielen Situationen wird diese Präzision jedoch nicht benötigt, eine Kategorisierung in zwei Gruppen könnte hinreichend sein: Wir unterscheiden zwischen kleinen und großen Steinen. Diese Zuordnung der festgestellten Merkmalsausprägungen zu definierten Kategorien wird *Codierung* genannt. Wie viele Kategorien wir benötigen, hängt von der verfolgten Fragestellung ab — in der Praxis ergeben sich während des Codierungsprozesses manchmal Hinweise auf die Notwendigkeit, eine initial als angemessen angenommene Anzahl der Kategorien pro Merkmal anzupassen, d. h., sie zu erweitern oder zu reduzieren.
 
 ### Schritt 4: Identifikation übergreifender Patterns
 
-Sobald fängt die Analyse der Ausprägungen der einzelnen Merkmale in den Fokus, so weiten wir nun unsere Betrachtung über verschiedene Merkmalskategorien aus: Lassen sich Muster in der Besetzung bestimmter Kategorien über die Merkmale von Personen einer Stichprobe finden? Übertragen auf die Steinz-Analogie wir in einem weiteren Schritt gefragt, ob wir Kombinationen von bestimmten Ausprägungen in den Kategorien feststellen können, die große Steine oft porös sind.
+Standen bislang die Ausprägungen *eines* Merkmals im Fokus, so weiten wir nun unsere Betrachtung über verschiedene Merkmalskategorien aus: Lassen sich charakteristische Muster in der Besetzung bestimmter Kategorien über die Merkmale von Personen einer Stichprobe finden? Übertragen auf die Steine-Analogie wird in diesem Schritt also gefragt, ob wir Kombinationen von bestimmten Ausprägungen in den Kategorien feststellen können und beispielsweise beobachten können, dass große Steine oft porös sind.
+
+[^1]: https://www.nngroup.com/videos/creating-personas-sorting-rocks/
 
 ---
 
@@ -82,7 +86,7 @@ Sobald fängt die Analyse der Ausprägungen der einzelnen Merkmale in den Fokus,
 
 Tim und Sarah wenden sich zunächst den Proto-Personas zu, bei denen von einer direkten Leistungserfassung ausgegangen wird. Im Mittelpunkt der Forschungsplanungen standen Überlegungen zu Merkmalen, die sich auf die Gestaltung einer Lösung zur Leistungserfassung auswirken. Hierzu gehören etwa die Häufigkeit der Erfassung einzelner Leistungen, die Anzahl von Projekten, auf die gebucht wird, oder die Notwendigkeit von Abstimmungen zwischen Mitarbeitenden bei der Leistungserfassung. Zur Erhebung der notwendigen Daten wurde ein Fragebogen konzipiert, mit dessen Hilfe nach Mustern in den Merkmalen und ihren Ausprägungen gesucht werden kann, die auf unterschiedliche Personas hinweisen. Zur Visualisierung der Ergebnisse dieses Fragebogens greifen Tim und Sarah im Workshop auf ein einfaches, visuell orientiertes Verfahren zurück. Wie in Abbildung 27 dargestellt, haben sie Kategorien für die angenommenen Einflussfaktoren als identifizierte relevante Merkmale vorbereitet.
 
-**Abbildung 27: Gerüst für die Analyse von Patterns**
+*Abbildung 27: Gerüst für die Analyse von Patterns*
 
 | Merkmal | Ausprägungen |
 |---|---|
@@ -94,11 +98,23 @@ Tim und Sarah wenden sich zunächst den Proto-Personas zu, bei denen von einer d
 
 In dieses Schema übertragen Tim und Sarah nun die einzelnen Antworten. Anschließend visualisieren sie den Zusammenhang zwischen den individuellen Antworten durch verbindende Linien.
 
-*(Abbildung 28: Eingetragene Merkmalskombinationen)*
+*Abbildung 28: Eingetragene Merkmalskombinationen*
+
+Gerüst aus Abbildung 27 mit den eingetragenen Antworten als Punkte in den Kategorien der fünf Merkmale; die Punkte einer Antwort sind über alle Merkmale hinweg durch Linien verbunden (alle in einer Farbe).
 
 Betrachten wir das Ergebnis: In den meisten Merkmalskategorien finden sich jeweils erkennbare Häufungen als Cluster, insgesamt lassen sich über die Kategorien der Merkmale zwei Stränge ausmachen. Tim und Sarah visualisieren die beiden Gruppen von Merkmalskombinationen durch unterschiedliche Farben.
 
-*(Abbildung 29: Identifikation von Patterns)*
+*Abbildung 29: Identifikation von Patterns*
+
+Dieselben Merkmalskombinationen, nun in zwei Farben eingefärbt:
+
+| Merkmal | Blauer Strang (5 Antworten) | Gelber Strang (5 Antworten) |
+|---|---|---|
+| Anzahl Leistungen | 4× 0-3 pro Tag, 1× 4-7 pro Tag | 2× 4-7 pro Tag, 3× 8-11 pro Tag |
+| Häufigkeit | 4× Täglich, 1× Wöchentlich | 4× Täglich, 1× Wöchentlich |
+| Varianz der Leistungen | 5× Mindestens die Hälfte gleich | 5× Weniger als die Hälfte gleich |
+| Anzahl Projekte | 5× 0-3 | 2× 4-7, 3× 8-11 |
+| Abstimmungsbedarf | 5× Gering, weniger als 5 min | 1× Gering, weniger als 5 min, 4× Hoch, mindestens 5 min |
 
 Verfolgen wir die Pfade, so können wir jeweils ein Muster erkennen:
 
@@ -180,11 +196,13 @@ Stellen wir diese Personas den angenommenen Proto-Personas gegenüber, so konnte
 > - Laura Administration
 > - Lisa Personal
 
+Zur detaillierten Ausarbeitung der Persona »Marie Beraterin« finden sich alle an den Contextual Inquiries beteiligten Teammitglieder zusammen. Grundlage der Ausarbeitung bilden, neben den Tagebüchern, im Wesentlichen annotierte Notizen, in denen die User Researcher Einsichten aus der Durchführung der kontextuellen Erhebungen festhielten. Bei Bedarf oder Unklarheiten konsultieren sie auch die gemachten Videoaufnahmen.
+
 ---
 
 ## Persona Marie Beraterin
 
-Die Researcher kontrastieren nun die ursprünglich definierten Inhalte der Proto-Personas mit den Erkenntnissen aus empirischen Untersuchungen. In den Unterlagen suchen sie nach Inhalten, die sich den jeweiligen Merkmalen »Persönliche Attribute«, »Aufgaben«, »Probleme und Herausforderungen« sowie »Bedürfnisse und Ziele« zuordnen lassen. Dabei überprüfen sie, ob die gefundenen Daten in den Proto-Personas durch vorhandene Beschreibungen bereits repräsentiert werden oder ob Anpassungen notwendig sind. Insbesondere wird auch darauf geachtet, ob die Ergebnisse der Erhebungen bisherigen Annahmen widersprechen. Es finden sich auch neue Hinweise: Beim Erfassen von Leistungen kommt es offensichtlich vor, dass die Projekte, auf die gebucht werden soll, noch gar nicht angelegt sind. Tim ergänzt die Erkenntnisse: »Ja, und sie haben immer wieder ernste Abstimmungsprobleme. Ständig müssen sich unsere Mitarbeitenden austauschen, um ihre Leistungserfassung zu synchronisieren.«
+Die Researcher kontrastieren nun die ursprünglich definierten Inhalte der Proto-Personas mit den Erkenntnissen aus den empirischen Untersuchungen. In den Unterlagen suchen sie nach Inhalten, die sich den jeweiligen Merkmalen »Persönliche Attribute«, »Aufgaben«, »Probleme und Herausforderungen« sowie »Bedürfnisse und Ziele« zuordnen lassen. Dabei überprüfen sie, ob die gefundenen Daten in den Proto-Personas durch vorhandene Beschreibungen bereits repräsentiert werden oder ob Anpassungen notwendig sind. Insbesondere wird auch darauf geachtet, ob die Ergebnisse der Erhebungen bisherigen Annahmen widersprechen. Es finden sich auch neue Hinweise: Beim Erfassen von Leistungen kommt es offensichtlich vor, dass die Projekte, auf die gebucht werden soll, noch gar nicht angelegt sind. Tim ergänzt die Erkenntnisse: »Ja, und sie haben immer wieder ernste Abstimmungsprobleme. Ständig müssen sich unsere Mitarbeitenden austauschen, um ihre Leistungserfassung zu synchronisieren.«
 
 »Das ist nicht nur aufwendig, sondern nervt bestimmt auch — gerade dann, wenn jemand schwer erreichbar ist. Und die Angerufenen freuen sich auch nicht besonders, wenn ständig das Telefon für Abstimmungen klingelt«, antwortet Sarah. »Inhaltlich werden eigentlich oft ähnliche Leistungseinträge erfasst. Auch die Beobachtung, dass ein Projekt manchmal noch nicht angelegt ist, halte ich für wichtig.«
 
@@ -192,7 +210,7 @@ Andrea trägt eine weitere Einsicht bei: »Ich habe auf meiner Liste noch etwas:
 
 Sarah passt die ursprüngliche Ausarbeitung der Proto-Persona »Marie Beraterin« entsprechend den diskutierten Erkenntnissen an (Abbildung 30). Das Ergebnis ist nun eine detailliert beschriebene, durch empirische Daten validierte Persona.
 
-### Abbildung 30: Validierte Persona Marie Beraterin
+*Abbildung 30: Validierte Persona Marie Beraterin*
 
 | **Marie BERATERIN** | |
 |---|---|
@@ -202,10 +220,10 @@ Sarah passt die ursprüngliche Ausarbeitung der Proto-Persona »Marie Beraterin�
 | Oft bei Kunden | Keine Wiederverwendung bestehender Daten |
 | | Erfassung mit Details schwierig |
 | **Aufgaben** | **Bedürfnisse und Ziele** |
-| Reisezeiten erfassen | Konkrete Erfassung |
-| Leistungen erfassen | Ressourcen für Erfassung nutzen |
+| Reisespesen erfassen | Korrekte Erfassung |
+| Leistungen erfassen | Reisezeiten für Erfassung nutzen |
 | Kontrolle und Freigabe der Leistungen | Effiziente Erfassung |
-| Abwesenheiten dokumentieren | Gute Übersicht über Überstunden und Urlaubsanspruch |
+| Abwesenheiten dokumentieren | Gute Übersicht über Überstunden und Urlaubsansprüche |
 
 ---
 
@@ -217,18 +235,18 @@ Neben der Beschreibung der beobachteten Schritte werden auf Karten auch festgest
 
 Da in den Contextual Inquiries Teammitglieder begleitet wurden, bildet die mit »Marie Beraterin« beschriftete Karte — die Persona, die Projektmitarbeitende modelliert — den Ausgangspunkt der resultierenden Journey Map (Abbildung 31).
 
-### Abbildung 31: Ausschnitt der Journey Map zur Leistungserfassung
+*Abbildung 31: Ausschnitt der Journey Map zur Leistungserfassung*
 
 | Zeile | Inhalt |
 |---|---|
 | **Persona** | Marie Beraterin |
 | **Hauptschritte** | Anmelden → Leistungen erfassen |
 | **Schritte** | Aufrufen der Leistungserfassung → Überprüfen der bisherigen Erfassung → Erfassen der neuen Leistungen → Überprüfen der Zeitsalden |
-| **Findings** | Aufwendig: Keine direkte URL möglich / Suchen zuletzt erfasste Leistung / Alle arbeiten auf Wochenbasis / Nutzende stimmen Leistungen telefonisch ab / Unklar, ob Angabe von Details verpflichtend / Bei vielen Projekten Erfassung sehr unübersichtlich / Würden gerne Projektbudgets sehen |
-| | Navigationspunkte sehr veraltet / Bewusster Urlaub wird nicht angezeigt / Schauen immer wieder im Terminkalender nach / Einige erfassen Leistungen nicht auf Projekt / Unklar, auf welches Projekt gebucht werden soll / Viele Fehlermeldungen beim Speichern / Wochen- und Tagesansicht wichtig |
+| **Findings** | Aufwendig: Keine direkte URL möglich / Suchen zuletzt erfasster Leistung / Alle arbeiten auf Wochenansicht / Nutzende stimmen Leistungen telefonisch ab / Unklar, ob Angabe von Details verpflichtend / Bei vielen Projekten Erfassung sehr unübersichtlich / Würden gerne Projektbudgets sehen |
+| | Navigationspunkt sehr versteckt / Beantragter Urlaub wird nicht angezeigt / Schauen immer wieder im Terminkalender nach / Einige erfassen Leistungen nicht auf Projekt / Unklar, auf welches Projekt gebucht werden soll / Viele Fehlermeldungen beim Speichern / Wochen- und Tagessalden wichtig |
 | | Viele erfassen Leistungen zunächst mit Excel oder Notiz / Erfasste Leistungen enthalten oft gleiche Beschreibungstexte / Manchmal fehlen Projekte für Leistungen / Summe der Überstunden wird häufig betrachtet |
 | | Leistungen werden fast immer am Arbeitsplatz erfasst / Beantragter Urlaub wird nicht angezeigt |
-| **Mengengerüste** | Die meisten erfassen Leistungen 1- bis 2-mal pro Tag / Manche erfassen Leistungen einmal pro Woche / Es werden 2 bis 8 Leistungen pro Tag erfasst / Es werden 2 bis 8 Projekte parallel bearbeitet, werden aber nur 3 Projekte / Häufig genutzt |
+| **Mengengerüste** | Die meisten erfassen Leistungen 1- bis 2-mal pro Tag / Manche erfassen Leistungen einmal pro Woche / Es werden 2 bis 8 Leistungen pro Tag erfasst / Es werden 2 bis 8 Projekte parallel bearbeitet / Häufig genutzt werden aber nur 3 Projekte |
 
 Die blauen Karten geben die beobachteten Arbeitsschritte wieder. Sechs der acht beobachteten User arbeiten sehr ähnlich: Sie rufen das Modul zur Leistungserfassung auf, verschaffen sich einen Überblick über die bereits erfassten Leistungen, tragen ihre aktuellen Leistungen ein, kontrollieren diese und geben die eingetragenen Leistungen schließlich frei.
 
@@ -254,23 +272,23 @@ Durch Modelle reduzieren wir Komplexität: In der Auswertung von Ergebnissen der
 
 ## Insight Statements
 
-> *Insight Statements: Insight Statements bauen auf Ergebnissen der Nutzerforschung auf. Sie benennen für die Produktentwicklung wesentliche Einsichten, die für ein Team neu und bedeutsam sind.*
+> **Insight Statements:** Insight Statements bauen auf Ergebnissen der Nutzerforschung auf. Sie benennen für die Produktentwicklung wesentliche Einsichten, die für ein Team neu und bedeutsam sind.
 
-Mit den Forschungsaktivitäten und deren ersten Modellierungen in Form einer Persona und einer Journey Map haben Sarah und Tim einigen Aufwand betrieben. Nachdem Tim und Sarah ihre bisherigen Auswertungen dem gesamten Team im Überblick vorgestellt haben, möchte Andrea, die Projektleiterin, Blick auf die erreichten Ergebnisse richten: »Welche Ergebnisse aus euren bisherigen Aktivitäten sind für euch überraschend? Bitte schreibt dazu Karten und platziert sie direkt in der Journey Map oder bei der Persona »Marie Beraterin«. Fügt sie einfach dort hinzu, wo sie aus eurer Sicht am besten passen.«
+Mit den Forschungsaktivitäten und deren ersten Modellierungen in Form einer Persona und einer Journey Map haben Sarah und Tim einigen Aufwand betrieben. Nachdem Tim und Sarah ihre bisherigen Auswertungen dem gesamten Team im Überblick vorgestellt haben, möchte Andrea, die Projektleiterin, den Blick auf die erreichten Ergebnisse richten: »Welche Ergebnisse aus unseren bisherigen Aktivitäten sind für euch überraschend? Bitte schreibt dazu Karten und platziert sie direkt in der Journey Map oder bei der Persona ›Marie Beraterin‹. Fügt sie einfach dort hinzu, wo sie aus eurer Sicht am besten passen.«
 
 Nachdem die Teammitglieder ihre ersten Karten geschrieben haben, meldet sich Tom, der Frontend Engineer: »Ich finde es bemerkenswert, wie gering doch eigentlich der Anteil der tatsächlich genutzten Funktionalität von 4Service ist — unsere Software bietet so viel, aber ein Großteil davon wird offensichtlich nicht genutzt. Das ist für mich eine wesentliche, übergreifende Erkenntnis: Wir haben einen hohen Entwicklungsaufwand für Funktionalität, die 4Service eigentlich nur unnötig komplex macht, da sie nicht genutzt wird.«
 
-Peter, der Entwicklungsleiter, ergänzt: »Mich verwundert, dass die Leistungseinträge der meisten Mitarbeitenden tatsächlich recht ähnlich sind.« Tom antwortet: »Hier drängt sich ja direkt eine Lösungsidee auf. Wir könnten …« Tim fällt Tom ins Wort und bremst die Diskussion, bevor er an Fahrt gewinnen kann: »Nein, lasst uns noch nicht über mögliche Lösungen diskutieren. Dazu werden wir in den kommenden beiden Workshops noch ausführlich Gelegenheit haben. Bitte versucht, euch zunächst auf die Erkenntnisse aus den Beobachtungen und den Tagebüchern zu konzentrieren.«
+Peter, der Entwicklungsleiter, ergänzt: »Mich verwundert, dass die Leistungseinträge der meisten Mitarbeitenden tatsächlich recht ähnlich sind.« Tom antwortet: »Hier drängt sich ja direkt eine Lösungsidee auf. Wir könnten …« Tim fällt Tom ins Wort und bremst die Diskussion, bevor sie an Fahrt gewinnen kann: »Nein, lasst uns noch nicht über mögliche Lösungen diskutieren. Dazu werden wir in den kommenden beiden Workshops noch ausführlich Gelegenheit haben. Bitte versucht, euch zunächst auf die Erkenntnisse aus den Beobachtungen und den Tagebüchern zu konzentrieren.«
 
 In der Diskussion kommen weitere Karten hinzu, die die Teammitglieder zur Annotation der Journey Map nutzen (Abbildung 32).
 
-### Abbildung 32: Journey Map mit Insight Statements
+*Abbildung 32: Journey Map mit Insight Statements*
 
-*(Die Journey Map wird um eine zusätzliche Zeile "Insight Statements" erweitert mit folgenden Karten:)*
+Die Journey Map aus Abbildung 31 wird um eine zusätzliche Zeile »Insight Statements« mit folgenden Karten erweitert:
 
 | Insight Statement |
 |---|
-| Umständig aufwendiger Einstieg |
+| Unnötig aufwendiger Einstieg |
 | Terminkalender dient als Vorlage |
 | Telefonische Abstimmung notwendig |
 | Fehlende Projekte |
@@ -284,45 +302,41 @@ In der Diskussion kommen weitere Karten hinzu, die die Teammitglieder zur Annota
 
 ## Opportunity Areas
 
-> *Opportunity Areas: Opportunity Areas bezeichnen Produkt- oder Servicebereiche, bei denen ein Verbesserungspotenzial vermutet wird. Sie stellen Chancen zur Optimierung eines Produkts oder eines Service dar. Opportunity Areas können aus Erkenntnissen von User-Research-Aktivitäten abgeleitet werden.*
+> **Opportunity Areas:** Opportunity Areas bezeichnen Produkt- oder Servicebereiche, bei denen ein Verbesserungspotenzial vermutet wird. Sie stellen Chancen zur Optimierung eines Produkts oder eines Service dar. Opportunity Areas können aus Erkenntnissen von User-Research-Aktivitäten abgeleitet werden.
 
 Das Team kann auf der Grundlage der vorliegenden Einsichten zielgerichtet mit der Suche nach Chancen zur Optimierung des Leistungserfassungsmoduls von 4Service beginnen. Es ist sinnvoll, die Anstrengungen dabei zunächst auf solche Aspekte zu fokussieren, die ein besonders großes Optimierungspotenzial der Leistungserfassung versprechen.
 
-Zur Visualisierung erkannter Chancen wird in der Teamdiskussion immer wieder auf Karten zurückgegriffen. Schnell wird klar, dass sich die in den Insight Statements dokumentierten Einsichten oft mit Verbesserungschancen verknüpfen lassen. So beherbergt das Insight Statement zur Notwendigkeit von Abstimmungen eine direkte Produktchance: Wenn die erfassten Leistungen zwischen verschiedenen Teammitgliedern abgestimmt werden müssen, so liegt es nahe, eine Funktionalität zu integrieren, die genau diese Abstimmung von Leistungseinträgen zwischen ihnen direkt in 4Service unterstützt.
+Zur Visualisierung erkannter Chancen wird in den Teamdiskussionen immer wieder auf Karten zurückgegriffen. Schnell wird klar, dass sich die in den Insight Statements dokumentierten Einsichten oft mit Verbesserungschancen verknüpfen lassen. So beherbergt das Insight Statement zur Notwendigkeit von Abstimmungen eine direkte Produktchance: Wenn die erfassten Leistungen zwischen verschiedenen Teammitgliedern abgestimmt werden müssen, so liegt es nahe, eine Funktionalität zu integrieren, die genau diese Abstimmung von Leistungseinträgen zwischen ihnen direkt in 4Service unterstützt.
 
 Bei der Betrachtung der durch Karten angereicherten Journey Map entdeckt das Team immer wieder neue Chancen zur Verbesserung der Leistungserfassung. So wird beispielsweise erkannt, wie mühselig der Einstieg von der Anmeldung über das wiederholte Anwählen verschiedener Navigationspunkte bis hin zum Erreichen des Erfassungsmoduls ist. »Es dauerte wirklich lang, bis Nutzer ihre Leistungen endlich erfassen konnten — das ist ineffizient«, fasst Andrea zusammen. Die Vereinfachung des Einstiegs ist eine echte Optimierungschance. Das Team ergänzt weitere Chancen, bis die annotierte Journey Map in Abbildung 33 entstanden ist.
 
-### Abbildung 33: Journey Map mit Opportunity Areas
+*Abbildung 33: Journey Map mit Opportunity Areas*
 
-*(Die Journey Map wird um eine weitere Zeile "Opportunity Areas" erweitert mit folgenden Karten:)*
+Die Journey Map aus Abbildung 32 wird um eine weitere Zeile »Opportunity Areas« mit folgenden Karten erweitert:
 
 | Opportunity Area |
 |---|
-| Vereinfachte Erfassung |
+| Ineffiziente Erfassung |
 | Hoher Abstimmungsaufwand |
 | Projekte nicht verfügbar |
 | Keine Informationen zu Projektbudgets |
-| Leistungen und Abwesenheiten ähnlich |
-| Kein Überblick über Überstunden und Abwesenheiten |
+| Leistungen sind ähnlich |
+| Kein Überblick über Urlaubstage und Überstunden |
 
 ---
 
 ## Problem Reframing
 
-> *Abbildung 34: Proto-Problem Statement mit Annahmen*
+Vor dem Hintergrund der Erkenntnisse aus der User Research können nun das im Scoping-Workshop formulierte Proto-Problem Statement hinterfragt und die darin formulierten Annahmen auf den Prüfstand gestellt werden. Das Team hat den Besprechungsraum für die gesamte Projektlaufzeit zur Verfügung, die einzelnen Mitglieder versammeln sich vor dem Poster an der Wand, das noch immer mit den Karten des Proto-Problem Statement beklebt ist.
+
+*Abbildung 34: Proto-Problem Statement mit Annahmen*
 
 | Nutzende | Probleme | Lösungsansätze | Metriken | Stakeholder | Randbedingungen | Risiken |
 |---|---|---|---|---|---|---|
-| Mitarbeitende | Reklamationen zu Rechnungen | Pro 20 Rechnungen maximal eine Reklamation | Produktmanagement | Budget | Keine Änderung in der Datenbank |
-| Projektleitung | Zu wenig verrechenbare Stunden | Einfacher Erfassungsprozess | App für Smartphones | 5% mehr verrechenbare Stunden | Produktionsunterstützung | Performance |
-| Teamleitung | Keine App für Smartphones | Übernahme von Terminkalender Planungsdaten | | Weniger als 6 Minuten für Erfassung pro Tag | Support und Schulung | |
-| Personalleitung | Erfassung ist zeitaufwendig | Übernahme aus Vorlagen | | | Verkauf und Marketing | |
-| | | Abstimmung im Team ermöglichen | | | Buchhaltung | |
-| | | | | | Interne IT | |
-| | | Restbudgets zeigen | | | | |
-| | | Weitere … | | | | |
-
-Vor dem Hintergrund der Erkenntnisse aus der User Research können nun das im Scoping-Workshop formulierte Proto-Problem Statement hinterfragt und die darin formulierten Annahmen auf den Prüfstand gestellt werden. Das Team hat den Besprechungsraum für die gesamte Projektlaufzeit zur Verfügung, die einzelnen Mitglieder versammeln sich vor dem Poster an der Wand, das noch immer mit den Karten des Proto-Problem Statement beklebt ist.
+| Mitarbeitende | Reklamationen zu Rechnungen | Einfachere Erfassungsmasken | Pro 20 Rechnungen maximal eine Reklamation | Produktmanagement | Keine Änderung in der Datenbank | Performance |
+| Projektleitung | Zu wenig verrechenbare Stunden | App für Smartphones | 5% mehr verrechenbare Stunden | Support und Schulung | Keine native Lösung für Smartphones | Zu unterschiedliche Kundenbedürfnisse |
+| Teamleitung | Keine App für Smartphones | | Weniger als 10 Minuten für Erfassung pro Tag | Verkauf und Marketing | | |
+| Personalleitung | Erfassung ist zeitaufwendig | | | | | |
 
 Tim ergreift das Wort. Er beginnt seine Ausführungen mit der ursprünglichen Annahme, dass die Leistungserfassung von 4Service aufwendig sei und dies als Problem zu klassifizieren ist: »Aus den Rückläufen unserer Tagebuchbefragung wissen wir, dass etwa die Hälfte aller Nutzenden ihre Zeiten zunächst nicht direkt in 4Service erfassen. Sie verwenden zusätzliche Tools wie beispielsweise Tabellenkalkulationen als eine Art Gedankenstütze. Die Aufzeichnung machen sie oft gar nicht am Arbeitsplatz — der größere Teil wird im Zug oder in der Straßenbahn erledigt, sie nutzen hierzu oft ihr Smartphone. Mobil erfasste Zeiten werden typischerweise wöchentlich oder manchmal erst am Monatsende in 4Service übertragen.«
 
@@ -330,9 +344,9 @@ Tim ergreift das Wort. Er beginnt seine Ausführungen mit der ursprünglichen An
 
 Na ja, und was die Effizienz angeht: Wir konnten feststellen, dass User durchschnittlich 16 Minuten pro Tag für die Erfassung ihrer Zeiten aufwenden. Dem Thema Effizienzoptimierung sollten wir definitiv ein hohes Gewicht geben.«
 
-Ron, ein zum Workshop zusätzlich eingeladener Produktmanager, ist beeindruckt: »Hervorragende Arbeit, Tim — auch wenn mich das Ergebnis natürlich alles andere als freuen kann. Es stellt uns ein Armutszeugnis aus, wenn so viele User temporär auf ein anderes Tool ausweichen. Effizienz muss ein bedeutsames Qualitätsmerkmal unserer Applikation sein: Die Erreichung des Ziels »Effiziente Erfassung der Leistungszeiten« gehört auch aus meiner Sicht unbedingt in die Aufgabenstellung für das neue Release. Was die Metrik »Effizienz« angeht, so ging ich eigentlich davon aus, dass Nutzer für die Leistungserfassung in 4Service selbstverständlich nicht mehr Zeit aufwenden müssen, als es eine Tabellenkalkulation zur Protokollierung der Leistungen erfordert. Tatsächlich haben wir Aussagen in dieser Richtung ja auch als starkes Marketingargument genutzt. Habt ihr hierzu vergleichende Daten?«
+Ron, ein zum Workshop zusätzlich eingeladener Produktmanager, ist beeindruckt: »Hervorragende Arbeit, Tim — auch wenn mich das Ergebnis natürlich alles andere als freuen kann. Es stellt uns ein Armutszeugnis aus, wenn so viele User temporär auf ein anderes Tool ausweichen. Effizienz muss ein bedeutsames Qualitätsmerkmal unserer Applikation sein: Die Erreichung des Ziels ›Effiziente Erfassung der Leistungszeiten‹ gehört auch aus meiner Sicht unbedingt in die Aufgabenstellung für das neue Release. Was die Metrik ›Effizienz‹ angeht, so ging ich eigentlich davon aus, dass Nutzer für die Leistungserfassung in 4Service selbstverständlich nicht mehr Zeit aufwenden müssen, als es eine Tabellenkalkulation zur Protokollierung der Leistungen erfordert. Tatsächlich haben wir Aussagen in dieser Richtung ja auch als starkes Marketingargument genutzt. Habt ihr hierzu vergleichende Daten?«
 
-Tim antwortet: »Klar Ron, die haben wir.« Er lacht: »Übrigens haben wir diese in einer Tabellenkalkulation aufgezeichnet. Die berichteten Daten sind allerdings recht ernüchternd: User, die ihre Zeiten mit einer Tabellenkalkulation erfassten, brauchten mit diesem Werkzeug etwa sechs Minuten pro Tag — hinzu kommt allerdings noch die spätere Übertragung der Zeiten in 4Service, sofern sie das nicht vergessen.«
+Tim antwortet: »Klar Ron, die haben wir.« Er lacht: »Übrigens haben wir diese in einer Tabellenkalkulation aufgezeichnet. Die berichteten Daten sind allerdings recht ernüchternd: User, die ihre Zeiten mit einer Tabellenkalkulation erfassten, brauchten mit diesem Werkzeug etwa sechs Minuten pro Tag — hinzu kommt dann allerdings noch die spätere Übertragung der Zeiten in 4Service, sofern sie das nicht vergessen.«
 
 Ron schaut konzentriert in die Runde, dann antwortet er: »Okay, Tim, dann haben wir hiermit ja schon einmal einen aussagekräftigen Benchmarkwert für Vergleiche: Wenn User mit der Tabellenkalkulation lediglich sechs Minuten brauchen, so sollten wir natürlich nicht langsamer sein — ein vernünftiger Grund, weshalb sie mit 4Service länger brauchen, dürfte schwer zu finden sein. Lasst uns also eine Unterschreitung dieser sechs Minuten pro Tag als Ziel für die zukünftige Leistungserfassung festhalten. Daran müssen wir uns messen lassen. Wenn wir das erreichen, so hilft dies unseren Usern doppelt — sie sind dann mit 4Service schneller in der Erfassung und das Arbeiten mit der Tabellenkalkulation fällt weg. Wir sollten die Karten für die Effizienzmetrik in der Proto-Problem Statement Map entsprechend ehrgeiziger formulieren — dort haben wir noch eine Unterschreitung von 10 Minuten als Ziel verfolgen wollen.«
 
@@ -340,16 +354,15 @@ Tim ist zufrieden, ihm war es wichtig, mehr über empirisch gesicherte, quantita
 
 Tim geht mit dem Team die einzelnen Annahmen des ursprünglichen Proto-Problem Statement durch und stellt sie weiteren vorliegenden Erkenntnissen aus der Nutzerforschung gegenüber. An manchen Stellen müssen Inhalte des Proto-Problem Statement deutlich revidiert werden. So gibt es eine weitere Nutzergruppe, ein zusätzliches Problem wurde erkannt, es wurden andere Lösungsansätze und angepasste Metriken diskutiert, neue Stakeholder identifiziert und weitere Risiken und Randbedingungen entdeckt. Das überarbeitete Problem Statement zeigt Abbildung 35.
 
-### Abbildung 35: Revidiertes Problem Statement
+*Abbildung 35: Revidiertes Problem Statement*
 
 | Nutzende | Probleme | Lösungsansätze | Metriken | Stakeholder | Randbedingungen | Risiken |
 |---|---|---|---|---|---|---|
 | Mitarbeitende | Reklamationen zu Rechnungen | Vorlagen | Pro 20 Rechnungen maximal eine Reklamation | Produktmanagement | Budget | Datenmigration |
-| Projektleitung | Zu wenig verrechenbare Stunden | Übernahme aus Terminkalender | Einfacher Erfassungsprozess | App für Smartphones | 5% mehr verrechenbare Stunden | Produktionsunterstützung | Keine Änderung in der Datenbank |
-| Teamleitung | Keine App für Smartphones | Übernahme von Planungsdaten | Weniger als 6 Minuten für Erfassung pro Tag | Support und Schulung | Keine native Lösung für Smartphones | |
-| Personalleitung | Erfassung ist zeitaufwendig | Übernahme aus Vorlagen | | Verkauf und Marketing | Kundenzufriedenheitserhebung | |
-| Rechnungsstellung | Fehlende Übersicht | Abstimmung im Team ermöglichen | | Buchhaltung | | |
-| | Randbedingungen bei Erfassung | | | Interne IT | | |
+| Projektleitung | Zu wenig verrechenbare Stunden | Übernahme aus Terminkalender | 5% mehr verrechenbare Stunden | Support und Schulung | Releaseplanung | |
+| Teamleitung | Keine App für Smartphones | Übernahme von Planungsdaten | Weniger als 6 Minuten für Erfassung pro Tag | Verkauf und Marketing | | |
+| Personalleitung | Erfassung ist zeitaufwendig | Übernahme aus Vorlagen | | Buchhaltung | | |
+| Rechnungsstellung | Fehlende Randbedingungen bei Erfassung | Abstimmung im Team ermöglichen | | Interne IT | | |
 | | | Restbudgets zeigen | | | | |
 | | | Weitere … | | | | |
 
@@ -377,3 +390,14 @@ Durch die Formulierung von Insight Statements verdichteten wir unsere Erkenntnis
 
 Schließlich wurden die gewonnenen Erkenntnisse dazu genutzt, die ursprüngliche Formulierung der Problemstellung nochmals zu hinterfragen. In der Praxis zeigt sich an dieser Stelle häufig, dass empirische Erkenntnisse zu einer grundlegenden Revision des ursprünglichen Proto-Problem Statement führen können. In unserem Fallbeispiel wurde die ursprüngliche Forderung nach einer optimierten Nutzungseffizienz als besonders dringlich betont.
 
+---
+
+## Literatur
+
+Insight Statements und Opportunity Areas werden in kompakter und überzeugender Form in einem frei zugänglichen Buch von IDEO dargestellt. Das Dokument wurde im Rahmen eines Projekts für die Bill & Melinda Gates Foundation entwickelt. Uns gefällt dieses Buch, es macht deutlich, wie übergreifend die hier dargestellten Problemlösungsansätze eingesetzt werden können:
+
+- [IDEO 2015] IDEO: *The Field Guide to Human Centered Design*. Canada, 2015.
+
+Das Thema Problem Reframing findet sich in dem bereits erwähnten Buch von Falk Uebernickel et al.:
+
+- [Uebernickel et al. 2015] Uebernickel, Falk; Brenner, Werner; Naef, Therese; Pukall, Britta; Schindlholzer, Bernhard: *Design Thinking: Das Handbuch*. Frankfurt: Frankfurter Allgemeine Buch, 2015.
